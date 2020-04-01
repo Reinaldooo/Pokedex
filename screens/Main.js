@@ -1,10 +1,14 @@
-import React, { useEffect, useState } from "react";
-import { Button, View, Text, AsyncStorage, Image, FlatList, StyleSheet } from "react-native";
-import bulbasaur from "../assets/1.png";
+import React from "react";
+import { View, Text, Image, FlatList } from "react-native";
 import styled from "styled-components";
-import { TouchableHighlight } from "react-native-gesture-handler";
+//
+// import bulbasaur from "../assets/1.png";
+import { db } from "../utils";
 
-const helperArray = Array(21).fill(false);
+const capitalize = s => {
+  if (typeof s !== "string") return "";
+  return s.charAt(0).toUpperCase() + s.slice(1);
+};
 
 const ImageWrapper = styled.View`
   overflow: hidden;
@@ -30,38 +34,19 @@ const TouchableWrapper = styled.TouchableOpacity`
 `;
 
 export default function Main({ navigation }) {
-  const [pokemon, setPokemon] = useState({});
-  const getPokemon = async () => {
-    let bulbasaur = JSON.parse(await AsyncStorage.getItem("bulbasaur"));
-    setPokemon(bulbasaur);
-  };
-  useEffect(() => {
-    getPokemon();
-  }, []);
-
-  {
-    /* <Image
-  fadeDuration={0}
-  source={{
-    uri: pokemon.sprites.front_default,
-  }}
-  style={{ height:"30%", width:"30%" }}/> */
-  }
-
   return (
     <View
       style={{
-        width: "100%",
-        flexDirection: "row",
-        flexWrap: "wrap",
-        justifyContent: "space-between",
-        backgroundColor: "rgb(229,229,234)",
-        height: "100%"
+        // width: "100%",
+        // flexDirection: "row",
+        // flexWrap: "wrap",
+        // justifyContent: "space-between",
+        backgroundColor: "rgb(229,229,234)"
+        // height: "100%"
       }}
     >
-      {/* {console.log(pokemon.sprites.front_default)} */}
       <FlatList
-        data={helperArray}
+        data={db.slice(0, 51)} // 50 temp pokemon
         numColumns={3}
         columnWrapperStyle={{ justifyContent: "space-evenly" }}
         renderItem={({ item, index }) => (
@@ -70,20 +55,26 @@ export default function Main({ navigation }) {
           >
             <ImageWrapper>
               <Image
-              fadeDuration={300}
-              source={bulbasaur}
-              style={{ width: "230%", height: "230%" }}
+                fadeDuration={300}
+                source={{
+                  uri: item.sprite,
+                  // TODO
+                  // Choose cache mode
+                  cache: "only-if-cached"
+                }}
+                style={{ width: "100%", height: "100%" }}
               />
             </ImageWrapper>
-            <Text style={{ color: "rgb(142,142,147)" , marginBottom: 10 }}>
-              Bulbasaur
+            <Text style={{ color: "rgb(142,142,147)", marginBottom: 10 }}>
+              {capitalize(item.name)}
             </Text>
-            <View style={{ display: "flex", flexDirection: "row", justifyContent: "space-between" }}>
-              <View style={{ backgroundColor: "lightcoral", height: 12, width: 50 }}>                
-              </View>
-              <View style={{ backgroundColor: "lightblue", height: 12, width: 50 }}>                
-              </View>
-            </View>
+            <View
+              style={{
+                backgroundColor: item.color.name,
+                height: 12,
+                width: 100
+              }}
+            ></View>
           </TouchableWrapper>
         )}
         keyExtractor={(item, index) => index.toString()}
