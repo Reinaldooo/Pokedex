@@ -1,5 +1,4 @@
 import React from "react";
-import { Text, View } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { MaterialIcons } from "@expo/vector-icons";
@@ -12,6 +11,15 @@ import MyPokemon from "./screens/MyPokemon";
 //   android: 'Double tap R on your keyboard to reload,\n' + 'Shake or press menu button for dev menu',
 // });
 
+// TODO
+
+// --Searchbar
+// ---reset search
+// replace colors
+// detail page
+// ?? types on card
+// ?? auto fetch new on finish
+
 const Tab = createBottomTabNavigator();
 
 export default function App() {
@@ -23,9 +31,9 @@ export default function App() {
             let iconName;
 
             if (route.name === "Search") {
-              iconName = focused ? "search" : "search";
+              iconName = "search";
             } else if (route.name === "My Pokémon") {
-              iconName = focused ? "pets" : "pets";
+              iconName = "pets";
             }
             return <MaterialIcons name={iconName} size={size} color={color} />;
           }
