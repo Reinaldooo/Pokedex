@@ -42,7 +42,7 @@ export default function PokemonList({ items, navigation, searchChars }) {
                 uri: item.sprite,
                 // TODO
                 // Choose cache mode
-                cache: "only-if-cached"
+                cache: "force-cache"
               }}
               style={{ width: "100%", height: "100%" }}
             />
@@ -50,7 +50,7 @@ export default function PokemonList({ items, navigation, searchChars }) {
           <PokemonName name={item.name} searchChars={searchChars}/>
           <View
             style={{
-              backgroundColor: item.color.name,
+              backgroundColor: item.color,
               height: 12,
               width: 100
             }}

@@ -24,11 +24,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "Bulbasaur can be seen napping in bright sunlight.\nThere is a seed on its back. By soaking up the sun’s rays,\nthe seed grows progressively larger."
+    "color": "rgb(52, 199, 89)",
+    "desc": "Bulbasaur can be seen napping in bright sunlight.\nThere is a seed on its back. By soaking up the sun’s rays,\nthe seed grows progressively larger.",
+    "owned": false
   },
   {
     "id": 2,
@@ -50,11 +48,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "There is a bud on this Pokémon’s back. To support its weight,\nIvysaur’s legs and trunk grow thick and strong.\nIf it starts spending more time lying in the sunlight,\nit’s a sign that the bud will bloom into a large flower soon."
+    "color": "rgb(52, 199, 89)",
+    "desc": "There is a bud on this Pokémon’s back. To support its weight,\nIvysaur’s legs and trunk grow thick and strong.\nIf it starts spending more time lying in the sunlight,\nit’s a sign that the bud will bloom into a large flower soon.",
+    "owned": false
   },
   {
     "id": 3,
@@ -76,11 +72,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "There is a large flower on Venusaur’s back. The flower is said\nto take on vivid colors if it gets plenty of nutrition and sunlight.\nThe flower’s aroma soothes the emotions of people."
+    "color": "rgb(52, 199, 89)",
+    "desc": "There is a large flower on Venusaur’s back. The flower is said\nto take on vivid colors if it gets plenty of nutrition and sunlight.\nThe flower’s aroma soothes the emotions of people.",
+    "owned": false
   },
   {
     "id": 4,
@@ -95,11 +89,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "The flame that burns at the tip of its tail is an indication\nof its emotions. The flame wavers when Charmander\nis enjoying itself. If the Pokémon becomes enraged,\nthe flame burns fiercely."
+    "color": "rgb(255, 69, 58)",
+    "desc": "The flame that burns at the tip of its tail is an indication\nof its emotions. The flame wavers when Charmander\nis enjoying itself. If the Pokémon becomes enraged,\nthe flame burns fiercely.",
+    "owned": false
   },
   {
     "id": 5,
@@ -114,11 +106,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "Charmeleon mercilessly destroys its foes using its sharp\nclaws. If it encounters a strong foe, it turns aggressive.\nIn this excited state, the flame at the tip of its tail flares with\na bluish white color."
+    "color": "rgb(255, 69, 58)",
+    "desc": "Charmeleon mercilessly destroys its foes using its sharp\nclaws. If it encounters a strong foe, it turns aggressive.\nIn this excited state, the flame at the tip of its tail flares with\na bluish white color.",
+    "owned": false
   },
   {
     "id": 6,
@@ -140,11 +130,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "Charizard flies around the sky in search of powerful opponents.\nIt breathes fire of such great heat that it melts anything.\nHowever, it never turns its fiery breath on any opponent\nweaker than itself."
+    "color": "rgb(255, 69, 58)",
+    "desc": "Charizard flies around the sky in search of powerful opponents.\nIt breathes fire of such great heat that it melts anything.\nHowever, it never turns its fiery breath on any opponent\nweaker than itself.",
+    "owned": false
   },
   {
     "id": 7,
@@ -159,11 +147,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "Squirtle’s shell is not merely used for protection.\nThe shell’s rounded shape and the grooves on its\nsurface help minimize resistance in water,\nenabling this Pokémon to swim at high speeds."
+    "color": "rgb(10, 132, 255)",
+    "desc": "Squirtle’s shell is not merely used for protection.\nThe shell’s rounded shape and the grooves on its\nsurface help minimize resistance in water,\nenabling this Pokémon to swim at high speeds.",
+    "owned": false
   },
   {
     "id": 8,
@@ -178,11 +164,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "Its tail is large and covergb(255, 69, 58) with a rich, thick fur. The tail\nbecomes increasingly deeper in color as Wartortle ages.\nThe scratches on its shell are evidence of this Pokémon’s\ntoughness as a battler."
+    "color": "rgb(10, 132, 255)",
+    "desc": "Its tail is large and covergb(255, 69, 58) with a rich, thick fur. The tail\nbecomes increasingly deeper in color as Wartortle ages.\nThe scratches on its shell are evidence of this Pokémon’s\ntoughness as a battler.",
+    "owned": false
   },
   {
     "id": 9,
@@ -197,11 +181,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "Blastoise has water spouts that protrude from its shell.\nThe water spouts are very accurate.\nThey can shoot bullets of water with enough accuracy\nto strike empty cans from a distance of over 160 feet."
+    "color": "rgb(10, 132, 255)",
+    "desc": "Blastoise has water spouts that protrude from its shell.\nThe water spouts are very accurate.\nThey can shoot bullets of water with enough accuracy\nto strike empty cans from a distance of over 160 feet.",
+    "owned": false
   },
   {
     "id": 10,
@@ -216,11 +198,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "Perhaps because it would like to grow up\nquickly, it has a voracious appetite, eating\na hundrgb(255, 69, 58) leaves a day."
+    "color": "rgb(52, 199, 89)",
+    "desc": "Perhaps because it would like to grow up\nquickly, it has a voracious appetite, eating\na hundrgb(255, 69, 58) leaves a day.",
+    "owned": false
   },
   {
     "id": 11,
@@ -235,11 +215,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "Its shell is filled with a thick liquid. All of the\ncells throughout its body are being rebuilt in\npreparation for evolution."
+    "color": "rgb(52, 199, 89)",
+    "desc": "Its shell is filled with a thick liquid. All of the\ncells throughout its body are being rebuilt in\npreparation for evolution.",
+    "owned": false
   },
   {
     "id": 12,
@@ -261,11 +239,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png",
-    "color": {
-      "name": "white",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/9/"
-    },
-    "desc": "Its wings are covergb(255, 69, 58) in toxic scales. If it finds\nbird Pokémon going after Caterpie, Butterfree\nsprinkles its scales on them to drive them off."
+    "color": "white",
+    "desc": "Its wings are covergb(255, 69, 58) in toxic scales. If it finds\nbird Pokémon going after Caterpie, Butterfree\nsprinkles its scales on them to drive them off.",
+    "owned": false
   },
   {
     "id": 13,
@@ -287,11 +263,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "Weedle has an extremely acute sense of smell. It is capable\nof distinguishing its favorite kinds of leaves from those it\ndislikes just by sniffing with its big rgb(255, 69, 58) proboscis (nose)."
+    "color": "rgb(210, 106, 36)",
+    "desc": "Weedle has an extremely acute sense of smell. It is capable\nof distinguishing its favorite kinds of leaves from those it\ndislikes just by sniffing with its big rgb(255, 69, 58) proboscis (nose).",
+    "owned": false
   },
   {
     "id": 14,
@@ -313,11 +287,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png",
-    "color": {
-      "name": "yellow",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
-    },
-    "desc": "Kakuna remains virtually immobile as it clings to a tree.\nHowever, on the inside, it is extremely busy as it prepares\nfor its coming evolution.\nThis is evident from how hot the shell becomes to the touch."
+    "color": "yellow",
+    "desc": "Kakuna remains virtually immobile as it clings to a tree.\nHowever, on the inside, it is extremely busy as it prepares\nfor its coming evolution.\nThis is evident from how hot the shell becomes to the touch.",
+    "owned": false
   },
   {
     "id": 15,
@@ -339,11 +311,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png",
-    "color": {
-      "name": "yellow",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
-    },
-    "desc": "Beedrill is extremely territorial. No one should ever approach\nits nest—this is for their own safety. If angergb(255, 69, 58), they will attack\nin a furious swarm."
+    "color": "yellow",
+    "desc": "Beedrill is extremely territorial. No one should ever approach\nits nest—this is for their own safety. If angergb(255, 69, 58), they will attack\nin a furious swarm.",
+    "owned": false
   },
   {
     "id": 16,
@@ -365,11 +335,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "Pidgey has an extremely sharp sense of direction.\nIt is capable of unerringly returning home to its nest,\nhowever far it may be removed from its familiar surroundings."
+    "color": "rgb(210, 106, 36)",
+    "desc": "Pidgey has an extremely sharp sense of direction.\nIt is capable of unerringly returning home to its nest,\nhowever far it may be removed from its familiar surroundings.",
+    "owned": false
   },
   {
     "id": 17,
@@ -391,11 +359,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "Pidgeotto claims a large area as its own territory. This\nPokémon flies around, patrolling its living space. If its territory\nis violated, it shows no mercy in thoroughly punishing the foe\nwith its sharp claws."
+    "color": "rgb(210, 106, 36)",
+    "desc": "Pidgeotto claims a large area as its own territory. This\nPokémon flies around, patrolling its living space. If its territory\nis violated, it shows no mercy in thoroughly punishing the foe\nwith its sharp claws.",
+    "owned": false
   },
   {
     "id": 18,
@@ -417,11 +383,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "This Pokémon has a dazzling plumage of beautifully\nglossy feathers. Many Trainers are captivated by the\nstriking beauty of the feathers on its head, compelling\nthem to choose Pidgeot as their Pokémon."
+    "color": "rgb(210, 106, 36)",
+    "desc": "This Pokémon has a dazzling plumage of beautifully\nglossy feathers. Many Trainers are captivated by the\nstriking beauty of the feathers on its head, compelling\nthem to choose Pidgeot as their Pokémon.",
+    "owned": false
   },
   {
     "id": 19,
@@ -436,11 +400,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "Its incisors grow continuously throughout its life.\nIf its incisors get too long, this Pokémon\nbecomes unable to eat, and it starves to death."
+    "color": "rgb(112, 90, 159)",
+    "desc": "Its incisors grow continuously throughout its life.\nIf its incisors get too long, this Pokémon\nbecomes unable to eat, and it starves to death.",
+    "owned": false
   },
   {
     "id": 20,
@@ -455,11 +417,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "People say that it fled from its enemies by\nusing its small webbed hind feet to swim\nfrom island to island in Alola."
+    "color": "rgb(210, 106, 36)",
+    "desc": "People say that it fled from its enemies by\nusing its small webbed hind feet to swim\nfrom island to island in Alola.",
+    "owned": false
   },
   {
     "id": 21,
@@ -481,11 +441,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "Its reckless nature leads it to stand up to\nothers—even large Pokémon—if it has to protect\nits territory."
+    "color": "rgb(210, 106, 36)",
+    "desc": "Its reckless nature leads it to stand up to\nothers—even large Pokémon—if it has to protect\nits territory.",
+    "owned": false
   },
   {
     "id": 22,
@@ -507,11 +465,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "Carrying food through Fearow’s territory is\ndangerous. It will snatch the food away from\nyou in a flash!"
+    "color": "rgb(210, 106, 36)",
+    "desc": "Carrying food through Fearow’s territory is\ndangerous. It will snatch the food away from\nyou in a flash!",
+    "owned": false
   },
   {
     "id": 23,
@@ -526,11 +482,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "By dislocating its jaw, it can swallow prey larger\nthan itself. After a meal, it curls up and rests."
+    "color": "rgb(112, 90, 159)",
+    "desc": "By dislocating its jaw, it can swallow prey larger\nthan itself. After a meal, it curls up and rests.",
+    "owned": false
   },
   {
     "id": 24,
@@ -545,11 +499,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "The latest research has determined that there\nare over 20 possible arrangements of the\npatterns on its stomach."
+    "color": "rgb(112, 90, 159)",
+    "desc": "The latest research has determined that there\nare over 20 possible arrangements of the\npatterns on its stomach.",
+    "owned": false
   },
   {
     "id": 25,
@@ -564,11 +516,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
-    "color": {
-      "name": "yellow",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
-    },
-    "desc": "Its nature is to store up electricity. Forests\nwhere nests of Pikachu live are dangerous,\nsince the trees are so often struck by lightning."
+    "color": "yellow",
+    "desc": "Its nature is to store up electricity. Forests\nwhere nests of Pikachu live are dangerous,\nsince the trees are so often struck by lightning.",
+    "owned": false
   },
   {
     "id": 26,
@@ -583,11 +533,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png",
-    "color": {
-      "name": "yellow",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
-    },
-    "desc": "As electricity builds up inside its body, it\nbecomes more aggressive. One theory is that\nthe electricity buildup is actually causing stress."
+    "color": "yellow",
+    "desc": "As electricity builds up inside its body, it\nbecomes more aggressive. One theory is that\nthe electricity buildup is actually causing stress.",
+    "owned": false
   },
   {
     "id": 27,
@@ -602,11 +550,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png",
-    "color": {
-      "name": "yellow",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
-    },
-    "desc": "It lives in areas of limited rainfall. When danger\napproaches, it curls up into a ball to protect its\nsoft stomach."
+    "color": "yellow",
+    "desc": "It lives in areas of limited rainfall. When danger\napproaches, it curls up into a ball to protect its\nsoft stomach.",
+    "owned": false
   },
   {
     "id": 28,
@@ -621,11 +567,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png",
-    "color": {
-      "name": "yellow",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
-    },
-    "desc": "Its claws and horns often break off. The broken\nclaws and horns can be used to carve plows for\ntilling farm fields."
+    "color": "yellow",
+    "desc": "Its claws and horns often break off. The broken\nclaws and horns can be used to carve plows for\ntilling farm fields.",
+    "owned": false
   },
   {
     "id": 29,
@@ -640,11 +584,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "Nidoran♀ has barbs that secrete a powerful poison.\nThey are thought to have developed as protection for\nthis small-bodied Pokémon. When enraged, it releases\na horrible toxin from its horn."
+    "color": "rgb(10, 132, 255)",
+    "desc": "Nidoran♀ has barbs that secrete a powerful poison.\nThey are thought to have developed as protection for\nthis small-bodied Pokémon. When enraged, it releases\na horrible toxin from its horn.",
+    "owned": false
   },
   {
     "id": 30,
@@ -659,11 +601,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "When Nidorina are with their friends or family, they keep\ntheir barbs tucked away to prevent hurting each other.\nThis Pokémon appears to become nervous if separated\nfrom the others."
+    "color": "rgb(10, 132, 255)",
+    "desc": "When Nidorina are with their friends or family, they keep\ntheir barbs tucked away to prevent hurting each other.\nThis Pokémon appears to become nervous if separated\nfrom the others.",
+    "owned": false
   },
   {
     "id": 31,
@@ -685,11 +625,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "Nidoqueen’s body is encased in extremely hard scales.\nIt is adept at sending foes flying with harsh tackles. This\nPokémon is at its strongest when it is defending its young."
+    "color": "rgb(10, 132, 255)",
+    "desc": "Nidoqueen’s body is encased in extremely hard scales.\nIt is adept at sending foes flying with harsh tackles. This\nPokémon is at its strongest when it is defending its young.",
+    "owned": false
   },
   {
     "id": 32,
@@ -704,11 +642,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "Nidoran♂ has developed muscles for moving its ears. Thanks\nto them, the ears can be freely moved in any direction. Even\nthe slightest sound does not escape this Pokémon’s notice."
+    "color": "rgb(112, 90, 159)",
+    "desc": "Nidoran♂ has developed muscles for moving its ears. Thanks\nto them, the ears can be freely moved in any direction. Even\nthe slightest sound does not escape this Pokémon’s notice.",
+    "owned": false
   },
   {
     "id": 33,
@@ -723,11 +659,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "Nidorino has a horn that is harder than a diamond. If it senses\na hostile presence, all the barbs on its back bristle up at once,\nand it challenges the foe with all its might."
+    "color": "rgb(112, 90, 159)",
+    "desc": "Nidorino has a horn that is harder than a diamond. If it senses\na hostile presence, all the barbs on its back bristle up at once,\nand it challenges the foe with all its might.",
+    "owned": false
   },
   {
     "id": 34,
@@ -749,11 +683,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "Nidoking’s thick tail packs enormously destructive power.\nWith one swing, it can topple a metal transmission tower. Once\nthis Pokémon goes on a rampage, there is no stopping it."
+    "color": "rgb(112, 90, 159)",
+    "desc": "Nidoking’s thick tail packs enormously destructive power.\nWith one swing, it can topple a metal transmission tower. Once\nthis Pokémon goes on a rampage, there is no stopping it.",
+    "owned": false
   },
   {
     "id": 35,
@@ -768,11 +700,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png",
-    "color": {
-      "name": "pink",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/6/"
-    },
-    "desc": "They’re popular, but they’re rare. Trainers who\nshow them off recklessly may be targeted\nby thieves."
+    "color": "pink",
+    "desc": "They’re popular, but they’re rare. Trainers who\nshow them off recklessly may be targeted\nby thieves.",
+    "owned": false
   },
   {
     "id": 36,
@@ -787,11 +717,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png",
-    "color": {
-      "name": "pink",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/6/"
-    },
-    "desc": "It can’t help but hear a pin drop from over half\na mile away, so it lives deep in the mountains\nwhere there aren’t many people or Pokémon."
+    "color": "pink",
+    "desc": "It can’t help but hear a pin drop from over half\na mile away, so it lives deep in the mountains\nwhere there aren’t many people or Pokémon.",
+    "owned": false
   },
   {
     "id": 37,
@@ -806,11 +734,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "Its beautiful tails have made it very popular.\nHowever, if it’s not brushed diligently, it will\nbe a mass of tangles before you know it."
+    "color": "rgb(210, 106, 36)",
+    "desc": "Its beautiful tails have made it very popular.\nHowever, if it’s not brushed diligently, it will\nbe a mass of tangles before you know it.",
+    "owned": false
   },
   {
     "id": 38,
@@ -825,11 +751,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png",
-    "color": {
-      "name": "yellow",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
-    },
-    "desc": "It is vindictive and relentless by nature.\nThose who cross it even once will be cursed for\na thousand years, along with their descendants."
+    "color": "yellow",
+    "desc": "It is vindictive and relentless by nature.\nThose who cross it even once will be cursed for\na thousand years, along with their descendants.",
+    "owned": false
   },
   {
     "id": 39,
@@ -851,11 +775,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png",
-    "color": {
-      "name": "pink",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/6/"
-    },
-    "desc": "Recordings of Jigglypuff’s strange lullabies can\nbe purchased from department stores. These\nCDs can be found near the bedding area."
+    "color": "pink",
+    "desc": "Recordings of Jigglypuff’s strange lullabies can\nbe purchased from department stores. These\nCDs can be found near the bedding area.",
+    "owned": false
   },
   {
     "id": 40,
@@ -877,11 +799,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png",
-    "color": {
-      "name": "pink",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/6/"
-    },
-    "desc": "Thanks to its bouncy body and fine fur,\nthis Pokémon is sought after. Holding one\nin your arms while you sleep feels great."
+    "color": "pink",
+    "desc": "Thanks to its bouncy body and fine fur,\nthis Pokémon is sought after. Holding one\nin your arms while you sleep feels great.",
+    "owned": false
   },
   {
     "id": 41,
@@ -903,11 +823,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "It has no eyeballs, so it can’t see. It checks its\nsurroundings via the ultrasonic waves it emits\nfrom its mouth."
+    "color": "rgb(112, 90, 159)",
+    "desc": "It has no eyeballs, so it can’t see. It checks its\nsurroundings via the ultrasonic waves it emits\nfrom its mouth.",
+    "owned": false
   },
   {
     "id": 42,
@@ -929,11 +847,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "Every once in a while, you’ll see a Golbat that’s\nmissing some fangs. This happens when hunger\ndrives it to try biting a Steel-type Pokémon."
+    "color": "rgb(112, 90, 159)",
+    "desc": "Every once in a while, you’ll see a Golbat that’s\nmissing some fangs. This happens when hunger\ndrives it to try biting a Steel-type Pokémon.",
+    "owned": false
   },
   {
     "id": 43,
@@ -955,11 +871,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "Oddish searches for fertile, nutrient-rich soil, then plants itself.\nDuring the daytime, while it is planted, this Pokémon’s feet\nare thought to change shape and become similar to the roots\nof trees."
+    "color": "rgb(10, 132, 255)",
+    "desc": "Oddish searches for fertile, nutrient-rich soil, then plants itself.\nDuring the daytime, while it is planted, this Pokémon’s feet\nare thought to change shape and become similar to the roots\nof trees.",
+    "owned": false
   },
   {
     "id": 44,
@@ -981,11 +895,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "From its mouth Gloom drips honey that smells absolutely\nhorrible. Apparently, it loves the horrid stench. It sniffs the\nnoxious fumes and then drools even more of its honey."
+    "color": "rgb(10, 132, 255)",
+    "desc": "From its mouth Gloom drips honey that smells absolutely\nhorrible. Apparently, it loves the horrid stench. It sniffs the\nnoxious fumes and then drools even more of its honey.",
+    "owned": false
   },
   {
     "id": 45,
@@ -1007,11 +919,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "Vileplume has the world’s largest petals. They are used to\nattract prey that are then doused with toxic spores. Once the\nprey are immobilized, this Pokémon catches and devours them."
+    "color": "rgb(255, 69, 58)",
+    "desc": "Vileplume has the world’s largest petals. They are used to\nattract prey that are then doused with toxic spores. Once the\nprey are immobilized, this Pokémon catches and devours them.",
+    "owned": false
   },
   {
     "id": 46,
@@ -1033,11 +943,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "Whether it’s due to a lack of moisture or a lack\nof nutrients, in Alola the mushrooms on Paras\ndon’t grow up quite right."
+    "color": "rgb(255, 69, 58)",
+    "desc": "Whether it’s due to a lack of moisture or a lack\nof nutrients, in Alola the mushrooms on Paras\ndon’t grow up quite right.",
+    "owned": false
   },
   {
     "id": 47,
@@ -1059,11 +967,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/47.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "The bug is mostly dead, with the mushroom on\nits back having become the main body. If the\nmushroom comes off, the bug stops moving."
+    "color": "rgb(255, 69, 58)",
+    "desc": "The bug is mostly dead, with the mushroom on\nits back having become the main body. If the\nmushroom comes off, the bug stops moving.",
+    "owned": false
   },
   {
     "id": 48,
@@ -1085,11 +991,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/48.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "Venonat is said to have evolved with a coat of thin, stiff hair\nthat covers its entire body for protection. It possesses large\neyes that never fail to spot even minuscule prey."
+    "color": "rgb(112, 90, 159)",
+    "desc": "Venonat is said to have evolved with a coat of thin, stiff hair\nthat covers its entire body for protection. It possesses large\neyes that never fail to spot even minuscule prey.",
+    "owned": false
   },
   {
     "id": 49,
@@ -1111,11 +1015,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/49.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "Venomoth is nocturnal—it is a Pokémon that only becomes\nactive at night. Its favorite prey are small insects that gather\naround streetlights, attracted by the light in the darkness."
+    "color": "rgb(112, 90, 159)",
+    "desc": "Venomoth is nocturnal—it is a Pokémon that only becomes\nactive at night. Its favorite prey are small insects that gather\naround streetlights, attracted by the light in the darkness.",
+    "owned": false
   },
   {
     "id": 50,
@@ -1130,11 +1032,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/50.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "It travels through tunnels that it digs\nunderground. It hates sunlight, so it comes\nout only after the sun goes down."
+    "color": "rgb(210, 106, 36)",
+    "desc": "It travels through tunnels that it digs\nunderground. It hates sunlight, so it comes\nout only after the sun goes down.",
+    "owned": false
   },
   {
     "id": 51,
@@ -1149,11 +1049,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/51.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "While the three of them normally get along\nsplendidly, on rare occasions a huge fight will\nbreak out over which head gets to eat first."
+    "color": "rgb(210, 106, 36)",
+    "desc": "While the three of them normally get along\nsplendidly, on rare occasions a huge fight will\nbreak out over which head gets to eat first.",
+    "owned": false
   },
   {
     "id": 52,
@@ -1168,11 +1066,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/52.png",
-    "color": {
-      "name": "yellow",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
-    },
-    "desc": "When visiting a junkyard, you may catch sight\nof it having an intense fight with Murkrow over\nshiny objects."
+    "color": "yellow",
+    "desc": "When visiting a junkyard, you may catch sight\nof it having an intense fight with Murkrow over\nshiny objects.",
+    "owned": false
   },
   {
     "id": 53,
@@ -1187,11 +1083,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/53.png",
-    "color": {
-      "name": "yellow",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
-    },
-    "desc": "Although the jewel on its forehead appears to\nbe a different color than those of Alolan\nPersian, it’s mostly made of the same material."
+    "color": "yellow",
+    "desc": "Although the jewel on its forehead appears to\nbe a different color than those of Alolan\nPersian, it’s mostly made of the same material.",
+    "owned": false
   },
   {
     "id": 54,
@@ -1206,11 +1100,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png",
-    "color": {
-      "name": "yellow",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
-    },
-    "desc": "Using psychokinesis gives it a headache, so it\nnormally passes the time spacing out and doing\nas little as possible."
+    "color": "yellow",
+    "desc": "Using psychokinesis gives it a headache, so it\nnormally passes the time spacing out and doing\nas little as possible.",
+    "owned": false
   },
   {
     "id": 55,
@@ -1225,11 +1117,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "Even fast-swimming fish Pokémon can be\ndisabled by Golduck. It brings them to a\nstandstill and seizes them."
+    "color": "rgb(10, 132, 255)",
+    "desc": "Even fast-swimming fish Pokémon can be\ndisabled by Golduck. It brings them to a\nstandstill and seizes them.",
+    "owned": false
   },
   {
     "id": 56,
@@ -1244,11 +1134,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/56.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "The smallest of things could cause it to lose its\ntemper. Because it doesn’t hold in its stress,\nthis Pokémon can live a long time."
+    "color": "rgb(210, 106, 36)",
+    "desc": "The smallest of things could cause it to lose its\ntemper. Because it doesn’t hold in its stress,\nthis Pokémon can live a long time.",
+    "owned": false
   },
   {
     "id": 57,
@@ -1263,11 +1151,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/57.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "It will never forgive opponents who have\nangergb(255, 69, 58) it. Even after it has beaten them down\nuntil they can’t move, it never ever forgives."
+    "color": "rgb(210, 106, 36)",
+    "desc": "It will never forgive opponents who have\nangergb(255, 69, 58) it. Even after it has beaten them down\nuntil they can’t move, it never ever forgives.",
+    "owned": false
   },
   {
     "id": 58,
@@ -1282,11 +1168,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/58.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "While it’s quite friendly toward humans once it’s\ngrown used to them, in the wild it must be quite\nfierce to defend its territory from Rockruff."
+    "color": "rgb(210, 106, 36)",
+    "desc": "While it’s quite friendly toward humans once it’s\ngrown used to them, in the wild it must be quite\nfierce to defend its territory from Rockruff.",
+    "owned": false
   },
   {
     "id": 59,
@@ -1301,11 +1185,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "Legends tell of its fighting alongside a general\nand conquering a whole country."
+    "color": "rgb(210, 106, 36)",
+    "desc": "Legends tell of its fighting alongside a general\nand conquering a whole country.",
+    "owned": false
   },
   {
     "id": 60,
@@ -1320,11 +1202,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/60.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "Despite the danger, it wants to come up on land.\nSo it does its best to waddle along, but when\nan enemy finds it, it rushes back to the water."
+    "color": "rgb(10, 132, 255)",
+    "desc": "Despite the danger, it wants to come up on land.\nSo it does its best to waddle along, but when\nan enemy finds it, it rushes back to the water.",
+    "owned": false
   },
   {
     "id": 61,
@@ -1339,11 +1219,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/61.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "Although it has become capable of living on\nland, it spends its time in the water, where\nits prey, fish Pokémon, are plentiful."
+    "color": "rgb(10, 132, 255)",
+    "desc": "Although it has become capable of living on\nland, it spends its time in the water, where\nits prey, fish Pokémon, are plentiful.",
+    "owned": false
   },
   {
     "id": 62,
@@ -1365,11 +1243,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/62.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "It’s quite a gifted swimmer, even among\nWater-type Pokémon, but it normally spends its\ntime on land."
+    "color": "rgb(10, 132, 255)",
+    "desc": "It’s quite a gifted swimmer, even among\nWater-type Pokémon, but it normally spends its\ntime on land.",
+    "owned": false
   },
   {
     "id": 63,
@@ -1384,11 +1260,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "It uses various psychic powers even while it’s\nsleeping, so you can’t tell whether or not\nit’s awake."
+    "color": "rgb(210, 106, 36)",
+    "desc": "It uses various psychic powers even while it’s\nsleeping, so you can’t tell whether or not\nit’s awake.",
+    "owned": false
   },
   {
     "id": 64,
@@ -1403,11 +1277,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/64.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "It stares at a silver spoon to amplify its psychic\npowers before it lets loose. Apparently, gold\nspoons are no good."
+    "color": "rgb(210, 106, 36)",
+    "desc": "It stares at a silver spoon to amplify its psychic\npowers before it lets loose. Apparently, gold\nspoons are no good.",
+    "owned": false
   },
   {
     "id": 65,
@@ -1422,11 +1294,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/65.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "Alakazam uses its psychic powers to make the\nspoons it carries. Each spoon is an original that\nthere’s only one of in the whole world."
+    "color": "rgb(210, 106, 36)",
+    "desc": "Alakazam uses its psychic powers to make the\nspoons it carries. Each spoon is an original that\nthere’s only one of in the whole world.",
+    "owned": false
   },
   {
     "id": 66,
@@ -1441,11 +1311,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/66.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "Once this Pokémon has gained enough\nconfidence and muscle from training with its\nfriends, it challenges Makuhita to a battle."
+    "color": "gray",
+    "desc": "Once this Pokémon has gained enough\nconfidence and muscle from training with its\nfriends, it challenges Makuhita to a battle.",
+    "owned": false
   },
   {
     "id": 67,
@@ -1460,11 +1328,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/67.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "When it encounters an enemy that’s truly\nmighty, this Pokémon removes the power-save\nbelt from its waist and unleashes its full power."
+    "color": "gray",
+    "desc": "When it encounters an enemy that’s truly\nmighty, this Pokémon removes the power-save\nbelt from its waist and unleashes its full power.",
+    "owned": false
   },
   {
     "id": 68,
@@ -1479,11 +1345,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "It grasps its opponents with its four arms and\ntwists them up in an intricate hold. People call\nit “the Machamp special.”"
+    "color": "gray",
+    "desc": "It grasps its opponents with its four arms and\ntwists them up in an intricate hold. People call\nit “the Machamp special.”",
+    "owned": false
   },
   {
     "id": 69,
@@ -1505,11 +1369,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/69.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "Bellsprout’s thin and flexible body lets it bend and sway\nto avoid any attack, however strong it may be. From its mouth,\nthis Pokémon spits a corrosive fluid that melts even iron."
+    "color": "rgb(52, 199, 89)",
+    "desc": "Bellsprout’s thin and flexible body lets it bend and sway\nto avoid any attack, however strong it may be. From its mouth,\nthis Pokémon spits a corrosive fluid that melts even iron.",
+    "owned": false
   },
   {
     "id": 70,
@@ -1531,11 +1393,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/70.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "Weepinbell has a large hook on its rear end. At night, the\nPokémon hooks on to a tree branch and goes to sleep.\nIf it moves around in its sleep, it may wake up to find itself\non the ground."
+    "color": "rgb(52, 199, 89)",
+    "desc": "Weepinbell has a large hook on its rear end. At night, the\nPokémon hooks on to a tree branch and goes to sleep.\nIf it moves around in its sleep, it may wake up to find itself\non the ground.",
+    "owned": false
   },
   {
     "id": 71,
@@ -1557,11 +1417,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/71.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "Victreebel has a long vine that extends from its head.\nThis vine is waved and flicked about as if it were an animal\nto attract prey. When an unsuspecting prey draws near,\nthis Pokémon swallows it whole."
+    "color": "rgb(52, 199, 89)",
+    "desc": "Victreebel has a long vine that extends from its head.\nThis vine is waved and flicked about as if it were an animal\nto attract prey. When an unsuspecting prey draws near,\nthis Pokémon swallows it whole.",
+    "owned": false
   },
   {
     "id": 72,
@@ -1583,11 +1441,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/72.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "It drifts through the sea searching for prey.\nIts poisonous tentacles break off sometimes,\nbut after a while, they grow back."
+    "color": "rgb(10, 132, 255)",
+    "desc": "It drifts through the sea searching for prey.\nIts poisonous tentacles break off sometimes,\nbut after a while, they grow back.",
+    "owned": false
   },
   {
     "id": 73,
@@ -1609,11 +1465,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/73.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "It fires off ultrasonic waves from its rgb(255, 69, 58) orbs\nto weaken its prey, and then it wraps them up\nin its 80 tentacles."
+    "color": "rgb(10, 132, 255)",
+    "desc": "It fires off ultrasonic waves from its rgb(255, 69, 58) orbs\nto weaken its prey, and then it wraps them up\nin its 80 tentacles.",
+    "owned": false
   },
   {
     "id": 74,
@@ -1635,11 +1489,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "Geodude that have lived a long life have had all\ntheir edges smoothed out until they’re totally\nround. They also have a calm, quiet disposition."
+    "color": "rgb(210, 106, 36)",
+    "desc": "Geodude that have lived a long life have had all\ntheir edges smoothed out until they’re totally\nround. They also have a calm, quiet disposition.",
+    "owned": false
   },
   {
     "id": 75,
@@ -1661,11 +1513,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/75.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "It climbs up cliffs as it heads toward the peak\nof a mountain. As soon as it reaches the summit,\nit rolls back down the way it came."
+    "color": "rgb(210, 106, 36)",
+    "desc": "It climbs up cliffs as it heads toward the peak\nof a mountain. As soon as it reaches the summit,\nit rolls back down the way it came.",
+    "owned": false
   },
   {
     "id": 76,
@@ -1687,11 +1537,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/76.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "When Golem grow old, they stop shedding their\nshells. Those that have lived a long, long time\nhave shells rgb(52, 199, 89) with moss."
+    "color": "rgb(210, 106, 36)",
+    "desc": "When Golem grow old, they stop shedding their\nshells. Those that have lived a long, long time\nhave shells rgb(52, 199, 89) with moss.",
+    "owned": false
   },
   {
     "id": 77,
@@ -1706,11 +1554,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png",
-    "color": {
-      "name": "yellow",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
-    },
-    "desc": "Ponyta is very weak at birth. It can barely stand up.\nThis Pokémon becomes stronger by stumbling and\nfalling to keep up with its parent."
+    "color": "yellow",
+    "desc": "Ponyta is very weak at birth. It can barely stand up.\nThis Pokémon becomes stronger by stumbling and\nfalling to keep up with its parent.",
+    "owned": false
   },
   {
     "id": 78,
@@ -1725,11 +1571,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/78.png",
-    "color": {
-      "name": "yellow",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
-    },
-    "desc": "Rapidash usually can be seen casually cantering in the fields\nand plains. However, when this Pokémon turns serious, its\nfiery manes flare and blaze as it gallops its way up to 150 mph."
+    "color": "yellow",
+    "desc": "Rapidash usually can be seen casually cantering in the fields\nand plains. However, when this Pokémon turns serious, its\nfiery manes flare and blaze as it gallops its way up to 150 mph.",
+    "owned": false
   },
   {
     "id": 79,
@@ -1751,11 +1595,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/79.png",
-    "color": {
-      "name": "pink",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/6/"
-    },
-    "desc": "There are some places where Slowpoke is\nworshiped because of a long-standing belief\nthat whenever Slowpoke yawns, it rains."
+    "color": "pink",
+    "desc": "There are some places where Slowpoke is\nworshiped because of a long-standing belief\nthat whenever Slowpoke yawns, it rains.",
+    "owned": false
   },
   {
     "id": 80,
@@ -1777,11 +1619,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/80.png",
-    "color": {
-      "name": "pink",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/6/"
-    },
-    "desc": "Spacing out is basically all it does. It turns back\ninto Slowpoke if its tail, along with Shellder,\nbreaks off."
+    "color": "pink",
+    "desc": "Spacing out is basically all it does. It turns back\ninto Slowpoke if its tail, along with Shellder,\nbreaks off.",
+    "owned": false
   },
   {
     "id": 81,
@@ -1803,11 +1643,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/81.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "It’s frequently the cause of power outages,\nwhich is why some power plants send out\nelectrical signals that it can’t stand."
+    "color": "gray",
+    "desc": "It’s frequently the cause of power outages,\nwhich is why some power plants send out\nelectrical signals that it can’t stand.",
+    "owned": false
   },
   {
     "id": 82,
@@ -1829,11 +1667,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/82.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "Delicate equipment can malfunction in areas\ninhabited by Magneton, which send out\nmysterious electrical signals."
+    "color": "gray",
+    "desc": "Delicate equipment can malfunction in areas\ninhabited by Magneton, which send out\nmysterious electrical signals.",
+    "owned": false
   },
   {
     "id": 83,
@@ -1855,11 +1691,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/83.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "Farfetch’d is always seen with a stalk from a plant of some\nsort. Apparently, there are good stalks and bad stalks. This\nPokémon has been known to fight with others over stalks."
+    "color": "rgb(210, 106, 36)",
+    "desc": "Farfetch’d is always seen with a stalk from a plant of some\nsort. Apparently, there are good stalks and bad stalks. This\nPokémon has been known to fight with others over stalks.",
+    "owned": false
   },
   {
     "id": 84,
@@ -1881,11 +1715,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/84.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "Doduo’s two heads contain completely identical brains. A\nscientific study reported that on rare occasions, there will be\nexamples of this Pokémon possessing different sets of brains."
+    "color": "rgb(210, 106, 36)",
+    "desc": "Doduo’s two heads contain completely identical brains. A\nscientific study reported that on rare occasions, there will be\nexamples of this Pokémon possessing different sets of brains.",
+    "owned": false
   },
   {
     "id": 85,
@@ -1907,11 +1739,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/85.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "Apparently, the heads aren’t the only parts of the body that\nDodrio has three of. It has three sets of hearts and lungs as\nwell, so it is capable of running long distances without rest."
+    "color": "rgb(210, 106, 36)",
+    "desc": "Apparently, the heads aren’t the only parts of the body that\nDodrio has three of. It has three sets of hearts and lungs as\nwell, so it is capable of running long distances without rest.",
+    "owned": false
   },
   {
     "id": 86,
@@ -1926,11 +1756,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/86.png",
-    "color": {
-      "name": "white",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/9/"
-    },
-    "desc": "It has always been supposed that Seel live only\nin cold seas. Their having shown up in Alola is\na mystery."
+    "color": "white",
+    "desc": "It has always been supposed that Seel live only\nin cold seas. Their having shown up in Alola is\na mystery.",
+    "owned": false
   },
   {
     "id": 87,
@@ -1952,11 +1780,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/87.png",
-    "color": {
-      "name": "white",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/9/"
-    },
-    "desc": "It swims through the ocean at a speed of eight\nknots, searching for Pokémon that will become\nits prey. It’s especially fond of Wishiwashi."
+    "color": "white",
+    "desc": "It swims through the ocean at a speed of eight\nknots, searching for Pokémon that will become\nits prey. It’s especially fond of Wishiwashi.",
+    "owned": false
   },
   {
     "id": 88,
@@ -1971,11 +1797,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/88.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "It was born from sludge on the ocean floor. In a\nsterile environment, the germs within its body\ncan’t multiply, and it dies."
+    "color": "rgb(112, 90, 159)",
+    "desc": "It was born from sludge on the ocean floor. In a\nsterile environment, the germs within its body\ncan’t multiply, and it dies.",
+    "owned": false
   },
   {
     "id": 89,
@@ -1990,11 +1814,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/89.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "Their food sources have decreased, and their\nnumbers have declined sharply. Sludge ponds\nare being built to prevent their extinction."
+    "color": "rgb(112, 90, 159)",
+    "desc": "Their food sources have decreased, and their\nnumbers have declined sharply. Sludge ponds\nare being built to prevent their extinction.",
+    "owned": false
   },
   {
     "id": 90,
@@ -2009,11 +1831,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/90.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "The sand that accumulates inside its shell\neventually becomes a pearl. But the pearl gets\nin the way, so it spits it out and discards it."
+    "color": "rgb(112, 90, 159)",
+    "desc": "The sand that accumulates inside its shell\neventually becomes a pearl. But the pearl gets\nin the way, so it spits it out and discards it.",
+    "owned": false
   },
   {
     "id": 91,
@@ -2035,11 +1855,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/91.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "If areas of Cloyster’s very hard shell get\ndamaged, those areas swell, gradually growing\ninto large sharp spikes."
+    "color": "rgb(112, 90, 159)",
+    "desc": "If areas of Cloyster’s very hard shell get\ndamaged, those areas swell, gradually growing\ninto large sharp spikes.",
+    "owned": false
   },
   {
     "id": 92,
@@ -2061,11 +1879,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/92.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "It’s said that gas emanating from a graveyard\nwas possessed by the grievances of the\ndeceased and thus became a Pokémon."
+    "color": "rgb(112, 90, 159)",
+    "desc": "It’s said that gas emanating from a graveyard\nwas possessed by the grievances of the\ndeceased and thus became a Pokémon.",
+    "owned": false
   },
   {
     "id": 93,
@@ -2087,11 +1903,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "On moonless nights, Haunter searches for\nsomeone to curse, so it’s best not to go out\nwalking around."
+    "color": "rgb(112, 90, 159)",
+    "desc": "On moonless nights, Haunter searches for\nsomeone to curse, so it’s best not to go out\nwalking around.",
+    "owned": false
   },
   {
     "id": 94,
@@ -2113,11 +1927,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "You can hear tales told all over the world about\nhow Gengar will pay a visit to children who\nare naughty."
+    "color": "rgb(112, 90, 159)",
+    "desc": "You can hear tales told all over the world about\nhow Gengar will pay a visit to children who\nare naughty.",
+    "owned": false
   },
   {
     "id": 95,
@@ -2139,11 +1951,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "Onix has a magnet in its brain. It acts as a compass so that\nthis Pokémon does not lose direction while it is tunneling.\nAs it grows older, its body becomes increasingly rounder\nand smoother."
+    "color": "gray",
+    "desc": "Onix has a magnet in its brain. It acts as a compass so that\nthis Pokémon does not lose direction while it is tunneling.\nAs it grows older, its body becomes increasingly rounder\nand smoother.",
+    "owned": false
   },
   {
     "id": 96,
@@ -2158,11 +1968,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/96.png",
-    "color": {
-      "name": "yellow",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
-    },
-    "desc": "It can be spotted near recreational facilities,\nintending to eat the pleasant dreams of children\nwho enjoyed themselves there that day."
+    "color": "yellow",
+    "desc": "It can be spotted near recreational facilities,\nintending to eat the pleasant dreams of children\nwho enjoyed themselves there that day.",
+    "owned": false
   },
   {
     "id": 97,
@@ -2177,11 +1985,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/97.png",
-    "color": {
-      "name": "yellow",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
-    },
-    "desc": "In Alola, Komala is Hypno’s main target. It rarely\nharms people."
+    "color": "yellow",
+    "desc": "In Alola, Komala is Hypno’s main target. It rarely\nharms people.",
+    "owned": false
   },
   {
     "id": 98,
@@ -2196,11 +2002,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/98.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "Krabby live on beaches, burrowed inside holes dug into\nthe sand. On sandy beaches with little in the way of food,\nthese Pokémon can be seen squabbling with each other\nover territory."
+    "color": "rgb(255, 69, 58)",
+    "desc": "Krabby live on beaches, burrowed inside holes dug into\nthe sand. On sandy beaches with little in the way of food,\nthese Pokémon can be seen squabbling with each other\nover territory.",
+    "owned": false
   },
   {
     "id": 99,
@@ -2215,11 +2019,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/99.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "Kingler has an enormous, oversized claw. It waves this huge\nclaw in the air to communicate with others. However, because\nthe claw is so heavy, the Pokémon quickly tires."
+    "color": "rgb(255, 69, 58)",
+    "desc": "Kingler has an enormous, oversized claw. It waves this huge\nclaw in the air to communicate with others. However, because\nthe claw is so heavy, the Pokémon quickly tires.",
+    "owned": false
   },
   {
     "id": 100,
@@ -2234,11 +2036,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/100.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "Voltorb is extremely sensitive—it explodes at the slightest\nof shocks. It is rumorgb(255, 69, 58) that it was first created when a\nPoké Ball was exposed to a powerful pulse of energy."
+    "color": "rgb(255, 69, 58)",
+    "desc": "Voltorb is extremely sensitive—it explodes at the slightest\nof shocks. It is rumorgb(255, 69, 58) that it was first created when a\nPoké Ball was exposed to a powerful pulse of energy.",
+    "owned": false
   },
   {
     "id": 101,
@@ -2253,11 +2053,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/101.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "One of Electrode’s characteristics is its attraction to electricity.\nIt is a problematical Pokémon that congregates mostly at\nelectrical power plants to feed on electricity that has just\nbeen generated."
+    "color": "rgb(255, 69, 58)",
+    "desc": "One of Electrode’s characteristics is its attraction to electricity.\nIt is a problematical Pokémon that congregates mostly at\nelectrical power plants to feed on electricity that has just\nbeen generated.",
+    "owned": false
   },
   {
     "id": 102,
@@ -2279,11 +2077,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/102.png",
-    "color": {
-      "name": "pink",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/6/"
-    },
-    "desc": "Six of them form a single Pokémon. Should one\nof the six be lost, the next morning there will\nonce more be six."
+    "color": "pink",
+    "desc": "Six of them form a single Pokémon. Should one\nof the six be lost, the next morning there will\nonce more be six.",
+    "owned": false
   },
   {
     "id": 103,
@@ -2305,11 +2101,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/103.png",
-    "color": {
-      "name": "yellow",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
-    },
-    "desc": "It engages its enemies using psychic powers.\nEach of its three heads fires off psychokinetic\nenergy, tripling its power."
+    "color": "yellow",
+    "desc": "It engages its enemies using psychic powers.\nEach of its three heads fires off psychokinetic\nenergy, tripling its power.",
+    "owned": false
   },
   {
     "id": 104,
@@ -2324,11 +2118,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/104.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "At night, it weeps loudly for its dead mother,\nbut those cries only attract its natural\nenemy—Mandibuzz."
+    "color": "rgb(210, 106, 36)",
+    "desc": "At night, it weeps loudly for its dead mother,\nbut those cries only attract its natural\nenemy—Mandibuzz.",
+    "owned": false
   },
   {
     "id": 105,
@@ -2343,11 +2135,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/105.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "It throws bones at Mandibuzz to knock it down.\nIt’s thought that Marowak is trying to avenge\nits parent."
+    "color": "rgb(210, 106, 36)",
+    "desc": "It throws bones at Mandibuzz to knock it down.\nIt’s thought that Marowak is trying to avenge\nits parent.",
+    "owned": false
   },
   {
     "id": 106,
@@ -2362,11 +2152,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/106.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "Hitmonlee’s legs freely contract and stretch. Using these\nspringlike legs, it bowls over foes with devastating kicks.\nAfter battle, it rubs down its legs and loosens the muscles\nto overcome fatigue."
+    "color": "rgb(210, 106, 36)",
+    "desc": "Hitmonlee’s legs freely contract and stretch. Using these\nspringlike legs, it bowls over foes with devastating kicks.\nAfter battle, it rubs down its legs and loosens the muscles\nto overcome fatigue.",
+    "owned": false
   },
   {
     "id": 107,
@@ -2381,11 +2169,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/107.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "Hitmonchan is said to possess the spirit of a boxer who had\nbeen working toward a world championship. This Pokémon\nhas an indomitable spirit and will never give up in the face\nof adversity."
+    "color": "rgb(210, 106, 36)",
+    "desc": "Hitmonchan is said to possess the spirit of a boxer who had\nbeen working toward a world championship. This Pokémon\nhas an indomitable spirit and will never give up in the face\nof adversity.",
+    "owned": false
   },
   {
     "id": 108,
@@ -2400,11 +2186,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/108.png",
-    "color": {
-      "name": "pink",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/6/"
-    },
-    "desc": "It checks out whatever’s around it by licking\neverything. If you don’t clean off a spot where\nit’s licked you, you’ll break out in a rash!"
+    "color": "pink",
+    "desc": "It checks out whatever’s around it by licking\neverything. If you don’t clean off a spot where\nit’s licked you, you’ll break out in a rash!",
+    "owned": false
   },
   {
     "id": 109,
@@ -2419,11 +2203,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/109.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "Koffing embodies toxic substances. It mixes the toxins with raw\ngarbage to set off a chemical reaction that results in a terribly\npowerful poison gas. The higher the temperature, the more gas\nis concocted by this Pokémon."
+    "color": "rgb(112, 90, 159)",
+    "desc": "Koffing embodies toxic substances. It mixes the toxins with raw\ngarbage to set off a chemical reaction that results in a terribly\npowerful poison gas. The higher the temperature, the more gas\nis concocted by this Pokémon.",
+    "owned": false
   },
   {
     "id": 110,
@@ -2438,11 +2220,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/110.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "Weezing alternately shrinks and inflates its twin bodies to mix\ntogether toxic gases inside. The more the gases are mixed,\nthe more powerful the toxins become. The Pokémon also\nbecomes more putrid."
+    "color": "rgb(112, 90, 159)",
+    "desc": "Weezing alternately shrinks and inflates its twin bodies to mix\ntogether toxic gases inside. The more the gases are mixed,\nthe more powerful the toxins become. The Pokémon also\nbecomes more putrid.",
+    "owned": false
   },
   {
     "id": 111,
@@ -2464,11 +2244,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/111.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "Rhyhorn’s brain is very small. It is so dense, while on a run\nit forgets why it started running in the first place. It apparently\nremembers sometimes if it demolishes something."
+    "color": "gray",
+    "desc": "Rhyhorn’s brain is very small. It is so dense, while on a run\nit forgets why it started running in the first place. It apparently\nremembers sometimes if it demolishes something.",
+    "owned": false
   },
   {
     "id": 112,
@@ -2490,11 +2268,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "Rhydon has a horn that serves as a drill. It is used for\ndestroying rocks and boulders. This Pokémon occasionally\nrams into streams of magma, but the armor-like hide prevents\nit from feeling the heat."
+    "color": "gray",
+    "desc": "Rhydon has a horn that serves as a drill. It is used for\ndestroying rocks and boulders. This Pokémon occasionally\nrams into streams of magma, but the armor-like hide prevents\nit from feeling the heat.",
+    "owned": false
   },
   {
     "id": 113,
@@ -2509,11 +2285,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/113.png",
-    "color": {
-      "name": "pink",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/6/"
-    },
-    "desc": "It seems that other Pokémon’s efforts to take\nits delicious, nutritious egg away from it caused\nChansey to get faster at fleeing."
+    "color": "pink",
+    "desc": "It seems that other Pokémon’s efforts to take\nits delicious, nutritious egg away from it caused\nChansey to get faster at fleeing.",
+    "owned": false
   },
   {
     "id": 114,
@@ -2528,11 +2302,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/114.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "Tangela’s vines snap off easily if they are grabbed. This\nhappens without pain, allowing it to make a quick getaway.\nThe lost vines are replaced by newly grown vines the very\nnext day."
+    "color": "rgb(10, 132, 255)",
+    "desc": "Tangela’s vines snap off easily if they are grabbed. This\nhappens without pain, allowing it to make a quick getaway.\nThe lost vines are replaced by newly grown vines the very\nnext day.",
+    "owned": false
   },
   {
     "id": 115,
@@ -2547,11 +2319,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/115.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "Kangaskhan protects its child by keeping it in\nits pouch. It has zero forgiveness for those\nwho harm its child and will beat them down."
+    "color": "rgb(210, 106, 36)",
+    "desc": "Kangaskhan protects its child by keeping it in\nits pouch. It has zero forgiveness for those\nwho harm its child and will beat them down.",
+    "owned": false
   },
   {
     "id": 116,
@@ -2566,11 +2336,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/116.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "If Horsea senses danger, it will reflexively spray a dense\nblack ink from its mouth and try to escape. This Pokémon\nswims by cleverly flapping the fin on its back."
+    "color": "rgb(10, 132, 255)",
+    "desc": "If Horsea senses danger, it will reflexively spray a dense\nblack ink from its mouth and try to escape. This Pokémon\nswims by cleverly flapping the fin on its back.",
+    "owned": false
   },
   {
     "id": 117,
@@ -2585,11 +2353,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/117.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "Seadra generates whirlpools by spinning its body.\nThe whirlpools are strong enough to swallow even\nfishing boats. This Pokémon weakens prey with\nthese currents, then swallows it whole."
+    "color": "rgb(10, 132, 255)",
+    "desc": "Seadra generates whirlpools by spinning its body.\nThe whirlpools are strong enough to swallow even\nfishing boats. This Pokémon weakens prey with\nthese currents, then swallows it whole.",
+    "owned": false
   },
   {
     "id": 118,
@@ -2604,11 +2370,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/118.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "Although known for their splendid tail fins,\nGoldeen apparently compete among themselves\nto see whose horn is thickest and sharpest."
+    "color": "rgb(255, 69, 58)",
+    "desc": "Although known for their splendid tail fins,\nGoldeen apparently compete among themselves\nto see whose horn is thickest and sharpest.",
+    "owned": false
   },
   {
     "id": 119,
@@ -2623,11 +2387,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/119.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "Its horn spins like a drill to steadily hollow out\nrocks—even harder ones. The coloration of the\nmale is more vivid."
+    "color": "rgb(255, 69, 58)",
+    "desc": "Its horn spins like a drill to steadily hollow out\nrocks—even harder ones. The coloration of the\nmale is more vivid.",
+    "owned": false
   },
   {
     "id": 120,
@@ -2642,11 +2404,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/120.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "In many places, there are folktales of stardust\nfalling into the ocean and becoming Staryu."
+    "color": "rgb(210, 106, 36)",
+    "desc": "In many places, there are folktales of stardust\nfalling into the ocean and becoming Staryu.",
+    "owned": false
   },
   {
     "id": 121,
@@ -2668,11 +2428,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/121.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "Its sparkling core is called “the gem of the sea.”\nThis core can be made into high-priced\naccessories that are traded in secret."
+    "color": "rgb(112, 90, 159)",
+    "desc": "Its sparkling core is called “the gem of the sea.”\nThis core can be made into high-priced\naccessories that are traded in secret.",
+    "owned": false
   },
   {
     "id": 122,
@@ -2694,11 +2452,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/122.png",
-    "color": {
-      "name": "pink",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/6/"
-    },
-    "desc": "Its pantomime skills are wonderful. You may\nbecome enrapturgb(255, 69, 58) while watching it, but next\nthing you know, Mr. Mime has made a real wall."
+    "color": "pink",
+    "desc": "Its pantomime skills are wonderful. You may\nbecome enrapturgb(255, 69, 58) while watching it, but next\nthing you know, Mr. Mime has made a real wall.",
+    "owned": false
   },
   {
     "id": 123,
@@ -2720,11 +2476,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/123.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "Its two sharp scythes are more than just\nweapons. It uses them with dexterity to dress\nits prey before eating."
+    "color": "rgb(52, 199, 89)",
+    "desc": "Its two sharp scythes are more than just\nweapons. It uses them with dexterity to dress\nits prey before eating.",
+    "owned": false
   },
   {
     "id": 124,
@@ -2746,11 +2500,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/124.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "It sways its hips to a rhythm all its own. The\nprecise movements of Jynx living in Alola are\ntruly wonderful."
+    "color": "rgb(255, 69, 58)",
+    "desc": "It sways its hips to a rhythm all its own. The\nprecise movements of Jynx living in Alola are\ntruly wonderful.",
+    "owned": false
   },
   {
     "id": 125,
@@ -2765,11 +2517,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/125.png",
-    "color": {
-      "name": "yellow",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
-    },
-    "desc": "Electricity permeates its body. It swings\nits arms round and round to charge up\nelectricity before unleashing a punch."
+    "color": "yellow",
+    "desc": "Electricity permeates its body. It swings\nits arms round and round to charge up\nelectricity before unleashing a punch.",
+    "owned": false
   },
   {
     "id": 126,
@@ -2784,11 +2534,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/126.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "Its entire body is burning. When it breathes,\nthe temperature rises. When it sneezes, flames\nshoot out!"
+    "color": "rgb(255, 69, 58)",
+    "desc": "Its entire body is burning. When it breathes,\nthe temperature rises. When it sneezes, flames\nshoot out!",
+    "owned": false
   },
   {
     "id": 127,
@@ -2803,11 +2551,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/127.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "It gets into territorial disputes with Vikavolt.\nFor some reason, it apparently gets along well\nwith Heracross in Alola."
+    "color": "rgb(210, 106, 36)",
+    "desc": "It gets into territorial disputes with Vikavolt.\nFor some reason, it apparently gets along well\nwith Heracross in Alola.",
+    "owned": false
   },
   {
     "id": 128,
@@ -2822,11 +2568,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/128.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "They live in groups. The one with the longest,\nthickest, and most-scarrgb(255, 69, 58) horns is the boss\nof the herd."
+    "color": "rgb(210, 106, 36)",
+    "desc": "They live in groups. The one with the longest,\nthickest, and most-scarrgb(255, 69, 58) horns is the boss\nof the herd.",
+    "owned": false
   },
   {
     "id": 129,
@@ -2841,11 +2585,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "In the distant past, they were fairly strong, but\nthey have become gradually weaker over time."
+    "color": "rgb(255, 69, 58)",
+    "desc": "In the distant past, they were fairly strong, but\nthey have become gradually weaker over time.",
+    "owned": false
   },
   {
     "id": 130,
@@ -2867,11 +2609,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/130.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "It fires hyper beams in all directions, burning the\nsurrounding area to ash. There are some regions\nwhere it’s called “the deity of destruction.”"
+    "color": "rgb(10, 132, 255)",
+    "desc": "It fires hyper beams in all directions, burning the\nsurrounding area to ash. There are some regions\nwhere it’s called “the deity of destruction.”",
+    "owned": false
   },
   {
     "id": 131,
@@ -2893,11 +2633,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/131.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "It likes swimming around with people on its\nback. In the Alola region, it’s an important means\nof transportation over water."
+    "color": "rgb(10, 132, 255)",
+    "desc": "It likes swimming around with people on its\nback. In the Alola region, it’s an important means\nof transportation over water.",
+    "owned": false
   },
   {
     "id": 132,
@@ -2912,11 +2650,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "While it can transform into anything, each Ditto\napparently has its own strengths and\nweaknesses when it comes to transformations."
+    "color": "rgb(112, 90, 159)",
+    "desc": "While it can transform into anything, each Ditto\napparently has its own strengths and\nweaknesses when it comes to transformations.",
+    "owned": false
   },
   {
     "id": 133,
@@ -2931,11 +2667,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "The question of why only Eevee has such\nunstable genes has still not been solved."
+    "color": "rgb(210, 106, 36)",
+    "desc": "The question of why only Eevee has such\nunstable genes has still not been solved.",
+    "owned": false
   },
   {
     "id": 134,
@@ -2950,11 +2684,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "Clean, clear waters are its usual habitat. When\nit’s about to be attacked by an invading enemy,\nit dives into the water to hide."
+    "color": "rgb(10, 132, 255)",
+    "desc": "Clean, clear waters are its usual habitat. When\nit’s about to be attacked by an invading enemy,\nit dives into the water to hide.",
+    "owned": false
   },
   {
     "id": 135,
@@ -2969,11 +2701,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/135.png",
-    "color": {
-      "name": "yellow",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
-    },
-    "desc": "Its lungs contain an organ that creates\nelectricity. The crackling sound of electricity\ncan be heard when it exhales."
+    "color": "yellow",
+    "desc": "Its lungs contain an organ that creates\nelectricity. The crackling sound of electricity\ncan be heard when it exhales.",
+    "owned": false
   },
   {
     "id": 136,
@@ -2988,11 +2718,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/136.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "If it inhales deeply, that’s a sign it’s about to\nattack. Prepare to be hit by flames of over\n3,000 degrees Fahrenheit!"
+    "color": "rgb(255, 69, 58)",
+    "desc": "If it inhales deeply, that’s a sign it’s about to\nattack. Prepare to be hit by flames of over\n3,000 degrees Fahrenheit!",
+    "owned": false
   },
   {
     "id": 137,
@@ -3007,11 +2735,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/137.png",
-    "color": {
-      "name": "pink",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/6/"
-    },
-    "desc": "This Pokémon was created using the\ncutting-edge science of 20 years ago, so\nmany parts of it have since become obsolete."
+    "color": "pink",
+    "desc": "This Pokémon was created using the\ncutting-edge science of 20 years ago, so\nmany parts of it have since become obsolete.",
+    "owned": false
   },
   {
     "id": 138,
@@ -3033,11 +2759,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/138.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "Omanyte lived in the seas of antiquity. Its\nfossils have been found bearing bite marks from\nArcheops, so apparently Archeops preyed on it."
+    "color": "rgb(10, 132, 255)",
+    "desc": "Omanyte lived in the seas of antiquity. Its\nfossils have been found bearing bite marks from\nArcheops, so apparently Archeops preyed on it.",
+    "owned": false
   },
   {
     "id": 139,
@@ -3059,11 +2783,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/139.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "Its heavy shell is thought to be the reason this\nancient Pokémon died out. It’s apparently a\ndistant ancestor of Octillery."
+    "color": "rgb(10, 132, 255)",
+    "desc": "Its heavy shell is thought to be the reason this\nancient Pokémon died out. It’s apparently a\ndistant ancestor of Octillery.",
+    "owned": false
   },
   {
     "id": 140,
@@ -3085,11 +2807,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/140.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "This Pokémon thrived 300 million years ago. It’s\nsaid that living specimens can still be seen\nin a certain region—a rare sight."
+    "color": "rgb(210, 106, 36)",
+    "desc": "This Pokémon thrived 300 million years ago. It’s\nsaid that living specimens can still be seen\nin a certain region—a rare sight.",
+    "owned": false
   },
   {
     "id": 141,
@@ -3111,11 +2831,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/141.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "Its body had begun to change so it could\nfunction on land. But it didn’t adapt in time and\nwent extinct."
+    "color": "rgb(210, 106, 36)",
+    "desc": "Its body had begun to change so it could\nfunction on land. But it didn’t adapt in time and\nwent extinct.",
+    "owned": false
   },
   {
     "id": 142,
@@ -3137,11 +2855,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/142.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "Restorgb(255, 69, 58) from DNA found in amber, this\nPokémon exhibited ferocity that was greater\nthan expected. Some casualties resulted."
+    "color": "rgb(112, 90, 159)",
+    "desc": "Restorgb(255, 69, 58) from DNA found in amber, this\nPokémon exhibited ferocity that was greater\nthan expected. Some casualties resulted.",
+    "owned": false
   },
   {
     "id": 143,
@@ -3156,11 +2872,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png",
-    "color": {
-      "name": "black",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/1/"
-    },
-    "desc": "It doesn’t do anything other than eat and sleep.\nWhen prompted to make a serious effort,\nthough, it apparently displays awesome power."
+    "color": "black",
+    "desc": "It doesn’t do anything other than eat and sleep.\nWhen prompted to make a serious effort,\nthough, it apparently displays awesome power.",
+    "owned": false
   },
   {
     "id": 144,
@@ -3182,11 +2896,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/144.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "Articuno is a legendary bird Pokémon that can control ice.\nThe flapping of its wings chills the air. As a result, it is said\nthat when this Pokémon flies, snow will fall."
+    "color": "rgb(10, 132, 255)",
+    "desc": "Articuno is a legendary bird Pokémon that can control ice.\nThe flapping of its wings chills the air. As a result, it is said\nthat when this Pokémon flies, snow will fall.",
+    "owned": false
   },
   {
     "id": 145,
@@ -3208,11 +2920,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/145.png",
-    "color": {
-      "name": "yellow",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
-    },
-    "desc": "Zapdos is a legendary bird Pokémon that has the ability\nto control electricity. It usually lives in thunderclouds.\nThe Pokémon gains power if it is stricken by lightning bolts."
+    "color": "yellow",
+    "desc": "Zapdos is a legendary bird Pokémon that has the ability\nto control electricity. It usually lives in thunderclouds.\nThe Pokémon gains power if it is stricken by lightning bolts.",
+    "owned": false
   },
   {
     "id": 146,
@@ -3234,11 +2944,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/146.png",
-    "color": {
-      "name": "yellow",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
-    },
-    "desc": "Moltres is a legendary bird Pokémon that has the ability\nto control fire. If this Pokémon is injurgb(255, 69, 58), it is said to dip its\nbody in the molten magma of a volcano to burn and heal itself."
+    "color": "yellow",
+    "desc": "Moltres is a legendary bird Pokémon that has the ability\nto control fire. If this Pokémon is injurgb(255, 69, 58), it is said to dip its\nbody in the molten magma of a volcano to burn and heal itself.",
+    "owned": false
   },
   {
     "id": 147,
@@ -3253,11 +2961,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/147.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "It’s still weak, so it lurks on the floor of bodies\nof water, eating whatever food sinks down and\nliving a quiet life."
+    "color": "rgb(10, 132, 255)",
+    "desc": "It’s still weak, so it lurks on the floor of bodies\nof water, eating whatever food sinks down and\nliving a quiet life.",
+    "owned": false
   },
   {
     "id": 148,
@@ -3272,11 +2978,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/148.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "Lakes where Dragonair live are filled with\nofferings from people, because they believe this\nPokémon is able to control the weather."
+    "color": "rgb(10, 132, 255)",
+    "desc": "Lakes where Dragonair live are filled with\nofferings from people, because they believe this\nPokémon is able to control the weather.",
+    "owned": false
   },
   {
     "id": 149,
@@ -3298,11 +3002,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "It flies over raging seas as if they were nothing.\nObserving this, a ship’s captain dubbed this\nPokémon “the sea incarnate.”"
+    "color": "rgb(210, 106, 36)",
+    "desc": "It flies over raging seas as if they were nothing.\nObserving this, a ship’s captain dubbed this\nPokémon “the sea incarnate.”",
+    "owned": false
   },
   {
     "id": 150,
@@ -3317,11 +3019,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "Mewtwo is a Pokémon that was created by genetic\nmanipulation. However, even though the scientific power\nof humans created this Pokémon’s body, they failed to\nendow Mewtwo with a compassionate heart."
+    "color": "rgb(112, 90, 159)",
+    "desc": "Mewtwo is a Pokémon that was created by genetic\nmanipulation. However, even though the scientific power\nof humans created this Pokémon’s body, they failed to\nendow Mewtwo with a compassionate heart.",
+    "owned": false
   },
   {
     "id": 151,
@@ -3336,11 +3036,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/151.png",
-    "color": {
-      "name": "pink",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/6/"
-    },
-    "desc": "Mew is said to possess the genetic composition of all\nPokémon. It is capable of making itself invisible at will,\nso it entirely avoids notice even if it approaches people."
+    "color": "pink",
+    "desc": "Mew is said to possess the genetic composition of all\nPokémon. It is capable of making itself invisible at will,\nso it entirely avoids notice even if it approaches people.",
+    "owned": false
   },
   {
     "id": 152,
@@ -3355,11 +3053,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/152.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "In battle, Chikorita waves its leaf around to keep the foe at\nbay. However, a sweet fragrance also wafts from the leaf,\nbecalming the battling Pokémon and creating a cozy,\nfriendly atmosphere all around."
+    "color": "rgb(52, 199, 89)",
+    "desc": "In battle, Chikorita waves its leaf around to keep the foe at\nbay. However, a sweet fragrance also wafts from the leaf,\nbecalming the battling Pokémon and creating a cozy,\nfriendly atmosphere all around.",
+    "owned": false
   },
   {
     "id": 153,
@@ -3374,11 +3070,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/153.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "Bayleef’s neck is ringed by curled-up leaves. Inside each\ntubular leaf is a small shoot of a tree. The fragrance of this\nshoot makes people peppy."
+    "color": "rgb(52, 199, 89)",
+    "desc": "Bayleef’s neck is ringed by curled-up leaves. Inside each\ntubular leaf is a small shoot of a tree. The fragrance of this\nshoot makes people peppy.",
+    "owned": false
   },
   {
     "id": 154,
@@ -3393,11 +3087,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/154.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "The fragrance of Meganium’s flower soothes and calms\nemotions. In battle, this Pokémon gives off more of its\nbecalming scent to blunt the foe’s fighting spirit."
+    "color": "rgb(52, 199, 89)",
+    "desc": "The fragrance of Meganium’s flower soothes and calms\nemotions. In battle, this Pokémon gives off more of its\nbecalming scent to blunt the foe’s fighting spirit.",
+    "owned": false
   },
   {
     "id": 155,
@@ -3412,11 +3104,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/155.png",
-    "color": {
-      "name": "yellow",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
-    },
-    "desc": "Cyndaquil protects itself by flaring up the flames on its back.\nThe flames are vigorous if the Pokémon is angry. However, if it\nis tirgb(255, 69, 58), the flames splutter fitfully with incomplete combustion."
+    "color": "yellow",
+    "desc": "Cyndaquil protects itself by flaring up the flames on its back.\nThe flames are vigorous if the Pokémon is angry. However, if it\nis tirgb(255, 69, 58), the flames splutter fitfully with incomplete combustion.",
+    "owned": false
   },
   {
     "id": 156,
@@ -3431,11 +3121,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/156.png",
-    "color": {
-      "name": "yellow",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
-    },
-    "desc": "Quilava keeps its foes at bay with the intensity of its flames\nand gusts of superheated air. This Pokémon applies its\noutstanding nimbleness to dodge attacks even while scorching\nthe foe with flames."
+    "color": "yellow",
+    "desc": "Quilava keeps its foes at bay with the intensity of its flames\nand gusts of superheated air. This Pokémon applies its\noutstanding nimbleness to dodge attacks even while scorching\nthe foe with flames.",
+    "owned": false
   },
   {
     "id": 157,
@@ -3450,11 +3138,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/157.png",
-    "color": {
-      "name": "yellow",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
-    },
-    "desc": "Typhlosion obscures itself behind a shimmering heat haze that\nit creates using its intensely hot flames. This Pokémon creates\nblazing explosive blasts that burn everything to cinders."
+    "color": "yellow",
+    "desc": "Typhlosion obscures itself behind a shimmering heat haze that\nit creates using its intensely hot flames. This Pokémon creates\nblazing explosive blasts that burn everything to cinders.",
+    "owned": false
   },
   {
     "id": 158,
@@ -3469,11 +3155,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/158.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "Despite the smallness of its body, Totodile’s jaws are very\npowerful. While the Pokémon may think it is just playfully\nnipping, its bite has enough power to cause serious injury."
+    "color": "rgb(10, 132, 255)",
+    "desc": "Despite the smallness of its body, Totodile’s jaws are very\npowerful. While the Pokémon may think it is just playfully\nnipping, its bite has enough power to cause serious injury.",
+    "owned": false
   },
   {
     "id": 159,
@@ -3488,11 +3172,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/159.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "Once Croconaw has clamped its jaws on its foe, it will\nabsolutely not let go. Because the tips of its fangs are\nforked back like barbed fishhooks, they become impossible\nto remove when they have sunk in."
+    "color": "rgb(10, 132, 255)",
+    "desc": "Once Croconaw has clamped its jaws on its foe, it will\nabsolutely not let go. Because the tips of its fangs are\nforked back like barbed fishhooks, they become impossible\nto remove when they have sunk in.",
+    "owned": false
   },
   {
     "id": 160,
@@ -3507,11 +3189,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/160.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "Feraligatr intimidates its foes by opening its huge mouth.\nIn battle, it will kick the ground hard with its thick and powerful\nhind legs to charge at the foe at an incrgb(255, 69, 58)ible speed."
+    "color": "rgb(10, 132, 255)",
+    "desc": "Feraligatr intimidates its foes by opening its huge mouth.\nIn battle, it will kick the ground hard with its thick and powerful\nhind legs to charge at the foe at an incrgb(255, 69, 58)ible speed.",
+    "owned": false
   },
   {
     "id": 161,
@@ -3526,11 +3206,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/161.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "When Sentret sleeps, it does so while another stands guard.\nThe sentry wakes the others at the first sign of danger. When\nthis Pokémon becomes separated from its pack, it becomes\nincapable of sleep due to fear."
+    "color": "rgb(210, 106, 36)",
+    "desc": "When Sentret sleeps, it does so while another stands guard.\nThe sentry wakes the others at the first sign of danger. When\nthis Pokémon becomes separated from its pack, it becomes\nincapable of sleep due to fear.",
+    "owned": false
   },
   {
     "id": 162,
@@ -3545,11 +3223,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/162.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "Furret has a very slim build. When under attack, it can slickly\nsquirm through narrow spaces and get away. In spite of its\nshort limbs, this Pokémon is very nimble and fleet."
+    "color": "rgb(210, 106, 36)",
+    "desc": "Furret has a very slim build. When under attack, it can slickly\nsquirm through narrow spaces and get away. In spite of its\nshort limbs, this Pokémon is very nimble and fleet.",
+    "owned": false
   },
   {
     "id": 163,
@@ -3571,11 +3247,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/163.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "Every day, it tilts its head in the same rhythm.\nA long time ago, people raised these Pokémon\nto serve as clocks."
+    "color": "rgb(210, 106, 36)",
+    "desc": "Every day, it tilts its head in the same rhythm.\nA long time ago, people raised these Pokémon\nto serve as clocks.",
+    "owned": false
   },
   {
     "id": 164,
@@ -3597,11 +3271,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/164.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "With eyes that can see in pitch-darkness, it\nnever lets its prey escape. Some even call it\n“the emperor of dark nights.”"
+    "color": "rgb(210, 106, 36)",
+    "desc": "With eyes that can see in pitch-darkness, it\nnever lets its prey escape. Some even call it\n“the emperor of dark nights.”",
+    "owned": false
   },
   {
     "id": 165,
@@ -3623,11 +3295,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/165.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "This Pokémon is very sensitive to cold. In the\nwarmth of Alola, it appears quite lively."
+    "color": "rgb(255, 69, 58)",
+    "desc": "This Pokémon is very sensitive to cold. In the\nwarmth of Alola, it appears quite lively.",
+    "owned": false
   },
   {
     "id": 166,
@@ -3649,11 +3319,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/166.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "It’s said that the patterns on its back are\nrelated to the stars in the night sky, but the\ndetails of that relationship remain unclear."
+    "color": "rgb(255, 69, 58)",
+    "desc": "It’s said that the patterns on its back are\nrelated to the stars in the night sky, but the\ndetails of that relationship remain unclear.",
+    "owned": false
   },
   {
     "id": 167,
@@ -3675,11 +3343,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/167.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "With threads from its mouth, it fashions sturdy\nwebs that won’t break even if you set a rock\non them."
+    "color": "rgb(52, 199, 89)",
+    "desc": "With threads from its mouth, it fashions sturdy\nwebs that won’t break even if you set a rock\non them.",
+    "owned": false
   },
   {
     "id": 168,
@@ -3701,11 +3367,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/168.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "Every night, it wanders around in search of\nprey, whose movements it restrains by spewing\nthreads before it bites into them with its fangs."
+    "color": "rgb(255, 69, 58)",
+    "desc": "Every night, it wanders around in search of\nprey, whose movements it restrains by spewing\nthreads before it bites into them with its fangs.",
+    "owned": false
   },
   {
     "id": 169,
@@ -3727,11 +3391,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/169.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "Its fangs are so sharp, if it bites you in the dark\nand sucks your blood, you won’t notice any pain\nor realize you’ve been bitten."
+    "color": "rgb(112, 90, 159)",
+    "desc": "Its fangs are so sharp, if it bites you in the dark\nand sucks your blood, you won’t notice any pain\nor realize you’ve been bitten.",
+    "owned": false
   },
   {
     "id": 170,
@@ -3753,11 +3415,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/170.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "Its two antennae glow softly to lure in prey,\nmaking it a useful Pokémon for night fishing."
+    "color": "rgb(10, 132, 255)",
+    "desc": "Its two antennae glow softly to lure in prey,\nmaking it a useful Pokémon for night fishing.",
+    "owned": false
   },
   {
     "id": 171,
@@ -3779,11 +3439,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/171.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "When the bacteria living inside its antennae\nabsorb Lanturn’s bodily fluids, a strong\nluminescent effect is produced."
+    "color": "rgb(10, 132, 255)",
+    "desc": "When the bacteria living inside its antennae\nabsorb Lanturn’s bodily fluids, a strong\nluminescent effect is produced.",
+    "owned": false
   },
   {
     "id": 172,
@@ -3798,11 +3456,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/172.png",
-    "color": {
-      "name": "yellow",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
-    },
-    "desc": "It still can’t use electricity well. When it’s\nsurprised or excited, it discharges\nelectricity unintentionally."
+    "color": "yellow",
+    "desc": "It still can’t use electricity well. When it’s\nsurprised or excited, it discharges\nelectricity unintentionally.",
+    "owned": false
   },
   {
     "id": 173,
@@ -3817,11 +3473,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/173.png",
-    "color": {
-      "name": "pink",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/6/"
-    },
-    "desc": "On nights with many shooting stars,\nthey gather in packs and dance in circles. If you\nshould see them, something good will happen!"
+    "color": "pink",
+    "desc": "On nights with many shooting stars,\nthey gather in packs and dance in circles. If you\nshould see them, something good will happen!",
+    "owned": false
   },
   {
     "id": 174,
@@ -3843,11 +3497,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/174.png",
-    "color": {
-      "name": "pink",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/6/"
-    },
-    "desc": "It’s always practicing its singing because it\nwants to improve. Even when it’s asleep,\nit keeps singing in its dreams!"
+    "color": "pink",
+    "desc": "It’s always practicing its singing because it\nwants to improve. Even when it’s asleep,\nit keeps singing in its dreams!",
+    "owned": false
   },
   {
     "id": 175,
@@ -3862,11 +3514,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/175.png",
-    "color": {
-      "name": "white",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/9/"
-    },
-    "desc": "As its energy, Togepi uses the positive emotions of\ncompassion and pleasure exuded by people and Pokémon.\nThis Pokémon stores up feelings of happiness inside its shell,\nthen shares them with others."
+    "color": "white",
+    "desc": "As its energy, Togepi uses the positive emotions of\ncompassion and pleasure exuded by people and Pokémon.\nThis Pokémon stores up feelings of happiness inside its shell,\nthen shares them with others.",
+    "owned": false
   },
   {
     "id": 176,
@@ -3888,11 +3538,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/176.png",
-    "color": {
-      "name": "white",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/9/"
-    },
-    "desc": "Togetic is said to be a Pokémon that brings good fortune.\nWhen the Pokémon spots someone who is pure of heart,\nit is said to appear and share its happiness with that person."
+    "color": "white",
+    "desc": "Togetic is said to be a Pokémon that brings good fortune.\nWhen the Pokémon spots someone who is pure of heart,\nit is said to appear and share its happiness with that person.",
+    "owned": false
   },
   {
     "id": 177,
@@ -3914,11 +3562,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/177.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "Although it still can’t fly, its jumping power is\noutstanding. It jumps way up into trees and\nplucks the buds from the branches."
+    "color": "rgb(52, 199, 89)",
+    "desc": "Although it still can’t fly, its jumping power is\noutstanding. It jumps way up into trees and\nplucks the buds from the branches.",
+    "owned": false
   },
   {
     "id": 178,
@@ -3940,11 +3586,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/178.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "It’s said that while this Pokémon has the power\nto prgb(255, 69, 58)ict the future, it’s not powerful enough\nto change the future it sees."
+    "color": "rgb(52, 199, 89)",
+    "desc": "It’s said that while this Pokémon has the power\nto prgb(255, 69, 58)ict the future, it’s not powerful enough\nto change the future it sees.",
+    "owned": false
   },
   {
     "id": 179,
@@ -3959,11 +3603,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/179.png",
-    "color": {
-      "name": "white",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/9/"
-    },
-    "desc": "Clothing made from Mareep’s fleece is easily\ncharged with static electricity, so a special\nprocess is used on it."
+    "color": "white",
+    "desc": "Clothing made from Mareep’s fleece is easily\ncharged with static electricity, so a special\nprocess is used on it.",
+    "owned": false
   },
   {
     "id": 180,
@@ -3978,11 +3620,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/180.png",
-    "color": {
-      "name": "pink",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/6/"
-    },
-    "desc": "In the places on its body where fleece doesn’t\ngrow, its skin is rubbery and doesn’t conduct\nelectricity. Those spots are safe to touch."
+    "color": "pink",
+    "desc": "In the places on its body where fleece doesn’t\ngrow, its skin is rubbery and doesn’t conduct\nelectricity. Those spots are safe to touch.",
+    "owned": false
   },
   {
     "id": 181,
@@ -3997,11 +3637,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/181.png",
-    "color": {
-      "name": "yellow",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
-    },
-    "desc": "The light from its tail can be seen from space.\nThis is why you can always tell exactly where it\nis, which is why it usually keeps the light off."
+    "color": "yellow",
+    "desc": "The light from its tail can be seen from space.\nThis is why you can always tell exactly where it\nis, which is why it usually keeps the light off.",
+    "owned": false
   },
   {
     "id": 182,
@@ -4016,11 +3654,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/182.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "A Bellossom grows flowers more beautifully if it has evolved\nfrom a smelly Gloom—the more stinky the better. At night, this\nPokémon closes its petals and goes to sleep."
+    "color": "rgb(52, 199, 89)",
+    "desc": "A Bellossom grows flowers more beautifully if it has evolved\nfrom a smelly Gloom—the more stinky the better. At night, this\nPokémon closes its petals and goes to sleep.",
+    "owned": false
   },
   {
     "id": 183,
@@ -4042,11 +3678,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/183.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "When fishing for food at the edge of a fast-running stream,\nMarill wraps its tail around the trunk of a tree. This Pokémon’s\ntail is flexible and configurgb(255, 69, 58) to stretch."
+    "color": "rgb(10, 132, 255)",
+    "desc": "When fishing for food at the edge of a fast-running stream,\nMarill wraps its tail around the trunk of a tree. This Pokémon’s\ntail is flexible and configurgb(255, 69, 58) to stretch.",
+    "owned": false
   },
   {
     "id": 184,
@@ -4068,11 +3702,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/184.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "Azumarill can make balloons out of air. It makes these air\nballoons if it spots a drowning Pokémon. The air balloons\nenable the Pokémon in trouble to breathe."
+    "color": "rgb(10, 132, 255)",
+    "desc": "Azumarill can make balloons out of air. It makes these air\nballoons if it spots a drowning Pokémon. The air balloons\nenable the Pokémon in trouble to breathe.",
+    "owned": false
   },
   {
     "id": 185,
@@ -4087,11 +3719,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/185.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "It’s so popular with the elderly that there’s a\nmagazine devoted to this Pokémon. Fans obsess\nover the particular length and angle of its arms."
+    "color": "rgb(210, 106, 36)",
+    "desc": "It’s so popular with the elderly that there’s a\nmagazine devoted to this Pokémon. Fans obsess\nover the particular length and angle of its arms.",
+    "owned": false
   },
   {
     "id": 186,
@@ -4106,11 +3736,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/186.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "Although its cries sound like screams, a\ncomposer created a beautiful ballad that was\ninfluenced by the sounds."
+    "color": "rgb(52, 199, 89)",
+    "desc": "Although its cries sound like screams, a\ncomposer created a beautiful ballad that was\ninfluenced by the sounds.",
+    "owned": false
   },
   {
     "id": 187,
@@ -4132,11 +3760,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/187.png",
-    "color": {
-      "name": "pink",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/6/"
-    },
-    "desc": "This Pokémon drifts and floats with the wind. If it senses the\napproach of strong winds, Hoppip links its leaves with other\nHoppip to prepare against being blown away."
+    "color": "pink",
+    "desc": "This Pokémon drifts and floats with the wind. If it senses the\napproach of strong winds, Hoppip links its leaves with other\nHoppip to prepare against being blown away.",
+    "owned": false
   },
   {
     "id": 188,
@@ -4158,11 +3784,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/188.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "Skiploom’s flower blossoms when the temperature rises\nabove 64 degrees Fahrenheit. How much the flower opens\ndepends on the temperature. For that reason, this Pokémon\nis sometimes used as a thermometer."
+    "color": "rgb(52, 199, 89)",
+    "desc": "Skiploom’s flower blossoms when the temperature rises\nabove 64 degrees Fahrenheit. How much the flower opens\ndepends on the temperature. For that reason, this Pokémon\nis sometimes used as a thermometer.",
+    "owned": false
   },
   {
     "id": 189,
@@ -4184,11 +3808,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/189.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "Jumpluff rides warm southern winds to cross the sea and fly to\nforeign lands. The Pokémon descends to the ground when it\nencounters cold air while it is floating."
+    "color": "rgb(10, 132, 255)",
+    "desc": "Jumpluff rides warm southern winds to cross the sea and fly to\nforeign lands. The Pokémon descends to the ground when it\nencounters cold air while it is floating.",
+    "owned": false
   },
   {
     "id": 190,
@@ -4203,11 +3825,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/190.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "As it did more and more with its tail, its hands\nbecame clumsy. It makes its nest high in\nthe treetops."
+    "color": "rgb(112, 90, 159)",
+    "desc": "As it did more and more with its tail, its hands\nbecame clumsy. It makes its nest high in\nthe treetops.",
+    "owned": false
   },
   {
     "id": 191,
@@ -4222,11 +3842,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/191.png",
-    "color": {
-      "name": "yellow",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
-    },
-    "desc": "Sunkern tries to move as little as it possibly can. It does so\nbecause it tries to conserve all the nutrients it has storgb(255, 69, 58) in its\nbody for its evolution. It will not eat a thing, subsisting only on\nmorning dew."
+    "color": "yellow",
+    "desc": "Sunkern tries to move as little as it possibly can. It does so\nbecause it tries to conserve all the nutrients it has storgb(255, 69, 58) in its\nbody for its evolution. It will not eat a thing, subsisting only on\nmorning dew.",
+    "owned": false
   },
   {
     "id": 192,
@@ -4241,11 +3859,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/192.png",
-    "color": {
-      "name": "yellow",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
-    },
-    "desc": "Sunflora converts solar energy into nutrition. It moves around\nactively in the daytime when it is warm. It stops moving as\nsoon as the sun goes down for the night."
+    "color": "yellow",
+    "desc": "Sunflora converts solar energy into nutrition. It moves around\nactively in the daytime when it is warm. It stops moving as\nsoon as the sun goes down for the night.",
+    "owned": false
   },
   {
     "id": 193,
@@ -4267,11 +3883,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/193.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "Yanma is capable of seeing 360 degrees without having to\nmove its eyes. It is a great flier that is adept at making sudden\nstops and turning midair. This Pokémon uses its flying ability\nto quickly chase down targeted prey."
+    "color": "rgb(255, 69, 58)",
+    "desc": "Yanma is capable of seeing 360 degrees without having to\nmove its eyes. It is a great flier that is adept at making sudden\nstops and turning midair. This Pokémon uses its flying ability\nto quickly chase down targeted prey.",
+    "owned": false
   },
   {
     "id": 194,
@@ -4293,11 +3907,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/194.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "Wooper usually lives in water. However, it occasionally comes\nout onto land in search of food. On land, it coats its body with\na gooey, toxic film."
+    "color": "rgb(10, 132, 255)",
+    "desc": "Wooper usually lives in water. However, it occasionally comes\nout onto land in search of food. On land, it coats its body with\na gooey, toxic film.",
+    "owned": false
   },
   {
     "id": 195,
@@ -4319,11 +3931,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/195.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "Quagsire hunts for food by leaving its mouth wide open in\nwater and waiting for its prey to blunder in unaware. Because\nthe Pokémon does not move, it does not get very hungry."
+    "color": "rgb(10, 132, 255)",
+    "desc": "Quagsire hunts for food by leaving its mouth wide open in\nwater and waiting for its prey to blunder in unaware. Because\nthe Pokémon does not move, it does not get very hungry.",
+    "owned": false
   },
   {
     "id": 196,
@@ -4338,11 +3948,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/196.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "Although it originally had no powers at all,\npeople say its precognitive faculties were\nawakened by its need to protect itself."
+    "color": "rgb(112, 90, 159)",
+    "desc": "Although it originally had no powers at all,\npeople say its precognitive faculties were\nawakened by its need to protect itself.",
+    "owned": false
   },
   {
     "id": 197,
@@ -4357,11 +3965,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/197.png",
-    "color": {
-      "name": "black",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/1/"
-    },
-    "desc": "This Pokémon is nocturnal. Even in total\ndarkness, its large eyes can spot its\nprey clearly!"
+    "color": "black",
+    "desc": "This Pokémon is nocturnal. Even in total\ndarkness, its large eyes can spot its\nprey clearly!",
+    "owned": false
   },
   {
     "id": 198,
@@ -4383,11 +3989,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/198.png",
-    "color": {
-      "name": "black",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/1/"
-    },
-    "desc": "It has a weakness for shiny things. It’s been\nknown to sneak into the nests of Gabite—noted\ncollectors of jewels—in search of treasure."
+    "color": "black",
+    "desc": "It has a weakness for shiny things. It’s been\nknown to sneak into the nests of Gabite—noted\ncollectors of jewels—in search of treasure.",
+    "owned": false
   },
   {
     "id": 199,
@@ -4409,11 +4013,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/199.png",
-    "color": {
-      "name": "pink",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/6/"
-    },
-    "desc": "It’s constantly coming up with new ideas that\nwould change the world, but as soon as it\nhits upon a new idea, it forgets it."
+    "color": "pink",
+    "desc": "It’s constantly coming up with new ideas that\nwould change the world, but as soon as it\nhits upon a new idea, it forgets it.",
+    "owned": false
   },
   {
     "id": 200,
@@ -4428,11 +4030,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/200.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "What gives meaning to its life is surprising\nothers. If you set your ear against the rgb(255, 69, 58) orbs\naround its neck, you can hear shrieking."
+    "color": "gray",
+    "desc": "What gives meaning to its life is surprising\nothers. If you set your ear against the rgb(255, 69, 58) orbs\naround its neck, you can hear shrieking.",
+    "owned": false
   },
   {
     "id": 201,
@@ -4447,11 +4047,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201.png",
-    "color": {
-      "name": "black",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/1/"
-    },
-    "desc": "This Pokémon is shaped like ancient writing. It is a mystery as\nto which came first, the ancient writings or the various Unown.\nResearch into this topic is ongoing but nothing is known."
+    "color": "black",
+    "desc": "This Pokémon is shaped like ancient writing. It is a mystery as\nto which came first, the ancient writings or the various Unown.\nResearch into this topic is ongoing but nothing is known.",
+    "owned": false
   },
   {
     "id": 202,
@@ -4466,11 +4064,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/202.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "Wobbuffet does nothing but endure attacks—it won’t attack on\nits own. However, it won’t endure an attack on its tail. When\nthat happens, the Pokémon will try to take the foe with it using\nDestiny Bond."
+    "color": "rgb(10, 132, 255)",
+    "desc": "Wobbuffet does nothing but endure attacks—it won’t attack on\nits own. However, it won’t endure an attack on its tail. When\nthat happens, the Pokémon will try to take the foe with it using\nDestiny Bond.",
+    "owned": false
   },
   {
     "id": 203,
@@ -4492,11 +4088,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/203.png",
-    "color": {
-      "name": "yellow",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
-    },
-    "desc": "Girafarig’s rear head contains a tiny brain that is too small for\nthinking. However, the rear head doesn’t need to sleep, so it\ncan keep watch over its surroundings 24 hours a day."
+    "color": "yellow",
+    "desc": "Girafarig’s rear head contains a tiny brain that is too small for\nthinking. However, the rear head doesn’t need to sleep, so it\ncan keep watch over its surroundings 24 hours a day.",
+    "owned": false
   },
   {
     "id": 204,
@@ -4511,11 +4105,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/204.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "Motionless, it hangs from trees, waiting for\nits bug Pokémon prey to come to it. Its favorite\nin Alola is Cutiefly."
+    "color": "gray",
+    "desc": "Motionless, it hangs from trees, waiting for\nits bug Pokémon prey to come to it. Its favorite\nin Alola is Cutiefly.",
+    "owned": false
   },
   {
     "id": 205,
@@ -4537,11 +4129,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/205.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "When something approaches it, it fires off\nfragments of its steel shell in attack. This is not\na conscious action but a conditioned reflex."
+    "color": "rgb(112, 90, 159)",
+    "desc": "When something approaches it, it fires off\nfragments of its steel shell in attack. This is not\na conscious action but a conditioned reflex.",
+    "owned": false
   },
   {
     "id": 206,
@@ -4556,11 +4146,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/206.png",
-    "color": {
-      "name": "yellow",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
-    },
-    "desc": "It travels by digging through the ground.\nDiglett and Dunsparce share one another’s\ntunnels happily."
+    "color": "yellow",
+    "desc": "It travels by digging through the ground.\nDiglett and Dunsparce share one another’s\ntunnels happily.",
+    "owned": false
   },
   {
     "id": 207,
@@ -4582,11 +4170,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/207.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "Gligar glides through the air without a sound as if it were\nsliding. This Pokémon hangs on to the face of its foe using\nits clawed hind legs and the large pincers on its forelegs, then\ninjects the prey with its poison barb."
+    "color": "rgb(112, 90, 159)",
+    "desc": "Gligar glides through the air without a sound as if it were\nsliding. This Pokémon hangs on to the face of its foe using\nits clawed hind legs and the large pincers on its forelegs, then\ninjects the prey with its poison barb.",
+    "owned": false
   },
   {
     "id": 208,
@@ -4608,11 +4194,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/208.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "Steelix lives even further underground than Onix.\nThis Pokémon is known to dig toward the earth’s core.\nThere are records of this Pokémon reaching a depth of\nover six-tenths of a mile underground."
+    "color": "gray",
+    "desc": "Steelix lives even further underground than Onix.\nThis Pokémon is known to dig toward the earth’s core.\nThere are records of this Pokémon reaching a depth of\nover six-tenths of a mile underground.",
+    "owned": false
   },
   {
     "id": 209,
@@ -4627,11 +4211,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/209.png",
-    "color": {
-      "name": "pink",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/6/"
-    },
-    "desc": "It grows close to others easily and is also easily\nspoiled. The disparity between its face and its\nactions makes many young people wild about it."
+    "color": "pink",
+    "desc": "It grows close to others easily and is also easily\nspoiled. The disparity between its face and its\nactions makes many young people wild about it.",
+    "owned": false
   },
   {
     "id": 210,
@@ -4646,11 +4228,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/210.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "While it has powerful jaws, it doesn’t care for\ndisputes, so it rarely has a chance to display\ntheir might."
+    "color": "rgb(112, 90, 159)",
+    "desc": "While it has powerful jaws, it doesn’t care for\ndisputes, so it rarely has a chance to display\ntheir might.",
+    "owned": false
   },
   {
     "id": 211,
@@ -4672,11 +4252,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/211.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "Qwilfish sucks in water, inflating itself. This Pokémon\nuses the pressure of the water it swallowed to shoot toxic\nquills all at once from all over its body. It finds swimming\nsomewhat challenging."
+    "color": "gray",
+    "desc": "Qwilfish sucks in water, inflating itself. This Pokémon\nuses the pressure of the water it swallowed to shoot toxic\nquills all at once from all over its body. It finds swimming\nsomewhat challenging.",
+    "owned": false
   },
   {
     "id": 212,
@@ -4698,11 +4276,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/212.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "Its body is like steel. Its tough, heavy pincers\nare more suited to smashing enemies than\ngrabbing them."
+    "color": "rgb(255, 69, 58)",
+    "desc": "Its body is like steel. Its tough, heavy pincers\nare more suited to smashing enemies than\ngrabbing them.",
+    "owned": false
   },
   {
     "id": 213,
@@ -4724,11 +4300,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/213.png",
-    "color": {
-      "name": "yellow",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
-    },
-    "desc": "Shuckle quietly hides itself under rocks, keeping its body\nconcealed inside its hard shell while eating berries it has\nstorgb(255, 69, 58) away. The berries mix with its body fluids to become\na juice."
+    "color": "yellow",
+    "desc": "Shuckle quietly hides itself under rocks, keeping its body\nconcealed inside its hard shell while eating berries it has\nstorgb(255, 69, 58) away. The berries mix with its body fluids to become\na juice.",
+    "owned": false
   },
   {
     "id": 214,
@@ -4750,11 +4324,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/214.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "It’s proud of its thick horn. In Alola, its biggest\nrival is Vikavolt, which it’s always fighting with."
+    "color": "rgb(10, 132, 255)",
+    "desc": "It’s proud of its thick horn. In Alola, its biggest\nrival is Vikavolt, which it’s always fighting with.",
+    "owned": false
   },
   {
     "id": 215,
@@ -4776,11 +4348,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/215.png",
-    "color": {
-      "name": "black",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/1/"
-    },
-    "desc": "They will cooperate to steal eggs from the nests\nof bird Pokémon, but fights break out to\ndetermine which one gets to eat the eggs."
+    "color": "black",
+    "desc": "They will cooperate to steal eggs from the nests\nof bird Pokémon, but fights break out to\ndetermine which one gets to eat the eggs.",
+    "owned": false
   },
   {
     "id": 216,
@@ -4795,11 +4365,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/216.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "This Pokémon likes to lick its palms that are sweetened by\nbeing soaked in honey. Teddiursa concocts its own honey\nby blending fruits and pollen collected by Beedrill."
+    "color": "rgb(210, 106, 36)",
+    "desc": "This Pokémon likes to lick its palms that are sweetened by\nbeing soaked in honey. Teddiursa concocts its own honey\nby blending fruits and pollen collected by Beedrill.",
+    "owned": false
   },
   {
     "id": 217,
@@ -4814,11 +4382,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/217.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "In the forests inhabited by Ursaring, it is said that there are\nmany streams and towering trees where they gather food. This\nPokémon walks through its forest gathering food every day."
+    "color": "rgb(210, 106, 36)",
+    "desc": "In the forests inhabited by Ursaring, it is said that there are\nmany streams and towering trees where they gather food. This\nPokémon walks through its forest gathering food every day.",
+    "owned": false
   },
   {
     "id": 218,
@@ -4833,11 +4399,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/218.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "Slugma does not have any blood in its body. Instead, intensely\nhot magma circulates throughout this Pokémon’s body,\ncarrying essential nutrients and oxygen to its organs."
+    "color": "rgb(255, 69, 58)",
+    "desc": "Slugma does not have any blood in its body. Instead, intensely\nhot magma circulates throughout this Pokémon’s body,\ncarrying essential nutrients and oxygen to its organs.",
+    "owned": false
   },
   {
     "id": 219,
@@ -4859,11 +4423,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/219.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "Magcargo’s body temperature is approximately\n18,000 degrees Fahrenheit. Water is vaporized on contact.\nIf this Pokémon is caught in the rain, the raindrops instantly\nturn into steam, cloaking the area in a thick fog."
+    "color": "rgb(255, 69, 58)",
+    "desc": "Magcargo’s body temperature is approximately\n18,000 degrees Fahrenheit. Water is vaporized on contact.\nIf this Pokémon is caught in the rain, the raindrops instantly\nturn into steam, cloaking the area in a thick fog.",
+    "owned": false
   },
   {
     "id": 220,
@@ -4885,11 +4447,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/220.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "Swinub roots for food by rubbing its snout against the ground.\nIts favorite food is a mushroom that grows under the cover of\ndead grass. This Pokémon occasionally roots out hot springs."
+    "color": "rgb(210, 106, 36)",
+    "desc": "Swinub roots for food by rubbing its snout against the ground.\nIts favorite food is a mushroom that grows under the cover of\ndead grass. This Pokémon occasionally roots out hot springs.",
+    "owned": false
   },
   {
     "id": 221,
@@ -4911,11 +4471,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/221.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "Piloswine is covergb(255, 69, 58) by a thick coat of long hair that enables\nit to endure the freezing cold. This Pokémon uses its tusks to\ndig up food that has been buried under ice."
+    "color": "rgb(210, 106, 36)",
+    "desc": "Piloswine is covergb(255, 69, 58) by a thick coat of long hair that enables\nit to endure the freezing cold. This Pokémon uses its tusks to\ndig up food that has been buried under ice.",
+    "owned": false
   },
   {
     "id": 222,
@@ -4937,11 +4495,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/222.png",
-    "color": {
-      "name": "pink",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/6/"
-    },
-    "desc": "The pink of Corsola that live in Alola is deep\nand vibrant, thanks to seas filled with nutrition."
+    "color": "pink",
+    "desc": "The pink of Corsola that live in Alola is deep\nand vibrant, thanks to seas filled with nutrition.",
+    "owned": false
   },
   {
     "id": 223,
@@ -4956,11 +4512,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/223.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "This Pokémon clings to Mantine and shares in\nits prosperity. When its Mantine is attacked,\nRemoraid will fight alongside it!"
+    "color": "gray",
+    "desc": "This Pokémon clings to Mantine and shares in\nits prosperity. When its Mantine is attacked,\nRemoraid will fight alongside it!",
+    "owned": false
   },
   {
     "id": 224,
@@ -4975,11 +4529,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/224.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "The ink it spits when escaping is special.\nIt contains a substance that dulls the sense of\nsmell, so Pokémon with keen noses get lost."
+    "color": "rgb(255, 69, 58)",
+    "desc": "The ink it spits when escaping is special.\nIt contains a substance that dulls the sense of\nsmell, so Pokémon with keen noses get lost.",
+    "owned": false
   },
   {
     "id": 225,
@@ -5001,11 +4553,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/225.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "It shares its food with people who are stranded.\nBecause Delibird is omnivorous, sometimes\nit gives those people bug Pokémon."
+    "color": "rgb(255, 69, 58)",
+    "desc": "It shares its food with people who are stranded.\nBecause Delibird is omnivorous, sometimes\nit gives those people bug Pokémon.",
+    "owned": false
   },
   {
     "id": 226,
@@ -5027,11 +4577,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/226.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "Postcards and posters featuring Mantine\nleaping elegantly above the waves are popular\nsouvenirs of Alola."
+    "color": "rgb(112, 90, 159)",
+    "desc": "Postcards and posters featuring Mantine\nleaping elegantly above the waves are popular\nsouvenirs of Alola.",
+    "owned": false
   },
   {
     "id": 227,
@@ -5053,11 +4601,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/227.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "The wing feathers it sheds can be processed\nand made into knives whose sharpness is\nrecognized by the finest chefs."
+    "color": "gray",
+    "desc": "The wing feathers it sheds can be processed\nand made into knives whose sharpness is\nrecognized by the finest chefs.",
+    "owned": false
   },
   {
     "id": 228,
@@ -5079,11 +4625,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/228.png",
-    "color": {
-      "name": "black",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/1/"
-    },
-    "desc": "It cooperates with others skillfully. When it\nbecomes your partner, it’s very loyal to you as\nits Trainer and will obey your orders."
+    "color": "black",
+    "desc": "It cooperates with others skillfully. When it\nbecomes your partner, it’s very loyal to you as\nits Trainer and will obey your orders.",
+    "owned": false
   },
   {
     "id": 229,
@@ -5105,11 +4649,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/229.png",
-    "color": {
-      "name": "black",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/1/"
-    },
-    "desc": "They spew flames mixed with poison to finish\noff their opponents. They divvy up their prey\nevenly among the members of their pack."
+    "color": "black",
+    "desc": "They spew flames mixed with poison to finish\noff their opponents. They divvy up their prey\nevenly among the members of their pack.",
+    "owned": false
   },
   {
     "id": 230,
@@ -5131,11 +4673,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/230.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "Kingdra sleeps on the seafloor where it is otherwise devoid\nof life. When a storm arrives, the Pokémon is said to awaken\nand wander about in search of prey."
+    "color": "rgb(10, 132, 255)",
+    "desc": "Kingdra sleeps on the seafloor where it is otherwise devoid\nof life. When a storm arrives, the Pokémon is said to awaken\nand wander about in search of prey.",
+    "owned": false
   },
   {
     "id": 231,
@@ -5150,11 +4690,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/231.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "Phanpy uses its long nose to shower itself. When others\ngather around, they thoroughly douse each other with water.\nThese Pokémon can be seen drying their soaking-wet\nbodies at the edge of water."
+    "color": "rgb(10, 132, 255)",
+    "desc": "Phanpy uses its long nose to shower itself. When others\ngather around, they thoroughly douse each other with water.\nThese Pokémon can be seen drying their soaking-wet\nbodies at the edge of water.",
+    "owned": false
   },
   {
     "id": 232,
@@ -5169,11 +4707,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/232.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "If Donphan were to tackle with its hard body, even a house\ncould be destroyed. Using its massive strength, the Pokémon\nhelps clear rock and mud slides that block mountain trails."
+    "color": "gray",
+    "desc": "If Donphan were to tackle with its hard body, even a house\ncould be destroyed. Using its massive strength, the Pokémon\nhelps clear rock and mud slides that block mountain trails.",
+    "owned": false
   },
   {
     "id": 233,
@@ -5188,11 +4724,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/233.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "AI has been installed in it. It learns various\nthings all on its own, but it even remembers\nthings it doesn’t need to know."
+    "color": "rgb(255, 69, 58)",
+    "desc": "AI has been installed in it. It learns various\nthings all on its own, but it even remembers\nthings it doesn’t need to know.",
+    "owned": false
   },
   {
     "id": 234,
@@ -5207,11 +4741,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/234.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "Stantler’s magnificent antlers were traded at high prices as\nworks of art. As a result, this Pokémon was hunted close to\nextinction by those who were after the priceless antlers."
+    "color": "rgb(210, 106, 36)",
+    "desc": "Stantler’s magnificent antlers were traded at high prices as\nworks of art. As a result, this Pokémon was hunted close to\nextinction by those who were after the priceless antlers.",
+    "owned": false
   },
   {
     "id": 235,
@@ -5226,11 +4758,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/235.png",
-    "color": {
-      "name": "white",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/9/"
-    },
-    "desc": "The fluid of Smeargle’s tail secretions changes\nin the intensity of its hue as the Pokémon’s\nemotions change."
+    "color": "white",
+    "desc": "The fluid of Smeargle’s tail secretions changes\nin the intensity of its hue as the Pokémon’s\nemotions change.",
+    "owned": false
   },
   {
     "id": 236,
@@ -5245,11 +4775,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/236.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "Tyrogue becomes stressed out if it does not get to train every\nday. When raising this Pokémon, the Trainer must establish\nand uphold various training methods."
+    "color": "rgb(112, 90, 159)",
+    "desc": "Tyrogue becomes stressed out if it does not get to train every\nday. When raising this Pokémon, the Trainer must establish\nand uphold various training methods.",
+    "owned": false
   },
   {
     "id": 237,
@@ -5264,11 +4792,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/237.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "Hitmontop spins on its head at high speed, all the while\ndelivering kicks. This technique is a remarkable mix of both\noffense and defense at the same time. The Pokémon travels\nfaster spinning than it does walking."
+    "color": "rgb(210, 106, 36)",
+    "desc": "Hitmontop spins on its head at high speed, all the while\ndelivering kicks. This technique is a remarkable mix of both\noffense and defense at the same time. The Pokémon travels\nfaster spinning than it does walking.",
+    "owned": false
   },
   {
     "id": 238,
@@ -5290,11 +4816,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/238.png",
-    "color": {
-      "name": "pink",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/6/"
-    },
-    "desc": "When it examines things, before touching them\nwith its hands, it makes lip contact and then\ndiligently licks all the dirt off its lips."
+    "color": "pink",
+    "desc": "When it examines things, before touching them\nwith its hands, it makes lip contact and then\ndiligently licks all the dirt off its lips.",
+    "owned": false
   },
   {
     "id": 239,
@@ -5309,11 +4833,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/239.png",
-    "color": {
-      "name": "yellow",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
-    },
-    "desc": "When it hears the crash of thunder, Elekid’s\nmood improves. It can be useful to record that\nsound and play it when Elekid’s feeling down."
+    "color": "yellow",
+    "desc": "When it hears the crash of thunder, Elekid’s\nmood improves. It can be useful to record that\nsound and play it when Elekid’s feeling down.",
+    "owned": false
   },
   {
     "id": 240,
@@ -5328,11 +4850,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/240.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "When flames drip from its nose, that means it\nhas a cold. Have it lie down for a nice rest in\nsome magma."
+    "color": "rgb(255, 69, 58)",
+    "desc": "When flames drip from its nose, that means it\nhas a cold. Have it lie down for a nice rest in\nsome magma.",
+    "owned": false
   },
   {
     "id": 241,
@@ -5347,11 +4867,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/241.png",
-    "color": {
-      "name": "pink",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/6/"
-    },
-    "desc": "It produces over five gallons of milk a day. The\nhigher the quality of the pastures it lives in,\nthe richer and tastier its milk becomes."
+    "color": "pink",
+    "desc": "It produces over five gallons of milk a day. The\nhigher the quality of the pastures it lives in,\nthe richer and tastier its milk becomes.",
+    "owned": false
   },
   {
     "id": 242,
@@ -5366,11 +4884,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/242.png",
-    "color": {
-      "name": "pink",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/6/"
-    },
-    "desc": "Their eggs are such a delicacy that some say\neating one will bring you happiness. These eggs\nfetch the highest prices on the market."
+    "color": "pink",
+    "desc": "Their eggs are such a delicacy that some say\neating one will bring you happiness. These eggs\nfetch the highest prices on the market.",
+    "owned": false
   },
   {
     "id": 243,
@@ -5385,11 +4901,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/243.png",
-    "color": {
-      "name": "yellow",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
-    },
-    "desc": "Raikou embodies the speed of lightning. The roars of\nthis Pokémon send shock waves shuddering through the\nair and shake the ground as if lightning bolts had come\ncrashing down."
+    "color": "yellow",
+    "desc": "Raikou embodies the speed of lightning. The roars of\nthis Pokémon send shock waves shuddering through the\nair and shake the ground as if lightning bolts had come\ncrashing down.",
+    "owned": false
   },
   {
     "id": 244,
@@ -5404,11 +4918,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/244.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "Entei embodies the passion of magma. This Pokémon is\nthought to have been born in the eruption of a volcano.\nIt sends up massive bursts of fire that utterly consume all\nthat they touch."
+    "color": "rgb(210, 106, 36)",
+    "desc": "Entei embodies the passion of magma. This Pokémon is\nthought to have been born in the eruption of a volcano.\nIt sends up massive bursts of fire that utterly consume all\nthat they touch.",
+    "owned": false
   },
   {
     "id": 245,
@@ -5423,11 +4935,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/245.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "Suicune embodies the compassion of a pure spring of water.\nIt runs across the land with gracefulness. This Pokémon has\nthe power to purify dirty water."
+    "color": "rgb(10, 132, 255)",
+    "desc": "Suicune embodies the compassion of a pure spring of water.\nIt runs across the land with gracefulness. This Pokémon has\nthe power to purify dirty water.",
+    "owned": false
   },
   {
     "id": 246,
@@ -5449,11 +4959,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/246.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "Born underground, it eats its way through dirt to\nthe surface, where its parents are. It doesn’t\ndeal well with the bright light it finds there."
+    "color": "rgb(52, 199, 89)",
+    "desc": "Born underground, it eats its way through dirt to\nthe surface, where its parents are. It doesn’t\ndeal well with the bright light it finds there.",
+    "owned": false
   },
   {
     "id": 247,
@@ -5475,11 +4983,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/247.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "This troublesome Pokémon can’t wait to evolve,\nso it relieves its stress by wildly propelling itself\naround using compressed gas."
+    "color": "gray",
+    "desc": "This troublesome Pokémon can’t wait to evolve,\nso it relieves its stress by wildly propelling itself\naround using compressed gas.",
+    "owned": false
   },
   {
     "id": 248,
@@ -5501,11 +5007,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/248.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "It wanders through the mountains seeking\nopponents to fight. If it finds an opponent that’s\nnot worthy, Tyranitar ignores it and wanders on."
+    "color": "rgb(52, 199, 89)",
+    "desc": "It wanders through the mountains seeking\nopponents to fight. If it finds an opponent that’s\nnot worthy, Tyranitar ignores it and wanders on.",
+    "owned": false
   },
   {
     "id": 249,
@@ -5527,11 +5031,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/249.png",
-    "color": {
-      "name": "white",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/9/"
-    },
-    "desc": "Lugia’s wings pack devastating power—a light fluttering of its\nwings can blow apart regular houses. As a result, this\nPokémon chooses to live out of sight deep under the sea."
+    "color": "white",
+    "desc": "Lugia’s wings pack devastating power—a light fluttering of its\nwings can blow apart regular houses. As a result, this\nPokémon chooses to live out of sight deep under the sea.",
+    "owned": false
   },
   {
     "id": 250,
@@ -5553,11 +5055,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/250.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "Ho-Oh’s feathers glow in seven colors depending on the angle\nat which they are struck by light. These feathers are said to\nbring happiness to the bearers. This Pokémon is said to live at\nthe foot of a rainbow."
+    "color": "rgb(255, 69, 58)",
+    "desc": "Ho-Oh’s feathers glow in seven colors depending on the angle\nat which they are struck by light. These feathers are said to\nbring happiness to the bearers. This Pokémon is said to live at\nthe foot of a rainbow.",
+    "owned": false
   },
   {
     "id": 251,
@@ -5579,11 +5079,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/251.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "This Pokémon came from the future by crossing over time.\nIt is thought that so long as Celebi appears, a bright and\nshining future awaits us."
+    "color": "rgb(52, 199, 89)",
+    "desc": "This Pokémon came from the future by crossing over time.\nIt is thought that so long as Celebi appears, a bright and\nshining future awaits us.",
+    "owned": false
   },
   {
     "id": 252,
@@ -5598,11 +5096,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/252.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "Treecko is cool, calm, and collected—it never panics under\nany situation. If a bigger foe were to glare at this Pokémon,\nit would glare right back without conceding an inch of ground."
+    "color": "rgb(52, 199, 89)",
+    "desc": "Treecko is cool, calm, and collected—it never panics under\nany situation. If a bigger foe were to glare at this Pokémon,\nit would glare right back without conceding an inch of ground.",
+    "owned": false
   },
   {
     "id": 253,
@@ -5617,11 +5113,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/253.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "This Pokémon adeptly flies from branch to branch in trees.\nIn a forest, no Pokémon can ever hope to catch a fleeing\nGrovyle however fast they may be."
+    "color": "rgb(52, 199, 89)",
+    "desc": "This Pokémon adeptly flies from branch to branch in trees.\nIn a forest, no Pokémon can ever hope to catch a fleeing\nGrovyle however fast they may be.",
+    "owned": false
   },
   {
     "id": 254,
@@ -5636,11 +5130,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/254.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "Sceptile has seeds growing on its back. They are said to be\nbursting with nutrients that revitalize trees. This Pokémon\nraises the trees in a forest with loving care."
+    "color": "rgb(52, 199, 89)",
+    "desc": "Sceptile has seeds growing on its back. They are said to be\nbursting with nutrients that revitalize trees. This Pokémon\nraises the trees in a forest with loving care.",
+    "owned": false
   },
   {
     "id": 255,
@@ -5655,11 +5147,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/255.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "Torchic has a place inside its body where it keeps its flame.\nGive it a hug—it will be glowing with warmth. This Pokémon is\ncovergb(255, 69, 58) all over by a fluffy coat of down."
+    "color": "rgb(255, 69, 58)",
+    "desc": "Torchic has a place inside its body where it keeps its flame.\nGive it a hug—it will be glowing with warmth. This Pokémon is\ncovergb(255, 69, 58) all over by a fluffy coat of down.",
+    "owned": false
   },
   {
     "id": 256,
@@ -5681,11 +5171,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/256.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "Combusken battles with the intensely hot flames it spews from\nits beak and with outstandingly destructive kicks. This\nPokémon’s cry is very loud and distracting."
+    "color": "rgb(255, 69, 58)",
+    "desc": "Combusken battles with the intensely hot flames it spews from\nits beak and with outstandingly destructive kicks. This\nPokémon’s cry is very loud and distracting.",
+    "owned": false
   },
   {
     "id": 257,
@@ -5707,11 +5195,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/257.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "Blaziken has incrgb(255, 69, 58)ibly strong legs—it can easily clear a\n30-story building in one leap. This Pokémon’s blazing punches\nleave its foes scorched and blackened."
+    "color": "rgb(255, 69, 58)",
+    "desc": "Blaziken has incrgb(255, 69, 58)ibly strong legs—it can easily clear a\n30-story building in one leap. This Pokémon’s blazing punches\nleave its foes scorched and blackened.",
+    "owned": false
   },
   {
     "id": 258,
@@ -5726,11 +5212,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/258.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "In water, Mudkip breathes using the gills on its cheeks. If it is\nfaced with a tight situation in battle, this Pokémon will unleash\nits amazing power—it can crush rocks bigger than itself."
+    "color": "rgb(10, 132, 255)",
+    "desc": "In water, Mudkip breathes using the gills on its cheeks. If it is\nfaced with a tight situation in battle, this Pokémon will unleash\nits amazing power—it can crush rocks bigger than itself.",
+    "owned": false
   },
   {
     "id": 259,
@@ -5752,11 +5236,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/259.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "Marshtomp is much faster at traveling through mud than it is at\nswimming. This Pokémon’s hindquarters exhibit obvious\ndevelopment, giving it the ability to walk on just its hind legs."
+    "color": "rgb(10, 132, 255)",
+    "desc": "Marshtomp is much faster at traveling through mud than it is at\nswimming. This Pokémon’s hindquarters exhibit obvious\ndevelopment, giving it the ability to walk on just its hind legs.",
+    "owned": false
   },
   {
     "id": 260,
@@ -5778,11 +5260,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/260.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "Swampert prgb(255, 69, 58)icts storms by sensing subtle differences in the\nsounds of waves and tidal winds with its fins. If a storm is\napproaching, it piles up boulders to protect itself."
+    "color": "rgb(10, 132, 255)",
+    "desc": "Swampert prgb(255, 69, 58)icts storms by sensing subtle differences in the\nsounds of waves and tidal winds with its fins. If a storm is\napproaching, it piles up boulders to protect itself.",
+    "owned": false
   },
   {
     "id": 261,
@@ -5797,11 +5277,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/261.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "Poochyena is an omnivore—it will eat anything. A distinguishing\nfeature is how large its fangs are compargb(255, 69, 58) to its body. This\nPokémon tries to intimidate its foes by making the hair on its\ntail bristle out."
+    "color": "gray",
+    "desc": "Poochyena is an omnivore—it will eat anything. A distinguishing\nfeature is how large its fangs are compargb(255, 69, 58) to its body. This\nPokémon tries to intimidate its foes by making the hair on its\ntail bristle out.",
+    "owned": false
   },
   {
     "id": 262,
@@ -5816,11 +5294,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/262.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "Mightyena travel and act as a pack in the wild. The memory\nof its life in the wild compels the Pokémon to obey only\nthose Trainers that it recognizes to possess superior skill."
+    "color": "gray",
+    "desc": "Mightyena travel and act as a pack in the wild. The memory\nof its life in the wild compels the Pokémon to obey only\nthose Trainers that it recognizes to possess superior skill.",
+    "owned": false
   },
   {
     "id": 263,
@@ -5835,11 +5311,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/263.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "The hair on Zigzagoon’s back is bristly. It rubs the hard back\nhair against trees to leave its territorial markings. This Pokémon\nmay play dead to fool foes in battle."
+    "color": "rgb(210, 106, 36)",
+    "desc": "The hair on Zigzagoon’s back is bristly. It rubs the hard back\nhair against trees to leave its territorial markings. This Pokémon\nmay play dead to fool foes in battle.",
+    "owned": false
   },
   {
     "id": 264,
@@ -5854,11 +5328,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/264.png",
-    "color": {
-      "name": "white",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/9/"
-    },
-    "desc": "When hunting, Linoone will make a beeline straight for the\nprey at a full run. While this Pokémon is capable of topping\n60 mph, it has to come to a screeching halt before it can turn."
+    "color": "white",
+    "desc": "When hunting, Linoone will make a beeline straight for the\nprey at a full run. While this Pokémon is capable of topping\n60 mph, it has to come to a screeching halt before it can turn.",
+    "owned": false
   },
   {
     "id": 265,
@@ -5873,11 +5345,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/265.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "Wurmple is targeted by Swellow as prey. This Pokémon\nwill try to resist by pointing the spikes on its rear at the\nattacking prgb(255, 69, 58)ator. It will weaken the foe by leaking poison\nfrom the spikes."
+    "color": "rgb(255, 69, 58)",
+    "desc": "Wurmple is targeted by Swellow as prey. This Pokémon\nwill try to resist by pointing the spikes on its rear at the\nattacking prgb(255, 69, 58)ator. It will weaken the foe by leaking poison\nfrom the spikes.",
+    "owned": false
   },
   {
     "id": 266,
@@ -5892,11 +5362,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/266.png",
-    "color": {
-      "name": "white",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/9/"
-    },
-    "desc": "Silcoon was thought to endure hunger and not consume\nanything before its evolution. However, it is now thought\nthat this Pokémon slakes its thirst by drinking rainwater\nthat collects on its silk."
+    "color": "white",
+    "desc": "Silcoon was thought to endure hunger and not consume\nanything before its evolution. However, it is now thought\nthat this Pokémon slakes its thirst by drinking rainwater\nthat collects on its silk.",
+    "owned": false
   },
   {
     "id": 267,
@@ -5918,11 +5386,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/267.png",
-    "color": {
-      "name": "yellow",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
-    },
-    "desc": "Beautifly has a long mouth like a coiled needle, which is very\nconvenient for collecting pollen from flowers. This Pokémon\nrides the spring winds as it flits around gathering pollen."
+    "color": "yellow",
+    "desc": "Beautifly has a long mouth like a coiled needle, which is very\nconvenient for collecting pollen from flowers. This Pokémon\nrides the spring winds as it flits around gathering pollen.",
+    "owned": false
   },
   {
     "id": 268,
@@ -5937,11 +5403,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/268.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "If it is attacked, Cascoon remains motionless however badly it\nmay be hurt. It does so because if it were to move, its body\nwould be weak upon evolution. This Pokémon will also not\nforget the pain it endurgb(255, 69, 58)."
+    "color": "rgb(112, 90, 159)",
+    "desc": "If it is attacked, Cascoon remains motionless however badly it\nmay be hurt. It does so because if it were to move, its body\nwould be weak upon evolution. This Pokémon will also not\nforget the pain it endurgb(255, 69, 58).",
+    "owned": false
   },
   {
     "id": 269,
@@ -5963,11 +5427,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/269.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "When Dustox flaps its wings, a fine dust is scattergb(255, 69, 58) all over.\nThis dust is actually a powerful poison that will even make a\npro wrestler sick. This Pokémon searches for food using its\nantennae like radar."
+    "color": "rgb(52, 199, 89)",
+    "desc": "When Dustox flaps its wings, a fine dust is scattergb(255, 69, 58) all over.\nThis dust is actually a powerful poison that will even make a\npro wrestler sick. This Pokémon searches for food using its\nantennae like radar.",
+    "owned": false
   },
   {
     "id": 270,
@@ -5989,11 +5451,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/270.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "Lotad is said to have dwelled on land before. However, this\nPokémon is thought to have returned to water because the\nleaf on its head grew large and heavy. It now lives by floating\natop the water."
+    "color": "rgb(52, 199, 89)",
+    "desc": "Lotad is said to have dwelled on land before. However, this\nPokémon is thought to have returned to water because the\nleaf on its head grew large and heavy. It now lives by floating\natop the water.",
+    "owned": false
   },
   {
     "id": 271,
@@ -6015,11 +5475,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/271.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "Lombre’s entire body is covergb(255, 69, 58) by a slippery, slimy film.\nIt feels horribly unpleasant to be touched by this Pokémon’s\nhands. Lombre is often mistaken for a human child."
+    "color": "rgb(52, 199, 89)",
+    "desc": "Lombre’s entire body is covergb(255, 69, 58) by a slippery, slimy film.\nIt feels horribly unpleasant to be touched by this Pokémon’s\nhands. Lombre is often mistaken for a human child.",
+    "owned": false
   },
   {
     "id": 272,
@@ -6041,11 +5499,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/272.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "Upon hearing an upbeat and cheerful rhythm, the cells in\nLudicolo’s body become very energetic and active. Even\nin battle, this Pokémon will exhibit an amazing amount\nof power."
+    "color": "rgb(52, 199, 89)",
+    "desc": "Upon hearing an upbeat and cheerful rhythm, the cells in\nLudicolo’s body become very energetic and active. Even\nin battle, this Pokémon will exhibit an amazing amount\nof power.",
+    "owned": false
   },
   {
     "id": 273,
@@ -6060,11 +5516,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/273.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "Seedot looks exactly like an acorn when it is dangling from a\ntree branch. It startles other Pokémon by suddenly moving.\nThis Pokémon polishes its body once a day using leaves."
+    "color": "rgb(210, 106, 36)",
+    "desc": "Seedot looks exactly like an acorn when it is dangling from a\ntree branch. It startles other Pokémon by suddenly moving.\nThis Pokémon polishes its body once a day using leaves.",
+    "owned": false
   },
   {
     "id": 274,
@@ -6086,11 +5540,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/274.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "This Pokémon pulls out the leaf on its head and makes a flute\nwith it. The sound of Nuzleaf’s flute strikes fear and uncertainty\nin the hearts of people lost in a forest."
+    "color": "rgb(210, 106, 36)",
+    "desc": "This Pokémon pulls out the leaf on its head and makes a flute\nwith it. The sound of Nuzleaf’s flute strikes fear and uncertainty\nin the hearts of people lost in a forest.",
+    "owned": false
   },
   {
     "id": 275,
@@ -6112,11 +5564,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/275.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "Shiftry’s large fans generate awesome gusts of wind at a\nspeed close to 100 feet per second. The whipped-up wind\nblows anything away. This Pokémon chooses to live quietly\ndeep in forests."
+    "color": "rgb(210, 106, 36)",
+    "desc": "Shiftry’s large fans generate awesome gusts of wind at a\nspeed close to 100 feet per second. The whipped-up wind\nblows anything away. This Pokémon chooses to live quietly\ndeep in forests.",
+    "owned": false
   },
   {
     "id": 276,
@@ -6138,11 +5588,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/276.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "Taillow is young—it has only just left its nest. As a result,\nit sometimes becomes lonesome and cries at night.\nThis Pokémon feeds on Wurmple that live in forests."
+    "color": "rgb(10, 132, 255)",
+    "desc": "Taillow is young—it has only just left its nest. As a result,\nit sometimes becomes lonesome and cries at night.\nThis Pokémon feeds on Wurmple that live in forests.",
+    "owned": false
   },
   {
     "id": 277,
@@ -6164,11 +5612,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/277.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "Swellow is very conscientious about the upkeep of its glossy\nwings. Once two Swellow are gathergb(255, 69, 58), they diligently take\ncare of cleaning each other’s wings."
+    "color": "rgb(10, 132, 255)",
+    "desc": "Swellow is very conscientious about the upkeep of its glossy\nwings. Once two Swellow are gathergb(255, 69, 58), they diligently take\ncare of cleaning each other’s wings.",
+    "owned": false
   },
   {
     "id": 278,
@@ -6190,11 +5636,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/278.png",
-    "color": {
-      "name": "white",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/9/"
-    },
-    "desc": "With its long, thin wings, it catches updrafts\nand flies like a glider high up into the sky."
+    "color": "white",
+    "desc": "With its long, thin wings, it catches updrafts\nand flies like a glider high up into the sky.",
+    "owned": false
   },
   {
     "id": 279,
@@ -6216,11 +5660,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/279.png",
-    "color": {
-      "name": "yellow",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
-    },
-    "desc": "It places small Pokémon into its spacious beak\nand carries them around. No one knows where\nit’s taking them."
+    "color": "yellow",
+    "desc": "It places small Pokémon into its spacious beak\nand carries them around. No one knows where\nit’s taking them.",
+    "owned": false
   },
   {
     "id": 280,
@@ -6242,11 +5684,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/280.png",
-    "color": {
-      "name": "white",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/9/"
-    },
-    "desc": "Ralts has the ability to sense the emotions of people. If its\nTrainer is in a cheerful mood, this Pokémon grows cheerful\nand joyous in the same way."
+    "color": "white",
+    "desc": "Ralts has the ability to sense the emotions of people. If its\nTrainer is in a cheerful mood, this Pokémon grows cheerful\nand joyous in the same way.",
+    "owned": false
   },
   {
     "id": 281,
@@ -6268,11 +5708,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/281.png",
-    "color": {
-      "name": "white",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/9/"
-    },
-    "desc": "Kirlia uses the horns on its head to amplify its psychokinetic\npower. When the Pokémon uses its power, the air around it\nbecomes distorted, creating mirages of nonexistent scenery."
+    "color": "white",
+    "desc": "Kirlia uses the horns on its head to amplify its psychokinetic\npower. When the Pokémon uses its power, the air around it\nbecomes distorted, creating mirages of nonexistent scenery.",
+    "owned": false
   },
   {
     "id": 282,
@@ -6294,11 +5732,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/282.png",
-    "color": {
-      "name": "white",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/9/"
-    },
-    "desc": "Gardevoir has the psychokinetic power to distort the\ndimensions and create a small black hole. This Pokémon\nwill try to protect its Trainer even at the risk of its own life."
+    "color": "white",
+    "desc": "Gardevoir has the psychokinetic power to distort the\ndimensions and create a small black hole. This Pokémon\nwill try to protect its Trainer even at the risk of its own life.",
+    "owned": false
   },
   {
     "id": 283,
@@ -6320,11 +5756,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/283.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "If it’s in a pinch, it will secrete a sweet liquid\nfrom the tip of its head. Syrup made from\ngathering that liquid is tasty on bread."
+    "color": "rgb(10, 132, 255)",
+    "desc": "If it’s in a pinch, it will secrete a sweet liquid\nfrom the tip of its head. Syrup made from\ngathering that liquid is tasty on bread.",
+    "owned": false
   },
   {
     "id": 284,
@@ -6346,11 +5780,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/284.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "Masquerain intimidates enemies with the eyelike\npatterns of its eyespots. If that doesn’t work, it\ndeftly makes its escape on its set of four wings."
+    "color": "rgb(10, 132, 255)",
+    "desc": "Masquerain intimidates enemies with the eyelike\npatterns of its eyespots. If that doesn’t work, it\ndeftly makes its escape on its set of four wings.",
+    "owned": false
   },
   {
     "id": 285,
@@ -6365,11 +5797,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/285.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "If Shroomish senses danger, it shakes its body and scatters\nspores from the top of its head. This Pokémon’s spores are\nso toxic, they make trees and weeds wilt."
+    "color": "rgb(210, 106, 36)",
+    "desc": "If Shroomish senses danger, it shakes its body and scatters\nspores from the top of its head. This Pokémon’s spores are\nso toxic, they make trees and weeds wilt.",
+    "owned": false
   },
   {
     "id": 286,
@@ -6391,11 +5821,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/286.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "The seeds ringing Breloom’s tail are made of hardened toxic\nspores. It is horrible to eat the seeds. Just taking a bite of this\nPokémon’s seed will cause your stomach to rumble."
+    "color": "rgb(52, 199, 89)",
+    "desc": "The seeds ringing Breloom’s tail are made of hardened toxic\nspores. It is horrible to eat the seeds. Just taking a bite of this\nPokémon’s seed will cause your stomach to rumble.",
+    "owned": false
   },
   {
     "id": 287,
@@ -6410,11 +5838,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/287.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "Slakoth’s heart beats just once a minute. Whatever happens,\nit is content to loaf around motionless. It is rare to see this\nPokémon in motion."
+    "color": "rgb(210, 106, 36)",
+    "desc": "Slakoth’s heart beats just once a minute. Whatever happens,\nit is content to loaf around motionless. It is rare to see this\nPokémon in motion.",
+    "owned": false
   },
   {
     "id": 288,
@@ -6429,11 +5855,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/288.png",
-    "color": {
-      "name": "white",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/9/"
-    },
-    "desc": "Vigoroth is simply incapable of remaining still. Even when it\ntries to sleep, the blood in its veins grows agitated, compelling\nthis Pokémon to run wild throughout the jungle before it can\nsettle down."
+    "color": "white",
+    "desc": "Vigoroth is simply incapable of remaining still. Even when it\ntries to sleep, the blood in its veins grows agitated, compelling\nthis Pokémon to run wild throughout the jungle before it can\nsettle down.",
+    "owned": false
   },
   {
     "id": 289,
@@ -6448,11 +5872,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/289.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "Wherever Slaking live, rings of over a yard in diameter appear\nin grassy fields. They are made by the Pokémon as it eats all\nthe grass within reach while lying prone on the ground."
+    "color": "rgb(210, 106, 36)",
+    "desc": "Wherever Slaking live, rings of over a yard in diameter appear\nin grassy fields. They are made by the Pokémon as it eats all\nthe grass within reach while lying prone on the ground.",
+    "owned": false
   },
   {
     "id": 290,
@@ -6474,11 +5896,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/290.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "Nincada lives underground. It uses its sharp claws to carve the\nroots of trees and absorb moisture and nutrients.\nThis Pokémon can’t withstand bright sunlight so avoids it."
+    "color": "gray",
+    "desc": "Nincada lives underground. It uses its sharp claws to carve the\nroots of trees and absorb moisture and nutrients.\nThis Pokémon can’t withstand bright sunlight so avoids it.",
+    "owned": false
   },
   {
     "id": 291,
@@ -6500,11 +5920,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/291.png",
-    "color": {
-      "name": "yellow",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
-    },
-    "desc": "If Ninjask is not trained properly, it will refuse to obey\nthe Trainer and cry loudly continuously. Because of this\nquality, this Pokémon is said to be one that puts the\nTrainer’s abilities to the test."
+    "color": "yellow",
+    "desc": "If Ninjask is not trained properly, it will refuse to obey\nthe Trainer and cry loudly continuously. Because of this\nquality, this Pokémon is said to be one that puts the\nTrainer’s abilities to the test.",
+    "owned": false
   },
   {
     "id": 292,
@@ -6526,11 +5944,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/292.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "Shedinja is a peculiar Pokémon. It seems to appear unsought\nin a Poké Ball after a Nincada evolves. This bizarre Pokémon\nis entirely immobile—it doesn’t even breathe."
+    "color": "rgb(210, 106, 36)",
+    "desc": "Shedinja is a peculiar Pokémon. It seems to appear unsought\nin a Poké Ball after a Nincada evolves. This bizarre Pokémon\nis entirely immobile—it doesn’t even breathe.",
+    "owned": false
   },
   {
     "id": 293,
@@ -6545,11 +5961,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/293.png",
-    "color": {
-      "name": "pink",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/6/"
-    },
-    "desc": "Whismur is very timid. If it starts to cry loudly, it becomes\nstartled by its own crying and cries even harder. When it finally\nstops crying, the Pokémon goes to sleep, all tirgb(255, 69, 58) out."
+    "color": "pink",
+    "desc": "Whismur is very timid. If it starts to cry loudly, it becomes\nstartled by its own crying and cries even harder. When it finally\nstops crying, the Pokémon goes to sleep, all tirgb(255, 69, 58) out.",
+    "owned": false
   },
   {
     "id": 294,
@@ -6564,11 +5978,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/294.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "Loudrgb(255, 69, 58) shouts while stamping its feet. After it finishes\nshouting, this Pokémon becomes incapable of hearing\nanything for a while. This is considergb(255, 69, 58) to be a weak point."
+    "color": "rgb(10, 132, 255)",
+    "desc": "Loudrgb(255, 69, 58) shouts while stamping its feet. After it finishes\nshouting, this Pokémon becomes incapable of hearing\nanything for a while. This is considergb(255, 69, 58) to be a weak point.",
+    "owned": false
   },
   {
     "id": 295,
@@ -6583,11 +5995,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/295.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "Exploud communicates its feelings to the others by emitting\nwhistle-like sounds from the tubes on its body. This Pokémon\nonly raises its voice when it is in battle."
+    "color": "rgb(10, 132, 255)",
+    "desc": "Exploud communicates its feelings to the others by emitting\nwhistle-like sounds from the tubes on its body. This Pokémon\nonly raises its voice when it is in battle.",
+    "owned": false
   },
   {
     "id": 296,
@@ -6602,11 +6012,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/296.png",
-    "color": {
-      "name": "yellow",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
-    },
-    "desc": "It practices its slaps by repeatedly slapping\ntree trunks. It has been known to slap an\nExeggutor and get flung away."
+    "color": "yellow",
+    "desc": "It practices its slaps by repeatedly slapping\ntree trunks. It has been known to slap an\nExeggutor and get flung away.",
+    "owned": false
   },
   {
     "id": 297,
@@ -6621,11 +6029,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/297.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "Although they enjoy comparing their strength,\nthey’re also kind. They value etiquette, praising\nopponents they battle."
+    "color": "rgb(210, 106, 36)",
+    "desc": "Although they enjoy comparing their strength,\nthey’re also kind. They value etiquette, praising\nopponents they battle.",
+    "owned": false
   },
   {
     "id": 298,
@@ -6647,11 +6053,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/298.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "Azurill’s tail is large and bouncy. It is packed full of the\nnutrients this Pokémon needs to grow. Azurill can be seen\nbouncing and playing on its big, rubbery tail."
+    "color": "rgb(10, 132, 255)",
+    "desc": "Azurill’s tail is large and bouncy. It is packed full of the\nnutrients this Pokémon needs to grow. Azurill can be seen\nbouncing and playing on its big, rubbery tail.",
+    "owned": false
   },
   {
     "id": 299,
@@ -6666,11 +6070,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/299.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "It moves less than an inch a year, but when\nit’s in a jam, it will spin and drill down into the\nground in a split second."
+    "color": "gray",
+    "desc": "It moves less than an inch a year, but when\nit’s in a jam, it will spin and drill down into the\nground in a split second.",
+    "owned": false
   },
   {
     "id": 300,
@@ -6685,11 +6087,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/300.png",
-    "color": {
-      "name": "pink",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/6/"
-    },
-    "desc": "Skitty is known to chase around playfully after its own tail.\nIn the wild, this Pokémon lives in holes in the trees of forests.\nIt is very popular as a pet because of its adorable looks."
+    "color": "pink",
+    "desc": "Skitty is known to chase around playfully after its own tail.\nIn the wild, this Pokémon lives in holes in the trees of forests.\nIt is very popular as a pet because of its adorable looks.",
+    "owned": false
   },
   {
     "id": 301,
@@ -6704,11 +6104,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/301.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "Delcatty sleeps anywhere it wants without keeping a permanent\nnest. If other Pokémon approach it as it sleeps, this Pokémon\nwill never fight—it will just move away somewhere else."
+    "color": "rgb(112, 90, 159)",
+    "desc": "Delcatty sleeps anywhere it wants without keeping a permanent\nnest. If other Pokémon approach it as it sleeps, this Pokémon\nwill never fight—it will just move away somewhere else.",
+    "owned": false
   },
   {
     "id": 302,
@@ -6730,11 +6128,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/302.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "It digs through the ground with its hard claws\nand crunches down gems with its thick pointy\nteeth. Carbink is its favorite food."
+    "color": "rgb(112, 90, 159)",
+    "desc": "It digs through the ground with its hard claws\nand crunches down gems with its thick pointy\nteeth. Carbink is its favorite food.",
+    "owned": false
   },
   {
     "id": 303,
@@ -6756,11 +6152,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/303.png",
-    "color": {
-      "name": "black",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/1/"
-    },
-    "desc": "A cunning and terrifying Pokémon, its cuteness\nmakes opponents let down their guard—and\nthen it swallows them whole with its huge jaws."
+    "color": "black",
+    "desc": "A cunning and terrifying Pokémon, its cuteness\nmakes opponents let down their guard—and\nthen it swallows them whole with its huge jaws.",
+    "owned": false
   },
   {
     "id": 304,
@@ -6782,11 +6176,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/304.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "Aron has a body of steel. With one all-out charge, this\nPokémon can demolish even a heavy dump truck.\nThe destroyed dump truck then becomes a handy meal\nfor the Pokémon."
+    "color": "gray",
+    "desc": "Aron has a body of steel. With one all-out charge, this\nPokémon can demolish even a heavy dump truck.\nThe destroyed dump truck then becomes a handy meal\nfor the Pokémon.",
+    "owned": false
   },
   {
     "id": 305,
@@ -6808,11 +6200,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/305.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "Lairon feeds on iron contained in rocks and water. It makes\nits nest on mountains where iron ore is buried. As a result,\nthe Pokémon often clashes with humans mining the iron ore."
+    "color": "gray",
+    "desc": "Lairon feeds on iron contained in rocks and water. It makes\nits nest on mountains where iron ore is buried. As a result,\nthe Pokémon often clashes with humans mining the iron ore.",
+    "owned": false
   },
   {
     "id": 306,
@@ -6834,11 +6224,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/306.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "Aggron is protective of its environment. If its mountain is\nravaged by a landslide or a fire, this Pokémon will haul\ntopsoil to the area, plant trees, and beautifully restore its\nown territory."
+    "color": "gray",
+    "desc": "Aggron is protective of its environment. If its mountain is\nravaged by a landslide or a fire, this Pokémon will haul\ntopsoil to the area, plant trees, and beautifully restore its\nown territory.",
+    "owned": false
   },
   {
     "id": 307,
@@ -6860,11 +6248,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/307.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "Meditite heightens its inner energy through meditation.\nIt survives on just one berry a day. Minimal eating is another\naspect of this Pokémon’s training."
+    "color": "rgb(10, 132, 255)",
+    "desc": "Meditite heightens its inner energy through meditation.\nIt survives on just one berry a day. Minimal eating is another\naspect of this Pokémon’s training.",
+    "owned": false
   },
   {
     "id": 308,
@@ -6886,11 +6272,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/308.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "Through the power of meditation, Medicham developed its\nsixth sense. It gained the ability to use psychokinetic powers.\nThis Pokémon is known to meditate for a whole month\nwithout eating."
+    "color": "rgb(255, 69, 58)",
+    "desc": "Through the power of meditation, Medicham developed its\nsixth sense. It gained the ability to use psychokinetic powers.\nThis Pokémon is known to meditate for a whole month\nwithout eating.",
+    "owned": false
   },
   {
     "id": 309,
@@ -6905,11 +6289,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/309.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "Friction between the air and its fur produces\nstatic electricity. When Electrike runs, it makes\na crackling sound."
+    "color": "rgb(52, 199, 89)",
+    "desc": "Friction between the air and its fur produces\nstatic electricity. When Electrike runs, it makes\na crackling sound.",
+    "owned": false
   },
   {
     "id": 310,
@@ -6924,11 +6306,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/310.png",
-    "color": {
-      "name": "yellow",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
-    },
-    "desc": "Manectric can be found beneath unnatural\nthunderclouds. People say it can run at the\nsame speed as lightning striking."
+    "color": "yellow",
+    "desc": "Manectric can be found beneath unnatural\nthunderclouds. People say it can run at the\nsame speed as lightning striking.",
+    "owned": false
   },
   {
     "id": 311,
@@ -6943,11 +6323,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/311.png",
-    "color": {
-      "name": "yellow",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
-    },
-    "desc": "When Plusle is cheering on its partner, it flashes with electric\nsparks from all over its body. If its partner loses, this Pokémon\ncries loudly."
+    "color": "yellow",
+    "desc": "When Plusle is cheering on its partner, it flashes with electric\nsparks from all over its body. If its partner loses, this Pokémon\ncries loudly.",
+    "owned": false
   },
   {
     "id": 312,
@@ -6962,11 +6340,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/312.png",
-    "color": {
-      "name": "yellow",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
-    },
-    "desc": "Minun loves to cheer on its partner in battle. It gives off sparks\nfrom its body while it is doing so. If its partner is in trouble,\nthis Pokémon gives off increasing amounts of sparks."
+    "color": "yellow",
+    "desc": "Minun loves to cheer on its partner in battle. It gives off sparks\nfrom its body while it is doing so. If its partner is in trouble,\nthis Pokémon gives off increasing amounts of sparks.",
+    "owned": false
   },
   {
     "id": 313,
@@ -6981,11 +6357,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/313.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "Volbeat’s tail glows like a lightbulb. With other Volbeat,\nit uses its tail to draw geometric shapes in the night sky.\nThis Pokémon loves the sweet aroma given off by Illumise."
+    "color": "gray",
+    "desc": "Volbeat’s tail glows like a lightbulb. With other Volbeat,\nit uses its tail to draw geometric shapes in the night sky.\nThis Pokémon loves the sweet aroma given off by Illumise.",
+    "owned": false
   },
   {
     "id": 314,
@@ -7000,11 +6374,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/314.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "Illumise leads a flight of illuminated Volbeat to draw signs in\nthe night sky. This Pokémon is said to earn greater respect\nfrom its peers by composing more complex designs in the sky."
+    "color": "rgb(112, 90, 159)",
+    "desc": "Illumise leads a flight of illuminated Volbeat to draw signs in\nthe night sky. This Pokémon is said to earn greater respect\nfrom its peers by composing more complex designs in the sky.",
+    "owned": false
   },
   {
     "id": 315,
@@ -7026,11 +6398,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/315.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "On extremely rare occasions, a Roselia is said to appear with\nits flowers in unusual colors. The thorns on this Pokémon’s\nhead contain a vicious poison."
+    "color": "rgb(52, 199, 89)",
+    "desc": "On extremely rare occasions, a Roselia is said to appear with\nits flowers in unusual colors. The thorns on this Pokémon’s\nhead contain a vicious poison.",
+    "owned": false
   },
   {
     "id": 316,
@@ -7045,11 +6415,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/316.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "Most of Gulpin’s body is made up of its stomach—its heart and\nbrain are very small in comparison. This Pokémon’s stomach\ncontains special enzymes that dissolve anything."
+    "color": "rgb(52, 199, 89)",
+    "desc": "Most of Gulpin’s body is made up of its stomach—its heart and\nbrain are very small in comparison. This Pokémon’s stomach\ncontains special enzymes that dissolve anything.",
+    "owned": false
   },
   {
     "id": 317,
@@ -7064,11 +6432,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/317.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "Swalot has no teeth, so what it eats, it swallows whole, no\nmatter what. Its cavernous mouth yawns widely. An automobile\ntire could easily fit inside this Pokémon’s mouth."
+    "color": "rgb(112, 90, 159)",
+    "desc": "Swalot has no teeth, so what it eats, it swallows whole, no\nmatter what. Its cavernous mouth yawns widely. An automobile\ntire could easily fit inside this Pokémon’s mouth.",
+    "owned": false
   },
   {
     "id": 318,
@@ -7090,11 +6456,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/318.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "They’re such cowards that they won’t hunt\nalone. When five or so of them get together,\nthey suddenly turn ferocious!"
+    "color": "rgb(255, 69, 58)",
+    "desc": "They’re such cowards that they won’t hunt\nalone. When five or so of them get together,\nthey suddenly turn ferocious!",
+    "owned": false
   },
   {
     "id": 319,
@@ -7116,11 +6480,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/319.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "People believe that carrying one of its\ndiscarded fangs will prevent mishaps at sea,\nso the fangs are made into accessories."
+    "color": "rgb(10, 132, 255)",
+    "desc": "People believe that carrying one of its\ndiscarded fangs will prevent mishaps at sea,\nso the fangs are made into accessories.",
+    "owned": false
   },
   {
     "id": 320,
@@ -7135,11 +6497,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/320.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "It swims along with its mouth open and\nswallows down seawater along with its food.\nIt sprays excess water out of its nostrils."
+    "color": "rgb(10, 132, 255)",
+    "desc": "It swims along with its mouth open and\nswallows down seawater along with its food.\nIt sprays excess water out of its nostrils.",
+    "owned": false
   },
   {
     "id": 321,
@@ -7154,11 +6514,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/321.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "They eat so many fish Pokémon that when\nWailord become too numerous, fishermen have\nto chase them off."
+    "color": "rgb(10, 132, 255)",
+    "desc": "They eat so many fish Pokémon that when\nWailord become too numerous, fishermen have\nto chase them off.",
+    "owned": false
   },
   {
     "id": 322,
@@ -7180,11 +6538,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/322.png",
-    "color": {
-      "name": "yellow",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
-    },
-    "desc": "Numel stores magma of almost 2,200 degrees Fahrenheit\nwithin its body. If it gets wet, the magma cools and hardens.\nIn that event, the Pokémon’s body grows heavy and its\nmovements become sluggish."
+    "color": "yellow",
+    "desc": "Numel stores magma of almost 2,200 degrees Fahrenheit\nwithin its body. If it gets wet, the magma cools and hardens.\nIn that event, the Pokémon’s body grows heavy and its\nmovements become sluggish.",
+    "owned": false
   },
   {
     "id": 323,
@@ -7206,11 +6562,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/323.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "The humps on Camerupt’s back are formed by a transformation\nof its bones. They sometimes blast out molten magma.\nThis Pokémon apparently erupts often when it is enraged."
+    "color": "rgb(255, 69, 58)",
+    "desc": "The humps on Camerupt’s back are formed by a transformation\nof its bones. They sometimes blast out molten magma.\nThis Pokémon apparently erupts often when it is enraged.",
+    "owned": false
   },
   {
     "id": 324,
@@ -7225,11 +6579,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/324.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "You can tell how it’s feeling by the smoke\nspouting from its shell. Tremendous velocity\nis a sign of good health."
+    "color": "rgb(210, 106, 36)",
+    "desc": "You can tell how it’s feeling by the smoke\nspouting from its shell. Tremendous velocity\nis a sign of good health.",
+    "owned": false
   },
   {
     "id": 325,
@@ -7244,11 +6596,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/325.png",
-    "color": {
-      "name": "black",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/1/"
-    },
-    "desc": "Spoink keeps a pearl on top of its head. The pearl functions to\namplify this Pokémon’s psychokinetic powers. It is therefore on\na constant search for a bigger pearl."
+    "color": "black",
+    "desc": "Spoink keeps a pearl on top of its head. The pearl functions to\namplify this Pokémon’s psychokinetic powers. It is therefore on\na constant search for a bigger pearl.",
+    "owned": false
   },
   {
     "id": 326,
@@ -7263,11 +6613,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/326.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "Grumpig uses the black pearls on its body to wield\nits fantastic powers. When it is doing so, it dances bizarrely.\nThis Pokémon’s black pearls are valuable as works of art."
+    "color": "rgb(112, 90, 159)",
+    "desc": "Grumpig uses the black pearls on its body to wield\nits fantastic powers. When it is doing so, it dances bizarrely.\nThis Pokémon’s black pearls are valuable as works of art.",
+    "owned": false
   },
   {
     "id": 327,
@@ -7282,11 +6630,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/327.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "Its steps are shaky and stumbling. Walking for a\nlong time makes it feel sick."
+    "color": "rgb(210, 106, 36)",
+    "desc": "Its steps are shaky and stumbling. Walking for a\nlong time makes it feel sick.",
+    "owned": false
   },
   {
     "id": 328,
@@ -7301,11 +6647,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/328.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "Its jaws are strong enough to crush rocks but\nso heavy that it can’t get up if it flips over.\nSandile seize those moments as their chance."
+    "color": "rgb(210, 106, 36)",
+    "desc": "Its jaws are strong enough to crush rocks but\nso heavy that it can’t get up if it flips over.\nSandile seize those moments as their chance.",
+    "owned": false
   },
   {
     "id": 329,
@@ -7327,11 +6671,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/329.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "It vibrates its wings to generate ultrasonic\nwaves, causing its prey to faint. Then it buries\nthe prey alive in the sand to preserve it."
+    "color": "rgb(52, 199, 89)",
+    "desc": "It vibrates its wings to generate ultrasonic\nwaves, causing its prey to faint. Then it buries\nthe prey alive in the sand to preserve it.",
+    "owned": false
   },
   {
     "id": 330,
@@ -7353,11 +6695,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/330.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "By flapping their wings, Flygon cause\nsandstorms that conceal Krookodile.\nThe team then splits the prey they catch."
+    "color": "rgb(52, 199, 89)",
+    "desc": "By flapping their wings, Flygon cause\nsandstorms that conceal Krookodile.\nThe team then splits the prey they catch.",
+    "owned": false
   },
   {
     "id": 331,
@@ -7372,11 +6712,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/331.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "The more arid and harsh the environment, the more pretty and\nfragrant a flower Cacnea grows. This Pokémon battles by\nwildly swinging its thorny arms."
+    "color": "rgb(52, 199, 89)",
+    "desc": "The more arid and harsh the environment, the more pretty and\nfragrant a flower Cacnea grows. This Pokémon battles by\nwildly swinging its thorny arms.",
+    "owned": false
   },
   {
     "id": 332,
@@ -7398,11 +6736,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/332.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "If a traveler is going through a desert in the thick of night,\nCacturne will follow in a ragtag group. The Pokémon are\nbiding their time, waiting for the traveler to tire and become\nincapable of moving."
+    "color": "rgb(52, 199, 89)",
+    "desc": "If a traveler is going through a desert in the thick of night,\nCacturne will follow in a ragtag group. The Pokémon are\nbiding their time, waiting for the traveler to tire and become\nincapable of moving.",
+    "owned": false
   },
   {
     "id": 333,
@@ -7424,11 +6760,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/333.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "Swablu loves to make things clean. If it spots something dirty,\nit will wipe and polish it with its cottony wings. If its wings\nbecome dirty, this Pokémon finds a stream and showers itself."
+    "color": "rgb(10, 132, 255)",
+    "desc": "Swablu loves to make things clean. If it spots something dirty,\nit will wipe and polish it with its cottony wings. If its wings\nbecome dirty, this Pokémon finds a stream and showers itself.",
+    "owned": false
   },
   {
     "id": 334,
@@ -7450,11 +6784,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/334.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "Altaria sings in a gorgeous soprano. Its wings are like cotton\nclouds. This Pokémon catches updrafts with its buoyant wings\nand soars way up into the wild rgb(10, 132, 255) yonder."
+    "color": "rgb(10, 132, 255)",
+    "desc": "Altaria sings in a gorgeous soprano. Its wings are like cotton\nclouds. This Pokémon catches updrafts with its buoyant wings\nand soars way up into the wild rgb(10, 132, 255) yonder.",
+    "owned": false
   },
   {
     "id": 335,
@@ -7469,11 +6801,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/335.png",
-    "color": {
-      "name": "white",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/9/"
-    },
-    "desc": "Zangoose usually stays on all fours, but when angergb(255, 69, 58), it gets\nup on its hind legs and extends its claws. This Pokémon shares\na bitter rivalry with Seviper that dates back over generations."
+    "color": "white",
+    "desc": "Zangoose usually stays on all fours, but when angergb(255, 69, 58), it gets\nup on its hind legs and extends its claws. This Pokémon shares\na bitter rivalry with Seviper that dates back over generations.",
+    "owned": false
   },
   {
     "id": 336,
@@ -7488,11 +6818,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/336.png",
-    "color": {
-      "name": "black",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/1/"
-    },
-    "desc": "Seviper’s swordlike tail serves two purposes—it slashes foes\nand douses them with secreted poison. This Pokémon will not\ngive up its long-running blood feud with Zangoose."
+    "color": "black",
+    "desc": "Seviper’s swordlike tail serves two purposes—it slashes foes\nand douses them with secreted poison. This Pokémon will not\ngive up its long-running blood feud with Zangoose.",
+    "owned": false
   },
   {
     "id": 337,
@@ -7514,11 +6842,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/337.png",
-    "color": {
-      "name": "yellow",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
-    },
-    "desc": "Lunatone becomes active around the time of the full moon.\nInstead of walking, it moves by floating in midair.\nThe Pokémon’s intimidating rgb(255, 69, 58) eyes cause all those who\nsee it to become transfixed with fear."
+    "color": "yellow",
+    "desc": "Lunatone becomes active around the time of the full moon.\nInstead of walking, it moves by floating in midair.\nThe Pokémon’s intimidating rgb(255, 69, 58) eyes cause all those who\nsee it to become transfixed with fear.",
+    "owned": false
   },
   {
     "id": 338,
@@ -7540,11 +6866,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/338.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "Sunlight is the source of Solrock’s power. It is said to possess\nthe ability to read the emotions of others. This Pokémon gives\noff intense heat while rotating its body."
+    "color": "rgb(255, 69, 58)",
+    "desc": "Sunlight is the source of Solrock’s power. It is said to possess\nthe ability to read the emotions of others. This Pokémon gives\noff intense heat while rotating its body.",
+    "owned": false
   },
   {
     "id": 339,
@@ -7566,11 +6890,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/339.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "Its entire body is gooey. When pecked at by\nbird Pokémon, it slips and slides its way\nto freedom."
+    "color": "gray",
+    "desc": "Its entire body is gooey. When pecked at by\nbird Pokémon, it slips and slides its way\nto freedom.",
+    "owned": false
   },
   {
     "id": 340,
@@ -7592,11 +6914,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/340.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "Whiscash shakes the ground at high intensities\nto intimidate its opponents. It swallows its prey\nwhole—along with mud from the swamp floor."
+    "color": "rgb(10, 132, 255)",
+    "desc": "Whiscash shakes the ground at high intensities\nto intimidate its opponents. It swallows its prey\nwhole—along with mud from the swamp floor.",
+    "owned": false
   },
   {
     "id": 341,
@@ -7611,11 +6931,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/341.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "Individuals that have been set free by Trainers\nwho could no longer raise them have become\ncommon, and they can now be found in Alola."
+    "color": "rgb(255, 69, 58)",
+    "desc": "Individuals that have been set free by Trainers\nwho could no longer raise them have become\ncommon, and they can now be found in Alola.",
+    "owned": false
   },
   {
     "id": 342,
@@ -7637,11 +6955,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/342.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "Its temperament is rough and it loves to fight,\nbut as soon as its pincers break off, it turns\ncowardly. It stays timid until they grow back."
+    "color": "rgb(255, 69, 58)",
+    "desc": "Its temperament is rough and it loves to fight,\nbut as soon as its pincers break off, it turns\ncowardly. It stays timid until they grow back.",
+    "owned": false
   },
   {
     "id": 343,
@@ -7663,11 +6979,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/343.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "Depictions of Pokémon similar to Baltoy have\nbeen found on the walls of caves where\nprimitive humans lived."
+    "color": "rgb(210, 106, 36)",
+    "desc": "Depictions of Pokémon similar to Baltoy have\nbeen found on the walls of caves where\nprimitive humans lived.",
+    "owned": false
   },
   {
     "id": 344,
@@ -7689,11 +7003,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/344.png",
-    "color": {
-      "name": "black",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/1/"
-    },
-    "desc": "If it gets wet, its body melts. When rain starts\nto fall, it wraps its whole body up with its\npsychic powers to protect itself."
+    "color": "black",
+    "desc": "If it gets wet, its body melts. When rain starts\nto fall, it wraps its whole body up with its\npsychic powers to protect itself.",
+    "owned": false
   },
   {
     "id": 345,
@@ -7715,11 +7027,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/345.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "In ancient times, it lived in warm seas. It\ndisguised itself as seaweed to ambush its prey\nand devourgb(255, 69, 58) them whole when they got close."
+    "color": "rgb(112, 90, 159)",
+    "desc": "In ancient times, it lived in warm seas. It\ndisguised itself as seaweed to ambush its prey\nand devourgb(255, 69, 58) them whole when they got close.",
+    "owned": false
   },
   {
     "id": 346,
@@ -7741,11 +7051,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/346.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "Normally, it lived on shallow sea shoals. When\nthe tide went out, this Pokémon came up on\nland to search for prey."
+    "color": "rgb(52, 199, 89)",
+    "desc": "Normally, it lived on shallow sea shoals. When\nthe tide went out, this Pokémon came up on\nland to search for prey.",
+    "owned": false
   },
   {
     "id": 347,
@@ -7767,11 +7075,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/347.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "When restorgb(255, 69, 58) Anorith are released into the\nocean, they don’t thrive, because the water\ncomposition has changed since their era."
+    "color": "gray",
+    "desc": "When restorgb(255, 69, 58) Anorith are released into the\nocean, they don’t thrive, because the water\ncomposition has changed since their era.",
+    "owned": false
   },
   {
     "id": 348,
@@ -7793,11 +7099,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/348.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "It lived on land and went out into the sea to\nhunt for prey. Its sharp claws were its\ngreatest weapon."
+    "color": "gray",
+    "desc": "It lived on land and went out into the sea to\nhunt for prey. Its sharp claws were its\ngreatest weapon.",
+    "owned": false
   },
   {
     "id": 349,
@@ -7812,11 +7116,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/349.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "They look ragged, so no one catches them. They\nlook like they’d taste bad, so prgb(255, 69, 58)ators won’t\neat them. And their numbers continue to grow."
+    "color": "rgb(210, 106, 36)",
+    "desc": "They look ragged, so no one catches them. They\nlook like they’d taste bad, so prgb(255, 69, 58)ators won’t\neat them. And their numbers continue to grow.",
+    "owned": false
   },
   {
     "id": 350,
@@ -7831,11 +7133,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/350.png",
-    "color": {
-      "name": "pink",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/6/"
-    },
-    "desc": "While Milotic is said to be the most beautiful\nPokémon, Trainers who like Feebas and have\nraised it are seemingly disappointed by Milotic."
+    "color": "pink",
+    "desc": "While Milotic is said to be the most beautiful\nPokémon, Trainers who like Feebas and have\nraised it are seemingly disappointed by Milotic.",
+    "owned": false
   },
   {
     "id": 351,
@@ -7850,11 +7150,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/351.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "Although its form changes with the weather,\nthat is apparently the result of a chemical\nreaction and not the result of its own free will."
+    "color": "gray",
+    "desc": "Although its form changes with the weather,\nthat is apparently the result of a chemical\nreaction and not the result of its own free will.",
+    "owned": false
   },
   {
     "id": 352,
@@ -7869,11 +7167,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/352.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "It changes its hue to blend into its surroundings.\nIf no one takes notice of it for too long, it will\npout and never reveal itself."
+    "color": "rgb(52, 199, 89)",
+    "desc": "It changes its hue to blend into its surroundings.\nIf no one takes notice of it for too long, it will\npout and never reveal itself.",
+    "owned": false
   },
   {
     "id": 353,
@@ -7888,11 +7184,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/353.png",
-    "color": {
-      "name": "black",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/1/"
-    },
-    "desc": "It eats up emotions like malice, jealousy, and\nresentment, so some people are grateful for\nits presence."
+    "color": "black",
+    "desc": "It eats up emotions like malice, jealousy, and\nresentment, so some people are grateful for\nits presence.",
+    "owned": false
   },
   {
     "id": 354,
@@ -7907,11 +7201,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/354.png",
-    "color": {
-      "name": "black",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/1/"
-    },
-    "desc": "It’s a stuffed toy that was thrown away and\nbecame possessed, ever searching for the one\nwho threw it away so it can exact its revenge."
+    "color": "black",
+    "desc": "It’s a stuffed toy that was thrown away and\nbecame possessed, ever searching for the one\nwho threw it away so it can exact its revenge.",
+    "owned": false
   },
   {
     "id": 355,
@@ -7926,11 +7218,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/355.png",
-    "color": {
-      "name": "black",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/1/"
-    },
-    "desc": "Duskull wanders lost among the deep darkness of midnight.\nThere is an oft-told admonishment given to misbehaving\nchildren that this Pokémon will spirit away bad children who\nearn scoldings from their mothers."
+    "color": "black",
+    "desc": "Duskull wanders lost among the deep darkness of midnight.\nThere is an oft-told admonishment given to misbehaving\nchildren that this Pokémon will spirit away bad children who\nearn scoldings from their mothers.",
+    "owned": false
   },
   {
     "id": 356,
@@ -7945,11 +7235,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/356.png",
-    "color": {
-      "name": "black",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/1/"
-    },
-    "desc": "Dusclops absorbs anything, however large the object may be.\nThis Pokémon hypnotizes its foe by waving its hands in a\nmacabre manner and by bringing its single eye to bear.\nThe hypnotized foe is made to do Dusclops’s bidding."
+    "color": "black",
+    "desc": "Dusclops absorbs anything, however large the object may be.\nThis Pokémon hypnotizes its foe by waving its hands in a\nmacabre manner and by bringing its single eye to bear.\nThe hypnotized foe is made to do Dusclops’s bidding.",
+    "owned": false
   },
   {
     "id": 357,
@@ -7971,11 +7259,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/357.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "The bunches of fruit growing around the necks\nof Tropius in Alola are especially sweet\ncompargb(255, 69, 58) to those in other regions."
+    "color": "rgb(52, 199, 89)",
+    "desc": "The bunches of fruit growing around the necks\nof Tropius in Alola are especially sweet\ncompargb(255, 69, 58) to those in other regions.",
+    "owned": false
   },
   {
     "id": 358,
@@ -7990,11 +7276,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/358.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "In high winds, Chimecho cries as it hangs from a tree branch or\nthe eaves of a building using a suction cup on its head. This\nPokémon plucks berries with its long tail and eats them."
+    "color": "rgb(10, 132, 255)",
+    "desc": "In high winds, Chimecho cries as it hangs from a tree branch or\nthe eaves of a building using a suction cup on its head. This\nPokémon plucks berries with its long tail and eats them.",
+    "owned": false
   },
   {
     "id": 359,
@@ -8009,11 +7293,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/359.png",
-    "color": {
-      "name": "white",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/9/"
-    },
-    "desc": "The only thing unlucky about Absol is its\nappearance. It protects fields and warns people\nof disaster, so one ought to be grateful for it."
+    "color": "white",
+    "desc": "The only thing unlucky about Absol is its\nappearance. It protects fields and warns people\nof disaster, so one ought to be grateful for it.",
+    "owned": false
   },
   {
     "id": 360,
@@ -8028,11 +7310,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/360.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "Wynaut gather on moonlit nights to play by squeezing up\nagainst each other. By being squeezed, this Pokémon gains\nendurance and is trained to dole out powerful counterattacks."
+    "color": "rgb(10, 132, 255)",
+    "desc": "Wynaut gather on moonlit nights to play by squeezing up\nagainst each other. By being squeezed, this Pokémon gains\nendurance and is trained to dole out powerful counterattacks.",
+    "owned": false
   },
   {
     "id": 361,
@@ -8047,11 +7327,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/361.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "It feeds mainly on ice and snow. It’s only able to\nsurvive in a limited number of places in the\nwarm Alola region."
+    "color": "gray",
+    "desc": "It feeds mainly on ice and snow. It’s only able to\nsurvive in a limited number of places in the\nwarm Alola region.",
+    "owned": false
   },
   {
     "id": 362,
@@ -8066,11 +7344,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/362.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "It freezes its prey and chews them whole.\nHowever, it prefers to eat Pokémon like Vanillite\nthat are already frozen."
+    "color": "gray",
+    "desc": "It freezes its prey and chews them whole.\nHowever, it prefers to eat Pokémon like Vanillite\nthat are already frozen.",
+    "owned": false
   },
   {
     "id": 363,
@@ -8092,11 +7368,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/363.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "Spheal always travels by rolling around on its ball-like body.\nWhen the season for ice floes arrives, this Pokémon can be\nseen rolling about on ice and crossing the sea."
+    "color": "rgb(10, 132, 255)",
+    "desc": "Spheal always travels by rolling around on its ball-like body.\nWhen the season for ice floes arrives, this Pokémon can be\nseen rolling about on ice and crossing the sea.",
+    "owned": false
   },
   {
     "id": 364,
@@ -8118,11 +7392,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/364.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "Sealeo often balances and rolls things on the tip of its\nnose. While the Pokémon is rolling something, it checks\nthe object’s aroma and texture to determine whether it likes\nthe object or not."
+    "color": "rgb(10, 132, 255)",
+    "desc": "Sealeo often balances and rolls things on the tip of its\nnose. While the Pokémon is rolling something, it checks\nthe object’s aroma and texture to determine whether it likes\nthe object or not.",
+    "owned": false
   },
   {
     "id": 365,
@@ -8144,11 +7416,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/365.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "Walrein swims all over in frigid seawater while crushing\nicebergs with its grand, imposing tusks. Its thick layer of\nblubber makes enemy attacks bounce off harmlessly."
+    "color": "rgb(10, 132, 255)",
+    "desc": "Walrein swims all over in frigid seawater while crushing\nicebergs with its grand, imposing tusks. Its thick layer of\nblubber makes enemy attacks bounce off harmlessly.",
+    "owned": false
   },
   {
     "id": 366,
@@ -8163,11 +7433,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/366.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "Despite its appearance, it’s carnivorous. It\nclamps down on its prey with both sides of its\nshell and doesn’t let go until they stop moving."
+    "color": "rgb(10, 132, 255)",
+    "desc": "Despite its appearance, it’s carnivorous. It\nclamps down on its prey with both sides of its\nshell and doesn’t let go until they stop moving.",
+    "owned": false
   },
   {
     "id": 367,
@@ -8182,11 +7450,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/367.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "It’s not the strongest swimmer. It wags its tail to\nlure in its prey and then gulps them down as\nsoon as they get close."
+    "color": "rgb(10, 132, 255)",
+    "desc": "It’s not the strongest swimmer. It wags its tail to\nlure in its prey and then gulps them down as\nsoon as they get close.",
+    "owned": false
   },
   {
     "id": 368,
@@ -8201,11 +7467,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/368.png",
-    "color": {
-      "name": "pink",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/6/"
-    },
-    "desc": "The color of its body changes with the water\ntemperature. The coloration of Gorebyss in Alola\nis almost blindingly vivid."
+    "color": "pink",
+    "desc": "The color of its body changes with the water\ntemperature. The coloration of Gorebyss in Alola\nis almost blindingly vivid.",
+    "owned": false
   },
   {
     "id": 369,
@@ -8227,11 +7491,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/369.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "Thought to have gone extinct, Relicanth was\ngiven a name that is a variation of the name of\nthe person who discovergb(255, 69, 58) it."
+    "color": "gray",
+    "desc": "Thought to have gone extinct, Relicanth was\ngiven a name that is a variation of the name of\nthe person who discovergb(255, 69, 58) it.",
+    "owned": false
   },
   {
     "id": 370,
@@ -8246,11 +7508,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/370.png",
-    "color": {
-      "name": "pink",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/6/"
-    },
-    "desc": "There was an era when it was overfished due to\nthe rumor that having one of its heart-shaped\nscales would enable you to find a sweetheart."
+    "color": "pink",
+    "desc": "There was an era when it was overfished due to\nthe rumor that having one of its heart-shaped\nscales would enable you to find a sweetheart.",
+    "owned": false
   },
   {
     "id": 371,
@@ -8265,11 +7525,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/371.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "Whenever it sees bird Pokémon flying through\nthe sky, it becomes envious and smashes its\nsurroundings to bits with headbutts."
+    "color": "rgb(10, 132, 255)",
+    "desc": "Whenever it sees bird Pokémon flying through\nthe sky, it becomes envious and smashes its\nsurroundings to bits with headbutts.",
+    "owned": false
   },
   {
     "id": 372,
@@ -8284,11 +7542,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/372.png",
-    "color": {
-      "name": "white",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/9/"
-    },
-    "desc": "The cells within its body are changing at a\nbewildering pace. Its hard shell is made from\nthe same substance as bone."
+    "color": "white",
+    "desc": "The cells within its body are changing at a\nbewildering pace. Its hard shell is made from\nthe same substance as bone.",
+    "owned": false
   },
   {
     "id": 373,
@@ -8310,11 +7566,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/373.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "Overjoyed at finally being able to fly, it flies all\nover the place and usually doesn’t land until it’s\ncompletely exhausted and needs to sleep."
+    "color": "rgb(10, 132, 255)",
+    "desc": "Overjoyed at finally being able to fly, it flies all\nover the place and usually doesn’t land until it’s\ncompletely exhausted and needs to sleep.",
+    "owned": false
   },
   {
     "id": 374,
@@ -8336,11 +7590,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/374.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "Instead of blood, magnetism flows through its\nbody. When it’s feeling bad, try giving it\na magnet."
+    "color": "rgb(10, 132, 255)",
+    "desc": "Instead of blood, magnetism flows through its\nbody. When it’s feeling bad, try giving it\na magnet.",
+    "owned": false
   },
   {
     "id": 375,
@@ -8362,11 +7614,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/375.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "With its two brains, it fires powerful psychic\nenergy to stop its prey in their tracks."
+    "color": "rgb(10, 132, 255)",
+    "desc": "With its two brains, it fires powerful psychic\nenergy to stop its prey in their tracks.",
+    "owned": false
   },
   {
     "id": 376,
@@ -8388,11 +7638,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/376.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "It boasts not only psychic powers but also\nfantastic strength. It grabs its prey with its four\nlegs and holds them in place with its claws."
+    "color": "rgb(10, 132, 255)",
+    "desc": "It boasts not only psychic powers but also\nfantastic strength. It grabs its prey with its four\nlegs and holds them in place with its claws.",
+    "owned": false
   },
   {
     "id": 377,
@@ -8407,11 +7655,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/377.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "Regirock’s body is composed entirely of rocks. Recently,\na study made the startling discovery that the rocks were all\nunearthed from different locations."
+    "color": "rgb(210, 106, 36)",
+    "desc": "Regirock’s body is composed entirely of rocks. Recently,\na study made the startling discovery that the rocks were all\nunearthed from different locations.",
+    "owned": false
   },
   {
     "id": 378,
@@ -8426,11 +7672,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/378.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "Regice cloaks itself with frigid air of -328 degrees Fahrenheit.\nThings will freeze solid just by going near this Pokémon.\nIts icy body is so cold, it will not melt even if it is immersed\nin magma."
+    "color": "rgb(10, 132, 255)",
+    "desc": "Regice cloaks itself with frigid air of -328 degrees Fahrenheit.\nThings will freeze solid just by going near this Pokémon.\nIts icy body is so cold, it will not melt even if it is immersed\nin magma.",
+    "owned": false
   },
   {
     "id": 379,
@@ -8445,11 +7689,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/379.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "Registeel was imprisoned by people in ancient times.\nThe metal composing its body is thought to be a curious\nsubstance that is not of this earth."
+    "color": "gray",
+    "desc": "Registeel was imprisoned by people in ancient times.\nThe metal composing its body is thought to be a curious\nsubstance that is not of this earth.",
+    "owned": false
   },
   {
     "id": 380,
@@ -8471,11 +7713,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/380.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "Latias is highly intelligent and capable of understanding\nhuman speech. It is covergb(255, 69, 58) with a glass-like down.\nThe Pokémon enfolds its body with its down and refracts\nlight to alter its appearance."
+    "color": "rgb(255, 69, 58)",
+    "desc": "Latias is highly intelligent and capable of understanding\nhuman speech. It is covergb(255, 69, 58) with a glass-like down.\nThe Pokémon enfolds its body with its down and refracts\nlight to alter its appearance.",
+    "owned": false
   },
   {
     "id": 381,
@@ -8497,11 +7737,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/381.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "Latios will only open its heart to a Trainer with a\ncompassionate spirit. This Pokémon can fly faster than a\njet plane by folding its forelegs to minimize air resistance."
+    "color": "rgb(10, 132, 255)",
+    "desc": "Latios will only open its heart to a Trainer with a\ncompassionate spirit. This Pokémon can fly faster than a\njet plane by folding its forelegs to minimize air resistance.",
+    "owned": false
   },
   {
     "id": 382,
@@ -8516,11 +7754,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/382.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "Kyogre is said to be the personification of the sea itself.\nLegends tell of its many clashes against Groudon,\nas each sought to gain the power of nature."
+    "color": "rgb(10, 132, 255)",
+    "desc": "Kyogre is said to be the personification of the sea itself.\nLegends tell of its many clashes against Groudon,\nas each sought to gain the power of nature.",
+    "owned": false
   },
   {
     "id": 383,
@@ -8535,11 +7771,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/383.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "Through Primal Reversion and with nature’s full power,\nit will take back its true form. It can cause magma to\nerupt and expand the landmass of the world."
+    "color": "rgb(255, 69, 58)",
+    "desc": "Through Primal Reversion and with nature’s full power,\nit will take back its true form. It can cause magma to\nerupt and expand the landmass of the world.",
+    "owned": false
   },
   {
     "id": 384,
@@ -8561,11 +7795,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/384.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "It flies forever through the ozone layer, consuming\nmeteoroids for sustenance. The many meteoroids\nin its body provide the energy it needs to Mega Evolve."
+    "color": "rgb(52, 199, 89)",
+    "desc": "It flies forever through the ozone layer, consuming\nmeteoroids for sustenance. The many meteoroids\nin its body provide the energy it needs to Mega Evolve.",
+    "owned": false
   },
   {
     "id": 385,
@@ -8587,11 +7819,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/385.png",
-    "color": {
-      "name": "yellow",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
-    },
-    "desc": "Jirachi will awaken from its sleep of a thousand years if you\nsing to it in a voice of purity. It is said to make true any wish\nthat people desire."
+    "color": "yellow",
+    "desc": "Jirachi will awaken from its sleep of a thousand years if you\nsing to it in a voice of purity. It is said to make true any wish\nthat people desire.",
+    "owned": false
   },
   {
     "id": 386,
@@ -8606,11 +7836,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/386.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "Deoxys emerged from a virus that came from space. It is highly\nintelligent and wields psychokinetic powers. This Pokémon\nshoots lasers from the crystalline organ on its chest."
+    "color": "rgb(255, 69, 58)",
+    "desc": "Deoxys emerged from a virus that came from space. It is highly\nintelligent and wields psychokinetic powers. This Pokémon\nshoots lasers from the crystalline organ on its chest.",
+    "owned": false
   },
   {
     "id": 387,
@@ -8625,11 +7853,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/387.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "It undertakes photosynthesis with its body, making\noxygen. The leaf on its head wilts if it is thirsty."
+    "color": "rgb(52, 199, 89)",
+    "desc": "It undertakes photosynthesis with its body, making\noxygen. The leaf on its head wilts if it is thirsty.",
+    "owned": false
   },
   {
     "id": 388,
@@ -8644,11 +7870,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/388.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "It knows where pure water wells up. It carries fellow\nPokémon there on its back."
+    "color": "rgb(52, 199, 89)",
+    "desc": "It knows where pure water wells up. It carries fellow\nPokémon there on its back.",
+    "owned": false
   },
   {
     "id": 389,
@@ -8670,11 +7894,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/389.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "Small Pokémon occasionally gather on its unmoving\nback to begin building their nests."
+    "color": "rgb(52, 199, 89)",
+    "desc": "Small Pokémon occasionally gather on its unmoving\nback to begin building their nests.",
+    "owned": false
   },
   {
     "id": 390,
@@ -8689,11 +7911,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/390.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "The gas made in its belly burns from its rear end.\nThe fire burns weakly when it feels sick."
+    "color": "rgb(210, 106, 36)",
+    "desc": "The gas made in its belly burns from its rear end.\nThe fire burns weakly when it feels sick.",
+    "owned": false
   },
   {
     "id": 391,
@@ -8715,11 +7935,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/391.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "It uses ceilings and walls to launch aerial attacks.\nIts fiery tail is but one weapon."
+    "color": "rgb(210, 106, 36)",
+    "desc": "It uses ceilings and walls to launch aerial attacks.\nIts fiery tail is but one weapon.",
+    "owned": false
   },
   {
     "id": 392,
@@ -8741,11 +7959,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/392.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "It tosses its enemies around with agility. It uses all\nits limbs to fight in its own unique style."
+    "color": "rgb(210, 106, 36)",
+    "desc": "It tosses its enemies around with agility. It uses all\nits limbs to fight in its own unique style.",
+    "owned": false
   },
   {
     "id": 393,
@@ -8760,11 +7976,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/393.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "Because it is very proud, it hates accepting food\nfrom people. Its thick down guards it from cold."
+    "color": "rgb(10, 132, 255)",
+    "desc": "Because it is very proud, it hates accepting food\nfrom people. Its thick down guards it from cold.",
+    "owned": false
   },
   {
     "id": 394,
@@ -8779,11 +7993,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/394.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "It lives a solitary life. Its wings deliver wicked blows\nthat can snap even the thickest of trees."
+    "color": "rgb(10, 132, 255)",
+    "desc": "It lives a solitary life. Its wings deliver wicked blows\nthat can snap even the thickest of trees.",
+    "owned": false
   },
   {
     "id": 395,
@@ -8805,11 +8017,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/395.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "The three horns that extend from its beak attest to\nits power. The leader has the biggest horns."
+    "color": "rgb(10, 132, 255)",
+    "desc": "The three horns that extend from its beak attest to\nits power. The leader has the biggest horns.",
+    "owned": false
   },
   {
     "id": 396,
@@ -8831,11 +8041,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/396.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "They flock around mountains and fields, chasing\nafter bug Pokémon. Their singing is noisy\nand annoying."
+    "color": "rgb(210, 106, 36)",
+    "desc": "They flock around mountains and fields, chasing\nafter bug Pokémon. Their singing is noisy\nand annoying.",
+    "owned": false
   },
   {
     "id": 397,
@@ -8857,11 +8065,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/397.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "It lives in forests and fields. Squabbles over\nterritory occur when flocks collide."
+    "color": "rgb(210, 106, 36)",
+    "desc": "It lives in forests and fields. Squabbles over\nterritory occur when flocks collide.",
+    "owned": false
   },
   {
     "id": 398,
@@ -8883,11 +8089,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/398.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "When Staravia evolve into Staraptor, they leave the\nflock to live alone. They have sturdy wings."
+    "color": "rgb(210, 106, 36)",
+    "desc": "When Staravia evolve into Staraptor, they leave the\nflock to live alone. They have sturdy wings.",
+    "owned": false
   },
   {
     "id": 399,
@@ -8902,11 +8106,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/399.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "It constantly gnaws on logs and rocks to whittle\ndown its front teeth. It nests alongside water."
+    "color": "rgb(210, 106, 36)",
+    "desc": "It constantly gnaws on logs and rocks to whittle\ndown its front teeth. It nests alongside water.",
+    "owned": false
   },
   {
     "id": 400,
@@ -8928,11 +8130,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/400.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "It makes its nest by damming streams with bark and\nmud. It is known as an industrious worker."
+    "color": "rgb(210, 106, 36)",
+    "desc": "It makes its nest by damming streams with bark and\nmud. It is known as an industrious worker.",
+    "owned": false
   },
   {
     "id": 401,
@@ -8947,11 +8147,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/401.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "When its antennae hit each other, it sounds like the\nmusic of a xylophone."
+    "color": "rgb(255, 69, 58)",
+    "desc": "When its antennae hit each other, it sounds like the\nmusic of a xylophone.",
+    "owned": false
   },
   {
     "id": 402,
@@ -8966,11 +8164,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/402.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "It signals its emotions with its melodies. Scientists\nare studying these melodic patterns."
+    "color": "rgb(255, 69, 58)",
+    "desc": "It signals its emotions with its melodies. Scientists\nare studying these melodic patterns.",
+    "owned": false
   },
   {
     "id": 403,
@@ -8985,11 +8181,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/403.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "All of its fur dazzles if danger is sensed. It flees\nwhile the foe is momentarily blinded."
+    "color": "rgb(10, 132, 255)",
+    "desc": "All of its fur dazzles if danger is sensed. It flees\nwhile the foe is momentarily blinded.",
+    "owned": false
   },
   {
     "id": 404,
@@ -9004,11 +8198,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/404.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "Strong electricity courses through the tips of its\nsharp claws. A light scratch causes fainting in foes."
+    "color": "rgb(10, 132, 255)",
+    "desc": "Strong electricity courses through the tips of its\nsharp claws. A light scratch causes fainting in foes.",
+    "owned": false
   },
   {
     "id": 405,
@@ -9023,11 +8215,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/405.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "Luxray’s ability to see through objects comes in\nhandy when it’s scouting for danger."
+    "color": "rgb(10, 132, 255)",
+    "desc": "Luxray’s ability to see through objects comes in\nhandy when it’s scouting for danger.",
+    "owned": false
   },
   {
     "id": 406,
@@ -9049,11 +8239,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/406.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "Over the winter, it closes its bud and endures the\ncold. In spring, the bud opens and releases pollen."
+    "color": "rgb(52, 199, 89)",
+    "desc": "Over the winter, it closes its bud and endures the\ncold. In spring, the bud opens and releases pollen.",
+    "owned": false
   },
   {
     "id": 407,
@@ -9075,11 +8263,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/407.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "With the movements of a dancer, it strikes with\nwhips that are densely lined with poison thorns."
+    "color": "rgb(52, 199, 89)",
+    "desc": "With the movements of a dancer, it strikes with\nwhips that are densely lined with poison thorns.",
+    "owned": false
   },
   {
     "id": 408,
@@ -9094,11 +8280,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/408.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "A primeval Pokémon, it possesses a hard and\nsturdy skull, lacking any intelligence within."
+    "color": "rgb(10, 132, 255)",
+    "desc": "A primeval Pokémon, it possesses a hard and\nsturdy skull, lacking any intelligence within.",
+    "owned": false
   },
   {
     "id": 409,
@@ -9113,11 +8297,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/409.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "In ancient times, people would dig up fossils of\nthis Pokémon and use its skull, which is harder\nthan steel, to make helmets."
+    "color": "rgb(10, 132, 255)",
+    "desc": "In ancient times, people would dig up fossils of\nthis Pokémon and use its skull, which is harder\nthan steel, to make helmets.",
+    "owned": false
   },
   {
     "id": 410,
@@ -9139,11 +8321,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/410.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "A mild-mannergb(255, 69, 58), herbivorous Pokémon, it used\nits face to dig up tree roots to eat. The skin on\nits face was plenty tough."
+    "color": "gray",
+    "desc": "A mild-mannergb(255, 69, 58), herbivorous Pokémon, it used\nits face to dig up tree roots to eat. The skin on\nits face was plenty tough.",
+    "owned": false
   },
   {
     "id": 411,
@@ -9165,11 +8345,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/411.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "The bones of its face are huge and hard, so\nthey were mistaken for its spine until after this\nPokémon was successfully restorgb(255, 69, 58)."
+    "color": "gray",
+    "desc": "The bones of its face are huge and hard, so\nthey were mistaken for its spine until after this\nPokémon was successfully restorgb(255, 69, 58).",
+    "owned": false
   },
   {
     "id": 412,
@@ -9184,11 +8362,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/412.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "If its cloak is broken in battle, it quickly remakes\nthe cloak with materials nearby."
+    "color": "rgb(52, 199, 89)",
+    "desc": "If its cloak is broken in battle, it quickly remakes\nthe cloak with materials nearby.",
+    "owned": false
   },
   {
     "id": 413,
@@ -9210,11 +8386,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/413.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "When Burmy evolved, its cloak became a part of\nthis Pokémon’s body. The cloak is never shed."
+    "color": "rgb(52, 199, 89)",
+    "desc": "When Burmy evolved, its cloak became a part of\nthis Pokémon’s body. The cloak is never shed.",
+    "owned": false
   },
   {
     "id": 414,
@@ -9236,11 +8410,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/414.png",
-    "color": {
-      "name": "yellow",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
-    },
-    "desc": "It flutters around at night and steals honey from\nthe Combee hive."
+    "color": "yellow",
+    "desc": "It flutters around at night and steals honey from\nthe Combee hive.",
+    "owned": false
   },
   {
     "id": 415,
@@ -9262,11 +8434,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/415.png",
-    "color": {
-      "name": "yellow",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
-    },
-    "desc": "It collects and delivers honey to its colony.\nAt night, they cluster to form a beehive and sleep."
+    "color": "yellow",
+    "desc": "It collects and delivers honey to its colony.\nAt night, they cluster to form a beehive and sleep.",
+    "owned": false
   },
   {
     "id": 416,
@@ -9288,11 +8458,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/416.png",
-    "color": {
-      "name": "yellow",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
-    },
-    "desc": "Its abdomen is a honeycomb for grubs. It raises its\ngrubs on honey collected by Combee."
+    "color": "yellow",
+    "desc": "Its abdomen is a honeycomb for grubs. It raises its\ngrubs on honey collected by Combee.",
+    "owned": false
   },
   {
     "id": 417,
@@ -9307,11 +8475,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/417.png",
-    "color": {
-      "name": "white",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/9/"
-    },
-    "desc": "A pair may be seen rubbing their cheek pouches\ntogether in an effort to share storgb(255, 69, 58) electricity."
+    "color": "white",
+    "desc": "A pair may be seen rubbing their cheek pouches\ntogether in an effort to share storgb(255, 69, 58) electricity.",
+    "owned": false
   },
   {
     "id": 418,
@@ -9326,11 +8492,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/418.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "It inflates the flotation sac around its neck and\npokes its head out of the water to see what is\ngoing on."
+    "color": "rgb(210, 106, 36)",
+    "desc": "It inflates the flotation sac around its neck and\npokes its head out of the water to see what is\ngoing on.",
+    "owned": false
   },
   {
     "id": 419,
@@ -9345,11 +8509,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/419.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "Its flotation sac developed as a result of pursuing\naquatic prey. It can double as a rubber raft."
+    "color": "rgb(210, 106, 36)",
+    "desc": "Its flotation sac developed as a result of pursuing\naquatic prey. It can double as a rubber raft.",
+    "owned": false
   },
   {
     "id": 420,
@@ -9364,11 +8526,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/420.png",
-    "color": {
-      "name": "pink",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/6/"
-    },
-    "desc": "It evolves by sucking the energy out of the small\nball where it had been storing nutrients."
+    "color": "pink",
+    "desc": "It evolves by sucking the energy out of the small\nball where it had been storing nutrients.",
+    "owned": false
   },
   {
     "id": 421,
@@ -9383,11 +8543,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/421.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "If it senses strong sunlight, it opens its folded\npetals to absorb the sun’s rays with its whole body."
+    "color": "rgb(112, 90, 159)",
+    "desc": "If it senses strong sunlight, it opens its folded\npetals to absorb the sun’s rays with its whole body.",
+    "owned": false
   },
   {
     "id": 422,
@@ -9402,11 +8560,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/422.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "While they normally live in the sea, they can\nfunction on land, too, until their skin dries out."
+    "color": "rgb(112, 90, 159)",
+    "desc": "While they normally live in the sea, they can\nfunction on land, too, until their skin dries out.",
+    "owned": false
   },
   {
     "id": 423,
@@ -9428,11 +8584,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/423.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "Long ago, it had a shell on its back. There’s now\na vestigial plate on its back that’s hard but thin."
+    "color": "rgb(112, 90, 159)",
+    "desc": "Long ago, it had a shell on its back. There’s now\na vestigial plate on its back that’s hard but thin.",
+    "owned": false
   },
   {
     "id": 424,
@@ -9447,11 +8601,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/424.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "In their search for comfortable trees, they get\ninto territorial disputes with groups of\nPassimian. They win about half the time."
+    "color": "rgb(112, 90, 159)",
+    "desc": "In their search for comfortable trees, they get\ninto territorial disputes with groups of\nPassimian. They win about half the time.",
+    "owned": false
   },
   {
     "id": 425,
@@ -9473,11 +8625,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/425.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "Its round body is stuffed with souls and\nexpands each time it leads someone away."
+    "color": "rgb(112, 90, 159)",
+    "desc": "Its round body is stuffed with souls and\nexpands each time it leads someone away.",
+    "owned": false
   },
   {
     "id": 426,
@@ -9499,11 +8649,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/426.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "There’s a rumor that if you catch a Drifblim\nfloating on the wind at dusk, you’ll be carried\naway to the afterlife."
+    "color": "rgb(112, 90, 159)",
+    "desc": "There’s a rumor that if you catch a Drifblim\nfloating on the wind at dusk, you’ll be carried\naway to the afterlife.",
+    "owned": false
   },
   {
     "id": 427,
@@ -9518,11 +8666,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/427.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "Its arms and legs are weak, but when it rolls its\nears up tight and then unleashes them with its\nfull force, it can smash boulders to dust."
+    "color": "rgb(210, 106, 36)",
+    "desc": "Its arms and legs are weak, but when it rolls its\nears up tight and then unleashes them with its\nfull force, it can smash boulders to dust.",
+    "owned": false
   },
   {
     "id": 428,
@@ -9537,11 +8683,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/428.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "Lopunny regrows its coat twice a year. Mufflers\nand hats made from its fur are really warm."
+    "color": "rgb(210, 106, 36)",
+    "desc": "Lopunny regrows its coat twice a year. Mufflers\nand hats made from its fur are really warm.",
+    "owned": false
   },
   {
     "id": 429,
@@ -9556,11 +8700,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/429.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "Feargb(255, 69, 58) for its wrath and the curses it spreads,\nthis Pokémon will also, on a whim, cast spells\nthat help people."
+    "color": "rgb(112, 90, 159)",
+    "desc": "Feargb(255, 69, 58) for its wrath and the curses it spreads,\nthis Pokémon will also, on a whim, cast spells\nthat help people.",
+    "owned": false
   },
   {
     "id": 430,
@@ -9582,11 +8724,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/430.png",
-    "color": {
-      "name": "black",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/1/"
-    },
-    "desc": "It will absolutely not forgive failure from or\nbetrayal by its goons. It has no choice in this\nif it wants to maintain the order of the flock."
+    "color": "black",
+    "desc": "It will absolutely not forgive failure from or\nbetrayal by its goons. It has no choice in this\nif it wants to maintain the order of the flock.",
+    "owned": false
   },
   {
     "id": 431,
@@ -9601,11 +8741,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/431.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "When it’s happy, Glameow demonstrates beautiful\nmovements of its tail, like a dancing ribbon."
+    "color": "gray",
+    "desc": "When it’s happy, Glameow demonstrates beautiful\nmovements of its tail, like a dancing ribbon.",
+    "owned": false
   },
   {
     "id": 432,
@@ -9620,11 +8758,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/432.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "To make itself appear intimidatingly beefy, it tightly\ncinches its waist with its twin tails."
+    "color": "gray",
+    "desc": "To make itself appear intimidatingly beefy, it tightly\ncinches its waist with its twin tails.",
+    "owned": false
   },
   {
     "id": 433,
@@ -9639,11 +8775,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/433.png",
-    "color": {
-      "name": "yellow",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
-    },
-    "desc": "There is an orb inside its mouth. When it hops,\nthe orb bounces all over and makes a\nringing sound."
+    "color": "yellow",
+    "desc": "There is an orb inside its mouth. When it hops,\nthe orb bounces all over and makes a\nringing sound.",
+    "owned": false
   },
   {
     "id": 434,
@@ -9665,11 +8799,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/434.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "It protects itself by spraying a noxious fluid from its\nrear. The stench lingers for 24 hours."
+    "color": "rgb(112, 90, 159)",
+    "desc": "It protects itself by spraying a noxious fluid from its\nrear. The stench lingers for 24 hours.",
+    "owned": false
   },
   {
     "id": 435,
@@ -9691,11 +8823,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/435.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "It sprays a stinky fluid from its tail. The fluid smells\nworse the longer it is allowed to fester."
+    "color": "rgb(112, 90, 159)",
+    "desc": "It sprays a stinky fluid from its tail. The fluid smells\nworse the longer it is allowed to fester.",
+    "owned": false
   },
   {
     "id": 436,
@@ -9717,11 +8847,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/436.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "Implements shaped like it were discovergb(255, 69, 58) in\nancient tombs. It is unknown if they are related."
+    "color": "rgb(52, 199, 89)",
+    "desc": "Implements shaped like it were discovergb(255, 69, 58) in\nancient tombs. It is unknown if they are related.",
+    "owned": false
   },
   {
     "id": 437,
@@ -9743,11 +8871,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/437.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "Ancient people believed that petitioning Bronzong\nfor rain was the way to make crops grow."
+    "color": "rgb(52, 199, 89)",
+    "desc": "Ancient people believed that petitioning Bronzong\nfor rain was the way to make crops grow.",
+    "owned": false
   },
   {
     "id": 438,
@@ -9762,11 +8888,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/438.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "It discharges moisture from its eyes, making it\nlook like it’s crying—apparently an effective way\nof getting enemies to let down their guard."
+    "color": "rgb(210, 106, 36)",
+    "desc": "It discharges moisture from its eyes, making it\nlook like it’s crying—apparently an effective way\nof getting enemies to let down their guard.",
+    "owned": false
   },
   {
     "id": 439,
@@ -9788,11 +8912,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/439.png",
-    "color": {
-      "name": "pink",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/6/"
-    },
-    "desc": "It does its absolute best to mimic the\nmovements and expressions of its opponents,\nbut it’s still not very good at it."
+    "color": "pink",
+    "desc": "It does its absolute best to mimic the\nmovements and expressions of its opponents,\nbut it’s still not very good at it.",
+    "owned": false
   },
   {
     "id": 440,
@@ -9807,11 +8929,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/440.png",
-    "color": {
-      "name": "pink",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/6/"
-    },
-    "desc": "Usually it’s a well-behaved Pokémon, but if you\ntake its round rock away, it will cry and fuss\nand throw a big old tantrum."
+    "color": "pink",
+    "desc": "Usually it’s a well-behaved Pokémon, but if you\ntake its round rock away, it will cry and fuss\nand throw a big old tantrum.",
+    "owned": false
   },
   {
     "id": 441,
@@ -9833,11 +8953,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/441.png",
-    "color": {
-      "name": "black",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/1/"
-    },
-    "desc": "It can learn and speak human words. If they gather,\nthey all learn the same saying."
+    "color": "black",
+    "desc": "It can learn and speak human words. If they gather,\nthey all learn the same saying.",
+    "owned": false
   },
   {
     "id": 442,
@@ -9859,11 +8977,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/442.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "It was bound to a fissure in an odd keystone as\npunishment for misdeeds 500 years ago."
+    "color": "rgb(112, 90, 159)",
+    "desc": "It was bound to a fissure in an odd keystone as\npunishment for misdeeds 500 years ago.",
+    "owned": false
   },
   {
     "id": 443,
@@ -9885,11 +9001,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/443.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "It reacts to anything that moves—flies right at it\nand bites it. Sometimes it injures itself, but it\ndoesn’t care too much."
+    "color": "rgb(10, 132, 255)",
+    "desc": "It reacts to anything that moves—flies right at it\nand bites it. Sometimes it injures itself, but it\ndoesn’t care too much.",
+    "owned": false
   },
   {
     "id": 444,
@@ -9911,11 +9025,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/444.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "It loves shiny things. When it finds a Sableye\ntrying to catch a Carbink, Gabite becomes\nfuriously angry and attacks the Sableye."
+    "color": "rgb(10, 132, 255)",
+    "desc": "It loves shiny things. When it finds a Sableye\ntrying to catch a Carbink, Gabite becomes\nfuriously angry and attacks the Sableye.",
+    "owned": false
   },
   {
     "id": 445,
@@ -9937,11 +9049,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/445.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "It flies at the speed of sound while searching\nfor prey, and it has midair battles with\nSalamence as the two compete for food."
+    "color": "rgb(10, 132, 255)",
+    "desc": "It flies at the speed of sound while searching\nfor prey, and it has midair battles with\nSalamence as the two compete for food.",
+    "owned": false
   },
   {
     "id": 446,
@@ -9956,11 +9066,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/446.png",
-    "color": {
-      "name": "black",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/1/"
-    },
-    "desc": "It hides food under its long fur, but it\nsometimes forgets about it and causes\na stinky disturbance."
+    "color": "black",
+    "desc": "It hides food under its long fur, but it\nsometimes forgets about it and causes\na stinky disturbance.",
+    "owned": false
   },
   {
     "id": 447,
@@ -9975,11 +9083,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/447.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "It knows how people and Pokémon feel by\nlooking at their auras. It doesn’t approach\ndangerous opponents."
+    "color": "rgb(10, 132, 255)",
+    "desc": "It knows how people and Pokémon feel by\nlooking at their auras. It doesn’t approach\ndangerous opponents.",
+    "owned": false
   },
   {
     "id": 448,
@@ -10001,11 +9107,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/448.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "It concentrates its mental energy and fires off\nmysterious waves called auras, which can crush\nboulders of large size to dust."
+    "color": "rgb(10, 132, 255)",
+    "desc": "It concentrates its mental energy and fires off\nmysterious waves called auras, which can crush\nboulders of large size to dust.",
+    "owned": false
   },
   {
     "id": 449,
@@ -10020,11 +9124,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/449.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "It enshrouds itself with sand to protect itself from\ngerms. It does not enjoy getting wet."
+    "color": "rgb(210, 106, 36)",
+    "desc": "It enshrouds itself with sand to protect itself from\ngerms. It does not enjoy getting wet.",
+    "owned": false
   },
   {
     "id": 450,
@@ -10039,11 +9141,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/450.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "It blasts internally storgb(255, 69, 58) sand from ports on its\nbody to create a towering twister for attack."
+    "color": "rgb(210, 106, 36)",
+    "desc": "It blasts internally storgb(255, 69, 58) sand from ports on its\nbody to create a towering twister for attack.",
+    "owned": false
   },
   {
     "id": 451,
@@ -10065,11 +9165,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/451.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "It burrows under the sand to lie in wait for prey.\nIts tail claws can inject its prey with a\nsavage poison."
+    "color": "rgb(112, 90, 159)",
+    "desc": "It burrows under the sand to lie in wait for prey.\nIts tail claws can inject its prey with a\nsavage poison.",
+    "owned": false
   },
   {
     "id": 452,
@@ -10091,11 +9189,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/452.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "It has the power in its clawed arms to make scrap\nof a car. The tips of its claws release poison."
+    "color": "rgb(112, 90, 159)",
+    "desc": "It has the power in its clawed arms to make scrap\nof a car. The tips of its claws release poison.",
+    "owned": false
   },
   {
     "id": 453,
@@ -10117,11 +9213,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/453.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "Inflating its poison sacs, it fills the area with an odd\nsound and hits flinching opponents with a\npoison jab."
+    "color": "rgb(10, 132, 255)",
+    "desc": "Inflating its poison sacs, it fills the area with an odd\nsound and hits flinching opponents with a\npoison jab.",
+    "owned": false
   },
   {
     "id": 454,
@@ -10143,11 +9237,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/454.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "Its knuckle claws secrete a toxin so vile that even a\nscratch could prove fatal."
+    "color": "rgb(10, 132, 255)",
+    "desc": "Its knuckle claws secrete a toxin so vile that even a\nscratch could prove fatal.",
+    "owned": false
   },
   {
     "id": 455,
@@ -10162,11 +9254,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/455.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "It binds itself to trees in marshes. It attracts prey\nwith its sweet-smelling drool and gulps them down."
+    "color": "rgb(52, 199, 89)",
+    "desc": "It binds itself to trees in marshes. It attracts prey\nwith its sweet-smelling drool and gulps them down.",
+    "owned": false
   },
   {
     "id": 456,
@@ -10181,11 +9271,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/456.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "When night falls, their pink patterns begin to\nshine. They’re popular with divers, so there are\nresorts that feed them to keep them close."
+    "color": "rgb(10, 132, 255)",
+    "desc": "When night falls, their pink patterns begin to\nshine. They’re popular with divers, so there are\nresorts that feed them to keep them close.",
+    "owned": false
   },
   {
     "id": 457,
@@ -10200,11 +9288,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/457.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "Deep down at the bottom of the ocean, prey is\nscarce. Lumineon get into fierce disputes with\nLanturn over food."
+    "color": "rgb(10, 132, 255)",
+    "desc": "Deep down at the bottom of the ocean, prey is\nscarce. Lumineon get into fierce disputes with\nLanturn over food.",
+    "owned": false
   },
   {
     "id": 458,
@@ -10226,11 +9312,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/458.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "It’s highly friendly and easily tamed. Tours that\ntake people swimming with Mantyke are a\nsuper-popular beach activity."
+    "color": "rgb(10, 132, 255)",
+    "desc": "It’s highly friendly and easily tamed. Tours that\ntake people swimming with Mantyke are a\nsuper-popular beach activity.",
+    "owned": false
   },
   {
     "id": 459,
@@ -10252,11 +9336,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/459.png",
-    "color": {
-      "name": "white",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/9/"
-    },
-    "desc": "In the spring, it grows berries with the texture of\nfrozen treats around its belly."
+    "color": "white",
+    "desc": "In the spring, it grows berries with the texture of\nfrozen treats around its belly.",
+    "owned": false
   },
   {
     "id": 460,
@@ -10278,11 +9360,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/460.png",
-    "color": {
-      "name": "white",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/9/"
-    },
-    "desc": "It lives a quiet life on mountains that are perpetually\ncovergb(255, 69, 58) in snow. It hides itself by whipping\nup blizzards."
+    "color": "white",
+    "desc": "It lives a quiet life on mountains that are perpetually\ncovergb(255, 69, 58) in snow. It hides itself by whipping\nup blizzards.",
+    "owned": false
   },
   {
     "id": 461,
@@ -10304,11 +9384,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/461.png",
-    "color": {
-      "name": "black",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/1/"
-    },
-    "desc": "One Weavile will trip a Sandshrew and flip it\nover, and then another Weavile will deal the\nfinishing blow with its sharp claws."
+    "color": "black",
+    "desc": "One Weavile will trip a Sandshrew and flip it\nover, and then another Weavile will deal the\nfinishing blow with its sharp claws.",
+    "owned": false
   },
   {
     "id": 462,
@@ -10330,11 +9408,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/462.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "It uses radar to monitor its territory. Intruders\nare quickly disposed of with a hyper beam."
+    "color": "gray",
+    "desc": "It uses radar to monitor its territory. Intruders\nare quickly disposed of with a hyper beam.",
+    "owned": false
   },
   {
     "id": 463,
@@ -10349,11 +9425,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/463.png",
-    "color": {
-      "name": "pink",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/6/"
-    },
-    "desc": "A contest is under way to determine which one\ncan stick its tongue out the farthest. The\ncurrent record is...more than 82 feet."
+    "color": "pink",
+    "desc": "A contest is under way to determine which one\ncan stick its tongue out the farthest. The\ncurrent record is...more than 82 feet.",
+    "owned": false
   },
   {
     "id": 464,
@@ -10375,11 +9449,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/464.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "It puts rocks in holes in its palms and uses its\nmuscles to shoot them. Geodude are shot at\nrare times."
+    "color": "gray",
+    "desc": "It puts rocks in holes in its palms and uses its\nmuscles to shoot them. Geodude are shot at\nrare times.",
+    "owned": false
   },
   {
     "id": 465,
@@ -10394,11 +9466,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/465.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "Its vines grow so profusely that, in the warm\nseason, you can’t even see its eyes."
+    "color": "rgb(10, 132, 255)",
+    "desc": "Its vines grow so profusely that, in the warm\nseason, you can’t even see its eyes.",
+    "owned": false
   },
   {
     "id": 466,
@@ -10413,11 +9483,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/466.png",
-    "color": {
-      "name": "yellow",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
-    },
-    "desc": "It grips its tail, which spews electricity, and\nthen beats down opponents with the power of\nits electrified fist."
+    "color": "yellow",
+    "desc": "It grips its tail, which spews electricity, and\nthen beats down opponents with the power of\nits electrified fist.",
+    "owned": false
   },
   {
     "id": 467,
@@ -10432,11 +9500,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/467.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "There are still quite a few factories that rely on\nthe flames provided by Magmortar to\nprocess metals."
+    "color": "rgb(255, 69, 58)",
+    "desc": "There are still quite a few factories that rely on\nthe flames provided by Magmortar to\nprocess metals.",
+    "owned": false
   },
   {
     "id": 468,
@@ -10458,11 +9524,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/468.png",
-    "color": {
-      "name": "white",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/9/"
-    },
-    "desc": "It shares many blessings with people who respect\none another’s rights and avoid needless strife."
+    "color": "white",
+    "desc": "It shares many blessings with people who respect\none another’s rights and avoid needless strife.",
+    "owned": false
   },
   {
     "id": 469,
@@ -10484,11 +9548,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/469.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "This six-legged Pokémon is easily capable of\ntransporting an adult in flight. The wings on its tail\nhelp it stay balanced."
+    "color": "rgb(52, 199, 89)",
+    "desc": "This six-legged Pokémon is easily capable of\ntransporting an adult in flight. The wings on its tail\nhelp it stay balanced.",
+    "owned": false
   },
   {
     "id": 470,
@@ -10503,11 +9565,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/470.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "Although it doesn’t like disputes, it will sharpen\nthe leaf on its tail into a blade and fight if it has\nto protect its friends."
+    "color": "rgb(52, 199, 89)",
+    "desc": "Although it doesn’t like disputes, it will sharpen\nthe leaf on its tail into a blade and fight if it has\nto protect its friends.",
+    "owned": false
   },
   {
     "id": 471,
@@ -10522,11 +9582,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/471.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "It protects itself by freezing its fur into sharp\nneedles. It can drop its body temperature below\n–75 degrees Fahrenheit."
+    "color": "rgb(10, 132, 255)",
+    "desc": "It protects itself by freezing its fur into sharp\nneedles. It can drop its body temperature below\n–75 degrees Fahrenheit.",
+    "owned": false
   },
   {
     "id": 472,
@@ -10548,11 +9606,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/472.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "Its flight is soundless. It uses its lengthy tail to\ncarry off its prey... Then its elongated fangs do\nthe rest."
+    "color": "rgb(112, 90, 159)",
+    "desc": "Its flight is soundless. It uses its lengthy tail to\ncarry off its prey... Then its elongated fangs do\nthe rest.",
+    "owned": false
   },
   {
     "id": 473,
@@ -10574,11 +9630,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/473.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "Its impressive tusks are made of ice. The population\nthinned when it turned warm after the ice age."
+    "color": "rgb(210, 106, 36)",
+    "desc": "Its impressive tusks are made of ice. The population\nthinned when it turned warm after the ice age.",
+    "owned": false
   },
   {
     "id": 474,
@@ -10593,11 +9647,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/474.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "Its behavior is noticeably unstable, which is\napparently due to the incompetence of the\nengineer who updated its programming."
+    "color": "rgb(255, 69, 58)",
+    "desc": "Its behavior is noticeably unstable, which is\napparently due to the incompetence of the\nengineer who updated its programming.",
+    "owned": false
   },
   {
     "id": 475,
@@ -10619,11 +9671,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/475.png",
-    "color": {
-      "name": "white",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/9/"
-    },
-    "desc": "A master of courtesy and swordsmanship, it fights\nusing extending swords on its elbows."
+    "color": "white",
+    "desc": "A master of courtesy and swordsmanship, it fights\nusing extending swords on its elbows.",
+    "owned": false
   },
   {
     "id": 476,
@@ -10645,11 +9695,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/476.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "Although it can control its units known as\nMini-Noses, they sometimes get lost and don’t\ncome back."
+    "color": "gray",
+    "desc": "Although it can control its units known as\nMini-Noses, they sometimes get lost and don’t\ncome back.",
+    "owned": false
   },
   {
     "id": 477,
@@ -10664,11 +9712,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/477.png",
-    "color": {
-      "name": "black",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/1/"
-    },
-    "desc": "The antenna on its head captures radio waves from\nthe world of spirits that command it to take\npeople there."
+    "color": "black",
+    "desc": "The antenna on its head captures radio waves from\nthe world of spirits that command it to take\npeople there.",
+    "owned": false
   },
   {
     "id": 478,
@@ -10690,11 +9736,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/478.png",
-    "color": {
-      "name": "white",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/9/"
-    },
-    "desc": "It freezes hikers who have come to climb snowy\nmountains and carries them back to its home. It\nonly goes after men it thinks are handsome."
+    "color": "white",
+    "desc": "It freezes hikers who have come to climb snowy\nmountains and carries them back to its home. It\nonly goes after men it thinks are handsome.",
+    "owned": false
   },
   {
     "id": 479,
@@ -10716,11 +9760,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/479.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "Its body is composed of plasma. It is known to\ninfiltrate electronic devices and wreak havoc."
+    "color": "rgb(255, 69, 58)",
+    "desc": "Its body is composed of plasma. It is known to\ninfiltrate electronic devices and wreak havoc.",
+    "owned": false
   },
   {
     "id": 480,
@@ -10735,11 +9777,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/480.png",
-    "color": {
-      "name": "yellow",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
-    },
-    "desc": "It is said that its emergence gave humans the\nintelligence to improve their quality of life."
+    "color": "yellow",
+    "desc": "It is said that its emergence gave humans the\nintelligence to improve their quality of life.",
+    "owned": false
   },
   {
     "id": 481,
@@ -10754,11 +9794,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/481.png",
-    "color": {
-      "name": "pink",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/6/"
-    },
-    "desc": "It sleeps at the bottom of a lake. Its spirit is said to\nleave its body to fly on the lake’s surface."
+    "color": "pink",
+    "desc": "It sleeps at the bottom of a lake. Its spirit is said to\nleave its body to fly on the lake’s surface.",
+    "owned": false
   },
   {
     "id": 482,
@@ -10773,11 +9811,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/482.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "It is thought that Uxie, Mesprit, and Azelf all came\nfrom the same egg."
+    "color": "rgb(10, 132, 255)",
+    "desc": "It is thought that Uxie, Mesprit, and Azelf all came\nfrom the same egg.",
+    "owned": false
   },
   {
     "id": 483,
@@ -10799,11 +9835,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/483.png",
-    "color": {
-      "name": "white",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/9/"
-    },
-    "desc": "It has the power to control time. It appears in\nSinnoh-region myths as an ancient deity."
+    "color": "white",
+    "desc": "It has the power to control time. It appears in\nSinnoh-region myths as an ancient deity.",
+    "owned": false
   },
   {
     "id": 484,
@@ -10825,11 +9859,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/484.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "It has the ability to distort space. It is described as\na deity in Sinnoh-region mythology."
+    "color": "rgb(112, 90, 159)",
+    "desc": "It has the ability to distort space. It is described as\na deity in Sinnoh-region mythology.",
+    "owned": false
   },
   {
     "id": 485,
@@ -10851,11 +9883,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/485.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "Boiling blood, like magma, circulates through its\nbody. It makes its dwelling place in volcanic caves."
+    "color": "rgb(210, 106, 36)",
+    "desc": "Boiling blood, like magma, circulates through its\nbody. It makes its dwelling place in volcanic caves.",
+    "owned": false
   },
   {
     "id": 486,
@@ -10870,11 +9900,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/486.png",
-    "color": {
-      "name": "white",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/9/"
-    },
-    "desc": "There is an enduring legend that states this\nPokémon towed continents with ropes."
+    "color": "white",
+    "desc": "There is an enduring legend that states this\nPokémon towed continents with ropes.",
+    "owned": false
   },
   {
     "id": 487,
@@ -10896,11 +9924,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/487.png",
-    "color": {
-      "name": "black",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/1/"
-    },
-    "desc": "It was banished for its violence. It silently gazed\nupon the old world from the Distortion World."
+    "color": "black",
+    "desc": "It was banished for its violence. It silently gazed\nupon the old world from the Distortion World.",
+    "owned": false
   },
   {
     "id": 488,
@@ -10915,11 +9941,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/488.png",
-    "color": {
-      "name": "yellow",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
-    },
-    "desc": "Those who sleep holding Cresselia’s feather are\nassurgb(255, 69, 58) of joyful dreams. It is said to represent\nthe crescent moon."
+    "color": "yellow",
+    "desc": "Those who sleep holding Cresselia’s feather are\nassurgb(255, 69, 58) of joyful dreams. It is said to represent\nthe crescent moon.",
+    "owned": false
   },
   {
     "id": 489,
@@ -10934,11 +9958,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/489.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "It drifts in warm seas. It always returns to where it\nwas born, no matter how far it may have drifted."
+    "color": "rgb(10, 132, 255)",
+    "desc": "It drifts in warm seas. It always returns to where it\nwas born, no matter how far it may have drifted.",
+    "owned": false
   },
   {
     "id": 490,
@@ -10953,11 +9975,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/490.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "It starts its life with a wondrous power that permits\nit to bond with any kind of Pokémon."
+    "color": "rgb(10, 132, 255)",
+    "desc": "It starts its life with a wondrous power that permits\nit to bond with any kind of Pokémon.",
+    "owned": false
   },
   {
     "id": 491,
@@ -10972,11 +9992,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/491.png",
-    "color": {
-      "name": "black",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/1/"
-    },
-    "desc": "It can lull people to sleep and make them dream.\nIt is active during nights of the new moon."
+    "color": "black",
+    "desc": "It can lull people to sleep and make them dream.\nIt is active during nights of the new moon.",
+    "owned": false
   },
   {
     "id": 492,
@@ -10991,11 +10009,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/492.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "The blooming of Gracidea flowers confers the\npower of flight upon it. Feelings of gratitude are\nthe message it delivers."
+    "color": "rgb(52, 199, 89)",
+    "desc": "The blooming of Gracidea flowers confers the\npower of flight upon it. Feelings of gratitude are\nthe message it delivers.",
+    "owned": false
   },
   {
     "id": 493,
@@ -11010,11 +10026,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/493.png",
-    "color": {
-      "name": "white",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/9/"
-    },
-    "desc": "It is told in mythology that this Pokémon was born\nbefore the universe even existed."
+    "color": "white",
+    "desc": "It is told in mythology that this Pokémon was born\nbefore the universe even existed.",
+    "owned": false
   },
   {
     "id": 494,
@@ -11036,11 +10050,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/494.png",
-    "color": {
-      "name": "yellow",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
-    },
-    "desc": "When it shares the infinite energy it creates,\nthat being’s entire body will be overflowing\nwith power."
+    "color": "yellow",
+    "desc": "When it shares the infinite energy it creates,\nthat being’s entire body will be overflowing\nwith power.",
+    "owned": false
   },
   {
     "id": 495,
@@ -11055,11 +10067,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/495.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "They photosynthesize by bathing their tails in\nsunlight. When they are not feeling well, their\ntails droop."
+    "color": "rgb(52, 199, 89)",
+    "desc": "They photosynthesize by bathing their tails in\nsunlight. When they are not feeling well, their\ntails droop.",
+    "owned": false
   },
   {
     "id": 496,
@@ -11074,11 +10084,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/496.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "When it gets dirty, its leaves can’t be used in\nphotosynthesis, so it always keeps itself clean."
+    "color": "rgb(52, 199, 89)",
+    "desc": "When it gets dirty, its leaves can’t be used in\nphotosynthesis, so it always keeps itself clean.",
+    "owned": false
   },
   {
     "id": 497,
@@ -11093,11 +10101,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/497.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "It can stop its opponents’ movements with just a\nglare. It takes in solar energy and boosts\nit internally."
+    "color": "rgb(52, 199, 89)",
+    "desc": "It can stop its opponents’ movements with just a\nglare. It takes in solar energy and boosts\nit internally.",
+    "owned": false
   },
   {
     "id": 498,
@@ -11112,11 +10118,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/498.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "It loves to eat roasted berries, but sometimes it\ngets too excited and burns them to a crisp."
+    "color": "rgb(255, 69, 58)",
+    "desc": "It loves to eat roasted berries, but sometimes it\ngets too excited and burns them to a crisp.",
+    "owned": false
   },
   {
     "id": 499,
@@ -11138,11 +10142,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/499.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "When its internal fire flares up, its movements grow\nsharper and faster. When in trouble, it emits smoke."
+    "color": "rgb(255, 69, 58)",
+    "desc": "When its internal fire flares up, its movements grow\nsharper and faster. When in trouble, it emits smoke.",
+    "owned": false
   },
   {
     "id": 500,
@@ -11164,11 +10166,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/500.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "It has mastergb(255, 69, 58) fast and powerful fighting moves.\nIt grows a beard of fire."
+    "color": "rgb(255, 69, 58)",
+    "desc": "It has mastergb(255, 69, 58) fast and powerful fighting moves.\nIt grows a beard of fire.",
+    "owned": false
   },
   {
     "id": 501,
@@ -11183,11 +10183,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/501.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "It fights using the scalchop on its stomach.\nIn response to an attack, it retaliates immediately\nby slashing."
+    "color": "rgb(10, 132, 255)",
+    "desc": "It fights using the scalchop on its stomach.\nIn response to an attack, it retaliates immediately\nby slashing.",
+    "owned": false
   },
   {
     "id": 502,
@@ -11202,11 +10200,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/502.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "As a result of strict training, each Dewott learns\ndifferent forms for using the scalchops."
+    "color": "rgb(10, 132, 255)",
+    "desc": "As a result of strict training, each Dewott learns\ndifferent forms for using the scalchops.",
+    "owned": false
   },
   {
     "id": 503,
@@ -11221,11 +10217,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/503.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "One swing of the sword incorporated in its armor\ncan fell an opponent. A simple glare from one of\nthem quiets everybody."
+    "color": "rgb(10, 132, 255)",
+    "desc": "One swing of the sword incorporated in its armor\ncan fell an opponent. A simple glare from one of\nthem quiets everybody.",
+    "owned": false
   },
   {
     "id": 504,
@@ -11240,11 +10234,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/504.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "Extremely cautious, one of them will always be on\nthe lookout, but it won’t notice a foe coming\nfrom behind."
+    "color": "rgb(210, 106, 36)",
+    "desc": "Extremely cautious, one of them will always be on\nthe lookout, but it won’t notice a foe coming\nfrom behind.",
+    "owned": false
   },
   {
     "id": 505,
@@ -11259,11 +10251,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/505.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "When they see an enemy, their tails stand high,\nand they spit the seeds of berries storgb(255, 69, 58) in their\ncheek pouches."
+    "color": "rgb(210, 106, 36)",
+    "desc": "When they see an enemy, their tails stand high,\nand they spit the seeds of berries storgb(255, 69, 58) in their\ncheek pouches.",
+    "owned": false
   },
   {
     "id": 506,
@@ -11278,11 +10268,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/506.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "This Pokémon has excellent judgment.\nIf it decides it can’t defeat an opponent,\nit immediately turns tail and vamooses."
+    "color": "rgb(210, 106, 36)",
+    "desc": "This Pokémon has excellent judgment.\nIf it decides it can’t defeat an opponent,\nit immediately turns tail and vamooses.",
+    "owned": false
   },
   {
     "id": 507,
@@ -11297,11 +10285,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/507.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "The longer its black fur grows, the harder and\nmore impervious it gets. Claws and fangs can’t\neasily penetrate it."
+    "color": "gray",
+    "desc": "The longer its black fur grows, the harder and\nmore impervious it gets. Claws and fangs can’t\neasily penetrate it.",
+    "owned": false
   },
   {
     "id": 508,
@@ -11316,11 +10302,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/508.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "It pays no mind to the cold, thanks to its long\nwarm coat. Stoutland in Alola look a\nlittle uncomfortable."
+    "color": "gray",
+    "desc": "It pays no mind to the cold, thanks to its long\nwarm coat. Stoutland in Alola look a\nlittle uncomfortable.",
+    "owned": false
   },
   {
     "id": 509,
@@ -11335,11 +10319,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/509.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "They steal from people for fun, but their victims\ncan’t help but forgive them. Their deceptively cute\nact is perfect."
+    "color": "rgb(112, 90, 159)",
+    "desc": "They steal from people for fun, but their victims\ncan’t help but forgive them. Their deceptively cute\nact is perfect.",
+    "owned": false
   },
   {
     "id": 510,
@@ -11354,11 +10336,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/510.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "Stealthily, it sneaks up on its target, striking from\nbehind before its victim has a chance to react."
+    "color": "rgb(112, 90, 159)",
+    "desc": "Stealthily, it sneaks up on its target, striking from\nbehind before its victim has a chance to react.",
+    "owned": false
   },
   {
     "id": 511,
@@ -11373,11 +10353,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/511.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "It’s good at finding berries and gathers them from\nall over. It’s kind enough to share them\nwith friends."
+    "color": "rgb(52, 199, 89)",
+    "desc": "It’s good at finding berries and gathers them from\nall over. It’s kind enough to share them\nwith friends.",
+    "owned": false
   },
   {
     "id": 512,
@@ -11392,11 +10370,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/512.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "Ill tempergb(255, 69, 58), it fights by swinging its barbed tail\naround wildly. The leaf growing on its head is\nvery bitter."
+    "color": "rgb(52, 199, 89)",
+    "desc": "Ill tempergb(255, 69, 58), it fights by swinging its barbed tail\naround wildly. The leaf growing on its head is\nvery bitter.",
+    "owned": false
   },
   {
     "id": 513,
@@ -11411,11 +10387,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/513.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "This Pokémon lives in caves in volcanoes.\nThe fire within the tuft on its head can reach\n600 degrees Fahrenheit."
+    "color": "rgb(255, 69, 58)",
+    "desc": "This Pokémon lives in caves in volcanoes.\nThe fire within the tuft on its head can reach\n600 degrees Fahrenheit.",
+    "owned": false
   },
   {
     "id": 514,
@@ -11430,11 +10404,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/514.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "When it gets excited, embers rise from its head\nand tail and it gets hot. For some reason, it\nloves sweets."
+    "color": "rgb(255, 69, 58)",
+    "desc": "When it gets excited, embers rise from its head\nand tail and it gets hot. For some reason, it\nloves sweets.",
+    "owned": false
   },
   {
     "id": 515,
@@ -11449,11 +10421,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/515.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "The water storgb(255, 69, 58) inside the tuft on its head is full of\nnutrients. Plants that receive its water grow large."
+    "color": "rgb(10, 132, 255)",
+    "desc": "The water storgb(255, 69, 58) inside the tuft on its head is full of\nnutrients. Plants that receive its water grow large.",
+    "owned": false
   },
   {
     "id": 516,
@@ -11468,11 +10438,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/516.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "It prefers places with clean water. When its tuft runs\nlow, it replenishes it by siphoning up water with\nits tail."
+    "color": "rgb(10, 132, 255)",
+    "desc": "It prefers places with clean water. When its tuft runs\nlow, it replenishes it by siphoning up water with\nits tail.",
+    "owned": false
   },
   {
     "id": 517,
@@ -11487,11 +10455,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/517.png",
-    "color": {
-      "name": "pink",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/6/"
-    },
-    "desc": "It eats the dreams of people and Pokémon. When it\neats a pleasant dream, it expels pink-colorgb(255, 69, 58) mist."
+    "color": "pink",
+    "desc": "It eats the dreams of people and Pokémon. When it\neats a pleasant dream, it expels pink-colorgb(255, 69, 58) mist.",
+    "owned": false
   },
   {
     "id": 518,
@@ -11506,11 +10472,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/518.png",
-    "color": {
-      "name": "pink",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/6/"
-    },
-    "desc": "The dream mist coming from its forehead changes\ninto many different colors depending on the dream\nthat was eaten."
+    "color": "pink",
+    "desc": "The dream mist coming from its forehead changes\ninto many different colors depending on the dream\nthat was eaten.",
+    "owned": false
   },
   {
     "id": 519,
@@ -11532,11 +10496,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/519.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "These Pokémon live in cities. They are accustomed\nto people. Flocks often gather in parks and plazas."
+    "color": "gray",
+    "desc": "These Pokémon live in cities. They are accustomed\nto people. Flocks often gather in parks and plazas.",
+    "owned": false
   },
   {
     "id": 520,
@@ -11558,11 +10520,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/520.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "No matter where in the world it goes, it knows\nwhere its nest is, so it never gets separated from\nits Trainer."
+    "color": "gray",
+    "desc": "No matter where in the world it goes, it knows\nwhere its nest is, so it never gets separated from\nits Trainer.",
+    "owned": false
   },
   {
     "id": 521,
@@ -11584,11 +10544,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/521.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "Males have plumage on their heads. They will never\nlet themselves feel close to anyone other than\ntheir Trainers."
+    "color": "gray",
+    "desc": "Males have plumage on their heads. They will never\nlet themselves feel close to anyone other than\ntheir Trainers.",
+    "owned": false
   },
   {
     "id": 522,
@@ -11603,11 +10561,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/522.png",
-    "color": {
-      "name": "black",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/1/"
-    },
-    "desc": "Its mane shines when it discharges electricity.\nThey use the frequency and rhythm of these flashes\nto communicate."
+    "color": "black",
+    "desc": "Its mane shines when it discharges electricity.\nThey use the frequency and rhythm of these flashes\nto communicate.",
+    "owned": false
   },
   {
     "id": 523,
@@ -11622,11 +10578,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/523.png",
-    "color": {
-      "name": "black",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/1/"
-    },
-    "desc": "They have lightning-like movements.\nWhen Zebstrika run at full speed, the sound of\nthunder reverberates."
+    "color": "black",
+    "desc": "They have lightning-like movements.\nWhen Zebstrika run at full speed, the sound of\nthunder reverberates.",
+    "owned": false
   },
   {
     "id": 524,
@@ -11641,11 +10595,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/524.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "The hexagonal hole is its ear. Deep in that ear is\nan energy core, so if you stick your hand in\nthere, Roggenrola will be very angry!"
+    "color": "rgb(10, 132, 255)",
+    "desc": "The hexagonal hole is its ear. Deep in that ear is\nan energy core, so if you stick your hand in\nthere, Roggenrola will be very angry!",
+    "owned": false
   },
   {
     "id": 525,
@@ -11660,11 +10612,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/525.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "The energy overflowing from its body has\nturned into orange crystals that are hard\nenough to smash diamonds."
+    "color": "rgb(10, 132, 255)",
+    "desc": "The energy overflowing from its body has\nturned into orange crystals that are hard\nenough to smash diamonds.",
+    "owned": false
   },
   {
     "id": 526,
@@ -11679,11 +10629,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/526.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "When it fires off energy with all its might, the\npower creates countless fissures on its body."
+    "color": "rgb(10, 132, 255)",
+    "desc": "When it fires off energy with all its might, the\npower creates countless fissures on its body.",
+    "owned": false
   },
   {
     "id": 527,
@@ -11705,11 +10653,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/527.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "The heart-shaped mark left on a body after a\nWoobat has been attached to it is said to bring\ngood fortune."
+    "color": "rgb(10, 132, 255)",
+    "desc": "The heart-shaped mark left on a body after a\nWoobat has been attached to it is said to bring\ngood fortune.",
+    "owned": false
   },
   {
     "id": 528,
@@ -11731,11 +10677,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/528.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "Anyone who comes into contact with the ultrasonic\nwaves emitted by a courting male experiences a\npositive mood shift."
+    "color": "rgb(10, 132, 255)",
+    "desc": "Anyone who comes into contact with the ultrasonic\nwaves emitted by a courting male experiences a\npositive mood shift.",
+    "owned": false
   },
   {
     "id": 529,
@@ -11750,11 +10694,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/529.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "By spinning its body, it can dig straight through the\nground at a speed of 30 mph."
+    "color": "gray",
+    "desc": "By spinning its body, it can dig straight through the\nground at a speed of 30 mph.",
+    "owned": false
   },
   {
     "id": 530,
@@ -11776,11 +10718,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/530.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "More than 300 feet below the surface, they build\nmazelike nests. Their activity can be destructive to\nsubway tunnels."
+    "color": "gray",
+    "desc": "More than 300 feet below the surface, they build\nmazelike nests. Their activity can be destructive to\nsubway tunnels.",
+    "owned": false
   },
   {
     "id": 531,
@@ -11795,11 +10735,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/531.png",
-    "color": {
-      "name": "pink",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/6/"
-    },
-    "desc": "It touches others with the feelers on its ears, using\nthe sound of their heartbeats to tell how they\nare feeling."
+    "color": "pink",
+    "desc": "It touches others with the feelers on its ears, using\nthe sound of their heartbeats to tell how they\nare feeling.",
+    "owned": false
   },
   {
     "id": 532,
@@ -11814,11 +10752,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/532.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "Always carrying squargb(255, 69, 58) logs, they help out with\nconstruction. As they grow, they carry bigger logs."
+    "color": "gray",
+    "desc": "Always carrying squargb(255, 69, 58) logs, they help out with\nconstruction. As they grow, they carry bigger logs.",
+    "owned": false
   },
   {
     "id": 533,
@@ -11833,11 +10769,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/533.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "This Pokémon is so muscular and strongly built that\neven a group of wrestlers could not make it budge\nan inch."
+    "color": "gray",
+    "desc": "This Pokémon is so muscular and strongly built that\neven a group of wrestlers could not make it budge\nan inch.",
+    "owned": false
   },
   {
     "id": 534,
@@ -11852,11 +10786,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/534.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "Rather than rely on force, they master moves that\nutilize the centrifugal force of spinning concrete."
+    "color": "rgb(210, 106, 36)",
+    "desc": "Rather than rely on force, they master moves that\nutilize the centrifugal force of spinning concrete.",
+    "owned": false
   },
   {
     "id": 535,
@@ -11871,11 +10803,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/535.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "By vibrating its cheeks, it emits sound waves\nimperceptible to humans. It uses the rhythm of\nthese sounds to talk."
+    "color": "rgb(10, 132, 255)",
+    "desc": "By vibrating its cheeks, it emits sound waves\nimperceptible to humans. It uses the rhythm of\nthese sounds to talk.",
+    "owned": false
   },
   {
     "id": 536,
@@ -11897,11 +10827,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/536.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "It lives in the water and on land. It uses its long,\nsticky tongue to immobilize its opponents."
+    "color": "rgb(10, 132, 255)",
+    "desc": "It lives in the water and on land. It uses its long,\nsticky tongue to immobilize its opponents.",
+    "owned": false
   },
   {
     "id": 537,
@@ -11923,11 +10851,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/537.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "They shoot paralyzing liquid from their head bumps.\nThey use vibration to hurt their opponents."
+    "color": "rgb(10, 132, 255)",
+    "desc": "They shoot paralyzing liquid from their head bumps.\nThey use vibration to hurt their opponents.",
+    "owned": false
   },
   {
     "id": 538,
@@ -11942,11 +10868,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/538.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "When it encounters a foe bigger than itself, it wants\nto throw it. It changes belts as it gets stronger."
+    "color": "rgb(255, 69, 58)",
+    "desc": "When it encounters a foe bigger than itself, it wants\nto throw it. It changes belts as it gets stronger.",
+    "owned": false
   },
   {
     "id": 539,
@@ -11961,11 +10885,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/539.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "Tying their belts gets them pumped and makes their\npunches more destructive. Disturbing their training\nangers them."
+    "color": "rgb(10, 132, 255)",
+    "desc": "Tying their belts gets them pumped and makes their\npunches more destructive. Disturbing their training\nangers them.",
+    "owned": false
   },
   {
     "id": 540,
@@ -11987,11 +10909,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/540.png",
-    "color": {
-      "name": "yellow",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
-    },
-    "desc": "Since this Pokémon makes its own clothes out of\nleaves, it is a popular mascot for fashion designers."
+    "color": "yellow",
+    "desc": "Since this Pokémon makes its own clothes out of\nleaves, it is a popular mascot for fashion designers.",
+    "owned": false
   },
   {
     "id": 541,
@@ -12013,11 +10933,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/541.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "It protects itself from the cold by wrapping up in\nleaves. It stays on the move, eating leaves\nin forests."
+    "color": "rgb(52, 199, 89)",
+    "desc": "It protects itself from the cold by wrapping up in\nleaves. It stays on the move, eating leaves\nin forests.",
+    "owned": false
   },
   {
     "id": 542,
@@ -12039,11 +10957,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/542.png",
-    "color": {
-      "name": "yellow",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
-    },
-    "desc": "It keeps its eggs warm with heat from fermenting\nleaves. It also uses leaves to make warm wrappings\nfor Sewaddle."
+    "color": "yellow",
+    "desc": "It keeps its eggs warm with heat from fermenting\nleaves. It also uses leaves to make warm wrappings\nfor Sewaddle.",
+    "owned": false
   },
   {
     "id": 543,
@@ -12065,11 +10981,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/543.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "Its bite injects a potent poison, enough to paralyze\nlarge bird Pokémon that try to prey on it."
+    "color": "rgb(255, 69, 58)",
+    "desc": "Its bite injects a potent poison, enough to paralyze\nlarge bird Pokémon that try to prey on it.",
+    "owned": false
   },
   {
     "id": 544,
@@ -12091,11 +11005,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/544.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "It is usually motionless, but when attacked,\nit rotates at high speed and then crashes into\nits opponent."
+    "color": "gray",
+    "desc": "It is usually motionless, but when attacked,\nit rotates at high speed and then crashes into\nits opponent.",
+    "owned": false
   },
   {
     "id": 545,
@@ -12117,11 +11029,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/545.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "With quick movements, it chases down its foes,\nattacking relentlessly with its horns until it prevails."
+    "color": "rgb(255, 69, 58)",
+    "desc": "With quick movements, it chases down its foes,\nattacking relentlessly with its horns until it prevails.",
+    "owned": false
   },
   {
     "id": 546,
@@ -12143,11 +11053,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/546.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "To protect itself, it shoots cotton from its body.\nWhen it gets wet in the rain, its cotton grows\nmoist and heavy, and it can’t move as well."
+    "color": "rgb(52, 199, 89)",
+    "desc": "To protect itself, it shoots cotton from its body.\nWhen it gets wet in the rain, its cotton grows\nmoist and heavy, and it can’t move as well.",
+    "owned": false
   },
   {
     "id": 547,
@@ -12169,11 +11077,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/547.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "This nuisance sneaks into people’s homes,\nwhere it hides important things and scatters\ncotton all over the place."
+    "color": "rgb(52, 199, 89)",
+    "desc": "This nuisance sneaks into people’s homes,\nwhere it hides important things and scatters\ncotton all over the place.",
+    "owned": false
   },
   {
     "id": 548,
@@ -12188,11 +11094,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/548.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "Some say if you dry the leaves on its head, boil\nthem down, and drink the infusion, your vigor\nwill return, so Petilil is popular with the elderly."
+    "color": "rgb(52, 199, 89)",
+    "desc": "Some say if you dry the leaves on its head, boil\nthem down, and drink the infusion, your vigor\nwill return, so Petilil is popular with the elderly.",
+    "owned": false
   },
   {
     "id": 549,
@@ -12207,11 +11111,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/549.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "The fragrance of its flower differs slightly\ndepending on the soil where it grew up.\nSniffing the aroma calms your heart and mind."
+    "color": "rgb(52, 199, 89)",
+    "desc": "The fragrance of its flower differs slightly\ndepending on the soil where it grew up.\nSniffing the aroma calms your heart and mind.",
+    "owned": false
   },
   {
     "id": 550,
@@ -12226,11 +11128,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/550.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "Savage, violent Pokémon, rgb(255, 69, 58) and rgb(10, 132, 255) Basculin\nare always fighting each other over territory."
+    "color": "rgb(52, 199, 89)",
+    "desc": "Savage, violent Pokémon, rgb(255, 69, 58) and rgb(10, 132, 255) Basculin\nare always fighting each other over territory.",
+    "owned": false
   },
   {
     "id": 551,
@@ -12252,11 +11152,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/551.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "Alola, where it’s warm all year round, is a\ncomfortable environment for this Pokémon.\nSometimes you’ll even see it outside of deserts."
+    "color": "rgb(210, 106, 36)",
+    "desc": "Alola, where it’s warm all year round, is a\ncomfortable environment for this Pokémon.\nSometimes you’ll even see it outside of deserts.",
+    "owned": false
   },
   {
     "id": 552,
@@ -12278,11 +11176,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/552.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "Krokorok really hates it when its body gets\ncold. On nights when the temperature drops,\nit digs deep into the desert sands."
+    "color": "rgb(210, 106, 36)",
+    "desc": "Krokorok really hates it when its body gets\ncold. On nights when the temperature drops,\nit digs deep into the desert sands.",
+    "owned": false
   },
   {
     "id": 553,
@@ -12304,11 +11200,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/553.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "When it spots prey, even at a distance of over\n30 miles, it swims through the desert as if it\nwere water, then jumps out and chomps them."
+    "color": "rgb(255, 69, 58)",
+    "desc": "When it spots prey, even at a distance of over\n30 miles, it swims through the desert as if it\nwere water, then jumps out and chomps them.",
+    "owned": false
   },
   {
     "id": 554,
@@ -12323,11 +11217,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/554.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "When it sleeps, it pulls its limbs into its\nbody and its internal fire goes down to\n1,100 degrees Fahrenheit."
+    "color": "rgb(255, 69, 58)",
+    "desc": "When it sleeps, it pulls its limbs into its\nbody and its internal fire goes down to\n1,100 degrees Fahrenheit.",
+    "owned": false
   },
   {
     "id": 555,
@@ -12342,11 +11234,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/555.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "Its internal fire burns at 2,500 degrees Fahrenheit,\nmaking enough power that it can destroy a dump\ntruck with one punch."
+    "color": "rgb(255, 69, 58)",
+    "desc": "Its internal fire burns at 2,500 degrees Fahrenheit,\nmaking enough power that it can destroy a dump\ntruck with one punch.",
+    "owned": false
   },
   {
     "id": 556,
@@ -12361,11 +11251,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/556.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "Arid regions are their habitat. They move\nrhythmically, making a sound similar to maracas."
+    "color": "rgb(52, 199, 89)",
+    "desc": "Arid regions are their habitat. They move\nrhythmically, making a sound similar to maracas.",
+    "owned": false
   },
   {
     "id": 557,
@@ -12387,11 +11275,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/557.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "When it finds a stone of a suitable size, it secretes\na liquid from its mouth to open up a hole to\ncrawl into."
+    "color": "rgb(255, 69, 58)",
+    "desc": "When it finds a stone of a suitable size, it secretes\na liquid from its mouth to open up a hole to\ncrawl into.",
+    "owned": false
   },
   {
     "id": 558,
@@ -12413,11 +11299,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/558.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "Competing for territory, Crustle fight viciously.\nThe one whose boulder is broken is the loser of\nthe battle."
+    "color": "rgb(255, 69, 58)",
+    "desc": "Competing for territory, Crustle fight viciously.\nThe one whose boulder is broken is the loser of\nthe battle.",
+    "owned": false
   },
   {
     "id": 559,
@@ -12439,11 +11323,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/559.png",
-    "color": {
-      "name": "yellow",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
-    },
-    "desc": "They move in small groups, walking around lazily.\nAnyone who makes eye contact gets smacked\nwith a headbutt."
+    "color": "yellow",
+    "desc": "They move in small groups, walking around lazily.\nAnyone who makes eye contact gets smacked\nwith a headbutt.",
+    "owned": false
   },
   {
     "id": 560,
@@ -12465,11 +11347,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/560.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "This Pokémon may be rude, but it takes very\ngood care of its family, its friends, and its turf."
+    "color": "rgb(255, 69, 58)",
+    "desc": "This Pokémon may be rude, but it takes very\ngood care of its family, its friends, and its turf.",
+    "owned": false
   },
   {
     "id": 561,
@@ -12491,11 +11371,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/561.png",
-    "color": {
-      "name": "black",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/1/"
-    },
-    "desc": "The guardians of an ancient city, they always fly\nthe same route while keeping watch for invaders."
+    "color": "black",
+    "desc": "The guardians of an ancient city, they always fly\nthe same route while keeping watch for invaders.",
+    "owned": false
   },
   {
     "id": 562,
@@ -12510,11 +11388,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/562.png",
-    "color": {
-      "name": "black",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/1/"
-    },
-    "desc": "Each of them carries a mask that used to be its face\nwhen it was human. Sometimes they look at it\nand cry."
+    "color": "black",
+    "desc": "Each of them carries a mask that used to be its face\nwhen it was human. Sometimes they look at it\nand cry.",
+    "owned": false
   },
   {
     "id": 563,
@@ -12529,11 +11405,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/563.png",
-    "color": {
-      "name": "yellow",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
-    },
-    "desc": "Grave robbers who mistake them for real coffins and\nget too close end up trapped inside their bodies."
+    "color": "yellow",
+    "desc": "Grave robbers who mistake them for real coffins and\nget too close end up trapped inside their bodies.",
+    "owned": false
   },
   {
     "id": 564,
@@ -12555,11 +11429,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/564.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "It was restorgb(255, 69, 58) from an ancient fossil. Tirtouga\nlived in the sea but came up onto the land to\nsearch for prey."
+    "color": "rgb(10, 132, 255)",
+    "desc": "It was restorgb(255, 69, 58) from an ancient fossil. Tirtouga\nlived in the sea but came up onto the land to\nsearch for prey.",
+    "owned": false
   },
   {
     "id": 565,
@@ -12581,11 +11453,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/565.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "Its jaws are terrifyingly powerful. It could eat\nOmastar and Omanyte whole and not be\nbothergb(255, 69, 58) in the slightest by their shells."
+    "color": "rgb(10, 132, 255)",
+    "desc": "Its jaws are terrifyingly powerful. It could eat\nOmastar and Omanyte whole and not be\nbothergb(255, 69, 58) in the slightest by their shells.",
+    "owned": false
   },
   {
     "id": 566,
@@ -12607,11 +11477,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/566.png",
-    "color": {
-      "name": "yellow",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
-    },
-    "desc": "Once thought to be the ancestor of all bird\nPokémon, some of the latest research suggests\nthat may not be the case."
+    "color": "yellow",
+    "desc": "Once thought to be the ancestor of all bird\nPokémon, some of the latest research suggests\nthat may not be the case.",
+    "owned": false
   },
   {
     "id": 567,
@@ -12633,11 +11501,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/567.png",
-    "color": {
-      "name": "yellow",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
-    },
-    "desc": "This ancient Pokémon’s plumage is delicate,\nso if anyone other than an experienced\nprofessional tries to restore it, they will fail."
+    "color": "yellow",
+    "desc": "This ancient Pokémon’s plumage is delicate,\nso if anyone other than an experienced\nprofessional tries to restore it, they will fail.",
+    "owned": false
   },
   {
     "id": 568,
@@ -12652,11 +11518,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/568.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "Poisonous gas leaks out of it when it breathes.\nMuk that catch a whiff of that stench will\ncome drooling."
+    "color": "rgb(52, 199, 89)",
+    "desc": "Poisonous gas leaks out of it when it breathes.\nMuk that catch a whiff of that stench will\ncome drooling.",
+    "owned": false
   },
   {
     "id": 569,
@@ -12671,11 +11535,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/569.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "It locks opponents in place with its left hand,\nimmobilizing them by entirely dousing their\nbodies with poisonous liquid."
+    "color": "rgb(52, 199, 89)",
+    "desc": "It locks opponents in place with its left hand,\nimmobilizing them by entirely dousing their\nbodies with poisonous liquid.",
+    "owned": false
   },
   {
     "id": 570,
@@ -12690,11 +11552,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/570.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "This Pokémon has a cowardly disposition, so\nwhen it’s not around friends, it basically\nalways stays transformed as something else."
+    "color": "gray",
+    "desc": "This Pokémon has a cowardly disposition, so\nwhen it’s not around friends, it basically\nalways stays transformed as something else.",
+    "owned": false
   },
   {
     "id": 571,
@@ -12709,11 +11569,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/571.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "It doesn’t just transform itself—it also has the\npower to make hundrgb(255, 69, 58)s of people see\nits illusions."
+    "color": "gray",
+    "desc": "It doesn’t just transform itself—it also has the\npower to make hundrgb(255, 69, 58)s of people see\nits illusions.",
+    "owned": false
   },
   {
     "id": 572,
@@ -12728,11 +11586,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/572.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "A clean freak that will not allow even the\nslightest mess, it uses its tail like a mop to\nthoroughly clean any and all filth."
+    "color": "gray",
+    "desc": "A clean freak that will not allow even the\nslightest mess, it uses its tail like a mop to\nthoroughly clean any and all filth.",
+    "owned": false
   },
   {
     "id": 573,
@@ -12747,11 +11603,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/573.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "The white parts of its coat are covergb(255, 69, 58) in an oil\nsecreted from its body, so this Pokémon can\nslide right away from its enemies’ attacks."
+    "color": "gray",
+    "desc": "The white parts of its coat are covergb(255, 69, 58) in an oil\nsecreted from its body, so this Pokémon can\nslide right away from its enemies’ attacks.",
+    "owned": false
   },
   {
     "id": 574,
@@ -12766,11 +11620,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/574.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "They intently observe both Trainers and Pokémon.\nApparently, they are looking at something that only\nGothita can see."
+    "color": "rgb(112, 90, 159)",
+    "desc": "They intently observe both Trainers and Pokémon.\nApparently, they are looking at something that only\nGothita can see.",
+    "owned": false
   },
   {
     "id": 575,
@@ -12785,11 +11637,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/575.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "According to many old tales, it creates friends for\nitself by controlling sleeping children on\nstarry nights."
+    "color": "rgb(112, 90, 159)",
+    "desc": "According to many old tales, it creates friends for\nitself by controlling sleeping children on\nstarry nights.",
+    "owned": false
   },
   {
     "id": 576,
@@ -12804,11 +11654,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/576.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "They can prgb(255, 69, 58)ict the future from the placement and\nmovement of the stars. They can see Trainers’\nlife spans."
+    "color": "rgb(112, 90, 159)",
+    "desc": "They can prgb(255, 69, 58)ict the future from the placement and\nmovement of the stars. They can see Trainers’\nlife spans.",
+    "owned": false
   },
   {
     "id": 577,
@@ -12823,11 +11671,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/577.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "They drive away attackers by unleashing psychic\npower. They can use telepathy to talk with others."
+    "color": "rgb(52, 199, 89)",
+    "desc": "They drive away attackers by unleashing psychic\npower. They can use telepathy to talk with others.",
+    "owned": false
   },
   {
     "id": 578,
@@ -12842,11 +11688,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/578.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "When their two divided brains think the same\nthoughts, their psychic power is maximized."
+    "color": "rgb(52, 199, 89)",
+    "desc": "When their two divided brains think the same\nthoughts, their psychic power is maximized.",
+    "owned": false
   },
   {
     "id": 579,
@@ -12861,11 +11705,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/579.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "When Reuniclus shake hands, a network forms\nbetween their brains, increasing their\npsychic power."
+    "color": "rgb(52, 199, 89)",
+    "desc": "When Reuniclus shake hands, a network forms\nbetween their brains, increasing their\npsychic power.",
+    "owned": false
   },
   {
     "id": 580,
@@ -12887,11 +11729,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/580.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "They are better at swimming than flying, and they\nhappily eat their favorite food, peat moss, as they\ndive underwater."
+    "color": "rgb(10, 132, 255)",
+    "desc": "They are better at swimming than flying, and they\nhappily eat their favorite food, peat moss, as they\ndive underwater.",
+    "owned": false
   },
   {
     "id": 581,
@@ -12913,11 +11753,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/581.png",
-    "color": {
-      "name": "white",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/9/"
-    },
-    "desc": "Swanna start to dance at dusk. The one dancing in\nthe middle is the leader of the flock."
+    "color": "white",
+    "desc": "Swanna start to dance at dusk. The one dancing in\nthe middle is the leader of the flock.",
+    "owned": false
   },
   {
     "id": 582,
@@ -12932,11 +11770,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/582.png",
-    "color": {
-      "name": "white",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/9/"
-    },
-    "desc": "It exhales cold air that is at –58 degrees\nFahrenheit. When it’s in a warm place, it shrinks\nlittle by little."
+    "color": "white",
+    "desc": "It exhales cold air that is at –58 degrees\nFahrenheit. When it’s in a warm place, it shrinks\nlittle by little.",
+    "owned": false
   },
   {
     "id": 583,
@@ -12951,11 +11787,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/583.png",
-    "color": {
-      "name": "white",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/9/"
-    },
-    "desc": "It sprays its enemies with grains of ice to freeze\nthem. Most Vanillish in Alola are smaller\nthan average."
+    "color": "white",
+    "desc": "It sprays its enemies with grains of ice to freeze\nthem. Most Vanillish in Alola are smaller\nthan average.",
+    "owned": false
   },
   {
     "id": 584,
@@ -12970,11 +11804,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/584.png",
-    "color": {
-      "name": "white",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/9/"
-    },
-    "desc": "It blasts blizzards from its two mouths. It can\ncreate snow anywhere, so it gets a lot of love\nfrom skiers and snowboarders."
+    "color": "white",
+    "desc": "It blasts blizzards from its two mouths. It can\ncreate snow anywhere, so it gets a lot of love\nfrom skiers and snowboarders.",
+    "owned": false
   },
   {
     "id": 585,
@@ -12996,11 +11828,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/585.png",
-    "color": {
-      "name": "pink",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/6/"
-    },
-    "desc": "The turning of the seasons changes the color and\nscent of this Pokémon’s fur. People use it to mark\nthe seasons."
+    "color": "pink",
+    "desc": "The turning of the seasons changes the color and\nscent of this Pokémon’s fur. People use it to mark\nthe seasons.",
+    "owned": false
   },
   {
     "id": 586,
@@ -13022,11 +11852,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/586.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "They migrate according to the seasons, so some\npeople call Sawsbuck the harbingers of spring."
+    "color": "rgb(210, 106, 36)",
+    "desc": "They migrate according to the seasons, so some\npeople call Sawsbuck the harbingers of spring.",
+    "owned": false
   },
   {
     "id": 587,
@@ -13048,11 +11876,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/587.png",
-    "color": {
-      "name": "white",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/9/"
-    },
-    "desc": "They store up electricity to fly through the air.\nWhen thunder cracks at night, sometimes there\nare almost enough of them to blot out the sky."
+    "color": "white",
+    "desc": "They store up electricity to fly through the air.\nWhen thunder cracks at night, sometimes there\nare almost enough of them to blot out the sky.",
+    "owned": false
   },
   {
     "id": 588,
@@ -13067,11 +11893,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/588.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "For some reason they evolve when they receive\nelectrical energy while they are attacking Shelmet."
+    "color": "rgb(10, 132, 255)",
+    "desc": "For some reason they evolve when they receive\nelectrical energy while they are attacking Shelmet.",
+    "owned": false
   },
   {
     "id": 589,
@@ -13093,11 +11917,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/589.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "These Pokémon evolve by wearing the shell\ncovering of a Shelmet. The steel armor protects\ntheir whole body."
+    "color": "gray",
+    "desc": "These Pokémon evolve by wearing the shell\ncovering of a Shelmet. The steel armor protects\ntheir whole body.",
+    "owned": false
   },
   {
     "id": 590,
@@ -13119,11 +11941,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/590.png",
-    "color": {
-      "name": "white",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/9/"
-    },
-    "desc": "It lures Pokémon with its pattern that looks just like\na Poké Ball, then releases poison spores."
+    "color": "white",
+    "desc": "It lures Pokémon with its pattern that looks just like\na Poké Ball, then releases poison spores.",
+    "owned": false
   },
   {
     "id": 591,
@@ -13145,11 +11965,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/591.png",
-    "color": {
-      "name": "white",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/9/"
-    },
-    "desc": "It lures prey close by dancing and waving its\narm caps, which resemble Poké Balls, in a\nswaying motion."
+    "color": "white",
+    "desc": "It lures prey close by dancing and waving its\narm caps, which resemble Poké Balls, in a\nswaying motion.",
+    "owned": false
   },
   {
     "id": 592,
@@ -13171,11 +11989,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/592.png",
-    "color": {
-      "name": "white",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/9/"
-    },
-    "desc": "It wraps its veillike arms and legs around prey\nswimming by and drags them down to the\ndepths of the ocean."
+    "color": "white",
+    "desc": "It wraps its veillike arms and legs around prey\nswimming by and drags them down to the\ndepths of the ocean.",
+    "owned": false
   },
   {
     "id": 593,
@@ -13197,11 +12013,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/593.png",
-    "color": {
-      "name": "white",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/9/"
-    },
-    "desc": "Jellicent is always hanging around fancy cruise\nships and tankers, hoping to drag away its prey."
+    "color": "white",
+    "desc": "Jellicent is always hanging around fancy cruise\nships and tankers, hoping to drag away its prey.",
+    "owned": false
   },
   {
     "id": 594,
@@ -13216,11 +12030,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/594.png",
-    "color": {
-      "name": "pink",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/6/"
-    },
-    "desc": "Fishermen take them along on long voyages,\nbecause if you have an Alomomola with you,\nthere’ll be no need for a doctor or medicine."
+    "color": "pink",
+    "desc": "Fishermen take them along on long voyages,\nbecause if you have an Alomomola with you,\nthere’ll be no need for a doctor or medicine.",
+    "owned": false
   },
   {
     "id": 595,
@@ -13242,11 +12054,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/595.png",
-    "color": {
-      "name": "yellow",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
-    },
-    "desc": "They attach themselves to large-bodied Pokémon\nand absorb static electricity, which they store in an\nelectric pouch."
+    "color": "yellow",
+    "desc": "They attach themselves to large-bodied Pokémon\nand absorb static electricity, which they store in an\nelectric pouch.",
+    "owned": false
   },
   {
     "id": 596,
@@ -13268,11 +12078,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/596.png",
-    "color": {
-      "name": "yellow",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
-    },
-    "desc": "When attacked, they create an electric barrier by\nspitting out many electrically charged threads."
+    "color": "yellow",
+    "desc": "When attacked, they create an electric barrier by\nspitting out many electrically charged threads.",
+    "owned": false
   },
   {
     "id": 597,
@@ -13294,11 +12102,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/597.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "It absorbs the iron it finds in the rock while clinging\nto the ceiling. It shoots spikes when in danger."
+    "color": "gray",
+    "desc": "It absorbs the iron it finds in the rock while clinging\nto the ceiling. It shoots spikes when in danger.",
+    "owned": false
   },
   {
     "id": 598,
@@ -13320,11 +12126,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/598.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "They attach themselves to cave ceilings, firing steel\nspikes at targets passing beneath them."
+    "color": "gray",
+    "desc": "They attach themselves to cave ceilings, firing steel\nspikes at targets passing beneath them.",
+    "owned": false
   },
   {
     "id": 599,
@@ -13339,11 +12143,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/599.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "The two minigears that mesh together are\nprgb(255, 69, 58)etermined. Each will rebound from other\nminigears without meshing."
+    "color": "gray",
+    "desc": "The two minigears that mesh together are\nprgb(255, 69, 58)etermined. Each will rebound from other\nminigears without meshing.",
+    "owned": false
   },
   {
     "id": 600,
@@ -13358,11 +12160,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/600.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "A minigear and big gear comprise its body. If the\nminigear it launches at a foe doesn’t return, it\nwill die."
+    "color": "gray",
+    "desc": "A minigear and big gear comprise its body. If the\nminigear it launches at a foe doesn’t return, it\nwill die.",
+    "owned": false
   },
   {
     "id": 601,
@@ -13377,11 +12177,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/601.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "Its rgb(255, 69, 58) core functions as an energy tank. It fires the\ncharged energy through its spikes into an area."
+    "color": "gray",
+    "desc": "Its rgb(255, 69, 58) core functions as an energy tank. It fires the\ncharged energy through its spikes into an area.",
+    "owned": false
   },
   {
     "id": 602,
@@ -13396,11 +12194,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/602.png",
-    "color": {
-      "name": "white",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/9/"
-    },
-    "desc": "One alone can emit only a trickle of electricity,\nso a group of them gathers to unleash a powerful\nelectric shock."
+    "color": "white",
+    "desc": "One alone can emit only a trickle of electricity,\nso a group of them gathers to unleash a powerful\nelectric shock.",
+    "owned": false
   },
   {
     "id": 603,
@@ -13415,11 +12211,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/603.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "These Pokémon have a big appetite. When they\nspot their prey, they attack it and paralyze it\nwith electricity."
+    "color": "rgb(10, 132, 255)",
+    "desc": "These Pokémon have a big appetite. When they\nspot their prey, they attack it and paralyze it\nwith electricity.",
+    "owned": false
   },
   {
     "id": 604,
@@ -13434,11 +12228,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/604.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "They crawl out of the ocean using their arms.\nThey will attack prey on shore and immediately drag\nit into the ocean."
+    "color": "rgb(10, 132, 255)",
+    "desc": "They crawl out of the ocean using their arms.\nThey will attack prey on shore and immediately drag\nit into the ocean.",
+    "owned": false
   },
   {
     "id": 605,
@@ -13453,11 +12245,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/605.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "It controls tremendous psychic power. Most\nreports of alien sightings are actually just\npeople mistaking Elgyem for an alien."
+    "color": "rgb(10, 132, 255)",
+    "desc": "It controls tremendous psychic power. Most\nreports of alien sightings are actually just\npeople mistaking Elgyem for an alien.",
+    "owned": false
   },
   {
     "id": 606,
@@ -13472,11 +12262,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/606.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "With its psychic powers, it rewrites its\nopponents’ memories. You, too, may have\nalready had your memories rewritten."
+    "color": "rgb(210, 106, 36)",
+    "desc": "With its psychic powers, it rewrites its\nopponents’ memories. You, too, may have\nalready had your memories rewritten.",
+    "owned": false
   },
   {
     "id": 607,
@@ -13498,11 +12286,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/607.png",
-    "color": {
-      "name": "white",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/9/"
-    },
-    "desc": "Litwick shines a light that absorbs the life energy of\npeople and Pokémon, which becomes the fuel that\nit burns."
+    "color": "white",
+    "desc": "Litwick shines a light that absorbs the life energy of\npeople and Pokémon, which becomes the fuel that\nit burns.",
+    "owned": false
   },
   {
     "id": 608,
@@ -13524,11 +12310,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/608.png",
-    "color": {
-      "name": "black",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/1/"
-    },
-    "desc": "It arrives near the moment of death and steals spirit\nfrom the body."
+    "color": "black",
+    "desc": "It arrives near the moment of death and steals spirit\nfrom the body.",
+    "owned": false
   },
   {
     "id": 609,
@@ -13550,11 +12334,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/609.png",
-    "color": {
-      "name": "black",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/1/"
-    },
-    "desc": "The spirits burned up in its ominous flame lose their\nway and wander this world forever."
+    "color": "black",
+    "desc": "The spirits burned up in its ominous flame lose their\nway and wander this world forever.",
+    "owned": false
   },
   {
     "id": 610,
@@ -13569,11 +12351,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/610.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "They mark their territory by leaving gashes in trees\nwith their tusks. If a tusk breaks, a new one grows\nin quickly."
+    "color": "rgb(52, 199, 89)",
+    "desc": "They mark their territory by leaving gashes in trees\nwith their tusks. If a tusk breaks, a new one grows\nin quickly.",
+    "owned": false
   },
   {
     "id": 611,
@@ -13588,11 +12368,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/611.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "A broken tusk will not grow back, so it diligently\nsharpens its tusks on river rocks after the end of\na battle."
+    "color": "rgb(52, 199, 89)",
+    "desc": "A broken tusk will not grow back, so it diligently\nsharpens its tusks on river rocks after the end of\na battle.",
+    "owned": false
   },
   {
     "id": 612,
@@ -13607,11 +12385,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/612.png",
-    "color": {
-      "name": "yellow",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
-    },
-    "desc": "Their sturdy tusks will stay sharp even if used to cut\nsteel beams. These Pokémon are covergb(255, 69, 58) in\nhard armor."
+    "color": "yellow",
+    "desc": "Their sturdy tusks will stay sharp even if used to cut\nsteel beams. These Pokémon are covergb(255, 69, 58) in\nhard armor.",
+    "owned": false
   },
   {
     "id": 613,
@@ -13626,11 +12402,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/613.png",
-    "color": {
-      "name": "white",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/9/"
-    },
-    "desc": "Their snot is a barometer of health. When healthy,\ntheir snot is sticky and the power of their ice\nmoves increases."
+    "color": "white",
+    "desc": "Their snot is a barometer of health. When healthy,\ntheir snot is sticky and the power of their ice\nmoves increases.",
+    "owned": false
   },
   {
     "id": 614,
@@ -13645,11 +12419,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/614.png",
-    "color": {
-      "name": "white",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/9/"
-    },
-    "desc": "It freezes its breath to create fangs and claws of ice\nto fight with. Cold northern areas are its habitat."
+    "color": "white",
+    "desc": "It freezes its breath to create fangs and claws of ice\nto fight with. Cold northern areas are its habitat.",
+    "owned": false
   },
   {
     "id": 615,
@@ -13664,11 +12436,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/615.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "They are composed of ice crystals. They capture\nprey with chains of ice, freezing the prey at\n-148 degrees Fahrenheit."
+    "color": "rgb(10, 132, 255)",
+    "desc": "They are composed of ice crystals. They capture\nprey with chains of ice, freezing the prey at\n-148 degrees Fahrenheit.",
+    "owned": false
   },
   {
     "id": 616,
@@ -13683,11 +12453,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/616.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "It evolves when bathed in an electric-like energy\nalong with Karrablast. The reason is still unknown."
+    "color": "rgb(255, 69, 58)",
+    "desc": "It evolves when bathed in an electric-like energy\nalong with Karrablast. The reason is still unknown.",
+    "owned": false
   },
   {
     "id": 617,
@@ -13702,11 +12470,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/617.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "When its body dries out, it weakens. So, to prevent\ndehydration, it wraps itself in many layers of\nthin membrane."
+    "color": "rgb(255, 69, 58)",
+    "desc": "When its body dries out, it weakens. So, to prevent\ndehydration, it wraps itself in many layers of\nthin membrane.",
+    "owned": false
   },
   {
     "id": 618,
@@ -13728,11 +12494,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/618.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "It conceals itself in the mud of the seashore.\nThen it waits. When prey touch it, it delivers a jolt\nof electricity."
+    "color": "rgb(210, 106, 36)",
+    "desc": "It conceals itself in the mud of the seashore.\nThen it waits. When prey touch it, it delivers a jolt\nof electricity.",
+    "owned": false
   },
   {
     "id": 619,
@@ -13747,11 +12511,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/619.png",
-    "color": {
-      "name": "yellow",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
-    },
-    "desc": "They can often be seen in packs in the morning,\nslowly moving their bodies through a series\nof poses."
+    "color": "yellow",
+    "desc": "They can often be seen in packs in the morning,\nslowly moving their bodies through a series\nof poses.",
+    "owned": false
   },
   {
     "id": 620,
@@ -13766,11 +12528,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/620.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "It overwhelms its opponents with continuous\nattacks and then slowly stores up power\nbefore delivering the finishing blow."
+    "color": "rgb(112, 90, 159)",
+    "desc": "It overwhelms its opponents with continuous\nattacks and then slowly stores up power\nbefore delivering the finishing blow.",
+    "owned": false
   },
   {
     "id": 621,
@@ -13785,11 +12545,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/621.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "The rgb(255, 69, 58) skin on its face is harder than rock.\nIn narrow caves, it squares off against its\nenemies and charges face-first right into them."
+    "color": "rgb(255, 69, 58)",
+    "desc": "The rgb(255, 69, 58) skin on its face is harder than rock.\nIn narrow caves, it squares off against its\nenemies and charges face-first right into them.",
+    "owned": false
   },
   {
     "id": 622,
@@ -13811,11 +12569,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/622.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "Its movements are powergb(255, 69, 58) by a mysterious\nenergy. It has continued to move since ancient\ntimes, so its power may soon run out."
+    "color": "rgb(52, 199, 89)",
+    "desc": "Its movements are powergb(255, 69, 58) by a mysterious\nenergy. It has continued to move since ancient\ntimes, so its power may soon run out.",
+    "owned": false
   },
   {
     "id": 623,
@@ -13837,11 +12593,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/623.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "Some say that ancient people invented Golurk\nto serve as a laborer. It follows its master’s\norders faithfully."
+    "color": "rgb(52, 199, 89)",
+    "desc": "Some say that ancient people invented Golurk\nto serve as a laborer. It follows its master’s\norders faithfully.",
+    "owned": false
   },
   {
     "id": 624,
@@ -13863,11 +12617,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/624.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "After shrgb(255, 69, 58)ding its prey, it sharpens its blades\non a stone by the river. Each Pawniard has its\nown favorite sharpening stone."
+    "color": "rgb(255, 69, 58)",
+    "desc": "After shrgb(255, 69, 58)ding its prey, it sharpens its blades\non a stone by the river. Each Pawniard has its\nown favorite sharpening stone.",
+    "owned": false
   },
   {
     "id": 625,
@@ -13889,11 +12641,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/625.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "No matter how strong the Bisharp, it’s said\nthat if the blade on its head is chipped, it will\nretire from its position as the boss."
+    "color": "rgb(255, 69, 58)",
+    "desc": "No matter how strong the Bisharp, it’s said\nthat if the blade on its head is chipped, it will\nretire from its position as the boss.",
+    "owned": false
   },
   {
     "id": 626,
@@ -13908,11 +12658,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/626.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "Their fluffy fur absorbs damage, even if they strike\nfoes with a fierce headbutt."
+    "color": "rgb(210, 106, 36)",
+    "desc": "Their fluffy fur absorbs damage, even if they strike\nfoes with a fierce headbutt.",
+    "owned": false
   },
   {
     "id": 627,
@@ -13934,11 +12682,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/627.png",
-    "color": {
-      "name": "white",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/9/"
-    },
-    "desc": "With its powerful legs and sturdy claws, it can\ncrack even the hard shells of Shellder and pluck\nout their insides."
+    "color": "white",
+    "desc": "With its powerful legs and sturdy claws, it can\ncrack even the hard shells of Shellder and pluck\nout their insides.",
+    "owned": false
   },
   {
     "id": 628,
@@ -13960,11 +12706,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/628.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "The more scars it has on its front, the more\nheroic it’s considergb(255, 69, 58) to be. Those with many\nscars on their back are mocked by the flock."
+    "color": "rgb(255, 69, 58)",
+    "desc": "The more scars it has on its front, the more\nheroic it’s considergb(255, 69, 58) to be. Those with many\nscars on their back are mocked by the flock.",
+    "owned": false
   },
   {
     "id": 629,
@@ -13986,11 +12730,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/629.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "Mandibuzz gives it the bones it wears. Vullaby’s\nwings are short, so it can’t fly yet, but it jumps\naround, dreaming of wide open skies."
+    "color": "rgb(210, 106, 36)",
+    "desc": "Mandibuzz gives it the bones it wears. Vullaby’s\nwings are short, so it can’t fly yet, but it jumps\naround, dreaming of wide open skies.",
+    "owned": false
   },
   {
     "id": 630,
@@ -14012,11 +12754,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/630.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "It skillfully arranges the bones of its prey to\nconstruct its nest. Most of the bones\nare Cubone."
+    "color": "rgb(210, 106, 36)",
+    "desc": "It skillfully arranges the bones of its prey to\nconstruct its nest. Most of the bones\nare Cubone.",
+    "owned": false
   },
   {
     "id": 631,
@@ -14031,11 +12771,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/631.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "It draws in air through its tail, transforms it into fire,\nand uses it like a tongue. It melts Durant and\neats them."
+    "color": "rgb(255, 69, 58)",
+    "desc": "It draws in air through its tail, transforms it into fire,\nand uses it like a tongue. It melts Durant and\neats them.",
+    "owned": false
   },
   {
     "id": 632,
@@ -14057,11 +12795,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/632.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "They attack in groups, covering themselves in steel\narmor to protect themselves from Heatmor."
+    "color": "gray",
+    "desc": "They attack in groups, covering themselves in steel\narmor to protect themselves from Heatmor.",
+    "owned": false
   },
   {
     "id": 633,
@@ -14083,11 +12819,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/633.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "Lacking sight, it’s unaware of its surroundings,\nso it bumps into things and eats anything\nthat moves."
+    "color": "rgb(10, 132, 255)",
+    "desc": "Lacking sight, it’s unaware of its surroundings,\nso it bumps into things and eats anything\nthat moves.",
+    "owned": false
   },
   {
     "id": 634,
@@ -14109,11 +12843,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/634.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "After it has eaten up all the food in its territory,\nit moves to another area. Its two heads do not\nget along."
+    "color": "rgb(10, 132, 255)",
+    "desc": "After it has eaten up all the food in its territory,\nit moves to another area. Its two heads do not\nget along.",
+    "owned": false
   },
   {
     "id": 635,
@@ -14135,11 +12867,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/635.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "It responds to movement by attacking. This scary,\nthree-headed Pokémon devours everything in\nits path!"
+    "color": "rgb(10, 132, 255)",
+    "desc": "It responds to movement by attacking. This scary,\nthree-headed Pokémon devours everything in\nits path!",
+    "owned": false
   },
   {
     "id": 636,
@@ -14161,11 +12891,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/636.png",
-    "color": {
-      "name": "white",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/9/"
-    },
-    "desc": "When battling opponents, it sprays fire from its\nfive horns. The max temperature of the flames\ncan reach nearly 5,500 degrees Fahrenheit."
+    "color": "white",
+    "desc": "When battling opponents, it sprays fire from its\nfive horns. The max temperature of the flames\ncan reach nearly 5,500 degrees Fahrenheit.",
+    "owned": false
   },
   {
     "id": 637,
@@ -14187,11 +12915,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/637.png",
-    "color": {
-      "name": "white",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/9/"
-    },
-    "desc": "As it flies, it scatters its flaming scales. It was\nfeargb(255, 69, 58) by ancient people, who referrgb(255, 69, 58) to it as\n“the rage of the sun.”"
+    "color": "white",
+    "desc": "As it flies, it scatters its flaming scales. It was\nfeargb(255, 69, 58) by ancient people, who referrgb(255, 69, 58) to it as\n“the rage of the sun.”",
+    "owned": false
   },
   {
     "id": 638,
@@ -14213,11 +12939,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/638.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "It has a body and heart of steel. It worked with its\nallies to punish people when they hurt Pokémon."
+    "color": "rgb(10, 132, 255)",
+    "desc": "It has a body and heart of steel. It worked with its\nallies to punish people when they hurt Pokémon.",
+    "owned": false
   },
   {
     "id": 639,
@@ -14239,11 +12963,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/639.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "Spoken of in legend, this Pokémon used its\nphenomenal power to destroy a castle in its effort\nto protect Pokémon."
+    "color": "gray",
+    "desc": "Spoken of in legend, this Pokémon used its\nphenomenal power to destroy a castle in its effort\nto protect Pokémon.",
+    "owned": false
   },
   {
     "id": 640,
@@ -14265,11 +12987,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/640.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "Legends say this Pokémon confounded opponents\nwith its swift movements."
+    "color": "rgb(52, 199, 89)",
+    "desc": "Legends say this Pokémon confounded opponents\nwith its swift movements.",
+    "owned": false
   },
   {
     "id": 641,
@@ -14284,11 +13004,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/641.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "Tornadus expels massive energy from its tail,\ncausing severe storms. Its power is great enough\nto blow houses away."
+    "color": "rgb(52, 199, 89)",
+    "desc": "Tornadus expels massive energy from its tail,\ncausing severe storms. Its power is great enough\nto blow houses away.",
+    "owned": false
   },
   {
     "id": 642,
@@ -14310,11 +13028,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/642.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "As it flies around, it shoots lightning all over\nthe place and causes forest fires. It is\ntherefore disliked."
+    "color": "rgb(10, 132, 255)",
+    "desc": "As it flies around, it shoots lightning all over\nthe place and causes forest fires. It is\ntherefore disliked.",
+    "owned": false
   },
   {
     "id": 643,
@@ -14336,11 +13052,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/643.png",
-    "color": {
-      "name": "white",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/9/"
-    },
-    "desc": "When Reshiram’s tail flares, the heat energy moves\nthe atmosphere and changes the world’s weather."
+    "color": "white",
+    "desc": "When Reshiram’s tail flares, the heat energy moves\nthe atmosphere and changes the world’s weather.",
+    "owned": false
   },
   {
     "id": 644,
@@ -14362,11 +13076,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/644.png",
-    "color": {
-      "name": "black",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/1/"
-    },
-    "desc": "Concealing itself in lightning clouds, it flies\nthroughout the Unova region. It creates electricity\nin its tail."
+    "color": "black",
+    "desc": "Concealing itself in lightning clouds, it flies\nthroughout the Unova region. It creates electricity\nin its tail.",
+    "owned": false
   },
   {
     "id": 645,
@@ -14388,11 +13100,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/645.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "From the forces of lightning and wind, it creates\nenergy to give nutrients to the soil and make the\nland abundant."
+    "color": "rgb(210, 106, 36)",
+    "desc": "From the forces of lightning and wind, it creates\nenergy to give nutrients to the soil and make the\nland abundant.",
+    "owned": false
   },
   {
     "id": 646,
@@ -14414,11 +13124,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/646.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "It generates a powerful, freezing energy inside\nitself, but its body became frozen when the energy\nleaked out."
+    "color": "gray",
+    "desc": "It generates a powerful, freezing energy inside\nitself, but its body became frozen when the energy\nleaked out.",
+    "owned": false
   },
   {
     "id": 647,
@@ -14440,11 +13148,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/647.png",
-    "color": {
-      "name": "yellow",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
-    },
-    "desc": "When it is resolute, its body fills with power and it\nbecomes swifter. Its jumps are then too fast\nto follow."
+    "color": "yellow",
+    "desc": "When it is resolute, its body fills with power and it\nbecomes swifter. Its jumps are then too fast\nto follow.",
+    "owned": false
   },
   {
     "id": 648,
@@ -14466,11 +13172,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/648.png",
-    "color": {
-      "name": "white",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/9/"
-    },
-    "desc": "Its melodies are sung with a special vocalization\nmethod that can control the feelings of those who\nhear it."
+    "color": "white",
+    "desc": "Its melodies are sung with a special vocalization\nmethod that can control the feelings of those who\nhear it.",
+    "owned": false
   },
   {
     "id": 649,
@@ -14492,11 +13196,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/649.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "This Pokémon existed 300 million years ago. Team\nPlasma altergb(255, 69, 58) it and attached a cannon to its back."
+    "color": "rgb(112, 90, 159)",
+    "desc": "This Pokémon existed 300 million years ago. Team\nPlasma altergb(255, 69, 58) it and attached a cannon to its back.",
+    "owned": false
   },
   {
     "id": 650,
@@ -14511,11 +13213,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/650.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "Such a thick shell of wood covers its head and back\nthat even a direct hit from a truck wouldn’t faze it."
+    "color": "rgb(52, 199, 89)",
+    "desc": "Such a thick shell of wood covers its head and back\nthat even a direct hit from a truck wouldn’t faze it.",
+    "owned": false
   },
   {
     "id": 651,
@@ -14530,11 +13230,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/651.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "They strengthen their lower bodies by\nrunning into one another. They are very\nkind and won’t start fights."
+    "color": "rgb(52, 199, 89)",
+    "desc": "They strengthen their lower bodies by\nrunning into one another. They are very\nkind and won’t start fights.",
+    "owned": false
   },
   {
     "id": 652,
@@ -14556,11 +13254,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/652.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "When it takes a defensive posture with its fists\nguarding its face, it could withstand a bomb blast."
+    "color": "rgb(52, 199, 89)",
+    "desc": "When it takes a defensive posture with its fists\nguarding its face, it could withstand a bomb blast.",
+    "owned": false
   },
   {
     "id": 653,
@@ -14575,11 +13271,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/653.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "As it walks, it munches on a twig in place\nof a snack. It intimidates opponents\nby puffing hot air out of its ears."
+    "color": "rgb(255, 69, 58)",
+    "desc": "As it walks, it munches on a twig in place\nof a snack. It intimidates opponents\nby puffing hot air out of its ears.",
+    "owned": false
   },
   {
     "id": 654,
@@ -14594,11 +13288,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/654.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "When the twig is plucked from its tail,\nfriction sets the twig alight. The flame\nis used to send signals to its allies."
+    "color": "rgb(255, 69, 58)",
+    "desc": "When the twig is plucked from its tail,\nfriction sets the twig alight. The flame\nis used to send signals to its allies.",
+    "owned": false
   },
   {
     "id": 655,
@@ -14620,11 +13312,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/655.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "Using psychic power, it generates a\nfiery vortex of 5,400 degrees Fahrenheit,\nincinerating foes swept into this whirl of flame."
+    "color": "rgb(255, 69, 58)",
+    "desc": "Using psychic power, it generates a\nfiery vortex of 5,400 degrees Fahrenheit,\nincinerating foes swept into this whirl of flame.",
+    "owned": false
   },
   {
     "id": 656,
@@ -14639,11 +13329,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/656.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "It protects its skin by covering its body in\ndelicate bubbles. Beneath its happy-go-lucky air,\nit keeps a watchful eye on its surroundings."
+    "color": "rgb(10, 132, 255)",
+    "desc": "It protects its skin by covering its body in\ndelicate bubbles. Beneath its happy-go-lucky air,\nit keeps a watchful eye on its surroundings.",
+    "owned": false
   },
   {
     "id": 657,
@@ -14658,11 +13346,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/657.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "Its swiftness is unparalleled.\nIt can scale a tower of more\nthan 2,000 feet in a minute’s time."
+    "color": "rgb(10, 132, 255)",
+    "desc": "Its swiftness is unparalleled.\nIt can scale a tower of more\nthan 2,000 feet in a minute’s time.",
+    "owned": false
   },
   {
     "id": 658,
@@ -14684,11 +13370,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/658.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "It appears and vanishes with a ninja’s grace.\nIt toys with its enemies using swift movements, while\nslicing them with throwing stars of sharpest water."
+    "color": "rgb(10, 132, 255)",
+    "desc": "It appears and vanishes with a ninja’s grace.\nIt toys with its enemies using swift movements, while\nslicing them with throwing stars of sharpest water.",
+    "owned": false
   },
   {
     "id": 659,
@@ -14703,11 +13387,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/659.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "It has ears like shovels. Digging holes\nstrengthens its ears so much that they\ncan sever thick roots effortlessly."
+    "color": "rgb(210, 106, 36)",
+    "desc": "It has ears like shovels. Digging holes\nstrengthens its ears so much that they\ncan sever thick roots effortlessly.",
+    "owned": false
   },
   {
     "id": 660,
@@ -14729,11 +13411,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/660.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "As powerful as an excavator, its ears\ncan rgb(255, 69, 58)uce dense bedrock to rubble.\nWhen it’s finished digging, it lounges lazily."
+    "color": "rgb(210, 106, 36)",
+    "desc": "As powerful as an excavator, its ears\ncan rgb(255, 69, 58)uce dense bedrock to rubble.\nWhen it’s finished digging, it lounges lazily.",
+    "owned": false
   },
   {
     "id": 661,
@@ -14755,11 +13435,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/661.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "While it’s an amiable Pokémon, if you touch it\nunexpectedly, it will heat up its body in an\ninstant, and you’ll be burned."
+    "color": "rgb(255, 69, 58)",
+    "desc": "While it’s an amiable Pokémon, if you touch it\nunexpectedly, it will heat up its body in an\ninstant, and you’ll be burned.",
+    "owned": false
   },
   {
     "id": 662,
@@ -14781,11 +13459,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/662.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "It scatters embers in the tall grass. Then bug\nPokémon, frightened by the flames, come\nflying out, and Fletchinder gobbles them up."
+    "color": "rgb(255, 69, 58)",
+    "desc": "It scatters embers in the tall grass. Then bug\nPokémon, frightened by the flames, come\nflying out, and Fletchinder gobbles them up.",
+    "owned": false
   },
   {
     "id": 663,
@@ -14807,11 +13483,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/663.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "Its tough wings don’t allow fire to pass through\nthem. A long time ago, firefighters’ outfits were\nmade from Talonflame wings."
+    "color": "rgb(255, 69, 58)",
+    "desc": "Its tough wings don’t allow fire to pass through\nthem. A long time ago, firefighters’ outfits were\nmade from Talonflame wings.",
+    "owned": false
   },
   {
     "id": 664,
@@ -14826,11 +13500,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/664.png",
-    "color": {
-      "name": "black",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/1/"
-    },
-    "desc": "The powder that covers its body\nregulates its temperature, so it\ncan live in any region or climate."
+    "color": "black",
+    "desc": "The powder that covers its body\nregulates its temperature, so it\ncan live in any region or climate.",
+    "owned": false
   },
   {
     "id": 665,
@@ -14845,11 +13517,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/665.png",
-    "color": {
-      "name": "black",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/1/"
-    },
-    "desc": "The beaks of bird Pokémon can’t begin\nto scratch its stalwart body.\nTo defend itself, it spews powder."
+    "color": "black",
+    "desc": "The beaks of bird Pokémon can’t begin\nto scratch its stalwart body.\nTo defend itself, it spews powder.",
+    "owned": false
   },
   {
     "id": 666,
@@ -14871,11 +13541,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/666.png",
-    "color": {
-      "name": "white",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/9/"
-    },
-    "desc": "The patterns on this Pokémon’s wings\ndepend on the climate and topography\nof its habitat. It scatters colorful scales."
+    "color": "white",
+    "desc": "The patterns on this Pokémon’s wings\ndepend on the climate and topography\nof its habitat. It scatters colorful scales.",
+    "owned": false
   },
   {
     "id": 667,
@@ -14897,11 +13565,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/667.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "When they’re young, they live with a pride. Once\nthey’re able to hunt prey on their own, they’re\nkicked out and have to make their own way."
+    "color": "rgb(210, 106, 36)",
+    "desc": "When they’re young, they live with a pride. Once\nthey’re able to hunt prey on their own, they’re\nkicked out and have to make their own way.",
+    "owned": false
   },
   {
     "id": 668,
@@ -14923,11 +13589,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/668.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "The males are usually lazy, but when attacked\nby a strong foe, a male will protect its friends\nwith no regard for its own safety."
+    "color": "rgb(210, 106, 36)",
+    "desc": "The males are usually lazy, but when attacked\nby a strong foe, a male will protect its friends\nwith no regard for its own safety.",
+    "owned": false
   },
   {
     "id": 669,
@@ -14942,11 +13606,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/669.png",
-    "color": {
-      "name": "white",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/9/"
-    },
-    "desc": "It’s not safe without the power of a flower, but\nit will keep traveling around until it finds one\nwith the color and shape it wants."
+    "color": "white",
+    "desc": "It’s not safe without the power of a flower, but\nit will keep traveling around until it finds one\nwith the color and shape it wants.",
+    "owned": false
   },
   {
     "id": 670,
@@ -14961,11 +13623,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/670.png",
-    "color": {
-      "name": "white",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/9/"
-    },
-    "desc": "It raises flowers and uses them as weapons.\nThe more gorgeous the blossom, the more\npower it contains."
+    "color": "white",
+    "desc": "It raises flowers and uses them as weapons.\nThe more gorgeous the blossom, the more\npower it contains.",
+    "owned": false
   },
   {
     "id": 671,
@@ -14980,11 +13640,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/671.png",
-    "color": {
-      "name": "white",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/9/"
-    },
-    "desc": "It controls the flowers it grows. The petal\nblizzards that Florges triggers are overwhelming\nin their beauty and power."
+    "color": "white",
+    "desc": "It controls the flowers it grows. The petal\nblizzards that Florges triggers are overwhelming\nin their beauty and power.",
+    "owned": false
   },
   {
     "id": 672,
@@ -14999,11 +13657,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/672.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "If it has sunshine and water, it doesn’t\nneed to eat, because it can generate\nenergy from the leaves on its back."
+    "color": "rgb(210, 106, 36)",
+    "desc": "If it has sunshine and water, it doesn’t\nneed to eat, because it can generate\nenergy from the leaves on its back.",
+    "owned": false
   },
   {
     "id": 673,
@@ -15018,11 +13674,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/673.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "They inhabit mountainous regions.\nThe leader of the herd is decided by\na battle of clashing horns."
+    "color": "rgb(210, 106, 36)",
+    "desc": "They inhabit mountainous regions.\nThe leader of the herd is decided by\na battle of clashing horns.",
+    "owned": false
   },
   {
     "id": 674,
@@ -15037,11 +13691,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/674.png",
-    "color": {
-      "name": "white",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/9/"
-    },
-    "desc": "It follows Pangoro around like a henchman.\nWhen Pancham makes a big mistake, its leaf\ngets taken away."
+    "color": "white",
+    "desc": "It follows Pangoro around like a henchman.\nWhen Pancham makes a big mistake, its leaf\ngets taken away.",
+    "owned": false
   },
   {
     "id": 675,
@@ -15063,11 +13715,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/675.png",
-    "color": {
-      "name": "white",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/9/"
-    },
-    "desc": "This rowdy Pokémon boasts great physical\nstrength. Many Trainers are also smitten by its\nlively character."
+    "color": "white",
+    "desc": "This rowdy Pokémon boasts great physical\nstrength. Many Trainers are also smitten by its\nlively character.",
+    "owned": false
   },
   {
     "id": 676,
@@ -15082,11 +13732,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/676.png",
-    "color": {
-      "name": "white",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/9/"
-    },
-    "desc": "There was an era when aristocrats would\ncompete to see who could trim their Furfrou’s\nfur into the most exquisite style."
+    "color": "white",
+    "desc": "There was an era when aristocrats would\ncompete to see who could trim their Furfrou’s\nfur into the most exquisite style.",
+    "owned": false
   },
   {
     "id": 677,
@@ -15101,11 +13749,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/677.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "It has enough psychic energy to blast\neverything within 300 feet of itself,\nbut it has no control over its power."
+    "color": "gray",
+    "desc": "It has enough psychic energy to blast\neverything within 300 feet of itself,\nbut it has no control over its power.",
+    "owned": false
   },
   {
     "id": 678,
@@ -15120,11 +13766,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/678.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "The eyeball patterns on the interior of its ears\nemit psychic energy. It keeps the patterns tightly\ncovergb(255, 69, 58) because that power is too immense."
+    "color": "rgb(10, 132, 255)",
+    "desc": "The eyeball patterns on the interior of its ears\nemit psychic energy. It keeps the patterns tightly\ncovergb(255, 69, 58) because that power is too immense.",
+    "owned": false
   },
   {
     "id": 679,
@@ -15146,11 +13790,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/679.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "If anyone dares to grab its hilt, it wraps\na rgb(10, 132, 255) cloth around that person’s arm and\ndrains that person’s life energy completely."
+    "color": "rgb(210, 106, 36)",
+    "desc": "If anyone dares to grab its hilt, it wraps\na rgb(10, 132, 255) cloth around that person’s arm and\ndrains that person’s life energy completely.",
+    "owned": false
   },
   {
     "id": 680,
@@ -15172,11 +13814,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/680.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "The complex attack patterns of its two swords\nare unstoppable, even for an opponent\ngreatly accomplished at swordplay."
+    "color": "rgb(210, 106, 36)",
+    "desc": "The complex attack patterns of its two swords\nare unstoppable, even for an opponent\ngreatly accomplished at swordplay.",
+    "owned": false
   },
   {
     "id": 681,
@@ -15198,11 +13838,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/681.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "Apparently, it can detect the innate qualities\nof leadership. According to legend, whoever it\nrecognizes is destined to become king."
+    "color": "rgb(210, 106, 36)",
+    "desc": "Apparently, it can detect the innate qualities\nof leadership. According to legend, whoever it\nrecognizes is destined to become king.",
+    "owned": false
   },
   {
     "id": 682,
@@ -15217,11 +13855,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/682.png",
-    "color": {
-      "name": "pink",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/6/"
-    },
-    "desc": "In the past, rather than using perfume,\nroyal ladies carried a Spritzee\nthat would waft a fragrance they liked."
+    "color": "pink",
+    "desc": "In the past, rather than using perfume,\nroyal ladies carried a Spritzee\nthat would waft a fragrance they liked.",
+    "owned": false
   },
   {
     "id": 683,
@@ -15236,11 +13872,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/683.png",
-    "color": {
-      "name": "pink",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/6/"
-    },
-    "desc": "Its scent is so overpowering that, unless a Trainer\nhappens to really enjoy the smell, he or she will\nhave a hard time walking alongside it."
+    "color": "pink",
+    "desc": "Its scent is so overpowering that, unless a Trainer\nhappens to really enjoy the smell, he or she will\nhave a hard time walking alongside it.",
+    "owned": false
   },
   {
     "id": 684,
@@ -15255,11 +13889,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/684.png",
-    "color": {
-      "name": "white",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/9/"
-    },
-    "desc": "Because it eats nothing but sweets,\nits fur is as sticky sweet as cotton candy."
+    "color": "white",
+    "desc": "Because it eats nothing but sweets,\nits fur is as sticky sweet as cotton candy.",
+    "owned": false
   },
   {
     "id": 685,
@@ -15274,11 +13906,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/685.png",
-    "color": {
-      "name": "white",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/9/"
-    },
-    "desc": "Its sense of smell is 100 million times better than\na human’s, so even the faintest scent tells it about\neverything in the area. It’s like it can see with its nose!"
+    "color": "white",
+    "desc": "Its sense of smell is 100 million times better than\na human’s, so even the faintest scent tells it about\neverything in the area. It’s like it can see with its nose!",
+    "owned": false
   },
   {
     "id": 686,
@@ -15300,11 +13930,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/686.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "It draws prey near with its blinking lights and\nthen wraps them up in its long tentacles and\nholds them in place."
+    "color": "rgb(10, 132, 255)",
+    "desc": "It draws prey near with its blinking lights and\nthen wraps them up in its long tentacles and\nholds them in place.",
+    "owned": false
   },
   {
     "id": 687,
@@ -15326,11 +13954,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/687.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "When it comes to strong hypnosis, there’s an\nendless number of people who utilize Malamar\nfor their nefarious deeds."
+    "color": "rgb(10, 132, 255)",
+    "desc": "When it comes to strong hypnosis, there’s an\nendless number of people who utilize Malamar\nfor their nefarious deeds.",
+    "owned": false
   },
   {
     "id": 688,
@@ -15352,11 +13978,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/688.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "They stretch and then contract, yanking their\nrocks along with them in bold hops. They eat\nseaweed that washes up on the shoreline."
+    "color": "rgb(210, 106, 36)",
+    "desc": "They stretch and then contract, yanking their\nrocks along with them in bold hops. They eat\nseaweed that washes up on the shoreline.",
+    "owned": false
   },
   {
     "id": 689,
@@ -15378,11 +14002,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/689.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "Barbaracle’s legs and hands have minds\nof their own, and they will move independently.\nBut they usually follow the head’s orders."
+    "color": "rgb(210, 106, 36)",
+    "desc": "Barbaracle’s legs and hands have minds\nof their own, and they will move independently.\nBut they usually follow the head’s orders.",
+    "owned": false
   },
   {
     "id": 690,
@@ -15404,11 +14026,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/690.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "It vanishes into seaweed and remains perfectly\nstill to avoid attacks from large Pokémon.\nRotten seaweed is its main food source."
+    "color": "rgb(210, 106, 36)",
+    "desc": "It vanishes into seaweed and remains perfectly\nstill to avoid attacks from large Pokémon.\nRotten seaweed is its main food source.",
+    "owned": false
   },
   {
     "id": 691,
@@ -15430,11 +14050,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/691.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "This vicious Pokémon sprays a poisonous liquid\non opponents that come near. For whatever\nreason, it gets along really well with Dhelmise."
+    "color": "rgb(210, 106, 36)",
+    "desc": "This vicious Pokémon sprays a poisonous liquid\non opponents that come near. For whatever\nreason, it gets along really well with Dhelmise.",
+    "owned": false
   },
   {
     "id": 692,
@@ -15449,11 +14067,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/692.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "Its claws occasionally fall off, and it keeps a low\nprofile until they grow back. The meat of its\nclaws is so delicious!"
+    "color": "rgb(10, 132, 255)",
+    "desc": "Its claws occasionally fall off, and it keeps a low\nprofile until they grow back. The meat of its\nclaws is so delicious!",
+    "owned": false
   },
   {
     "id": 693,
@@ -15468,11 +14084,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/693.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "It compresses the water it has sucked up and\nthen projects it with enough power to punch a\nhole right through a thick sheet of iron."
+    "color": "rgb(10, 132, 255)",
+    "desc": "It compresses the water it has sucked up and\nthen projects it with enough power to punch a\nhole right through a thick sheet of iron.",
+    "owned": false
   },
   {
     "id": 694,
@@ -15494,11 +14108,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/694.png",
-    "color": {
-      "name": "yellow",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
-    },
-    "desc": "The frills on either side of its head have cells\nthat generate electricity when exposed to sunlight."
+    "color": "yellow",
+    "desc": "The frills on either side of its head have cells\nthat generate electricity when exposed to sunlight.",
+    "owned": false
   },
   {
     "id": 695,
@@ -15520,11 +14132,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/695.png",
-    "color": {
-      "name": "yellow",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
-    },
-    "desc": "It stimulates its muscles with electricity,\nboosting the strength in its legs and enabling\nit to run 100 yards in five seconds."
+    "color": "yellow",
+    "desc": "It stimulates its muscles with electricity,\nboosting the strength in its legs and enabling\nit to run 100 yards in five seconds.",
+    "owned": false
   },
   {
     "id": 696,
@@ -15546,11 +14156,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/696.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "Its large jaw has incrgb(255, 69, 58)ible destructive power.\nSome theories suggest that its restorgb(255, 69, 58) form is\ndifferent from its form of long ago."
+    "color": "rgb(210, 106, 36)",
+    "desc": "Its large jaw has incrgb(255, 69, 58)ible destructive power.\nSome theories suggest that its restorgb(255, 69, 58) form is\ndifferent from its form of long ago.",
+    "owned": false
   },
   {
     "id": 697,
@@ -15572,11 +14180,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/697.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "Complete restoration is impossible, allowing\nroom for theories that its entire body was\nonce covergb(255, 69, 58) in a feather-like coat."
+    "color": "rgb(255, 69, 58)",
+    "desc": "Complete restoration is impossible, allowing\nroom for theories that its entire body was\nonce covergb(255, 69, 58) in a feather-like coat.",
+    "owned": false
   },
   {
     "id": 698,
@@ -15598,11 +14204,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/698.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "It lived in cold areas in ancient times. It’s said\nthat when Amaura whinnies, auroras appear in\nthe night sky."
+    "color": "rgb(10, 132, 255)",
+    "desc": "It lived in cold areas in ancient times. It’s said\nthat when Amaura whinnies, auroras appear in\nthe night sky.",
+    "owned": false
   },
   {
     "id": 699,
@@ -15624,11 +14228,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/699.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "An Aurorus was found frozen solid within a\nglacier, just as it appeargb(255, 69, 58) long ago, which\nbecame quite a big event in the news."
+    "color": "rgb(10, 132, 255)",
+    "desc": "An Aurorus was found frozen solid within a\nglacier, just as it appeargb(255, 69, 58) long ago, which\nbecame quite a big event in the news.",
+    "owned": false
   },
   {
     "id": 700,
@@ -15643,11 +14245,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/700.png",
-    "color": {
-      "name": "pink",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/6/"
-    },
-    "desc": "Once a fight breaks out, it will unflinchingly\ncharge at dragon Pokémon that are many times\nlarger than itself."
+    "color": "pink",
+    "desc": "Once a fight breaks out, it will unflinchingly\ncharge at dragon Pokémon that are many times\nlarger than itself.",
+    "owned": false
   },
   {
     "id": 701,
@@ -15669,11 +14269,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/701.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "It overwhelms opponents with quick moves, but\nsometimes it showboats for too long when it’s\nusing a special move and gets itself into a pinch."
+    "color": "rgb(52, 199, 89)",
+    "desc": "It overwhelms opponents with quick moves, but\nsometimes it showboats for too long when it’s\nusing a special move and gets itself into a pinch.",
+    "owned": false
   },
   {
     "id": 702,
@@ -15695,11 +14293,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/702.png",
-    "color": {
-      "name": "yellow",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
-    },
-    "desc": "It sneaks into people’s homes and steals\nelectricity from their outlets. When your electric\nbill seems off, it’s the handiwork of this rascal."
+    "color": "yellow",
+    "desc": "It sneaks into people’s homes and steals\nelectricity from their outlets. When your electric\nbill seems off, it’s the handiwork of this rascal.",
+    "owned": false
   },
   {
     "id": 703,
@@ -15721,11 +14317,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/703.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "Some say that deep beneath the surface of the\nworld, a pack of Carbink live with their queen in\na kingdom of jewels."
+    "color": "gray",
+    "desc": "Some say that deep beneath the surface of the\nworld, a pack of Carbink live with their queen in\na kingdom of jewels.",
+    "owned": false
   },
   {
     "id": 704,
@@ -15740,11 +14334,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/704.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "It uses its horns to check out its surroundings.\nThey’re very sensitive, so if you grab them, it\nwill feel a strong shock and be unable to move."
+    "color": "rgb(112, 90, 159)",
+    "desc": "It uses its horns to check out its surroundings.\nThey’re very sensitive, so if you grab them, it\nwill feel a strong shock and be unable to move.",
+    "owned": false
   },
   {
     "id": 705,
@@ -15759,11 +14351,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/705.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "It crawls along sluggishly. The swirly protrusion\non its back is filled with its brain and\nother organs."
+    "color": "rgb(112, 90, 159)",
+    "desc": "It crawls along sluggishly. The swirly protrusion\non its back is filled with its brain and\nother organs.",
+    "owned": false
   },
   {
     "id": 706,
@@ -15778,11 +14368,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/706.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "It’s very friendly toward people. If you grow\nclose to it, Goodra will hug you with its sticky,\nslime-covergb(255, 69, 58) body. Don’t get mad."
+    "color": "rgb(112, 90, 159)",
+    "desc": "It’s very friendly toward people. If you grow\nclose to it, Goodra will hug you with its sticky,\nslime-covergb(255, 69, 58) body. Don’t get mad.",
+    "owned": false
   },
   {
     "id": 707,
@@ -15804,11 +14392,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/707.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "Although it’s unclear why it collects keys, giving\nit a key makes Klefki very happy. However, it\napparently only likes master keys."
+    "color": "gray",
+    "desc": "Although it’s unclear why it collects keys, giving\nit a key makes Klefki very happy. However, it\napparently only likes master keys.",
+    "owned": false
   },
   {
     "id": 708,
@@ -15830,11 +14416,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/708.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "By imitating the voice of a child, it causes\npeople to get hopelessly lost deep in the forest.\nIt’s trying to make friends with them."
+    "color": "rgb(210, 106, 36)",
+    "desc": "By imitating the voice of a child, it causes\npeople to get hopelessly lost deep in the forest.\nIt’s trying to make friends with them.",
+    "owned": false
   },
   {
     "id": 709,
@@ -15856,11 +14440,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/709.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "It’s feargb(255, 69, 58) as a ghost of the forest.\nLumberjacks bring along Fire types, which\nTrevenant hates, when they enter the forest."
+    "color": "rgb(210, 106, 36)",
+    "desc": "It’s feargb(255, 69, 58) as a ghost of the forest.\nLumberjacks bring along Fire types, which\nTrevenant hates, when they enter the forest.",
+    "owned": false
   },
   {
     "id": 710,
@@ -15882,11 +14464,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/710.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "It is said to carry wandering spirits\nto the place where they belong\nso they can move on."
+    "color": "rgb(210, 106, 36)",
+    "desc": "It is said to carry wandering spirits\nto the place where they belong\nso they can move on.",
+    "owned": false
   },
   {
     "id": 711,
@@ -15908,11 +14488,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/711.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "It enwraps its prey in its hairlike arms.\nIt sings joyfully as it observes the\nsuffering of its prey."
+    "color": "rgb(210, 106, 36)",
+    "desc": "It enwraps its prey in its hairlike arms.\nIt sings joyfully as it observes the\nsuffering of its prey.",
+    "owned": false
   },
   {
     "id": 712,
@@ -15927,11 +14505,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/712.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "Using air of -150 degrees Fahrenheit, they\nfreeze opponents solid. They live in herds\nabove the snow line on mountains."
+    "color": "rgb(10, 132, 255)",
+    "desc": "Using air of -150 degrees Fahrenheit, they\nfreeze opponents solid. They live in herds\nabove the snow line on mountains.",
+    "owned": false
   },
   {
     "id": 713,
@@ -15946,11 +14522,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/713.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "The way several Bergmite huddle\non its back makes it look like\nan aircraft carrier made of ice."
+    "color": "rgb(10, 132, 255)",
+    "desc": "The way several Bergmite huddle\non its back makes it look like\nan aircraft carrier made of ice.",
+    "owned": false
   },
   {
     "id": 714,
@@ -15972,11 +14546,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/714.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "Fruits are its favorite foods. This gourmet\ncarefully picks out just the ripe ones using\nits sonar."
+    "color": "rgb(112, 90, 159)",
+    "desc": "Fruits are its favorite foods. This gourmet\ncarefully picks out just the ripe ones using\nits sonar.",
+    "owned": false
   },
   {
     "id": 715,
@@ -15998,11 +14570,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/715.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "Although it has a violent disposition, if you give\nit a nice ripe fruit that it loves, Noivern will\nsuddenly become tame."
+    "color": "rgb(112, 90, 159)",
+    "desc": "Although it has a violent disposition, if you give\nit a nice ripe fruit that it loves, Noivern will\nsuddenly become tame.",
+    "owned": false
   },
   {
     "id": 716,
@@ -16017,11 +14587,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/716.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "When the horns on its head shine\nin seven colors, it is said to be\nsharing everlasting life."
+    "color": "rgb(10, 132, 255)",
+    "desc": "When the horns on its head shine\nin seven colors, it is said to be\nsharing everlasting life.",
+    "owned": false
   },
   {
     "id": 717,
@@ -16043,11 +14611,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/717.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "When its life comes to an end, it absorbs\nthe life energy of every living thing\nand turns into a cocoon once more."
+    "color": "rgb(255, 69, 58)",
+    "desc": "When its life comes to an end, it absorbs\nthe life energy of every living thing\nand turns into a cocoon once more.",
+    "owned": false
   },
   {
     "id": 718,
@@ -16069,11 +14635,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/718.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "This is Zygarde’s form when about half of its\npieces have been assembled. It plays the role of\nmonitoring the ecosystem."
+    "color": "rgb(52, 199, 89)",
+    "desc": "This is Zygarde’s form when about half of its\npieces have been assembled. It plays the role of\nmonitoring the ecosystem.",
+    "owned": false
   },
   {
     "id": 719,
@@ -16095,11 +14659,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/719.png",
-    "color": {
-      "name": "pink",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/6/"
-    },
-    "desc": "It can instantly create many diamonds\nby compressing the carbon in the air\nbetween its hands."
+    "color": "pink",
+    "desc": "It can instantly create many diamonds\nby compressing the carbon in the air\nbetween its hands.",
+    "owned": false
   },
   {
     "id": 720,
@@ -16121,11 +14683,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/720.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "It is said to be able to seize anything it desires\nwith its six rings and six huge arms. With its power\nsealed, it is transformed into a much smaller form."
+    "color": "rgb(112, 90, 159)",
+    "desc": "It is said to be able to seize anything it desires\nwith its six rings and six huge arms. With its power\nsealed, it is transformed into a much smaller form.",
+    "owned": false
   },
   {
     "id": 721,
@@ -16147,11 +14707,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/721.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "It expels its internal steam from the\narms on its back. It has enough\npower to blow away a mountain."
+    "color": "rgb(210, 106, 36)",
+    "desc": "It expels its internal steam from the\narms on its back. It has enough\npower to blow away a mountain.",
+    "owned": false
   },
   {
     "id": 722,
@@ -16173,11 +14731,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/722.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "It sends its feathers, which are as sharp as\nblades, flying in attack. Its legs are strong,\nso its kicks are also formidable."
+    "color": "rgb(210, 106, 36)",
+    "desc": "It sends its feathers, which are as sharp as\nblades, flying in attack. Its legs are strong,\nso its kicks are also formidable.",
+    "owned": false
   },
   {
     "id": 723,
@@ -16199,11 +14755,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/723.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "This narcissistic Pokémon is a clean freak.\nIf you don’t groom it diligently, it will stop\nlistening to you."
+    "color": "rgb(210, 106, 36)",
+    "desc": "This narcissistic Pokémon is a clean freak.\nIf you don’t groom it diligently, it will stop\nlistening to you.",
+    "owned": false
   },
   {
     "id": 724,
@@ -16225,11 +14779,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/724.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "It nocks its arrow quills and shoots them at\nopponents. When it simply can’t afford to miss,\nit tugs the vine on its head to improve its focus."
+    "color": "rgb(210, 106, 36)",
+    "desc": "It nocks its arrow quills and shoots them at\nopponents. When it simply can’t afford to miss,\nit tugs the vine on its head to improve its focus.",
+    "owned": false
   },
   {
     "id": 725,
@@ -16244,11 +14796,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/725.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "If you try too hard to get close to it, it won’t\nopen up to you. Even if you do grow close, giving\nit too much affection is still a no-no."
+    "color": "rgb(255, 69, 58)",
+    "desc": "If you try too hard to get close to it, it won’t\nopen up to you. Even if you do grow close, giving\nit too much affection is still a no-no.",
+    "owned": false
   },
   {
     "id": 726,
@@ -16263,11 +14813,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/726.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "It can act spoiled if it grows close to its Trainer.\nA powerful Pokémon, its sharp claws can leave\nits Trainer’s whole body covergb(255, 69, 58) in scratches."
+    "color": "rgb(255, 69, 58)",
+    "desc": "It can act spoiled if it grows close to its Trainer.\nA powerful Pokémon, its sharp claws can leave\nits Trainer’s whole body covergb(255, 69, 58) in scratches.",
+    "owned": false
   },
   {
     "id": 727,
@@ -16289,11 +14837,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/727.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "Although it’s rough mannergb(255, 69, 58) and egotistical, it\nfinds beating down unworthy opponents boring.\nIt gets motivated for stronger opponents."
+    "color": "rgb(255, 69, 58)",
+    "desc": "Although it’s rough mannergb(255, 69, 58) and egotistical, it\nfinds beating down unworthy opponents boring.\nIt gets motivated for stronger opponents.",
+    "owned": false
   },
   {
     "id": 728,
@@ -16308,11 +14854,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/728.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "The balloons it inflates with its nose grow\nlarger and larger as it practices day by day."
+    "color": "rgb(10, 132, 255)",
+    "desc": "The balloons it inflates with its nose grow\nlarger and larger as it practices day by day.",
+    "owned": false
   },
   {
     "id": 729,
@@ -16327,11 +14871,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/729.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "It gets excited when it sees a dance it doesn’t\nknow. This hard worker practices diligently until\nit can learn that dance."
+    "color": "rgb(10, 132, 255)",
+    "desc": "It gets excited when it sees a dance it doesn’t\nknow. This hard worker practices diligently until\nit can learn that dance.",
+    "owned": false
   },
   {
     "id": 730,
@@ -16353,11 +14895,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/730.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "To Primarina, every battle is a stage. It takes\ndown its prey with beautiful singing\nand dancing."
+    "color": "rgb(10, 132, 255)",
+    "desc": "To Primarina, every battle is a stage. It takes\ndown its prey with beautiful singing\nand dancing.",
+    "owned": false
   },
   {
     "id": 731,
@@ -16379,11 +14919,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/731.png",
-    "color": {
-      "name": "black",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/1/"
-    },
-    "desc": "It pecks at trees with its hard beak. You can\nget some idea of its mood or condition from the\nrhythm of its pecking."
+    "color": "black",
+    "desc": "It pecks at trees with its hard beak. You can\nget some idea of its mood or condition from the\nrhythm of its pecking.",
+    "owned": false
   },
   {
     "id": 732,
@@ -16405,11 +14943,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/732.png",
-    "color": {
-      "name": "black",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/1/"
-    },
-    "desc": "It can bend the tip of its beak to produce over\na hundrgb(255, 69, 58) different cries at will."
+    "color": "black",
+    "desc": "It can bend the tip of its beak to produce over\na hundrgb(255, 69, 58) different cries at will.",
+    "owned": false
   },
   {
     "id": 733,
@@ -16431,11 +14967,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/733.png",
-    "color": {
-      "name": "black",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/1/"
-    },
-    "desc": "They smack beaks with others of their kind to\ncommunicate. The strength and number of hits\ntell each other how they feel."
+    "color": "black",
+    "desc": "They smack beaks with others of their kind to\ncommunicate. The strength and number of hits\ntell each other how they feel.",
+    "owned": false
   },
   {
     "id": 734,
@@ -16450,11 +14984,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/734.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "Its stomach takes up most of its long torso.\nIt’s a big eater, so the amount Trainers have to\nspend on its food is no laughing matter."
+    "color": "rgb(210, 106, 36)",
+    "desc": "Its stomach takes up most of its long torso.\nIt’s a big eater, so the amount Trainers have to\nspend on its food is no laughing matter.",
+    "owned": false
   },
   {
     "id": 735,
@@ -16469,11 +15001,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/735.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "Although it wasn’t originally found in Alola, this\nPokémon was brought over a long time ago\nwhen there was a huge Rattata outbreak."
+    "color": "rgb(210, 106, 36)",
+    "desc": "Although it wasn’t originally found in Alola, this\nPokémon was brought over a long time ago\nwhen there was a huge Rattata outbreak.",
+    "owned": false
   },
   {
     "id": 736,
@@ -16488,11 +15018,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/736.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "If you find its nest, you shouldn’t stick your\nhand inside. You’ll get bitten by an\nirritated Grubbin."
+    "color": "gray",
+    "desc": "If you find its nest, you shouldn’t stick your\nhand inside. You’ll get bitten by an\nirritated Grubbin.",
+    "owned": false
   },
   {
     "id": 737,
@@ -16514,11 +15042,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/737.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "It buries itself in fallen leaves and barely\nmoves, munching away on humus. If you\naccidentally step on one, you’ll get a shock!"
+    "color": "rgb(52, 199, 89)",
+    "desc": "It buries itself in fallen leaves and barely\nmoves, munching away on humus. If you\naccidentally step on one, you’ll get a shock!",
+    "owned": false
   },
   {
     "id": 738,
@@ -16540,11 +15066,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/738.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "It has an organ that generates electricity in its\nabdomen. It concentrates energy in its strong\njaws and fires off powerful jolts of electricity."
+    "color": "rgb(10, 132, 255)",
+    "desc": "It has an organ that generates electricity in its\nabdomen. It concentrates energy in its strong\njaws and fires off powerful jolts of electricity.",
+    "owned": false
   },
   {
     "id": 739,
@@ -16559,11 +15083,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/739.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "Its hard pincers are well suited to both offense\nand defense. Fights between two Crabrawler\nare like boxing matches."
+    "color": "rgb(112, 90, 159)",
+    "desc": "Its hard pincers are well suited to both offense\nand defense. Fights between two Crabrawler\nare like boxing matches.",
+    "owned": false
   },
   {
     "id": 740,
@@ -16585,11 +15107,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/740.png",
-    "color": {
-      "name": "white",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/9/"
-    },
-    "desc": "It stores coldness in its pincers and pummels its\nfoes. It can even smash thick walls of ice\nto bits!"
+    "color": "white",
+    "desc": "It stores coldness in its pincers and pummels its\nfoes. It can even smash thick walls of ice\nto bits!",
+    "owned": false
   },
   {
     "id": 741,
@@ -16611,11 +15131,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/741.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "It wins the hearts of its enemies with its\npassionate dancing and then uses the opening\nit creates to burn them up with blazing flames."
+    "color": "rgb(255, 69, 58)",
+    "desc": "It wins the hearts of its enemies with its\npassionate dancing and then uses the opening\nit creates to burn them up with blazing flames.",
+    "owned": false
   },
   {
     "id": 742,
@@ -16637,11 +15155,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/742.png",
-    "color": {
-      "name": "yellow",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
-    },
-    "desc": "Nectar and pollen are its favorite fare. In fields\nof flowers, it gets into skirmishes with\nButterfree over food."
+    "color": "yellow",
+    "desc": "Nectar and pollen are its favorite fare. In fields\nof flowers, it gets into skirmishes with\nButterfree over food.",
+    "owned": false
   },
   {
     "id": 743,
@@ -16663,11 +15179,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/743.png",
-    "color": {
-      "name": "yellow",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
-    },
-    "desc": "Rain makes pollen damp, so Ribombee hates\nrain. When it sees ominous clouds, it finds a\nhollow in a tree, where it waits stock-still."
+    "color": "yellow",
+    "desc": "Rain makes pollen damp, so Ribombee hates\nrain. When it sees ominous clouds, it finds a\nhollow in a tree, where it waits stock-still.",
+    "owned": false
   },
   {
     "id": 744,
@@ -16682,11 +15196,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/744.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "As they develop, their disposition grows more\nviolent and aggressive. Many Trainers find them\ntoo much to handle and abandon them."
+    "color": "rgb(210, 106, 36)",
+    "desc": "As they develop, their disposition grows more\nviolent and aggressive. Many Trainers find them\ntoo much to handle and abandon them.",
+    "owned": false
   },
   {
     "id": 745,
@@ -16701,11 +15213,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/745.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "The sharp rocks in its mane can cut like knives.\nLycanroc wears its prey down by degrees\nbefore finishing them off."
+    "color": "rgb(210, 106, 36)",
+    "desc": "The sharp rocks in its mane can cut like knives.\nLycanroc wears its prey down by degrees\nbefore finishing them off.",
+    "owned": false
   },
   {
     "id": 746,
@@ -16720,11 +15230,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/746.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "They’re weak, so they move in schools.\nHowever, they can also often be seen all alone,\nhaving strayed from the school."
+    "color": "rgb(10, 132, 255)",
+    "desc": "They’re weak, so they move in schools.\nHowever, they can also often be seen all alone,\nhaving strayed from the school.",
+    "owned": false
   },
   {
     "id": 747,
@@ -16746,11 +15254,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/747.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "They eat Corsola branches, so Mareanie are\nhated by craftsmen who work with Corsola\nbranches that have naturally fallen off."
+    "color": "rgb(10, 132, 255)",
+    "desc": "They eat Corsola branches, so Mareanie are\nhated by craftsmen who work with Corsola\nbranches that have naturally fallen off.",
+    "owned": false
   },
   {
     "id": 748,
@@ -16772,11 +15278,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/748.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "To attack, this Pokémon sends toxic spikes\nflying at its enemies. Ones that come close get\nmown down by the claws on its feet."
+    "color": "rgb(10, 132, 255)",
+    "desc": "To attack, this Pokémon sends toxic spikes\nflying at its enemies. Ones that come close get\nmown down by the claws on its feet.",
+    "owned": false
   },
   {
     "id": 749,
@@ -16791,11 +15295,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/749.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "It loves playing in the mud. If it isn’t showergb(255, 69, 58)\nwith mud on a daily basis, it gets stressed\nout and stops listening to its Trainer."
+    "color": "rgb(210, 106, 36)",
+    "desc": "It loves playing in the mud. If it isn’t showergb(255, 69, 58)\nwith mud on a daily basis, it gets stressed\nout and stops listening to its Trainer.",
+    "owned": false
   },
   {
     "id": 750,
@@ -16810,11 +15312,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/750.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "It remains calm and unmoving no matter the\nsituation. It mixes dirt with the saliva in its\nmouth to make a special kind of mud."
+    "color": "rgb(210, 106, 36)",
+    "desc": "It remains calm and unmoving no matter the\nsituation. It mixes dirt with the saliva in its\nmouth to make a special kind of mud.",
+    "owned": false
   },
   {
     "id": 751,
@@ -16836,11 +15336,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/751.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "When two Dewpider meet, they display their\nwater bubbles to each other. Then the one with\nthe smaller bubble gets out of the other’s way."
+    "color": "rgb(52, 199, 89)",
+    "desc": "When two Dewpider meet, they display their\nwater bubbles to each other. Then the one with\nthe smaller bubble gets out of the other’s way.",
+    "owned": false
   },
   {
     "id": 752,
@@ -16862,11 +15360,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/752.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "It usually passes its time in the water. When its\nbelly is full, it stores its subdued prey in the\nwater bubble on its head."
+    "color": "rgb(52, 199, 89)",
+    "desc": "It usually passes its time in the water. When its\nbelly is full, it stores its subdued prey in the\nwater bubble on its head.",
+    "owned": false
   },
   {
     "id": 753,
@@ -16881,11 +15377,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/753.png",
-    "color": {
-      "name": "pink",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/6/"
-    },
-    "desc": "When the sun rises, Fomantis spreads its four\nleaves and bathes in the sunlight. The tip of its\nhead has a pleasant aroma."
+    "color": "pink",
+    "desc": "When the sun rises, Fomantis spreads its four\nleaves and bathes in the sunlight. The tip of its\nhead has a pleasant aroma.",
+    "owned": false
   },
   {
     "id": 754,
@@ -16900,11 +15394,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/754.png",
-    "color": {
-      "name": "pink",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/6/"
-    },
-    "desc": "For self-protection, it pretends to be a bug\nPokémon. Both of its arms bear\nkeen-edged petals."
+    "color": "pink",
+    "desc": "For self-protection, it pretends to be a bug\nPokémon. Both of its arms bear\nkeen-edged petals.",
+    "owned": false
   },
   {
     "id": 755,
@@ -16926,11 +15418,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/755.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "It scatters its shining spores around itself.\nEven though they’re dangerous, nighttime tours\nof forests where Morelull live are popular."
+    "color": "rgb(112, 90, 159)",
+    "desc": "It scatters its shining spores around itself.\nEven though they’re dangerous, nighttime tours\nof forests where Morelull live are popular.",
+    "owned": false
   },
   {
     "id": 756,
@@ -16952,11 +15442,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/756.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "It puts its prey to sleep and siphons off their\nvitality through the tip of its arms. If one of its\nkind is weakened, it helps by sending it vitality."
+    "color": "rgb(112, 90, 159)",
+    "desc": "It puts its prey to sleep and siphons off their\nvitality through the tip of its arms. If one of its\nkind is weakened, it helps by sending it vitality.",
+    "owned": false
   },
   {
     "id": 757,
@@ -16978,11 +15466,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/757.png",
-    "color": {
-      "name": "black",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/1/"
-    },
-    "desc": "The males will do whatever the females tell\nthem. They give the females most of their food.\nDue to malnutrition, the males can’t evolve."
+    "color": "black",
+    "desc": "The males will do whatever the females tell\nthem. They give the females most of their food.\nDue to malnutrition, the males can’t evolve.",
+    "owned": false
   },
   {
     "id": 758,
@@ -17004,11 +15490,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/758.png",
-    "color": {
-      "name": "black",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/1/"
-    },
-    "desc": "Salazzle lives deep in caves and forces the\nSalandit it has attracted with its pheromones\nto serve it."
+    "color": "black",
+    "desc": "Salazzle lives deep in caves and forces the\nSalandit it has attracted with its pheromones\nto serve it.",
+    "owned": false
   },
   {
     "id": 759,
@@ -17030,11 +15514,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/759.png",
-    "color": {
-      "name": "pink",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/6/"
-    },
-    "desc": "It boasts power enough to split large trees in\nhalf. The organ on its rear releases an odor that\nit uses to communicate with others of its kind."
+    "color": "pink",
+    "desc": "It boasts power enough to split large trees in\nhalf. The organ on its rear releases an odor that\nit uses to communicate with others of its kind.",
+    "owned": false
   },
   {
     "id": 760,
@@ -17056,11 +15538,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/760.png",
-    "color": {
-      "name": "pink",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/6/"
-    },
-    "desc": "It waves its hands wildly in intimidation and\nwarning. Life is over for anyone who doesn’t\nrun away as fast as possible."
+    "color": "pink",
+    "desc": "It waves its hands wildly in intimidation and\nwarning. Life is over for anyone who doesn’t\nrun away as fast as possible.",
+    "owned": false
   },
   {
     "id": 761,
@@ -17075,11 +15555,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/761.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "Because of its sweet, delicious aroma, bird\nPokémon are always after it, but it’s not\nintelligent enough to care."
+    "color": "rgb(112, 90, 159)",
+    "desc": "Because of its sweet, delicious aroma, bird\nPokémon are always after it, but it’s not\nintelligent enough to care.",
+    "owned": false
   },
   {
     "id": 762,
@@ -17094,11 +15572,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/762.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "It’s protected by its hard sepals, so it plays\nwith bird Pokémon without worry. They peck it\nrelentlessly, but it doesn’t care."
+    "color": "rgb(112, 90, 159)",
+    "desc": "It’s protected by its hard sepals, so it plays\nwith bird Pokémon without worry. They peck it\nrelentlessly, but it doesn’t care.",
+    "owned": false
   },
   {
     "id": 763,
@@ -17113,11 +15589,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/763.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "A master of grand and beautiful kicks, it can\nknock out even kickboxing champions with a\nsingle blow."
+    "color": "rgb(112, 90, 159)",
+    "desc": "A master of grand and beautiful kicks, it can\nknock out even kickboxing champions with a\nsingle blow.",
+    "owned": false
   },
   {
     "id": 764,
@@ -17132,11 +15606,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/764.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "It stretches sticky vines out from its head and\npicks flowers to adorn itself with. When it\ndoesn’t have any flowers, it feels uneasy."
+    "color": "rgb(52, 199, 89)",
+    "desc": "It stretches sticky vines out from its head and\npicks flowers to adorn itself with. When it\ndoesn’t have any flowers, it feels uneasy.",
+    "owned": false
   },
   {
     "id": 765,
@@ -17158,11 +15630,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/765.png",
-    "color": {
-      "name": "white",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/9/"
-    },
-    "desc": "It normally spends its time meditating in the\ntreetops. It throws Poké Balls and gives other\nPokémon orders as it pleases."
+    "color": "white",
+    "desc": "It normally spends its time meditating in the\ntreetops. It throws Poké Balls and gives other\nPokémon orders as it pleases.",
+    "owned": false
   },
   {
     "id": 766,
@@ -17177,11 +15647,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/766.png",
-    "color": {
-      "name": "white",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/9/"
-    },
-    "desc": "They use their saliva to stick leaves to their\nshoulders. You can tell what troop they belong\nto from the position of the leaves."
+    "color": "white",
+    "desc": "They use their saliva to stick leaves to their\nshoulders. You can tell what troop they belong\nto from the position of the leaves.",
+    "owned": false
   },
   {
     "id": 767,
@@ -17203,11 +15671,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/767.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "It will pick up anything it finds on the ground.\nSometimes it finds coins, so Murkrow and\nMeowth will go after it."
+    "color": "gray",
+    "desc": "It will pick up anything it finds on the ground.\nSometimes it finds coins, so Murkrow and\nMeowth will go after it.",
+    "owned": false
   },
   {
     "id": 768,
@@ -17229,11 +15695,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/768.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "The shell covering its body is as hard as\ndiamond. This Pokémon will do anything it\ntakes to win."
+    "color": "gray",
+    "desc": "The shell covering its body is as hard as\ndiamond. This Pokémon will do anything it\ntakes to win.",
+    "owned": false
   },
   {
     "id": 769,
@@ -17255,11 +15719,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/769.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "It likes the shovel on its head, so Sandygast\nwill get serious and fight any children who come\nto take it back."
+    "color": "rgb(210, 106, 36)",
+    "desc": "It likes the shovel on its head, so Sandygast\nwill get serious and fight any children who come\nto take it back.",
+    "owned": false
   },
   {
     "id": 770,
@@ -17281,11 +15743,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/770.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "Each of its grains of sand has its own will.\nPalossand eats small Pokémon and siphons\naway their vital essence while they’re still alive."
+    "color": "rgb(210, 106, 36)",
+    "desc": "Each of its grains of sand has its own will.\nPalossand eats small Pokémon and siphons\naway their vital essence while they’re still alive.",
+    "owned": false
   },
   {
     "id": 771,
@@ -17300,11 +15760,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/771.png",
-    "color": {
-      "name": "black",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/1/"
-    },
-    "desc": "The tradition known as Pyukumuku chucking\nstarted from the custom of throwing Pyukumuku\nback into the sea after they wash onshore."
+    "color": "black",
+    "desc": "The tradition known as Pyukumuku chucking\nstarted from the custom of throwing Pyukumuku\nback into the sea after they wash onshore.",
+    "owned": false
   },
   {
     "id": 772,
@@ -17319,11 +15777,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/772.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "A Pokémon weapon developed for a specific\nmission, it went berserk during an experiment,\nso it was cryogenically frozen."
+    "color": "gray",
+    "desc": "A Pokémon weapon developed for a specific\nmission, it went berserk during an experiment,\nso it was cryogenically frozen.",
+    "owned": false
   },
   {
     "id": 773,
@@ -17338,11 +15794,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/773.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "This is its form once it has awakened and\nevolved. Freed from its heavy mask, its speed is\ngreatly increased."
+    "color": "gray",
+    "desc": "This is its form once it has awakened and\nevolved. Freed from its heavy mask, its speed is\ngreatly increased.",
+    "owned": false
   },
   {
     "id": 774,
@@ -17364,11 +15818,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/774.png",
-    "color": {
-      "name": "rgb(210, 106, 36)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
-    },
-    "desc": "It lives in the ozone layer, where it becomes\nfood for stronger Pokémon. When it tries to run\naway, it falls to the ground."
+    "color": "rgb(210, 106, 36)",
+    "desc": "It lives in the ozone layer, where it becomes\nfood for stronger Pokémon. When it tries to run\naway, it falls to the ground.",
+    "owned": false
   },
   {
     "id": 775,
@@ -17383,11 +15835,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/775.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "It stays asleep from the moment it’s born.\nWhen it falls into a deep sleep, it stops\nmoving altogether."
+    "color": "rgb(10, 132, 255)",
+    "desc": "It stays asleep from the moment it’s born.\nWhen it falls into a deep sleep, it stops\nmoving altogether.",
+    "owned": false
   },
   {
     "id": 776,
@@ -17409,11 +15859,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/776.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "It lives in volcanoes and eats sulfur and other\nminerals. Materials from the food it eats form\nthe basis of its explosive shell."
+    "color": "rgb(255, 69, 58)",
+    "desc": "It lives in volcanoes and eats sulfur and other\nminerals. Materials from the food it eats form\nthe basis of its explosive shell.",
+    "owned": false
   },
   {
     "id": 777,
@@ -17435,11 +15883,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/777.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "When it’s surprised or agitated, the 14 fur\nspikes on its back will stand up involuntarily."
+    "color": "gray",
+    "desc": "When it’s surprised or agitated, the 14 fur\nspikes on its back will stand up involuntarily.",
+    "owned": false
   },
   {
     "id": 778,
@@ -17461,11 +15907,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/778.png",
-    "color": {
-      "name": "yellow",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
-    },
-    "desc": "Although it’s a quiet, lonely Pokémon, if you try\nto look at what’s under its rag, it will become\nagitated and resist violently."
+    "color": "yellow",
+    "desc": "Although it’s a quiet, lonely Pokémon, if you try\nto look at what’s under its rag, it will become\nagitated and resist violently.",
+    "owned": false
   },
   {
     "id": 779,
@@ -17487,11 +15931,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/779.png",
-    "color": {
-      "name": "pink",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/6/"
-    },
-    "desc": "It burrows beneath the sand, radiating\npsychic power from the protuberance on its\nhead. It waits for prey as it surveys the area."
+    "color": "pink",
+    "desc": "It burrows beneath the sand, radiating\npsychic power from the protuberance on its\nhead. It waits for prey as it surveys the area.",
+    "owned": false
   },
   {
     "id": 780,
@@ -17513,11 +15955,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/780.png",
-    "color": {
-      "name": "white",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/9/"
-    },
-    "desc": "If a child it has made friends with is bullied,\nDrampa will find the bully’s house and burn it to\nthe ground."
+    "color": "white",
+    "desc": "If a child it has made friends with is bullied,\nDrampa will find the bully’s house and burn it to\nthe ground.",
+    "owned": false
   },
   {
     "id": 781,
@@ -17539,11 +15979,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/781.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "It wraps its prey in rgb(52, 199, 89) seaweed and sucks\naway their vitality. It only likes to go after big\nprey like Wailord."
+    "color": "rgb(52, 199, 89)",
+    "desc": "It wraps its prey in rgb(52, 199, 89) seaweed and sucks\naway their vitality. It only likes to go after big\nprey like Wailord.",
+    "owned": false
   },
   {
     "id": 782,
@@ -17558,11 +15996,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/782.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "It smacks the scales on its head against rocks\nor against the ground to frighten its opponents.\nIt can also contact its friends with these noises."
+    "color": "gray",
+    "desc": "It smacks the scales on its head against rocks\nor against the ground to frighten its opponents.\nIt can also contact its friends with these noises.",
+    "owned": false
   },
   {
     "id": 783,
@@ -17584,11 +16020,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/783.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "It makes noise by clanging its scales together.\nWhen the rhythm has reached its peak,\nHakamo-o attacks."
+    "color": "gray",
+    "desc": "It makes noise by clanging its scales together.\nWhen the rhythm has reached its peak,\nHakamo-o attacks.",
+    "owned": false
   },
   {
     "id": 784,
@@ -17610,11 +16044,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/784.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "When it howls after finishing off its prey, the\nmetallic sounds of its celebrating comrades can\nbe heard from all around."
+    "color": "gray",
+    "desc": "When it howls after finishing off its prey, the\nmetallic sounds of its celebrating comrades can\nbe heard from all around.",
+    "owned": false
   },
   {
     "id": 785,
@@ -17636,11 +16068,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/785.png",
-    "color": {
-      "name": "yellow",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
-    },
-    "desc": "Although it’s called a guardian deity, if a person\nor Pokémon puts it in a bad mood, it will become\na malevolent deity and attack."
+    "color": "yellow",
+    "desc": "Although it’s called a guardian deity, if a person\nor Pokémon puts it in a bad mood, it will become\na malevolent deity and attack.",
+    "owned": false
   },
   {
     "id": 786,
@@ -17662,11 +16092,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/786.png",
-    "color": {
-      "name": "pink",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/6/"
-    },
-    "desc": "It heals the wounds of people and Pokémon by\nsprinkling them with its sparkling scales. This\nguardian deity is worshiped on Akala."
+    "color": "pink",
+    "desc": "It heals the wounds of people and Pokémon by\nsprinkling them with its sparkling scales. This\nguardian deity is worshiped on Akala.",
+    "owned": false
   },
   {
     "id": 787,
@@ -17688,11 +16116,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/787.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "Although it’s called a guardian deity, it’s violent\nenough to crush anyone it sees as an enemy."
+    "color": "rgb(255, 69, 58)",
+    "desc": "Although it’s called a guardian deity, it’s violent\nenough to crush anyone it sees as an enemy.",
+    "owned": false
   },
   {
     "id": 788,
@@ -17714,11 +16140,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/788.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "This guardian deity of Poni Island manipulates\nwater. Because it lives deep within a thick fog,\nit came to be both feargb(255, 69, 58) and revergb(255, 69, 58)."
+    "color": "rgb(112, 90, 159)",
+    "desc": "This guardian deity of Poni Island manipulates\nwater. Because it lives deep within a thick fog,\nit came to be both feargb(255, 69, 58) and revergb(255, 69, 58).",
+    "owned": false
   },
   {
     "id": 789,
@@ -17733,11 +16157,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/789.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "Even though its helpless, gaseous body can be\nblown away by the slightest breeze, it doesn’t\nseem to care."
+    "color": "rgb(10, 132, 255)",
+    "desc": "Even though its helpless, gaseous body can be\nblown away by the slightest breeze, it doesn’t\nseem to care.",
+    "owned": false
   },
   {
     "id": 790,
@@ -17752,11 +16174,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/790.png",
-    "color": {
-      "name": "rgb(10, 132, 255)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/2/"
-    },
-    "desc": "The king who ruled Alola in times of antiquity\ncalled it the “cocoon of the stars” and built\nan altar to worship it."
+    "color": "rgb(10, 132, 255)",
+    "desc": "The king who ruled Alola in times of antiquity\ncalled it the “cocoon of the stars” and built\nan altar to worship it.",
+    "owned": false
   },
   {
     "id": 791,
@@ -17778,11 +16198,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/791.png",
-    "color": {
-      "name": "white",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/9/"
-    },
-    "desc": "Sometimes the result of its opening an Ultra\nWormhole is that energy and life-forms from\nother worlds are called here to this world."
+    "color": "white",
+    "desc": "Sometimes the result of its opening an Ultra\nWormhole is that energy and life-forms from\nother worlds are called here to this world.",
+    "owned": false
   },
   {
     "id": 792,
@@ -17804,11 +16222,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/792.png",
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "Records of it exist in writings from long, long\nago, where it was known by the name\n“the beast that calls the moon.”"
+    "color": "rgb(112, 90, 159)",
+    "desc": "Records of it exist in writings from long, long\nago, where it was known by the name\n“the beast that calls the moon.”",
+    "owned": false
   },
   {
     "id": 793,
@@ -17830,11 +16246,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/793.png",
-    "color": {
-      "name": "white",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/9/"
-    },
-    "desc": "A life-form from another world, it was dubbed\na UB and is thought to produce a\nstrong neurotoxin."
+    "color": "white",
+    "desc": "A life-form from another world, it was dubbed\na UB and is thought to produce a\nstrong neurotoxin.",
+    "owned": false
   },
   {
     "id": 794,
@@ -17856,11 +16270,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/794.png",
-    "color": {
-      "name": "rgb(255, 69, 58)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
-    },
-    "desc": "Although it’s alien to this world and a danger\nhere, it’s apparently a common organism in the\nworld where it normally lives."
+    "color": "rgb(255, 69, 58)",
+    "desc": "Although it’s alien to this world and a danger\nhere, it’s apparently a common organism in the\nworld where it normally lives.",
+    "owned": false
   },
   {
     "id": 795,
@@ -17882,11 +16294,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/795.png",
-    "color": {
-      "name": "white",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/9/"
-    },
-    "desc": "A life-form that lives in another world, its body\nis thin and supple, but it also possesses\ngreat power."
+    "color": "white",
+    "desc": "A life-form that lives in another world, its body\nis thin and supple, but it also possesses\ngreat power.",
+    "owned": false
   },
   {
     "id": 796,
@@ -17901,11 +16311,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/796.png",
-    "color": {
-      "name": "black",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/1/"
-    },
-    "desc": "Although it’s alien to this world and a danger\nhere, it’s apparently a common organism in the\nworld where it normally lives."
+    "color": "black",
+    "desc": "Although it’s alien to this world and a danger\nhere, it’s apparently a common organism in the\nworld where it normally lives.",
+    "owned": false
   },
   {
     "id": 797,
@@ -17927,11 +16335,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/797.png",
-    "color": {
-      "name": "rgb(52, 199, 89)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/5/"
-    },
-    "desc": "One of the dangerous UBs, high energy readings\ncan be detected coming from both of its\nhuge arms."
+    "color": "rgb(52, 199, 89)",
+    "desc": "One of the dangerous UBs, high energy readings\ncan be detected coming from both of its\nhuge arms.",
+    "owned": false
   },
   {
     "id": 798,
@@ -17953,11 +16359,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/798.png",
-    "color": {
-      "name": "white",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/9/"
-    },
-    "desc": "This Ultra Beast’s body, which is as thin as\npaper, is like a sharpened sword."
+    "color": "white",
+    "desc": "This Ultra Beast’s body, which is as thin as\npaper, is like a sharpened sword.",
+    "owned": false
   },
   {
     "id": 799,
@@ -17979,11 +16383,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/799.png",
-    "color": {
-      "name": "black",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/1/"
-    },
-    "desc": "Although it’s alien to this world and a danger\nhere, it’s apparently a common organism in the\nworld where it normally lives."
+    "color": "black",
+    "desc": "Although it’s alien to this world and a danger\nhere, it’s apparently a common organism in the\nworld where it normally lives.",
+    "owned": false
   },
   {
     "id": 800,
@@ -17998,11 +16400,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/800.png",
-    "color": {
-      "name": "black",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/1/"
-    },
-    "desc": "It looks somehow pained as it rages around in\nsearch of light, which serves as its energy.\nIt’s apparently from another world."
+    "color": "black",
+    "desc": "It looks somehow pained as it rages around in\nsearch of light, which serves as its energy.\nIt’s apparently from another world.",
+    "owned": false
   },
   {
     "id": 801,
@@ -18024,11 +16424,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/801.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "It synchronizes its consciousness with others\nto understand their feelings. This faculty makes\nit useful for taking care of people."
+    "color": "gray",
+    "desc": "It synchronizes its consciousness with others\nto understand their feelings. This faculty makes\nit useful for taking care of people.",
+    "owned": false
   },
   {
     "id": 802,
@@ -18050,127 +16448,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/802.png",
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "It slips into the shadows of others and mimics\ntheir powers and movements. As it improves, it\nbecomes stronger than those it’s imitating."
-  },
-  {
-    "id": 803,
-    "name": "poipole",
-    "types": [
-      {
-        "slot": 1,
-        "type": {
-          "name": "poison",
-          "url": "https://pokeapi.co/api/v2/type/4/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "This Ultra Beast is well enough liked to be\nchosen as a first partner in its own world."
-  },
-  {
-    "id": 804,
-    "name": "naganadel",
-    "types": [
-      {
-        "slot": 2,
-        "type": {
-          "name": "dragon",
-          "url": "https://pokeapi.co/api/v2/type/16/"
-        }
-      },
-      {
-        "slot": 1,
-        "type": {
-          "name": "poison",
-          "url": "https://pokeapi.co/api/v2/type/4/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": {
-      "name": "rgb(112, 90, 159)",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
-    },
-    "desc": "It stores hundrgb(255, 69, 58)s of liters of poisonous liquid\ninside its body. It is one of the organisms known\nas UBs."
-  },
-  {
-    "id": 805,
-    "name": "stakataka",
-    "types": [
-      {
-        "slot": 2,
-        "type": {
-          "name": "steel",
-          "url": "https://pokeapi.co/api/v2/type/9/"
-        }
-      },
-      {
-        "slot": 1,
-        "type": {
-          "name": "rock",
-          "url": "https://pokeapi.co/api/v2/type/6/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": {
-      "name": "gray",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/4/"
-    },
-    "desc": "It appeargb(255, 69, 58) from an Ultra Wormhole. Each one\nappears to be made up of many life-forms\nstacked one on top of each other."
-  },
-  {
-    "id": 806,
-    "name": "blacephalon",
-    "types": [
-      {
-        "slot": 2,
-        "type": {
-          "name": "ghost",
-          "url": "https://pokeapi.co/api/v2/type/8/"
-        }
-      },
-      {
-        "slot": 1,
-        "type": {
-          "name": "fire",
-          "url": "https://pokeapi.co/api/v2/type/10/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": {
-      "name": "white",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/9/"
-    },
-    "desc": "It slithers toward people. Then, without warning,\nit triggers the explosion of its own head.\nIt’s apparently one kind of Ultra Beast."
-  },
-  {
-    "id": 807,
-    "name": "zeraora",
-    "types": [
-      {
-        "slot": 1,
-        "type": {
-          "name": "electric",
-          "url": "https://pokeapi.co/api/v2/type/13/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": {
-      "name": "yellow",
-      "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
-    },
-    "desc": "It electrifies its claws and tears its opponents\napart with them. Even if they dodge its attack,\nthey’ll be electrocuted by the flying sparks."
+    "color": "gray",
+    "desc": "It slips into the shadows of others and mimics\ntheir powers and movements. As it improves, it\nbecomes stronger than those it’s imitating.",
+    "owned": false
   },
   {
     "id": 10001,
@@ -18185,8 +16465,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10001.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10002,
@@ -18201,8 +16482,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10002.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10003,
@@ -18217,8 +16499,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10003.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10004,
@@ -18240,8 +16523,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10004.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10005,
@@ -18263,8 +16547,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10005.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10006,
@@ -18286,8 +16571,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10006.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10007,
@@ -18309,8 +16595,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10007.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10008,
@@ -18332,8 +16619,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10008.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10009,
@@ -18355,8 +16643,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10009.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10010,
@@ -18378,8 +16667,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10010.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10011,
@@ -18401,8 +16691,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10011.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10012,
@@ -18424,8 +16715,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10012.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10013,
@@ -18440,8 +16732,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10013.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10014,
@@ -18456,8 +16749,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10014.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10015,
@@ -18472,8 +16766,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10015.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10016,
@@ -18488,8 +16783,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10016.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10017,
@@ -18511,8 +16807,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10017.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10018,
@@ -18534,8 +16831,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10018.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10019,
@@ -18550,8 +16848,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10019.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10020,
@@ -18573,8 +16872,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10020.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10021,
@@ -18596,8 +16896,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10021.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10022,
@@ -18619,8 +16920,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10022.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10023,
@@ -18642,8 +16944,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10023.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10024,
@@ -18665,8 +16968,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10024.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10025,
@@ -18681,8 +16985,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10025.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10026,
@@ -18704,8 +17009,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10026.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10027,
@@ -18727,8 +17033,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10027.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10028,
@@ -18750,8 +17057,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10028.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10029,
@@ -18773,8 +17081,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10029.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10030,
@@ -18796,8 +17105,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10030.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10031,
@@ -18819,8 +17129,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10031.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10032,
@@ -18842,8 +17153,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10032.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10033,
@@ -18865,8 +17177,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10033.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10034,
@@ -18888,8 +17201,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10034.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10035,
@@ -18911,8 +17225,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10035.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10036,
@@ -18927,8 +17242,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10036.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10037,
@@ -18943,8 +17259,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10037.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10038,
@@ -18966,8 +17283,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10038.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10039,
@@ -18982,8 +17300,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10039.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10040,
@@ -19005,8 +17324,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10040.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10041,
@@ -19028,8 +17348,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10041.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10042,
@@ -19051,8 +17372,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10042.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10043,
@@ -19074,8 +17396,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10043.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10044,
@@ -19090,8 +17413,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10044.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10045,
@@ -19113,8 +17437,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10045.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10046,
@@ -19136,8 +17461,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10046.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10047,
@@ -19159,8 +17485,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10047.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10048,
@@ -19182,8 +17509,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10048.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10049,
@@ -19205,8 +17533,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10049.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10050,
@@ -19228,8 +17557,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10050.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10051,
@@ -19251,8 +17581,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10051.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10052,
@@ -19274,8 +17605,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10052.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10053,
@@ -19290,8 +17622,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10053.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10054,
@@ -19313,8 +17646,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10054.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10055,
@@ -19329,8 +17663,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10055.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10056,
@@ -19345,8 +17680,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10056.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10057,
@@ -19361,8 +17697,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10057.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10058,
@@ -19384,8 +17721,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10058.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10059,
@@ -19407,8 +17745,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10059.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10060,
@@ -19430,8 +17769,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10060.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10061,
@@ -19446,8 +17786,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10061.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10062,
@@ -19469,8 +17810,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10062.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10063,
@@ -19492,8 +17834,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10063.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10064,
@@ -19515,8 +17858,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10064.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10065,
@@ -19538,8 +17882,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10065.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10066,
@@ -19561,8 +17906,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10066.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10067,
@@ -19584,8 +17930,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10067.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10068,
@@ -19607,8 +17954,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10068.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10069,
@@ -19630,8 +17978,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10069.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10070,
@@ -19653,8 +18002,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10070.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10071,
@@ -19676,8 +18026,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10071.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10072,
@@ -19699,8 +18050,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10072.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10073,
@@ -19722,8 +18074,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10073.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10074,
@@ -19738,8 +18091,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10074.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10075,
@@ -19761,8 +18115,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10075.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10076,
@@ -19784,8 +18139,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10076.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10077,
@@ -19800,8 +18156,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10077.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10078,
@@ -19823,8 +18180,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10078.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10079,
@@ -19846,8 +18204,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10079.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10080,
@@ -19862,8 +18221,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10080.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10081,
@@ -19878,8 +18238,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10081.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10082,
@@ -19894,8 +18255,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10082.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10083,
@@ -19910,8 +18272,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10083.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10084,
@@ -19926,8 +18289,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10084.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10085,
@@ -19942,8 +18306,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10085.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10086,
@@ -19965,8 +18330,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10086.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10087,
@@ -19988,8 +18354,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10087.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10088,
@@ -20011,8 +18378,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10088.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10089,
@@ -20034,8 +18402,9 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10089.png",
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   },
   {
     "id": 10090,
@@ -20057,1436 +18426,8 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10090.png",
-    "color": false,
-    "desc": false
-  },
-  {
-    "id": 10091,
-    "name": "rattata-alola",
-    "types": [
-      {
-        "slot": 2,
-        "type": {
-          "name": "normal",
-          "url": "https://pokeapi.co/api/v2/type/1/"
-        }
-      },
-      {
-        "slot": 1,
-        "type": {
-          "name": "dark",
-          "url": "https://pokeapi.co/api/v2/type/17/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": false,
-    "desc": false
-  },
-  {
-    "id": 10092,
-    "name": "raticate-alola",
-    "types": [
-      {
-        "slot": 2,
-        "type": {
-          "name": "normal",
-          "url": "https://pokeapi.co/api/v2/type/1/"
-        }
-      },
-      {
-        "slot": 1,
-        "type": {
-          "name": "dark",
-          "url": "https://pokeapi.co/api/v2/type/17/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": false,
-    "desc": false
-  },
-  {
-    "id": 10093,
-    "name": "raticate-totem-alola",
-    "types": [
-      {
-        "slot": 2,
-        "type": {
-          "name": "normal",
-          "url": "https://pokeapi.co/api/v2/type/1/"
-        }
-      },
-      {
-        "slot": 1,
-        "type": {
-          "name": "dark",
-          "url": "https://pokeapi.co/api/v2/type/17/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": false,
-    "desc": false
-  },
-  {
-    "id": 10094,
-    "name": "pikachu-original-cap",
-    "types": [
-      {
-        "slot": 1,
-        "type": {
-          "name": "electric",
-          "url": "https://pokeapi.co/api/v2/type/13/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": false,
-    "desc": false
-  },
-  {
-    "id": 10095,
-    "name": "pikachu-hoenn-cap",
-    "types": [
-      {
-        "slot": 1,
-        "type": {
-          "name": "electric",
-          "url": "https://pokeapi.co/api/v2/type/13/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": false,
-    "desc": false
-  },
-  {
-    "id": 10096,
-    "name": "pikachu-sinnoh-cap",
-    "types": [
-      {
-        "slot": 1,
-        "type": {
-          "name": "electric",
-          "url": "https://pokeapi.co/api/v2/type/13/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": false,
-    "desc": false
-  },
-  {
-    "id": 10097,
-    "name": "pikachu-unova-cap",
-    "types": [
-      {
-        "slot": 1,
-        "type": {
-          "name": "electric",
-          "url": "https://pokeapi.co/api/v2/type/13/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": false,
-    "desc": false
-  },
-  {
-    "id": 10098,
-    "name": "pikachu-kalos-cap",
-    "types": [
-      {
-        "slot": 1,
-        "type": {
-          "name": "electric",
-          "url": "https://pokeapi.co/api/v2/type/13/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": false,
-    "desc": false
-  },
-  {
-    "id": 10099,
-    "name": "pikachu-alola-cap",
-    "types": [
-      {
-        "slot": 1,
-        "type": {
-          "name": "electric",
-          "url": "https://pokeapi.co/api/v2/type/13/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": false,
-    "desc": false
-  },
-  {
-    "id": 10100,
-    "name": "raichu-alola",
-    "types": [
-      {
-        "slot": 2,
-        "type": {
-          "name": "psychic",
-          "url": "https://pokeapi.co/api/v2/type/14/"
-        }
-      },
-      {
-        "slot": 1,
-        "type": {
-          "name": "electric",
-          "url": "https://pokeapi.co/api/v2/type/13/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": false,
-    "desc": false
-  },
-  {
-    "id": 10101,
-    "name": "sandshrew-alola",
-    "types": [
-      {
-        "slot": 2,
-        "type": {
-          "name": "steel",
-          "url": "https://pokeapi.co/api/v2/type/9/"
-        }
-      },
-      {
-        "slot": 1,
-        "type": {
-          "name": "ice",
-          "url": "https://pokeapi.co/api/v2/type/15/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": false,
-    "desc": false
-  },
-  {
-    "id": 10102,
-    "name": "sandslash-alola",
-    "types": [
-      {
-        "slot": 2,
-        "type": {
-          "name": "steel",
-          "url": "https://pokeapi.co/api/v2/type/9/"
-        }
-      },
-      {
-        "slot": 1,
-        "type": {
-          "name": "ice",
-          "url": "https://pokeapi.co/api/v2/type/15/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": false,
-    "desc": false
-  },
-  {
-    "id": 10103,
-    "name": "vulpix-alola",
-    "types": [
-      {
-        "slot": 1,
-        "type": {
-          "name": "ice",
-          "url": "https://pokeapi.co/api/v2/type/15/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": false,
-    "desc": false
-  },
-  {
-    "id": 10104,
-    "name": "ninetales-alola",
-    "types": [
-      {
-        "slot": 2,
-        "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
-        }
-      },
-      {
-        "slot": 1,
-        "type": {
-          "name": "ice",
-          "url": "https://pokeapi.co/api/v2/type/15/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": false,
-    "desc": false
-  },
-  {
-    "id": 10105,
-    "name": "diglett-alola",
-    "types": [
-      {
-        "slot": 2,
-        "type": {
-          "name": "steel",
-          "url": "https://pokeapi.co/api/v2/type/9/"
-        }
-      },
-      {
-        "slot": 1,
-        "type": {
-          "name": "ground",
-          "url": "https://pokeapi.co/api/v2/type/5/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": false,
-    "desc": false
-  },
-  {
-    "id": 10106,
-    "name": "dugtrio-alola",
-    "types": [
-      {
-        "slot": 2,
-        "type": {
-          "name": "steel",
-          "url": "https://pokeapi.co/api/v2/type/9/"
-        }
-      },
-      {
-        "slot": 1,
-        "type": {
-          "name": "ground",
-          "url": "https://pokeapi.co/api/v2/type/5/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": false,
-    "desc": false
-  },
-  {
-    "id": 10107,
-    "name": "meowth-alola",
-    "types": [
-      {
-        "slot": 1,
-        "type": {
-          "name": "dark",
-          "url": "https://pokeapi.co/api/v2/type/17/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": false,
-    "desc": false
-  },
-  {
-    "id": 10108,
-    "name": "persian-alola",
-    "types": [
-      {
-        "slot": 1,
-        "type": {
-          "name": "dark",
-          "url": "https://pokeapi.co/api/v2/type/17/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": false,
-    "desc": false
-  },
-  {
-    "id": 10109,
-    "name": "geodude-alola",
-    "types": [
-      {
-        "slot": 2,
-        "type": {
-          "name": "electric",
-          "url": "https://pokeapi.co/api/v2/type/13/"
-        }
-      },
-      {
-        "slot": 1,
-        "type": {
-          "name": "rock",
-          "url": "https://pokeapi.co/api/v2/type/6/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": false,
-    "desc": false
-  },
-  {
-    "id": 10110,
-    "name": "graveler-alola",
-    "types": [
-      {
-        "slot": 2,
-        "type": {
-          "name": "electric",
-          "url": "https://pokeapi.co/api/v2/type/13/"
-        }
-      },
-      {
-        "slot": 1,
-        "type": {
-          "name": "rock",
-          "url": "https://pokeapi.co/api/v2/type/6/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": false,
-    "desc": false
-  },
-  {
-    "id": 10111,
-    "name": "golem-alola",
-    "types": [
-      {
-        "slot": 2,
-        "type": {
-          "name": "electric",
-          "url": "https://pokeapi.co/api/v2/type/13/"
-        }
-      },
-      {
-        "slot": 1,
-        "type": {
-          "name": "rock",
-          "url": "https://pokeapi.co/api/v2/type/6/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": false,
-    "desc": false
-  },
-  {
-    "id": 10112,
-    "name": "grimer-alola",
-    "types": [
-      {
-        "slot": 2,
-        "type": {
-          "name": "dark",
-          "url": "https://pokeapi.co/api/v2/type/17/"
-        }
-      },
-      {
-        "slot": 1,
-        "type": {
-          "name": "poison",
-          "url": "https://pokeapi.co/api/v2/type/4/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": false,
-    "desc": false
-  },
-  {
-    "id": 10113,
-    "name": "muk-alola",
-    "types": [
-      {
-        "slot": 2,
-        "type": {
-          "name": "dark",
-          "url": "https://pokeapi.co/api/v2/type/17/"
-        }
-      },
-      {
-        "slot": 1,
-        "type": {
-          "name": "poison",
-          "url": "https://pokeapi.co/api/v2/type/4/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": false,
-    "desc": false
-  },
-  {
-    "id": 10114,
-    "name": "exeggutor-alola",
-    "types": [
-      {
-        "slot": 2,
-        "type": {
-          "name": "dragon",
-          "url": "https://pokeapi.co/api/v2/type/16/"
-        }
-      },
-      {
-        "slot": 1,
-        "type": {
-          "name": "grass",
-          "url": "https://pokeapi.co/api/v2/type/12/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": false,
-    "desc": false
-  },
-  {
-    "id": 10115,
-    "name": "marowak-alola",
-    "types": [
-      {
-        "slot": 2,
-        "type": {
-          "name": "ghost",
-          "url": "https://pokeapi.co/api/v2/type/8/"
-        }
-      },
-      {
-        "slot": 1,
-        "type": {
-          "name": "fire",
-          "url": "https://pokeapi.co/api/v2/type/10/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": false,
-    "desc": false
-  },
-  {
-    "id": 10116,
-    "name": "greninja-battle-bond",
-    "types": [
-      {
-        "slot": 2,
-        "type": {
-          "name": "dark",
-          "url": "https://pokeapi.co/api/v2/type/17/"
-        }
-      },
-      {
-        "slot": 1,
-        "type": {
-          "name": "water",
-          "url": "https://pokeapi.co/api/v2/type/11/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": false,
-    "desc": false
-  },
-  {
-    "id": 10117,
-    "name": "greninja-ash",
-    "types": [
-      {
-        "slot": 2,
-        "type": {
-          "name": "dark",
-          "url": "https://pokeapi.co/api/v2/type/17/"
-        }
-      },
-      {
-        "slot": 1,
-        "type": {
-          "name": "water",
-          "url": "https://pokeapi.co/api/v2/type/11/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": false,
-    "desc": false
-  },
-  {
-    "id": 10118,
-    "name": "zygarde-10",
-    "types": [
-      {
-        "slot": 2,
-        "type": {
-          "name": "ground",
-          "url": "https://pokeapi.co/api/v2/type/5/"
-        }
-      },
-      {
-        "slot": 1,
-        "type": {
-          "name": "dragon",
-          "url": "https://pokeapi.co/api/v2/type/16/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": false,
-    "desc": false
-  },
-  {
-    "id": 10119,
-    "name": "zygarde-50",
-    "types": [
-      {
-        "slot": 2,
-        "type": {
-          "name": "ground",
-          "url": "https://pokeapi.co/api/v2/type/5/"
-        }
-      },
-      {
-        "slot": 1,
-        "type": {
-          "name": "dragon",
-          "url": "https://pokeapi.co/api/v2/type/16/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": false,
-    "desc": false
-  },
-  {
-    "id": 10120,
-    "name": "zygarde-complete",
-    "types": [
-      {
-        "slot": 2,
-        "type": {
-          "name": "ground",
-          "url": "https://pokeapi.co/api/v2/type/5/"
-        }
-      },
-      {
-        "slot": 1,
-        "type": {
-          "name": "dragon",
-          "url": "https://pokeapi.co/api/v2/type/16/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": false,
-    "desc": false
-  },
-  {
-    "id": 10121,
-    "name": "gumshoos-totem",
-    "types": [
-      {
-        "slot": 1,
-        "type": {
-          "name": "normal",
-          "url": "https://pokeapi.co/api/v2/type/1/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": false,
-    "desc": false
-  },
-  {
-    "id": 10122,
-    "name": "vikavolt-totem",
-    "types": [
-      {
-        "slot": 2,
-        "type": {
-          "name": "electric",
-          "url": "https://pokeapi.co/api/v2/type/13/"
-        }
-      },
-      {
-        "slot": 1,
-        "type": {
-          "name": "bug",
-          "url": "https://pokeapi.co/api/v2/type/7/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": false,
-    "desc": false
-  },
-  {
-    "id": 10123,
-    "name": "oricorio-pom-pom",
-    "types": [
-      {
-        "slot": 2,
-        "type": {
-          "name": "flying",
-          "url": "https://pokeapi.co/api/v2/type/3/"
-        }
-      },
-      {
-        "slot": 1,
-        "type": {
-          "name": "electric",
-          "url": "https://pokeapi.co/api/v2/type/13/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": false,
-    "desc": false
-  },
-  {
-    "id": 10124,
-    "name": "oricorio-pau",
-    "types": [
-      {
-        "slot": 2,
-        "type": {
-          "name": "flying",
-          "url": "https://pokeapi.co/api/v2/type/3/"
-        }
-      },
-      {
-        "slot": 1,
-        "type": {
-          "name": "psychic",
-          "url": "https://pokeapi.co/api/v2/type/14/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": false,
-    "desc": false
-  },
-  {
-    "id": 10125,
-    "name": "oricorio-sensu",
-    "types": [
-      {
-        "slot": 2,
-        "type": {
-          "name": "flying",
-          "url": "https://pokeapi.co/api/v2/type/3/"
-        }
-      },
-      {
-        "slot": 1,
-        "type": {
-          "name": "ghost",
-          "url": "https://pokeapi.co/api/v2/type/8/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": false,
-    "desc": false
-  },
-  {
-    "id": 10126,
-    "name": "lycanroc-midnight",
-    "types": [
-      {
-        "slot": 1,
-        "type": {
-          "name": "rock",
-          "url": "https://pokeapi.co/api/v2/type/6/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": false,
-    "desc": false
-  },
-  {
-    "id": 10127,
-    "name": "wishiwashi-school",
-    "types": [
-      {
-        "slot": 1,
-        "type": {
-          "name": "water",
-          "url": "https://pokeapi.co/api/v2/type/11/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": false,
-    "desc": false
-  },
-  {
-    "id": 10128,
-    "name": "lurantis-totem",
-    "types": [
-      {
-        "slot": 1,
-        "type": {
-          "name": "grass",
-          "url": "https://pokeapi.co/api/v2/type/12/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": false,
-    "desc": false
-  },
-  {
-    "id": 10129,
-    "name": "salazzle-totem",
-    "types": [
-      {
-        "slot": 2,
-        "type": {
-          "name": "fire",
-          "url": "https://pokeapi.co/api/v2/type/10/"
-        }
-      },
-      {
-        "slot": 1,
-        "type": {
-          "name": "poison",
-          "url": "https://pokeapi.co/api/v2/type/4/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": false,
-    "desc": false
-  },
-  {
-    "id": 10130,
-    "name": "minior-orange-meteor",
-    "types": [
-      {
-        "slot": 2,
-        "type": {
-          "name": "flying",
-          "url": "https://pokeapi.co/api/v2/type/3/"
-        }
-      },
-      {
-        "slot": 1,
-        "type": {
-          "name": "rock",
-          "url": "https://pokeapi.co/api/v2/type/6/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": false,
-    "desc": false
-  },
-  {
-    "id": 10131,
-    "name": "minior-yellow-meteor",
-    "types": [
-      {
-        "slot": 2,
-        "type": {
-          "name": "flying",
-          "url": "https://pokeapi.co/api/v2/type/3/"
-        }
-      },
-      {
-        "slot": 1,
-        "type": {
-          "name": "rock",
-          "url": "https://pokeapi.co/api/v2/type/6/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": false,
-    "desc": false
-  },
-  {
-    "id": 10132,
-    "name": "minior-rgb(52, 199, 89)-meteor",
-    "types": [
-      {
-        "slot": 2,
-        "type": {
-          "name": "flying",
-          "url": "https://pokeapi.co/api/v2/type/3/"
-        }
-      },
-      {
-        "slot": 1,
-        "type": {
-          "name": "rock",
-          "url": "https://pokeapi.co/api/v2/type/6/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": false,
-    "desc": false
-  },
-  {
-    "id": 10133,
-    "name": "minior-rgb(10, 132, 255)-meteor",
-    "types": [
-      {
-        "slot": 2,
-        "type": {
-          "name": "flying",
-          "url": "https://pokeapi.co/api/v2/type/3/"
-        }
-      },
-      {
-        "slot": 1,
-        "type": {
-          "name": "rock",
-          "url": "https://pokeapi.co/api/v2/type/6/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": false,
-    "desc": false
-  },
-  {
-    "id": 10134,
-    "name": "minior-indigo-meteor",
-    "types": [
-      {
-        "slot": 2,
-        "type": {
-          "name": "flying",
-          "url": "https://pokeapi.co/api/v2/type/3/"
-        }
-      },
-      {
-        "slot": 1,
-        "type": {
-          "name": "rock",
-          "url": "https://pokeapi.co/api/v2/type/6/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": false,
-    "desc": false
-  },
-  {
-    "id": 10135,
-    "name": "minior-violet-meteor",
-    "types": [
-      {
-        "slot": 2,
-        "type": {
-          "name": "flying",
-          "url": "https://pokeapi.co/api/v2/type/3/"
-        }
-      },
-      {
-        "slot": 1,
-        "type": {
-          "name": "rock",
-          "url": "https://pokeapi.co/api/v2/type/6/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": false,
-    "desc": false
-  },
-  {
-    "id": 10136,
-    "name": "minior-rgb(255, 69, 58)",
-    "types": [
-      {
-        "slot": 2,
-        "type": {
-          "name": "flying",
-          "url": "https://pokeapi.co/api/v2/type/3/"
-        }
-      },
-      {
-        "slot": 1,
-        "type": {
-          "name": "rock",
-          "url": "https://pokeapi.co/api/v2/type/6/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": false,
-    "desc": false
-  },
-  {
-    "id": 10137,
-    "name": "minior-orange",
-    "types": [
-      {
-        "slot": 2,
-        "type": {
-          "name": "flying",
-          "url": "https://pokeapi.co/api/v2/type/3/"
-        }
-      },
-      {
-        "slot": 1,
-        "type": {
-          "name": "rock",
-          "url": "https://pokeapi.co/api/v2/type/6/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": false,
-    "desc": false
-  },
-  {
-    "id": 10138,
-    "name": "minior-yellow",
-    "types": [
-      {
-        "slot": 2,
-        "type": {
-          "name": "flying",
-          "url": "https://pokeapi.co/api/v2/type/3/"
-        }
-      },
-      {
-        "slot": 1,
-        "type": {
-          "name": "rock",
-          "url": "https://pokeapi.co/api/v2/type/6/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": false,
-    "desc": false
-  },
-  {
-    "id": 10139,
-    "name": "minior-rgb(52, 199, 89)",
-    "types": [
-      {
-        "slot": 2,
-        "type": {
-          "name": "flying",
-          "url": "https://pokeapi.co/api/v2/type/3/"
-        }
-      },
-      {
-        "slot": 1,
-        "type": {
-          "name": "rock",
-          "url": "https://pokeapi.co/api/v2/type/6/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": false,
-    "desc": false
-  },
-  {
-    "id": 10140,
-    "name": "minior-rgb(10, 132, 255)",
-    "types": [
-      {
-        "slot": 2,
-        "type": {
-          "name": "flying",
-          "url": "https://pokeapi.co/api/v2/type/3/"
-        }
-      },
-      {
-        "slot": 1,
-        "type": {
-          "name": "rock",
-          "url": "https://pokeapi.co/api/v2/type/6/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": false,
-    "desc": false
-  },
-  {
-    "id": 10141,
-    "name": "minior-indigo",
-    "types": [
-      {
-        "slot": 2,
-        "type": {
-          "name": "flying",
-          "url": "https://pokeapi.co/api/v2/type/3/"
-        }
-      },
-      {
-        "slot": 1,
-        "type": {
-          "name": "rock",
-          "url": "https://pokeapi.co/api/v2/type/6/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": false,
-    "desc": false
-  },
-  {
-    "id": 10142,
-    "name": "minior-violet",
-    "types": [
-      {
-        "slot": 2,
-        "type": {
-          "name": "flying",
-          "url": "https://pokeapi.co/api/v2/type/3/"
-        }
-      },
-      {
-        "slot": 1,
-        "type": {
-          "name": "rock",
-          "url": "https://pokeapi.co/api/v2/type/6/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": false,
-    "desc": false
-  },
-  {
-    "id": 10143,
-    "name": "mimikyu-busted",
-    "types": [
-      {
-        "slot": 2,
-        "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
-        }
-      },
-      {
-        "slot": 1,
-        "type": {
-          "name": "ghost",
-          "url": "https://pokeapi.co/api/v2/type/8/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": false,
-    "desc": false
-  },
-  {
-    "id": 10144,
-    "name": "mimikyu-totem-disguised",
-    "types": [
-      {
-        "slot": 2,
-        "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
-        }
-      },
-      {
-        "slot": 1,
-        "type": {
-          "name": "ghost",
-          "url": "https://pokeapi.co/api/v2/type/8/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": false,
-    "desc": false
-  },
-  {
-    "id": 10145,
-    "name": "mimikyu-totem-busted",
-    "types": [
-      {
-        "slot": 2,
-        "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
-        }
-      },
-      {
-        "slot": 1,
-        "type": {
-          "name": "ghost",
-          "url": "https://pokeapi.co/api/v2/type/8/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": false,
-    "desc": false
-  },
-  {
-    "id": 10146,
-    "name": "kommo-o-totem",
-    "types": [
-      {
-        "slot": 2,
-        "type": {
-          "name": "fighting",
-          "url": "https://pokeapi.co/api/v2/type/2/"
-        }
-      },
-      {
-        "slot": 1,
-        "type": {
-          "name": "dragon",
-          "url": "https://pokeapi.co/api/v2/type/16/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": false,
-    "desc": false
-  },
-  {
-    "id": 10147,
-    "name": "magearna-original",
-    "types": [
-      {
-        "slot": 2,
-        "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
-        }
-      },
-      {
-        "slot": 1,
-        "type": {
-          "name": "steel",
-          "url": "https://pokeapi.co/api/v2/type/9/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": false,
-    "desc": false
-  },
-  {
-    "id": 10148,
-    "name": "pikachu-partner-cap",
-    "types": [
-      {
-        "slot": 1,
-        "type": {
-          "name": "electric",
-          "url": "https://pokeapi.co/api/v2/type/13/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": false,
-    "desc": false
-  },
-  {
-    "id": 10149,
-    "name": "marowak-totem",
-    "types": [
-      {
-        "slot": 2,
-        "type": {
-          "name": "ghost",
-          "url": "https://pokeapi.co/api/v2/type/8/"
-        }
-      },
-      {
-        "slot": 1,
-        "type": {
-          "name": "fire",
-          "url": "https://pokeapi.co/api/v2/type/10/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": false,
-    "desc": false
-  },
-  {
-    "id": 10150,
-    "name": "ribombee-totem",
-    "types": [
-      {
-        "slot": 2,
-        "type": {
-          "name": "fairy",
-          "url": "https://pokeapi.co/api/v2/type/18/"
-        }
-      },
-      {
-        "slot": 1,
-        "type": {
-          "name": "bug",
-          "url": "https://pokeapi.co/api/v2/type/7/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": false,
-    "desc": false
-  },
-  {
-    "id": 10151,
-    "name": "rockruff-own-tempo",
-    "types": [
-      {
-        "slot": 1,
-        "type": {
-          "name": "rock",
-          "url": "https://pokeapi.co/api/v2/type/6/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": false,
-    "desc": false
-  },
-  {
-    "id": 10152,
-    "name": "lycanroc-dusk",
-    "types": [
-      {
-        "slot": 1,
-        "type": {
-          "name": "rock",
-          "url": "https://pokeapi.co/api/v2/type/6/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": false,
-    "desc": false
-  },
-  {
-    "id": 10153,
-    "name": "araquanid-totem",
-    "types": [
-      {
-        "slot": 2,
-        "type": {
-          "name": "bug",
-          "url": "https://pokeapi.co/api/v2/type/7/"
-        }
-      },
-      {
-        "slot": 1,
-        "type": {
-          "name": "water",
-          "url": "https://pokeapi.co/api/v2/type/11/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": false,
-    "desc": false
-  },
-  {
-    "id": 10154,
-    "name": "togedemaru-totem",
-    "types": [
-      {
-        "slot": 2,
-        "type": {
-          "name": "steel",
-          "url": "https://pokeapi.co/api/v2/type/9/"
-        }
-      },
-      {
-        "slot": 1,
-        "type": {
-          "name": "electric",
-          "url": "https://pokeapi.co/api/v2/type/13/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": false,
-    "desc": false
-  },
-  {
-    "id": 10155,
-    "name": "necrozma-dusk",
-    "types": [
-      {
-        "slot": 2,
-        "type": {
-          "name": "steel",
-          "url": "https://pokeapi.co/api/v2/type/9/"
-        }
-      },
-      {
-        "slot": 1,
-        "type": {
-          "name": "psychic",
-          "url": "https://pokeapi.co/api/v2/type/14/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": false,
-    "desc": false
-  },
-  {
-    "id": 10156,
-    "name": "necrozma-dawn",
-    "types": [
-      {
-        "slot": 2,
-        "type": {
-          "name": "ghost",
-          "url": "https://pokeapi.co/api/v2/type/8/"
-        }
-      },
-      {
-        "slot": 1,
-        "type": {
-          "name": "psychic",
-          "url": "https://pokeapi.co/api/v2/type/14/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": false,
-    "desc": false
-  },
-  {
-    "id": 10157,
-    "name": "necrozma-ultra",
-    "types": [
-      {
-        "slot": 2,
-        "type": {
-          "name": "dragon",
-          "url": "https://pokeapi.co/api/v2/type/16/"
-        }
-      },
-      {
-        "slot": 1,
-        "type": {
-          "name": "psychic",
-          "url": "https://pokeapi.co/api/v2/type/14/"
-        }
-      }
-    ],
-    "sprite": null,
-    "color": false,
-    "desc": false
+    "color": "white",
+    "desc": false,
+    "owned": false
   }
 ]

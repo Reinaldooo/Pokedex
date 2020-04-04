@@ -11,7 +11,7 @@ const PokemonListWrapper = styled.View`
 `;
 
 export default function Main({ navigation }) {
-  const [db, setDb] = useState(allPokemon.slice(0, 51));
+  const [db, setDb] = useState(allPokemon);
   const [searchChars, setSearchChars] = useState("");
   const [searching, setSearching] = useState(false);
 
