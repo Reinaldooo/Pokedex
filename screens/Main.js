@@ -8,6 +8,7 @@ import SearchBar from "../components/SearchBar";
 const PokemonListWrapper = styled.View`
   background-color: "rgb(229,229,234)";
   padding: 0 30px;
+  height: 100%;
 `;
 
 export default function Main({ navigation }) {

@@ -34,7 +34,9 @@ export default function PokemonList({ items, navigation, searchChars }) {
       numColumns={3}
       columnWrapperStyle={{ justifyContent: "space-between" }}
       renderItem={({ item }) => (
-        <TouchableWrapper onPress={() => navigation.navigate("PokemonDetail")}>
+        <TouchableWrapper onPress={() => navigation.navigate("PokemonDetail", {
+          item
+        })}>
           <ImageWrapper>
             <Image
               fadeDuration={300}
@@ -42,7 +44,7 @@ export default function PokemonList({ items, navigation, searchChars }) {
                 uri: item.sprite,
                 // TODO
                 // Choose cache mode
-                cache: "force-cache"
+                cache: "only-if-cached"
               }}
               style={{ width: "100%", height: "100%" }}
             />

@@ -11,15 +11,6 @@ import MyPokemon from "./screens/MyPokemon";
 //   android: 'Double tap R on your keyboard to reload,\n' + 'Shake or press menu button for dev menu',
 // });
 
-// TODO
-
-// fix layout when number not multiple of three
-// "No items found" on flatlist
-// replace colors
-// detail page
-// ?? types on card
-// ?? auto fetch new on finish
-
 const Tab = createBottomTabNavigator();
 
 export default function App() {
