@@ -18,6 +18,7 @@ import MyPokemon from "./screens/MyPokemon";
 // ---highliught term
 // ---reset search
 // fix layout when number not multiple of three
+// "No items found" on flatlist
 // replace colors
 // detail page
 // ?? types on card

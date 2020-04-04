@@ -12,22 +12,33 @@ const PokemonListWrapper = styled.View`
 
 export default function Main({ navigation }) {
   const [db, setDb] = useState(allPokemon.slice(0, 51));
+  const [searchChars, setSearchChars] = useState("");
+  const [searching, setSearching] = useState(false);
 
   const search = (query) => {
-      let matches =  allPokemon.filter(p => {
-        const regex = new RegExp(query, 'gi');
-        return p.name.match(regex)
-      });
-      setDb(matches)
+    let matches = allPokemon.filter((p) => {
+      const regex = new RegExp(query, "gi");
+      return p.name.match(regex);
+    });
+    setSearchChars(query)
+    setSearching(true)
+    setDb(matches)
+    ;
   };
   const reset = () => {
-    setDb(allPokemon.slice(0, 5));
+    setSearching(false)
+    setDb(allPokemon.slice(0, 51));
+    setSearchChars("")
   };
 
   return (
     <PokemonListWrapper>
-      <SearchBar search={search} reset={reset} />
-      <PokemonList items={db} navigation={navigation} />
+      <SearchBar search={search} reset={reset} searching={searching}/>
+      <PokemonList
+        items={db}
+        navigation={navigation}
+        searchChars={searchChars}
+      />
     </PokemonListWrapper>
   );
 }

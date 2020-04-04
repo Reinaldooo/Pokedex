@@ -2,7 +2,7 @@ import React from "react";
 import { View, Text, Image, FlatList } from "react-native";
 import styled from "styled-components";
 //
-import { capitalize } from "../utils"
+import PokemonName from "./PokemonName"
 
 const ImageWrapper = styled.View`
   overflow: hidden;
@@ -27,7 +27,7 @@ const TouchableWrapper = styled.TouchableOpacity`
   justify-content: center;
 `;
 
-export default function PokemonList({ items, navigation }) {
+export default function PokemonList({ items, navigation, searchChars }) {
   return (
     <FlatList
       data={items} // 50 temp pokemon
@@ -47,9 +47,7 @@ export default function PokemonList({ items, navigation }) {
               style={{ width: "100%", height: "100%" }}
             />
           </ImageWrapper>
-          <Text style={{ color: "rgb(142,142,147)", marginBottom: 10 }}>
-            {capitalize(item.name)}
-          </Text>
+          <PokemonName name={item.name} searchChars={searchChars}/>
           <View
             style={{
               backgroundColor: item.color.name,

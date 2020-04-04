@@ -43,9 +43,8 @@ const ResetButton = styled.TouchableOpacity`
   margin-left: 5px;
 `;
 
-export default SearchBar = ({ search, reset }) => {
+export default SearchBar = ({ search, reset, searching }) => {
   const [query, setQuery] = useState("");
-  const [searching, setSearching] = useState(false);
 
   return (
     <SearchWrapper>
@@ -54,18 +53,22 @@ export default SearchBar = ({ search, reset }) => {
         onChangeText={(query) => setQuery(query)}
         placeholder="Search here..."
         autoCorrect={false}
+        autoCapitalize="none"
       />
-      <SearchButton onPress={() => {
-          setSearching(true)
-          search(query)
-      }}>
+      <SearchButton
+        onPress={() => {
+          search(query);
+        }}
+      >
         <Text style={{ color: "white", fontWeight: "bold" }}>GO</Text>
       </SearchButton>
       {searching && (
-        <ResetButton onPress={() => {
-            setSearching(false)
-            reset()
-        }}>
+        <ResetButton
+          onPress={() => {
+            setQuery("")
+            reset();
+          }}
+        >
           <Text style={{ color: "lightcoral", fontWeight: "bold" }}>Reset</Text>
         </ResetButton>
       )}
