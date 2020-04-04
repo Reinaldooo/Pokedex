@@ -13,10 +13,6 @@ import MyPokemon from "./screens/MyPokemon";
 
 // TODO
 
-// --Searchbar
-// ---basic search
-// ---highliught term
-// ---reset search
 // fix layout when number not multiple of three
 // "No items found" on flatlist
 // replace colors

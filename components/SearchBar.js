@@ -51,7 +51,7 @@ export default SearchBar = ({ search, reset, searching }) => {
       <SearchInput
         value={query}
         onChangeText={(query) => setQuery(query)}
-        placeholder="Search here..."
+        placeholder="Search Pokémon..."
         autoCorrect={false}
         autoCapitalize="none"
       />
