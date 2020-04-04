@@ -18,7 +18,7 @@ const ImageWrapper = styled.View`
 const TouchableWrapper = styled.TouchableOpacity`
   background-color: white;
   width: 100px;
-  margin-top: 20px;
+  margin-bottom: 20px;
   height: 110px;
   border-radius: 15px;
   overflow: hidden;

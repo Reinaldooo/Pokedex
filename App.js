@@ -14,7 +14,10 @@ import MyPokemon from "./screens/MyPokemon";
 // TODO
 
 // --Searchbar
+// ---basic search
+// ---highliught term
 // ---reset search
+// fix layout when number not multiple of three
 // replace colors
 // detail page
 // ?? types on card
