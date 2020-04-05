@@ -12,7 +12,7 @@ const PokemonListWrapper = styled.View`
 `;
 
 export default function Main({ navigation }) {
-  const [db, setDb] = useState(allPokemon);
+  const [db, setDb] = useState(allPokemon.slice(0,151));
   const [searchChars, setSearchChars] = useState("");
   const [searching, setSearching] = useState(false);
 
@@ -28,7 +28,7 @@ export default function Main({ navigation }) {
   };
   const reset = () => {
     setSearching(false)
-    setDb(allPokemon.slice(0, 51));
+    setDb(allPokemon.slice(0, 151));
     setSearchChars("")
   };
 
