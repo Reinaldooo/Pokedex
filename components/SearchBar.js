@@ -54,6 +54,9 @@ export default SearchBar = ({ search, reset, searching }) => {
         placeholder="Search Pokémon..."
         autoCorrect={false}
         autoCapitalize="none"
+        onSubmitEditing={() => {
+          search(query);
+        }}
       />
       <SearchButton
         onPress={() => {
