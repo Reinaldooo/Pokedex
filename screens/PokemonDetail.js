@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Text } from "react-native";
 //
-import { capitalize } from "../utils"
+import { capitalize } from "../utils";
 
 const Container = styled.View`
   background-color: "rgb(229,229,234)";
@@ -24,6 +24,31 @@ const Description = styled.Text`
   margin: 10px 20px;
 `;
 
+const Types = styled.View`
+  height: 50px;
+  width: 60%;
+  margin-bottom: 10px;
+  /* background-color: red; */
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+`;
+
+const Type = styled.View`
+  height: 30px;
+  padding: 5px 10px;
+  border: 2px solid ${props => props.color};
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  /* background-color: blue; */
+`;
+
+const TypeLabel = styled.Text`
+  text-transform: uppercase;
+  color: ${props => props.color};
+`;
+
 const Name = styled.Text`
   font-size: 22px;
   font-weight: bold;
@@ -35,7 +60,7 @@ const PokemonImage = styled.Image`
 `;
 
 export default PokemonDetail = ({ route }) => {
-  const { id, name, sprite, desc } = route.params.item
+  const { id, name, sprite, desc, types } = route.params.item;
   return (
     <Container>
       <Card>
@@ -45,12 +70,15 @@ export default PokemonDetail = ({ route }) => {
             cache: "only-if-cached",
           }}
         />
-        <Name>
-          {capitalize(name)}
-        </Name>
-        <Description>
-          {desc}
-        </Description>
+        <Types>
+          {types.map((t) => (
+            <Type key={t.slot} color="gray">
+              <TypeLabel color="gray">{t.type.name}</TypeLabel>
+            </Type>
+          ))}
+        </Types>
+        <Name>{capitalize(name)}</Name>
+        <Description>{desc}</Description>
       </Card>
     </Container>
   );
