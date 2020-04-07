@@ -8,6 +8,33 @@ export const percent = (num) => {
     return Math.floor((num/200)*100);
 }
 
+export const generateEvolutionChain = (chain) => {
+  if (!chain.evolves_to[0]) {
+    // No evolutions
+    return false;
+  }
+  let evolutionsIndex = 0;
+  let evolutions = []
+  // Fisrt pokemon on the chain
+  let first = chain.species.name;
+  // Pokemons has one or more evolutions
+  chain.evolves_to.forEach((e) => {
+    evolutions[evolutionsIndex] = [first, e.species.name]
+    let i;
+    let j;
+    // this only gets the first pokemon since there are no nested evolutions
+    for (i = e.evolves_to[0], j = 2; i !== undefined; i = i.evolves_to[0], j++) {
+      if(!i) {
+        // In this case, this second pokemon has no evolutions
+        break
+      };
+      evolutions[evolutionsIndex][j] = i.species.name
+    }
+    evolutionsIndex++
+  })
+  return evolutions
+};
+
 export const allPokemon = [
   {
     "id": 1,

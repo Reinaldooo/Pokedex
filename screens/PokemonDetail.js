@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 import styled from "styled-components/native";
 import { Text, View, ActivityIndicator } from "react-native";
 //
-import { capitalize, percent } from "../utils";
-import ProgressBar from "../components/ProgressBar"
+import { capitalize, percent, generateEvolutionChain } from "../utils";
+import ProgressBar from "../components/ProgressBar";
 
 const Container = styled.View`
   background-color: "rgb(229,229,234)";
@@ -69,11 +69,19 @@ const Stats = styled.View`
 `;
 
 export default PokemonDetail = ({ route }) => {
-  const [details, setDetails] = useState({})
-  const [error, setError] = useState(false)
+  const [details, setDetails] = useState({});
+  const [error, setError] = useState(false);
 
-  const { id, evolution_chain, name, sprite, desc, types, color } = route.params.item;
-  
+  const {
+    id,
+    evolution_chain,
+    name,
+    sprite,
+    desc,
+    types,
+    color,
+  } = route.params.item;
+
   const fetchDetails = (id, evolution_chain) => {
     fetch(`https://pokeapi.co/api/v2/pokemon/${id}`)
       .then(async (data) => await data.json())
@@ -90,6 +98,7 @@ export default PokemonDetail = ({ route }) => {
           .then((data) => {
             if (data) {
               let { chain } = data;
+              chain = generateEvolutionChain(chain)
               setDetails({
                 ...pokemon,
                 chain,
@@ -97,14 +106,15 @@ export default PokemonDetail = ({ route }) => {
             }
           })
           .catch((e) => {
-            setError(true)
+            setError(true);
           });
       });
   };
 
   useEffect(() => {
-    fetchDetails(id, evolution_chain)
-  }, [])
+    fetchDetails(id, evolution_chain);
+  }, []);
+
 
   return (
     <Container>
@@ -112,7 +122,7 @@ export default PokemonDetail = ({ route }) => {
         <PokemonImage
           source={{
             uri: sprite,
-            cache: "only-if-cached",
+            cache: "force-cache",
           }}
         />
         <Name>{capitalize(name)}</Name>
@@ -124,21 +134,31 @@ export default PokemonDetail = ({ route }) => {
           ))}
         </Types>
         <Description>{desc}</Description>
-        {
-          details.stats ?
-          <Stats>
-          {
-            details.stats.map((item, index) => (
-              <View key={index} style={{ paddingVertical: 5 }}>
-                <Text style={{ marginBottom: 5, fontSize: 14 }}>{capitalize(item.stat.name)}</Text>
-                <ProgressBar width={percent(item.base_stat)} color="lightcoral"/>
-              </View>
-            ))
-          }
-          </Stats>
-          :
-          <ActivityIndicator size="large"/>
-        }
+        {details.stats ? (
+          <>
+            <Stats>
+              {details.stats.map((item, index) => (
+                <View key={index} style={{ paddingVertical: 5 }}>
+                  <Text style={{ marginBottom: 5, fontSize: 14 }}>
+                    {capitalize(item.stat.name)}
+                  </Text>
+                  <ProgressBar
+                    width={percent(item.base_stat)}
+                    color="lightcoral"
+                  />
+                </View>
+              ))}
+            </Stats>
+            {/* <PokemonImage
+              source={{
+                uri: ,
+                cache: "force-cache",
+              }}
+            /> */}
+          </>
+        ) : (
+          <ActivityIndicator size="large" />
+        )}
       </Card>
     </Container>
   );
