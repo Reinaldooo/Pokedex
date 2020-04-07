@@ -12,7 +12,6 @@ export default function Search() {
       // screenOptions={{
       //   headerShown: false
       // }}
-      mode="modal"
     >
       <Stack.Screen
         name="Main"

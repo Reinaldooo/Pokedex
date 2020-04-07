@@ -1,4 +1,5 @@
 detail page
+remove axios
 next 150 button
 save on storage page number ??
 refuse search if no query

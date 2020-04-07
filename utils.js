@@ -3,6 +3,11 @@ export const capitalize = s => {
   return s.charAt(0).toUpperCase() + s.slice(1);
 };
 
+export const percent = (num) => {
+    // 255 is the highest stat number
+    return Math.floor((num/200)*100);
+}
+
 export const allPokemon = [
   {
     "id": 1,
