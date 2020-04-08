@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import styled from "styled-components/native";
 import { Text, View } from "react-native";
 //
@@ -123,10 +123,12 @@ export default PokemonDetail = ({ route, navigation }) => {
 
   useEffect(() => {
     fetchDetails(id, evolution_chain);
-  }, []);
+  }, [id]);
+
+  const scrollRef = useRef()
 
   return (
-    <Container>
+    <Container ref={scrollRef}>
       <Card>
         <PokemonImage size={"150px"} uri={sprite} />
         <Name>{capitalize(name)}</Name>
@@ -163,6 +165,7 @@ export default PokemonDetail = ({ route, navigation }) => {
                     data={chain}
                     sprite={sprite}
                     color={color}
+                    scrollRef={scrollRef}
                   />
                 ))
               ) : (
