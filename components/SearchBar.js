@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Text } from "react-native";
-import styled from "styled-components";
+import styled from "styled-components/native";
 
 const SearchWrapper = styled.View`
   /* background-color: red; */

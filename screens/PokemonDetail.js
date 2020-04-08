@@ -69,6 +69,11 @@ const Stats = styled.View`
   margin-bottom: 15px;
 `;
 
+const Evolutions = styled.View`
+  width: 90%;
+  background-color: red;
+`;
+
 export default PokemonDetail = ({ route }) => {
   const [details, setDetails] = useState({});
   const [error, setError] = useState(false);
@@ -119,6 +124,9 @@ export default PokemonDetail = ({ route }) => {
 
   return (
     <Container>
+      {
+        console.log(details.chain)
+      }
       <Card>
         <PokemonImage
           source={{
@@ -150,12 +158,9 @@ export default PokemonDetail = ({ route }) => {
                 </View>
               ))}
             </Stats>
-            {/* <PokemonImage
-              source={{
-                uri: ,
-                cache: "force-cache",
-              }}
-            /> */}
+            <Evolutions>
+
+            </Evolutions>
           </>
         ) : (
           <Loading/>
