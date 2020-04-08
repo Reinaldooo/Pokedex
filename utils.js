@@ -332,7 +332,7 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png",
-    "color": "yellow",
+    "color": "rgb(255, 196, 84)",
     "desc": "Kakuna remains virtually immobile as it clings to a tree. However, on the inside, it is extremely busy as it prepares for its coming evolution. This is evident from how hot the shell becomes to the touch.",
     "evolution_chain": "5",
     "owned": false
@@ -357,7 +357,7 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png",
-    "color": "yellow",
+    "color": "rgb(255, 196, 84)",
     "desc": "Beedrill is extremely territorial. No one should ever approach its nest—this is for their own safety. If angered, they will attack in a furious swarm.",
     "evolution_chain": "5",
     "owned": false
@@ -572,7 +572,7 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
-    "color": "yellow",
+    "color": "rgb(255, 196, 84)",
     "desc": "Its nature is to store up electricity. Forests where nests of Pikachu live are dangerous, since the trees are so often struck by lightning.",
     "evolution_chain": "10",
     "owned": false
@@ -590,7 +590,7 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png",
-    "color": "yellow",
+    "color": "rgb(255, 196, 84)",
     "desc": "As electricity builds up inside its body, it becomes more aggressive. One theory is that the electricity buildup is actually causing stress.",
     "evolution_chain": "10",
     "owned": false
@@ -608,7 +608,7 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png",
-    "color": "yellow",
+    "color": "rgb(255, 196, 84)",
     "desc": "It lives in areas of limited rainfall. When danger approaches, it curls up into a ball to protect its soft stomach.",
     "evolution_chain": "11",
     "owned": false
@@ -626,7 +626,7 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png",
-    "color": "yellow",
+    "color": "rgb(255, 196, 84)",
     "desc": "Its claws and horns often break off. The broken claws and horns can be used to carve plows for tilling farm fields.",
     "evolution_chain": "11",
     "owned": false
@@ -820,7 +820,7 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png",
-    "color": "yellow",
+    "color": "rgb(255, 196, 84)",
     "desc": "It is vindictive and relentless by nature. Those who cross it even once will be cursed for a thousand years, along with their descendants.",
     "evolution_chain": "15",
     "owned": false
@@ -1149,7 +1149,7 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/52.png",
-    "color": "yellow",
+    "color": "rgb(255, 196, 84)",
     "desc": "When visiting a junkyard, you may catch sight of it having an intense fight with Murkrow over shiny objects.",
     "evolution_chain": "22",
     "owned": false
@@ -1167,7 +1167,7 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/53.png",
-    "color": "yellow",
+    "color": "rgb(255, 196, 84)",
     "desc": "Although the jewel on its forehead appears to be a different color than those of Alolan Persian, it’s mostly made of the same material.",
     "evolution_chain": "22",
     "owned": false
@@ -1185,7 +1185,7 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png",
-    "color": "yellow",
+    "color": "rgb(255, 196, 84)",
     "desc": "Using psychokinesis gives it a headache, so it normally passes the time spacing out and doing as little as possible.",
     "evolution_chain": "23",
     "owned": false
@@ -1662,7 +1662,7 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png",
-    "color": "yellow",
+    "color": "rgb(255, 196, 84)",
     "desc": "Ponyta is very weak at birth. It can barely stand up. This Pokémon becomes stronger by stumbling and falling to keep up with its parent.",
     "evolution_chain": "32",
     "owned": false
@@ -1680,7 +1680,7 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/78.png",
-    "color": "yellow",
+    "color": "rgb(255, 196, 84)",
     "desc": "Rapidash usually can be seen casually cantering in the fields and plains. However, when this Pokémon turns serious, its fiery manes flare and blaze as it gallops its way up to 150 mph.",
     "evolution_chain": "32",
     "owned": false
@@ -2095,7 +2095,7 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/96.png",
-    "color": "yellow",
+    "color": "rgb(255, 196, 84)",
     "desc": "It can be spotted near recreational facilities, intending to eat the pleasant dreams of children who enjoyed themselves there that day.",
     "evolution_chain": "42",
     "owned": false
@@ -2113,7 +2113,7 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/97.png",
-    "color": "yellow",
+    "color": "rgb(255, 196, 84)",
     "desc": "In Alola, Komala is Hypno’s main target. It rarely harms people.",
     "evolution_chain": "42",
     "owned": false
@@ -2235,7 +2235,7 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/103.png",
-    "color": "yellow",
+    "color": "rgb(255, 196, 84)",
     "desc": "It engages its enemies using psychic powers. Each of its three heads fires off psychokinetic energy, tripling its power.",
     "evolution_chain": "45",
     "owned": false
@@ -2673,7 +2673,7 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/125.png",
-    "color": "yellow",
+    "color": "rgb(255, 196, 84)",
     "desc": "Electricity permeates its body. It swings its arms round and round to charge up electricity before unleashing a punch.",
     "evolution_chain": "60",
     "owned": false
@@ -2867,7 +2867,7 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/135.png",
-    "color": "yellow",
+    "color": "rgb(255, 196, 84)",
     "desc": "Its lungs contain an organ that creates electricity. The crackling sound of electricity can be heard when it exhales.",
     "evolution_chain": "67",
     "owned": false
@@ -3096,7 +3096,7 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/145.png",
-    "color": "yellow",
+    "color": "rgb(255, 196, 84)",
     "desc": "Zapdos is a legendary bird Pokémon that has the ability to control electricity. It usually lives in thunderclouds. The Pokémon gains power if it is stricken by lightning bolts.",
     "evolution_chain": "74",
     "owned": false
@@ -3121,7 +3121,7 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/146.png",
-    "color": "yellow",
+    "color": "rgb(255, 196, 84)",
     "desc": "Moltres is a legendary bird Pokémon that has the ability to control fire. If this Pokémon is injured, it is said to dip its body in the molten magma of a volcano to burn and heal itself.",
     "evolution_chain": "75",
     "owned": false
@@ -3290,7 +3290,7 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/155.png",
-    "color": "yellow",
+    "color": "rgb(255, 196, 84)",
     "desc": "Cyndaquil protects itself by flaring up the flames on its back. The flames are vigorous if the Pokémon is angry. However, if it is tired, the flames splutter fitfully with incomplete combustion.",
     "evolution_chain": "80",
     "owned": false
@@ -3308,7 +3308,7 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/156.png",
-    "color": "yellow",
+    "color": "rgb(255, 196, 84)",
     "desc": "Quilava keeps its foes at bay with the intensity of its flames and gusts of superheated air. This Pokémon applies its outstanding nimbleness to dodge attacks even while scorching the foe with flames.",
     "evolution_chain": "80",
     "owned": false
@@ -3326,7 +3326,7 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/157.png",
-    "color": "yellow",
+    "color": "rgb(255, 196, 84)",
     "desc": "Typhlosion obscures itself behind a shimmering heat haze that it creates using its intensely hot flames. This Pokémon creates blazing explosive blasts that burn everything to cinders.",
     "evolution_chain": "80",
     "owned": false
@@ -3659,7 +3659,7 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/172.png",
-    "color": "yellow",
+    "color": "rgb(255, 196, 84)",
     "desc": "It still can’t use electricity well. When it’s surprised or excited, it discharges electricity unintentionally.",
     "evolution_chain": "10",
     "owned": false
@@ -3849,7 +3849,7 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/181.png",
-    "color": "yellow",
+    "color": "rgb(255, 196, 84)",
     "desc": "The light from its tail can be seen from space. This is why you can always tell exactly where it is, which is why it usually keeps the light off.",
     "evolution_chain": "89",
     "owned": false
@@ -4064,7 +4064,7 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/191.png",
-    "color": "yellow",
+    "color": "rgb(255, 196, 84)",
     "desc": "Sunkern tries to move as little as it possibly can. It does so because it tries to conserve all the nutrients it has stored in its body for its evolution. It will not eat a thing, subsisting only on morning dew.",
     "evolution_chain": "94",
     "owned": false
@@ -4082,7 +4082,7 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/192.png",
-    "color": "yellow",
+    "color": "rgb(255, 196, 84)",
     "desc": "Sunflora converts solar energy into nutrition. It moves around actively in the daytime when it is warm. It stops moving as soon as the sun goes down for the night.",
     "evolution_chain": "94",
     "owned": false
@@ -4322,7 +4322,7 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/203.png",
-    "color": "yellow",
+    "color": "rgb(255, 196, 84)",
     "desc": "Girafarig’s rear head contains a tiny brain that is too small for thinking. However, the rear head doesn’t need to sleep, so it can keep watch over its surroundings 24 hours a day.",
     "evolution_chain": "101",
     "owned": false
@@ -4383,7 +4383,7 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/206.png",
-    "color": "yellow",
+    "color": "rgb(255, 196, 84)",
     "desc": "It travels by digging through the ground. Diglett and Dunsparce share one another’s tunnels happily.",
     "evolution_chain": "103",
     "owned": false
@@ -4544,7 +4544,7 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/213.png",
-    "color": "yellow",
+    "color": "rgb(255, 196, 84)",
     "desc": "Shuckle quietly hides itself under rocks, keeping its body concealed inside its hard shell while eating berries it has stored away. The berries mix with its body fluids to become a juice.",
     "evolution_chain": "107",
     "owned": false
@@ -5103,7 +5103,7 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/239.png",
-    "color": "yellow",
+    "color": "rgb(255, 196, 84)",
     "desc": "When it hears the crash of thunder, Elekid’s mood improves. It can be useful to record that sound and play it when Elekid’s feeling down.",
     "evolution_chain": "60",
     "owned": false
@@ -5175,7 +5175,7 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/243.png",
-    "color": "yellow",
+    "color": "rgb(255, 196, 84)",
     "desc": "Raikou embodies the speed of lightning. The roars of this Pokémon send shock waves shuddering through the air and shake the ground as if lightning bolts had come crashing down.",
     "evolution_chain": "123",
     "owned": false
@@ -5684,7 +5684,7 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/267.png",
-    "color": "yellow",
+    "color": "rgb(255, 196, 84)",
     "desc": "Beautifly has a long mouth like a coiled needle, which is very convenient for collecting pollen from flowers. This Pokémon rides the spring winds as it flits around gathering pollen.",
     "evolution_chain": "135",
     "owned": false
@@ -5970,7 +5970,7 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/279.png",
-    "color": "yellow",
+    "color": "rgb(255, 196, 84)",
     "desc": "It places small Pokémon into its spacious beak and carries them around. No one knows where it’s taking them.",
     "evolution_chain": "139",
     "owned": false
@@ -6242,7 +6242,7 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/291.png",
-    "color": "yellow",
+    "color": "rgb(255, 196, 84)",
     "desc": "If Ninjask is not trained properly, it will refuse to obey the Trainer and cry loudly continuously. Because of this quality, this Pokémon is said to be one that puts the Trainer’s abilities to the test.",
     "evolution_chain": "144",
     "owned": false
@@ -6339,7 +6339,7 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/296.png",
-    "color": "yellow",
+    "color": "rgb(255, 196, 84)",
     "desc": "It practices its slaps by repeatedly slapping tree trunks. It has been known to slap an Exeggutor and get flung away.",
     "evolution_chain": "146",
     "owned": false
@@ -6647,7 +6647,7 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/310.png",
-    "color": "yellow",
+    "color": "rgb(255, 196, 84)",
     "desc": "Manectric can be found beneath unnatural thunderclouds. People say it can run at the same speed as lightning striking.",
     "evolution_chain": "153",
     "owned": false
@@ -6665,7 +6665,7 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/311.png",
-    "color": "yellow",
+    "color": "rgb(255, 196, 84)",
     "desc": "When Plusle is cheering on its partner, it flashes with electric sparks from all over its body. If its partner loses, this Pokémon cries loudly.",
     "evolution_chain": "154",
     "owned": false
@@ -6683,7 +6683,7 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/312.png",
-    "color": "yellow",
+    "color": "rgb(255, 196, 84)",
     "desc": "Minun loves to cheer on its partner in battle. It gives off sparks from its body while it is doing so. If its partner is in trouble, this Pokémon gives off increasing amounts of sparks.",
     "evolution_chain": "155",
     "owned": false
@@ -6891,7 +6891,7 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/322.png",
-    "color": "yellow",
+    "color": "rgb(255, 196, 84)",
     "desc": "Numel stores magma of almost 2,200 degrees Fahrenheit within its body. If it gets wet, the magma cools and hardens. In that event, the Pokémon’s body grows heavy and its movements become sluggish.",
     "evolution_chain": "162",
     "owned": false
@@ -7210,7 +7210,7 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/337.png",
-    "color": "yellow",
+    "color": "rgb(255, 196, 84)",
     "desc": "Lunatone becomes active around the time of the full moon. Instead of walking, it moves by floating in midair. The Pokémon’s intimidating red eyes cause all those who see it to become transfixed with fear.",
     "evolution_chain": "171",
     "owned": false
@@ -8235,7 +8235,7 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/385.png",
-    "color": "yellow",
+    "color": "rgb(255, 196, 84)",
     "desc": "Jirachi will awaken from its sleep of a thousand years if you sing to it in a voice of purity. It is said to make true any wish that people desire.",
     "evolution_chain": "201",
     "owned": false
@@ -8855,7 +8855,7 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/414.png",
-    "color": "yellow",
+    "color": "rgb(255, 196, 84)",
     "desc": "It flutters around at night and steals honey from the Combee hive.",
     "evolution_chain": "213",
     "owned": false
@@ -8880,7 +8880,7 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/415.png",
-    "color": "yellow",
+    "color": "rgb(255, 196, 84)",
     "desc": "It collects and delivers honey to its colony. At night, they cluster to form a beehive and sleep.",
     "evolution_chain": "214",
     "owned": false
@@ -8905,7 +8905,7 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/416.png",
-    "color": "yellow",
+    "color": "rgb(255, 196, 84)",
     "desc": "Its abdomen is a honeycomb for grubs. It raises its grubs on honey collected by Combee.",
     "evolution_chain": "214",
     "owned": false
@@ -9239,7 +9239,7 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/433.png",
-    "color": "yellow",
+    "color": "rgb(255, 196, 84)",
     "desc": "There is an orb inside its mouth. When it hops, the orb bounces all over and makes a ringing sound.",
     "evolution_chain": "184",
     "owned": false
@@ -9980,7 +9980,7 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/466.png",
-    "color": "yellow",
+    "color": "rgb(255, 196, 84)",
     "desc": "It grips its tail, which spews electricity, and then beats down opponents with the power of its electrified fist.",
     "evolution_chain": "60",
     "owned": false
@@ -10288,7 +10288,7 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/480.png",
-    "color": "yellow",
+    "color": "rgb(255, 196, 84)",
     "desc": "It is said that its emergence gave humans the intelligence to improve their quality of life.",
     "evolution_chain": "241",
     "owned": false
@@ -10460,7 +10460,7 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/488.png",
-    "color": "yellow",
+    "color": "rgb(255, 196, 84)",
     "desc": "Those who sleep holding Cresselia’s feather are assured of joyful dreams. It is said to represent the crescent moon.",
     "evolution_chain": "249",
     "owned": false
@@ -10575,7 +10575,7 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/494.png",
-    "color": "yellow",
+    "color": "rgb(255, 196, 84)",
     "desc": "When it shares the infinite energy it creates, that being’s entire body will be overflowing with power.",
     "evolution_chain": "255",
     "owned": false
@@ -11480,7 +11480,7 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/540.png",
-    "color": "yellow",
+    "color": "rgb(255, 196, 84)",
     "desc": "Since this Pokémon makes its own clothes out of leaves, it is a popular mascot for fashion designers.",
     "evolution_chain": "276",
     "owned": false
@@ -11530,7 +11530,7 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/542.png",
-    "color": "yellow",
+    "color": "rgb(255, 196, 84)",
     "desc": "It keeps its eggs warm with heat from fermenting leaves. It also uses leaves to make warm wrappings for Sewaddle.",
     "evolution_chain": "276",
     "owned": false
@@ -11913,7 +11913,7 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/559.png",
-    "color": "yellow",
+    "color": "rgb(255, 196, 84)",
     "desc": "They move in small groups, walking around lazily. Anyone who makes eye contact gets smacked with a headbutt.",
     "evolution_chain": "285",
     "owned": false
@@ -11999,7 +11999,7 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/563.png",
-    "color": "yellow",
+    "color": "rgb(255, 196, 84)",
     "desc": "Grave robbers who mistake them for real coffins and get too close end up trapped inside their bodies.",
     "evolution_chain": "287",
     "owned": false
@@ -12074,7 +12074,7 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/566.png",
-    "color": "yellow",
+    "color": "rgb(255, 196, 84)",
     "desc": "Once thought to be the ancestor of all bird Pokémon, some of the latest research suggests that may not be the case.",
     "evolution_chain": "289",
     "owned": false
@@ -12099,7 +12099,7 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/567.png",
-    "color": "yellow",
+    "color": "rgb(255, 196, 84)",
     "desc": "This ancient Pokémon’s plumage is delicate, so if anyone other than an experienced professional tries to restore it, they will fail.",
     "evolution_chain": "289",
     "owned": false
@@ -12680,7 +12680,7 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/595.png",
-    "color": "yellow",
+    "color": "rgb(255, 196, 84)",
     "desc": "They attach themselves to large-bodied Pokémon and absorb static electricity, which they store in an electric pouch.",
     "evolution_chain": "303",
     "owned": false
@@ -12705,7 +12705,7 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/596.png",
-    "color": "yellow",
+    "color": "rgb(255, 196, 84)",
     "desc": "When attacked, they create an electric barrier by spitting out many electrically charged threads.",
     "evolution_chain": "303",
     "owned": false
@@ -13028,7 +13028,7 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/612.png",
-    "color": "yellow",
+    "color": "rgb(255, 196, 84)",
     "desc": "Their sturdy tusks will stay sharp even if used to cut steel beams. These Pokémon are covered in hard armor.",
     "evolution_chain": "309",
     "owned": false
@@ -13161,7 +13161,7 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/619.png",
-    "color": "yellow",
+    "color": "rgb(255, 196, 84)",
     "desc": "They can often be seen in packs in the morning, slowly moving their bodies through a series of poses.",
     "evolution_chain": "314",
     "owned": false
@@ -13826,7 +13826,7 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/647.png",
-    "color": "yellow",
+    "color": "rgb(255, 196, 84)",
     "desc": "When it is resolute, its body fills with power and it becomes swifter. Its jumps are then too fast to follow.",
     "evolution_chain": "334",
     "owned": false
@@ -14833,7 +14833,7 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/694.png",
-    "color": "yellow",
+    "color": "rgb(255, 196, 84)",
     "desc": "The frills on either side of its head have cells that generate electricity when exposed to sunlight.",
     "evolution_chain": "356",
     "owned": false
@@ -14858,7 +14858,7 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/695.png",
-    "color": "yellow",
+    "color": "rgb(255, 196, 84)",
     "desc": "It stimulates its muscles with electricity, boosting the strength in its legs and enabling it to run 100 yards in five seconds.",
     "evolution_chain": "356",
     "owned": false
@@ -15026,7 +15026,7 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/702.png",
-    "color": "yellow",
+    "color": "rgb(255, 196, 84)",
     "desc": "It sneaks into people’s homes and steals electricity from their outlets. When your electric bill seems off, it’s the handiwork of this rascal.",
     "evolution_chain": "360",
     "owned": false
@@ -15928,7 +15928,7 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/742.png",
-    "color": "yellow",
+    "color": "rgb(255, 196, 84)",
     "desc": "Nectar and pollen are its favorite fare. In fields of flowers, it gets into skirmishes with Butterfree over food.",
     "evolution_chain": "382",
     "owned": false
@@ -15953,7 +15953,7 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/743.png",
-    "color": "yellow",
+    "color": "rgb(255, 196, 84)",
     "desc": "Rain makes pollen damp, so Ribombee hates rain. When it sees ominous clouds, it finds a hollow in a tree, where it waits stock-still.",
     "evolution_chain": "382",
     "owned": false
@@ -16716,7 +16716,7 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/778.png",
-    "color": "yellow",
+    "color": "rgb(255, 196, 84)",
     "desc": "Although it’s a quiet, lonely Pokémon, if you try to look at what’s under its rag, it will become agitated and resist violently.",
     "evolution_chain": "404",
     "owned": false
@@ -16884,7 +16884,7 @@ export const allPokemon = [
       }
     ],
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/785.png",
-    "color": "yellow",
+    "color": "rgb(255, 196, 84)",
     "desc": "Although it’s called a guardian deity, if a person or Pokémon puts it in a bad mood, it will become a malevolent deity and attack.",
     "evolution_chain": "409",
     "owned": false

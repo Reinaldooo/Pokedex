@@ -4,6 +4,7 @@ import { Text, View, ActivityIndicator } from "react-native";
 //
 import { capitalize, percent, generateEvolutionChain } from "../utils";
 import ProgressBar from "../components/ProgressBar";
+import Loading from "../components/Loading";
 
 const Container = styled.View`
   background-color: "rgb(229,229,234)";
@@ -64,8 +65,8 @@ const Description = styled.Text`
 `;
 
 const Stats = styled.View`
-  margin-top: 15px;
   width: 90%;
+  margin-bottom: 15px;
 `;
 
 export default PokemonDetail = ({ route }) => {
@@ -122,7 +123,7 @@ export default PokemonDetail = ({ route }) => {
         <PokemonImage
           source={{
             uri: sprite,
-            cache: "force-cache",
+            cache: "only-if-cached",
           }}
         />
         <Name>{capitalize(name)}</Name>
@@ -144,7 +145,7 @@ export default PokemonDetail = ({ route }) => {
                   </Text>
                   <ProgressBar
                     width={percent(item.base_stat)}
-                    color="lightcoral"
+                    color={color === "white" ? "gray" : color}
                   />
                 </View>
               ))}
@@ -157,7 +158,7 @@ export default PokemonDetail = ({ route }) => {
             /> */}
           </>
         ) : (
-          <ActivityIndicator size="large" />
+          <Loading/>
         )}
       </Card>
     </Container>
