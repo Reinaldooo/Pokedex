@@ -1,12 +1,14 @@
 import React, { useState, useEffect } from "react";
 import styled from "styled-components/native";
-import { Text, View, ActivityIndicator } from "react-native";
+import { Text, View } from "react-native";
 //
 import { capitalize, percent, generateEvolutionChain } from "../utils";
 import ProgressBar from "../components/ProgressBar";
 import Loading from "../components/Loading";
+import ChainView from "../components/ChainView";
+import PokemonImage from "../components/PokemonImage";
 
-const Container = styled.View`
+const Container = styled.ScrollView`
   background-color: "rgb(229,229,234)";
   height: 100%;
 `;
@@ -17,12 +19,6 @@ const Card = styled.View`
   border-radius: 10px;
   justify-content: center;
   align-items: center;
-`;
-
-const PokemonImage = styled.Image`
-  margin-top: 15px;
-  width: 150px;
-  height: 150px;
 `;
 
 const Name = styled.Text`
@@ -71,10 +67,18 @@ const Stats = styled.View`
 
 const Evolutions = styled.View`
   width: 90%;
-  background-color: red;
+  margin-bottom: 15px;
+  align-items: center;
 `;
 
-export default PokemonDetail = ({ route }) => {
+const EvolutionsLabel = styled.Text`
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(72, 72, 74);
+  margin: 10px 0;
+`;
+
+export default PokemonDetail = ({ route, navigation }) => {
   const [details, setDetails] = useState({});
   const [error, setError] = useState(false);
 
@@ -104,7 +108,7 @@ export default PokemonDetail = ({ route }) => {
           .then((data) => {
             if (data) {
               let { chain } = data;
-              chain = generateEvolutionChain(chain)
+              chain = generateEvolutionChain(chain);
               setDetails({
                 ...pokemon,
                 chain,
@@ -121,24 +125,15 @@ export default PokemonDetail = ({ route }) => {
     fetchDetails(id, evolution_chain);
   }, []);
 
-
   return (
     <Container>
-      {
-        console.log(details.chain)
-      }
       <Card>
-        <PokemonImage
-          source={{
-            uri: sprite,
-            cache: "only-if-cached",
-          }}
-        />
+        <PokemonImage size={"150px"} uri={sprite} />
         <Name>{capitalize(name)}</Name>
         <Types>
-          {types.map((t) => (
-            <Type key={t.slot} color="rgb(72, 72, 74)">
-              <TypeLabel color="rgb(72, 72, 74)">{t.type.name}</TypeLabel>
+          {types.map((type) => (
+            <Type key={type.slot} color="rgb(72, 72, 74)">
+              <TypeLabel color="rgb(72, 72, 74)">{type.type.name}</TypeLabel>
             </Type>
           ))}
         </Types>
@@ -158,12 +153,25 @@ export default PokemonDetail = ({ route }) => {
                 </View>
               ))}
             </Stats>
+            <EvolutionsLabel>Evolutions</EvolutionsLabel>
             <Evolutions>
-
+              {details.chain ? (
+                details.chain.map((chain, index) => (
+                  <ChainView
+                    navigation={navigation}
+                    key={index}
+                    data={chain}
+                    sprite={sprite}
+                    color={color}
+                  />
+                ))
+              ) : (
+                <Description>This pokémon has no evolutions.</Description>
+              )}
             </Evolutions>
           </>
         ) : (
-          <Loading/>
+          <Loading />
         )}
       </Card>
     </Container>

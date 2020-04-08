@@ -3,6 +3,7 @@ import styled from "styled-components/native";
 import { Image, View } from "react-native"
 //
 import PokemonName from "./PokemonName"
+import PokemonImage from "./PokemonImage"
 
 const ImageWrapper = styled.View`
   overflow: hidden;
@@ -33,15 +34,9 @@ export function Pokemon({ item, searchChars, navigation }) {
     item
   })}>
     <ImageWrapper>
-      <Image
-        fadeDuration={300}
-        source={{
-          uri: item.sprite,
-          // TODO
-          // Choose cache mode
-          cache: "only-if-cached"
-        }}
-        style={{ width: "100%", height: "100%" }}
+      <PokemonImage
+        uri={item.sprite}
+        size="100%"
       />
     </ImageWrapper>
     <PokemonName name={item.name} searchChars={searchChars}/>
