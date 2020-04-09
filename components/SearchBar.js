@@ -43,7 +43,7 @@ const ResetButton = styled.TouchableOpacity`
   margin-left: 5px;
 `;
 
-export default SearchBar = ({ search, reset, searching }) => {
+export default function SearchBar ({ search, reset, searching }) {
   const [query, setQuery] = useState("");
 
   return (

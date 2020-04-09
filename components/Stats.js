@@ -10,6 +10,7 @@ const Container = styled.View`
   width: 90%;
   height: 300px;
   margin-bottom: 15px;
+  opacity: ${props => props.fullOpacity ? 1 : .1};
 `;
 
 const HeightWeightContainer = styled.View`
@@ -29,9 +30,9 @@ const HeightWeightLabel = styled.Text`
 
 const Stats = ({ details, color, fetchOk }) => {
   return (
-    <Container>
-      {fetchOk && details.stats ? (
-        <>
+    <>
+      {details.stats ? (
+        <Container fullOpacity={fetchOk}>
           <HeightWeightContainer>
             <HeightWeightLabel color="rgb(72, 72, 74)">
               Height: {details.height / 10} m | Weight: {details.weight / 10} kg
@@ -48,11 +49,13 @@ const Stats = ({ details, color, fetchOk }) => {
               />
             </View>
           ))}
-        </>
+        </Container>
       ) : (
-        <Loading />
+        <Container fullOpacity>
+          <Loading />
+        </Container>
       )}
-    </Container>
+    </>
   );
 };
 

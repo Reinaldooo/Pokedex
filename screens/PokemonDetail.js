@@ -58,7 +58,7 @@ const Description = styled.Text`
   color: rgb(72, 72, 74);
 `;
 
-export default PokemonDetail = ({ route, navigation }) => {
+export default function PokemonDetail ({ route, navigation }) {
   const [details, setDetails] = useState({});
   const [fetchOk, setFetchOk] = useState(false);
   const [error, setError] = useState(false);

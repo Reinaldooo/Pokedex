@@ -12,12 +12,12 @@ const Container = styled.View`
   align-items: center;
 `;
 
-export default ChainView = ({
+export default function ChainView ({
   data,
   color,
   navigation,
   scrollRef,
-}) => {
+}) {
   let size = data.length === 3 ? "100px" : "120px";
   return (
     <Container>

@@ -16,9 +16,17 @@ const EvolutionsLabel = styled.Text`
   margin: 10px 0;
 `;
 
+const Description = styled.Text`
+  font-size: 14px;
+  text-align: justify;
+  line-height: 22px;
+  margin: 10px 20px;
+  color: rgb(72, 72, 74);
+`;
+
 const EvolutionChain = ({ details, navigation, sprite, color, scrollRef }) => {
   // Only show up if there is a chain
-  return details.chain ? (
+  return details.stats ? (
     <>
       <EvolutionsLabel>Evolutions</EvolutionsLabel>
       <Evolutions>

@@ -4,7 +4,7 @@ import Highlighter from 'react-native-highlight-words';
 //
 import { capitalize } from "../utils";
 
-export default PokemonName = ({ name, searchChars }) => {
+export default function PokemonName ({ name, searchChars }) {
   name = capitalize(name)
   if (name.length > 10) {
     name = name.substring(0,10) + "..."
