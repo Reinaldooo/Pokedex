@@ -102,6 +102,9 @@ export default PokemonDetail = ({ route, navigation }) => {
           weight,
         };
       })
+      .catch((e) => {
+        setError(true);
+      })
       .then((pokemon) => {
         fetch(`https://pokeapi.co/api/v2/evolution-chain/${evolution_chain}`)
           .then(async (data) => await data.json())

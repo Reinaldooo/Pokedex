@@ -17,7 +17,7 @@ export default function Search() {
         name="Main"
         component={Main}
         options={{
-          headerTitle: "Search",
+          headerShown: false,
         }}
       />
       <Stack.Screen
