@@ -73,9 +73,11 @@ export default PokemonDetail = ({ route, navigation }) => {
     color,
   } = route.params.item;
 
-  const fetchDetails = (id, evolution_chain) => {
+  useEffect(() => {
+    setFetchOk(false);
+    let isMounted = true;
     fetch(`https://pokeapi.co/api/v2/pokemon/${id}`)
-      .then(async (data) => await data.json())
+      .then((data) => data.json())
       .then(({ stats, weight, height }) => {
         return {
           stats,
@@ -83,32 +85,30 @@ export default PokemonDetail = ({ route, navigation }) => {
           weight,
         };
       })
-      .catch((e) => {
-        setError(true);
+      .catch(() => {
+        return "Error";
       })
       .then((pokemon) => {
         fetch(`https://pokeapi.co/api/v2/evolution-chain/${evolution_chain}`)
-          .then(async (data) => await data.json())
+          .then((data) => data.json())
           .then((data) => {
             if (data) {
               let { chain } = data;
               chain = generateEvolutionChain(chain);
-              setDetails({
-                ...pokemon,
-                chain,
-              })
-              setFetchOk(true)
+              if (isMounted) {
+                setDetails({
+                  ...pokemon,
+                  chain,
+                });
+                setFetchOk(true);
+              }
             }
           })
           .catch((e) => {
-            setError(true);
+            return "Error";
           });
       });
-  };
-
-  useEffect(() => {
-    setFetchOk(false)
-    fetchDetails(id, evolution_chain);
+      return () => (isMounted = false)
   }, [id]);
 
   const scrollRef = useRef();
@@ -126,7 +126,7 @@ export default PokemonDetail = ({ route, navigation }) => {
           ))}
         </Types>
         <Description>{desc}</Description>
-        <Stats details={details} color={color} fetchOk={fetchOk}/>
+        <Stats details={details} color={color} fetchOk={fetchOk} />
         <EvolutionChain
           details={details}
           navigation={navigation}
