@@ -1,12 +1,10 @@
 import React, { useState, useEffect, useRef } from "react";
 import styled from "styled-components/native";
-import { Text, View } from "react-native";
 //
-import { capitalize, percent, generateEvolutionChain } from "../utils";
-import ProgressBar from "../components/ProgressBar";
-import Loading from "../components/Loading";
-import ChainView from "../components/ChainView";
+import { capitalize, generateEvolutionChain } from "../utils";
 import PokemonImage from "../components/PokemonImage";
+import Stats from "../components/Stats";
+import EvolutionChain from "../components/EvolutionChain";
 
 const Container = styled.ScrollView`
   background-color: "rgb(229,229,234)";
@@ -60,26 +58,9 @@ const Description = styled.Text`
   color: rgb(72, 72, 74);
 `;
 
-const Stats = styled.View`
-  width: 90%;
-  margin-bottom: 15px;
-`;
-
-const Evolutions = styled.View`
-  width: 90%;
-  margin-bottom: 15px;
-  align-items: center;
-`;
-
-const EvolutionsLabel = styled.Text`
-  font-size: 18px;
-  font-weight: bold;
-  color: rgb(72, 72, 74);
-  margin: 10px 0;
-`;
-
 export default PokemonDetail = ({ route, navigation }) => {
   const [details, setDetails] = useState({});
+  const [fetchOk, setFetchOk] = useState(false);
   const [error, setError] = useState(false);
 
   const {
@@ -115,7 +96,8 @@ export default PokemonDetail = ({ route, navigation }) => {
               setDetails({
                 ...pokemon,
                 chain,
-              });
+              })
+              setFetchOk(true)
             }
           })
           .catch((e) => {
@@ -125,10 +107,11 @@ export default PokemonDetail = ({ route, navigation }) => {
   };
 
   useEffect(() => {
+    setFetchOk(false)
     fetchDetails(id, evolution_chain);
   }, [id]);
 
-  const scrollRef = useRef()
+  const scrollRef = useRef();
 
   return (
     <Container ref={scrollRef}>
@@ -143,42 +126,14 @@ export default PokemonDetail = ({ route, navigation }) => {
           ))}
         </Types>
         <Description>{desc}</Description>
-        {details.stats ? (
-          <>
-            <Stats>
-              {details.stats.map((item, index) => (
-                <View key={index} style={{ paddingVertical: 5 }}>
-                  <Text style={{ marginBottom: 5, fontSize: 14 }}>
-                    {capitalize(item.stat.name)}
-                  </Text>
-                  <ProgressBar
-                    width={percent(item.base_stat)}
-                    color={color === "white" ? "gray" : color}
-                  />
-                </View>
-              ))}
-            </Stats>
-            <EvolutionsLabel>Evolutions</EvolutionsLabel>
-            <Evolutions>
-              {details.chain ? (
-                details.chain.map((chain, index) => (
-                  <ChainView
-                    navigation={navigation}
-                    key={index}
-                    data={chain}
-                    sprite={sprite}
-                    color={color}
-                    scrollRef={scrollRef}
-                  />
-                ))
-              ) : (
-                <Description>This pokémon has no evolutions.</Description>
-              )}
-            </Evolutions>
-          </>
-        ) : (
-          <Loading />
-        )}
+        <Stats details={details} color={color} fetchOk={fetchOk}/>
+        <EvolutionChain
+          details={details}
+          navigation={navigation}
+          sprite={sprite}
+          color={color}
+          scrollRef={scrollRef}
+        />
       </Card>
     </Container>
   );

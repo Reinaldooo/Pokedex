@@ -24,7 +24,7 @@ export default function Search() {
         name="PokemonDetail"
         component={PokemonDetail}
         options={{
-          headerTitle: "",
+          headerTitle: "Details",
         }}
       />
     </Stack.Navigator>

@@ -6,8 +6,9 @@ import { PokemonCard } from './PokemonCard'
 export default function PokemonList({ items, navigation, searchChars }) {
   return (
     <FlatList
-      data={items} // 50 temp pokemon
+      data={items}
       numColumns={3}
+      contentContainerStyle={{ paddingBottom: 150 }}
       columnWrapperStyle={{ justifyContent: "space-between" }}
       renderItem={({ item }) => (
         <PokemonCard item={item} navigation={navigation} searchChars={searchChars}/>
