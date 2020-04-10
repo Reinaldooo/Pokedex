@@ -35,7 +35,7 @@ const SearchButton = styled.TouchableOpacity`
 
 const ResetButton = styled.TouchableOpacity`
   background-color: white;
-  height: 30px;
+  height: 35px;
   padding: 5px 10px;
   border-radius: 10px;
   display: flex;
