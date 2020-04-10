@@ -3,9 +3,10 @@ import { FlatList } from "react-native";
 //
 import { PokemonCard } from './PokemonCard'
 
-export default function PokemonList({ items, navigation, searchChars }) {
+export default function PokemonList({ items, navigation, searchChars, flatRef }) {
   return (
     <FlatList
+      ref={flatRef}
       data={items}
       numColumns={3}
       contentContainerStyle={{ paddingBottom: 150 }}

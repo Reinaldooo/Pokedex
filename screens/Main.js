@@ -1,6 +1,5 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import styled from "styled-components/native";
-import { View } from "react-native"
 import { SafeAreaView } from "react-native-safe-area-context";
 //
 import { allPokemon } from "../utils";
@@ -14,9 +13,11 @@ const PokemonListWrapper = styled.View`
 `;
 
 export default function Main({ navigation }) {
-  const [db, setDb] = useState(allPokemon.slice(0, 151));
+  const [db, setDb] = useState(allPokemon.slice(0, 102));
   const [searchChars, setSearchChars] = useState("");
   const [searching, setSearching] = useState(false);
+  
+  const flatRef = useRef(null);
 
   const search = (query) => {
     let matches = allPokemon.filter((p) => {
@@ -26,19 +27,26 @@ export default function Main({ navigation }) {
     setSearchChars(query);
     setSearching(true);
     setDb(matches);
+    flatRef.current.scrollToIndex({ index: 0 })
   };
   const reset = () => {
     setSearching(false);
-    setDb(allPokemon.slice(0, 151));
+    setDb(allPokemon.slice(0, 102));
     setSearchChars("");
+    flatRef.current.scrollToIndex({ index: 0 })
   };
 
   return (
     <SafeAreaView>
       <PokemonListWrapper>
-        <SearchBar search={search} reset={reset} searching={searching} />
+        <SearchBar
+          search={search}
+          reset={reset}
+          searching={searching}
+        />
         <PokemonList
           items={db}
+          flatRef={flatRef}
           navigation={navigation}
           searchChars={searchChars}
         />
