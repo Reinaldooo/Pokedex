@@ -2,6 +2,7 @@ import React from "react";
 import { FlatList } from "react-native";
 //
 import { PokemonCard } from './PokemonCard'
+import NoItemsOnList from "./NoItemsOnList"
 
 export default function PokemonList({ items, navigation, searchChars, flatRef, layoutFix }) {
   return (
@@ -14,6 +15,7 @@ export default function PokemonList({ items, navigation, searchChars, flatRef, l
       renderItem={({ item }) => (
         <PokemonCard item={item} navigation={navigation} searchChars={searchChars}/>
       )}
+      ListEmptyComponent={NoItemsOnList}
       keyExtractor={(item) => item.id}
     />
   );

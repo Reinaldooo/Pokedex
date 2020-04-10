@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import styled from "styled-components/native";
 import { SafeAreaView } from "react-native-safe-area-context";
 //
@@ -35,14 +35,19 @@ export default function Main({ navigation }) {
       })
     }
     setDb(matches);
-    flatRef.current.scrollToIndex({ index: 0 })
   };
   const reset = () => {
     setSearching(false);
     setDb(allPokemon.slice(0, 102));
     setSearchChars("");
-    flatRef.current.scrollToIndex({ index: 0 })
   };
+
+  useEffect(() => {
+    // Scroll to top if db is changed
+    if (db.length !== 0) {
+      flatRef.current.scrollToIndex({ index: 0 })
+    }
+  }, [db])
 
   return (
     <SafeAreaView>
