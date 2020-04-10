@@ -3,7 +3,7 @@ import { FlatList } from "react-native";
 //
 import { PokemonCard } from './PokemonCard'
 
-export default function PokemonList({ items, navigation, searchChars, flatRef }) {
+export default function PokemonList({ items, navigation, searchChars, flatRef, layoutFix }) {
   return (
     <FlatList
       ref={flatRef}

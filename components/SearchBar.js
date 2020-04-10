@@ -12,7 +12,7 @@ const SearchWrapper = styled.View`
 
 const SearchInput = styled.TextInput`
   flex: 2;
-  height: 30px;
+  height: 35px;
   color: lightcoral;
   background-color: rgb(242, 242, 247);
   padding: 5px 10px;
@@ -23,13 +23,14 @@ const SearchInput = styled.TextInput`
 
 const SearchButton = styled.TouchableOpacity`
   background-color: ${(props) => (props.reset ? "white" : "lightcoral")};
-  height: 30px;
+  height: 35px;
   padding: 5px 10px;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex: .4;
 `;
 
 const ResetButton = styled.TouchableOpacity`

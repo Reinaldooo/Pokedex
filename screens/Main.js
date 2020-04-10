@@ -16,7 +16,6 @@ export default function Main({ navigation }) {
   const [db, setDb] = useState(allPokemon.slice(0, 102));
   const [searchChars, setSearchChars] = useState("");
   const [searching, setSearching] = useState(false);
-  
   const flatRef = useRef(null);
 
   const search = (query) => {
@@ -26,6 +25,15 @@ export default function Main({ navigation }) {
     });
     setSearchChars(query);
     setSearching(true);
+    if(matches.length % 3 !== 0) {
+      // Insert a empty item to fix last column if the cards number is
+      // not multiple of 3      
+      matches.push({
+        name: "hidden",
+        sprite: "hidden",
+        color: "hidden"
+      })
+    }
     setDb(matches);
     flatRef.current.scrollToIndex({ index: 0 })
   };
