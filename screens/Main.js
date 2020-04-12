@@ -58,6 +58,7 @@ export default function Main({ navigation }) {
   }, [pokeDb])
 
   const search = (query) => {
+    if (!query) return;
     let matches;
     db.transaction((tx) => {
       tx.executeSql(
