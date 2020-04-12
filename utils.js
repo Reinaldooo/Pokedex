@@ -35,7 +35,7 @@ export const generateEvolutionChain = (chain) => {
   return evolutions
 };
 
-export const allPokemon = [
+export const dbSetupHelper = [
   {
     "id": 1,
     "name": "bulbasaur",

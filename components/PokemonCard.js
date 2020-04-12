@@ -36,7 +36,8 @@ export function Pokemon({ item, searchChars, navigation }) {
       invisible={name === "hidden"}
       onPress={() =>
         navigation.navigate("PokemonDetail", {
-          item,
+          id: item.id,
+          evolution_chain: item.evolution_chain
         })
       }
     >

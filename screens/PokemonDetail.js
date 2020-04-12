@@ -1,10 +1,13 @@
 import React, { useState, useEffect, useRef } from "react";
 import styled from "styled-components/native";
+import * as SQLite from "expo-sqlite";
 //
 import { capitalize, generateEvolutionChain } from "../utils";
 import PokemonImage from "../components/PokemonImage";
 import Stats from "../components/Stats";
 import EvolutionChain from "../components/EvolutionChain";
+
+const db = SQLite.openDatabase("pokemon.db");
 
 const Container = styled.ScrollView`
   background-color: "rgb(229,229,234)";
@@ -59,21 +62,24 @@ const Description = styled.Text`
 `;
 
 export default function PokemonDetail ({ route, navigation }) {
+  const [localDetails, setLocalDetails] = useState({});
   const [details, setDetails] = useState({});
   const [fetchOk, setFetchOk] = useState(false);
   const [error, setError] = useState(false);
-
-  const {
-    id,
-    evolution_chain,
-    name,
-    sprite,
-    desc,
-    types,
-    color,
-  } = route.params.item;
+  
+  const { id, evolution_chain } = route.params
 
   useEffect(() => {
+    db.transaction((tx) => {
+      tx.executeSql(
+        `select * from pokemon where id = ?;`,
+        [id],
+        (_, { rows: { _array } }) => {
+          _array[0].types = JSON.parse(_array[0].types)
+          setLocalDetails(_array[0])
+        }
+      );
+    });
     setFetchOk(false);
     let isMounted = true;
     fetch(`https://pokeapi.co/api/v2/pokemon/${id}`)
@@ -113,8 +119,11 @@ export default function PokemonDetail ({ route, navigation }) {
 
   const scrollRef = useRef();
 
+  const { name, types, sprite, desc, color } = localDetails && localDetails
+
   return (
     <Container ref={scrollRef}>
+      {localDetails.name &&
       <Card>
         <PokemonImage size={"150px"} uri={sprite} />
         <Name>{capitalize(name)}</Name>
@@ -135,6 +144,7 @@ export default function PokemonDetail ({ route, navigation }) {
           scrollRef={scrollRef}
         />
       </Card>
+      }
     </Container>
   );
 };

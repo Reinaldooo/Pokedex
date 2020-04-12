@@ -3,7 +3,7 @@ import styled from "styled-components/native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import * as SQLite from "expo-sqlite";
 //
-import { allPokemon } from "../utils";
+import { dbSetupHelper } from "../utils";
 import PokemonList from "../components/PokemonList";
 import SearchBar from "../components/SearchBar";
 
@@ -31,7 +31,7 @@ export default function Main({ navigation }) {
       );
     });
     db.transaction((tx) => {
-      allPokemon.forEach((item) => {
+      dbSetupHelper.forEach((item) => {
         tx.executeSql("insert into pokemon (id, name, types, sprite, color, desc, evolution_chain, owned) values (?, ?, ?, ?, ?, ?, ?, ?)", [
           item.id,
           item.name,

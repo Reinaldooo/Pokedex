@@ -3,7 +3,7 @@ import styled from "styled-components/native";
 import { AntDesign } from "@expo/vector-icons";
 import { TouchableOpacity } from "react-native";
 //
-import { allPokemon } from "../utils";
+import { dbSetupHelper } from "../utils";
 import PokemonImage from "./PokemonImage";
 
 const Container = styled.View`
@@ -22,18 +22,21 @@ export default function ChainView ({
   return (
     <Container>
       {data.map((name, i) => {
-        let item = allPokemon.find((p) => p.name === name);
+        // dbSetupHelper its used here because the values below are immutable,
+        // so there is no need to query the db, and this will save time
+        let { id, evolution_chain, sprite } = dbSetupHelper.find((p) => p.name === name);
         return (
           <React.Fragment key={i}>
             <TouchableOpacity
               onPress={() => {
                 navigation.navigate("PokemonDetail", {
-                  item,
+                  id,
+                  evolution_chain
                 });
                 scrollRef.current.scrollTo({ x: 0, y: 0, animated: true });
               }}
             >
-              <PokemonImage border size={size} uri={item.sprite} />
+              <PokemonImage border size={size} uri={sprite} />
             </TouchableOpacity>
             {i !== data.length - 1 && (
               <AntDesign
