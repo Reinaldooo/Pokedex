@@ -24,6 +24,9 @@ export default function Main({ navigation }) {
   useEffect(() => {
     db.transaction((tx) => {
       tx.executeSql(
+        "drop table pokemon;"
+      );
+      tx.executeSql(
         "create table if not exists pokemon (id integer not null, name text, types text, sprite text, color text, desc text, evolution_chain text, owned int);"
       );
     });
@@ -43,7 +46,7 @@ export default function Main({ navigation }) {
     });
     db.transaction((tx) => {
       tx.executeSql(
-        `select * from pokemon limit 102;`,
+        `select * from pokemon limit 102 offset 102;`,
         [],
         (_, { rows: { _array } }) => setPokeDb(_array)
       );

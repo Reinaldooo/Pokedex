@@ -16,11 +16,14 @@ const Inner = styled.View`
   width: ${props => props.width};
 `;
 
-const ProgressBar = (props) => {
+const ProgressBar = ({ width, color }) => {
+    if (width > 200) {
+        width = 200
+    }
 
     return (
         <Outer>
-            <Inner width={`${props.width}%`} color={props.color}/>
+            <Inner width={`${width}%`} color={color}/>
         </Outer>
     );
 }
