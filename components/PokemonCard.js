@@ -29,15 +29,15 @@ const ImageWrapper = styled.View`
 `;
 
 export function Pokemon({ item, searchChars, navigation }) {
-  const { sprite, color, name } = item;
+  const { sprite, color, name, id, evolution_chain } = item;
   return (
     <TouchableWrapper
       disabled={name === "hidden"}
       invisible={name === "hidden"}
       onPress={() =>
         navigation.navigate("PokemonDetail", {
-          id: item.id,
-          evolution_chain: item.evolution_chain
+          id,
+          evolution_chain
         })
       }
     >

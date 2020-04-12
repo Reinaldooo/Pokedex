@@ -63,13 +63,14 @@ const Description = styled.Text`
 
 export default function PokemonDetail ({ route, navigation }) {
   const [localDetails, setLocalDetails] = useState({});
-  const [details, setDetails] = useState({});
+  const [apiDetails, setApiDetails] = useState({});
   const [fetchOk, setFetchOk] = useState(false);
   const [error, setError] = useState(false);
   
   const { id, evolution_chain } = route.params
 
   useEffect(() => {
+    setFetchOk(false);
     db.transaction((tx) => {
       tx.executeSql(
         `select * from pokemon where id = ?;`,
@@ -80,7 +81,6 @@ export default function PokemonDetail ({ route, navigation }) {
         }
       );
     });
-    setFetchOk(false);
     let isMounted = true;
     fetch(`https://pokeapi.co/api/v2/pokemon/${id}`)
       .then((data) => data.json())
@@ -102,7 +102,7 @@ export default function PokemonDetail ({ route, navigation }) {
               let { chain } = data;
               chain = generateEvolutionChain(chain);
               if (isMounted) {
-                setDetails({
+                setApiDetails({
                   ...pokemon,
                   chain,
                 });
@@ -135,9 +135,9 @@ export default function PokemonDetail ({ route, navigation }) {
           ))}
         </Types>
         <Description>{desc}</Description>
-        <Stats details={details} color={color} fetchOk={fetchOk} />
+        <Stats apiDetails={apiDetails} color={color} fetchOk={fetchOk} />
         <EvolutionChain
-          details={details}
+          apiDetails={apiDetails}
           navigation={navigation}
           sprite={sprite}
           color={color}

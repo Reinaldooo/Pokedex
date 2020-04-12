@@ -24,14 +24,14 @@ const Description = styled.Text`
   color: rgb(72, 72, 74);
 `;
 
-const EvolutionChain = ({ details, navigation, sprite, color, scrollRef }) => {
+const EvolutionChain = ({ apiDetails, navigation, sprite, color, scrollRef }) => {
   // Only show up if there is a chain
-  return details.stats ? (
+  return apiDetails.stats ? (
     <>
       <EvolutionsLabel>Evolutions</EvolutionsLabel>
       <Evolutions>
-        {details.chain ? (
-          details.chain.map((chain, index) => (
+        {apiDetails.chain ? (
+          apiDetails.chain.map((chain, index) => (
             <ChainView
               navigation={navigation}
               key={index}

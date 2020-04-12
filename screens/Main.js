@@ -24,9 +24,6 @@ export default function Main({ navigation }) {
   useEffect(() => {
     db.transaction((tx) => {
       tx.executeSql(
-        "drop table pokemon;"
-      );
-      tx.executeSql(
         "create table if not exists pokemon (id integer not null, name text, types text, sprite text, color text, desc text, evolution_chain text, owned int);"
       );
     });
@@ -51,11 +48,14 @@ export default function Main({ navigation }) {
         (_, { rows: { _array } }) => setPokeDb(_array)
       );
     });
+  }, []);
+
+  useEffect(() => {
     // Scroll to top if db is changed
-    // if (db.length !== 0) {
-    //   flatRef.current.scrollToIndex({ index: 0 })
-    // }
-  }, [db]);
+    if (pokeDb.length !== 0) {
+      flatRef.current.scrollToIndex({ index: 0 })
+    }
+  }, [pokeDb])
 
   const search = (query) => {
     let matches;
@@ -68,7 +68,7 @@ export default function Main({ navigation }) {
           setSearchChars(query);
           setSearching(true);
           if (matches.length % 3 !== 0) {
-            // Insert a empty item to fix last column if the cards number is
+            // Insert a empty item to fix last column layout if the cards number is
             // not multiple of 3
             matches.push({
               name: "hidden",
@@ -83,7 +83,13 @@ export default function Main({ navigation }) {
   };
   const reset = () => {
     setSearching(false);
-    setDb(allPokemon.slice(0, 102));
+    db.transaction((tx) => {
+      tx.executeSql(
+        `select * from pokemon limit 102;`,
+        [],
+        (_, { rows: { _array } }) => setPokeDb(_array)
+      );
+    });
     setSearchChars("");
   };
 

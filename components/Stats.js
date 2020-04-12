@@ -28,17 +28,17 @@ const HeightWeightLabel = styled.Text`
   color: ${(props) => props.color};
 `;
 
-const Stats = ({ details, color, fetchOk }) => {
+const Stats = ({ apiDetails, color, fetchOk }) => {
   return (
     <>
-      {details.stats ? (
+      {apiDetails.stats ? (
         <Container fullOpacity={fetchOk}>
           <HeightWeightContainer>
             <HeightWeightLabel color="rgb(72, 72, 74)">
-              Height: {details.height / 10} m | Weight: {details.weight / 10} kg
+              Height: {apiDetails.height / 10} m | Weight: {apiDetails.weight / 10} kg
             </HeightWeightLabel>
           </HeightWeightContainer>
-          {details.stats.map((item, index) => (
+          {apiDetails.stats.map((item, index) => (
             <View key={index} style={{ paddingVertical: 5 }}>
               <Text style={{ marginBottom: 5, fontSize: 14 }}>
                 {capitalize(item.stat.name)}
