@@ -12,11 +12,13 @@ const db = SQLite.openDatabase("pokemon.db");
 const PokemonListWrapper = styled.View`
   background-color: "rgb(229,229,234)";
   padding: 0 30px;
-  height: 110%;
+  height: 105%;
 `;
 
 export default function Main({ navigation }) {
   const [pokeDb, setPokeDb] = useState([]);
+  const [dbOffset, setDbOffset] = useState(102);
+  const [preventScrollToIndex, setPreventScrollToIndex] = useState(false);
   const [searchChars, setSearchChars] = useState("");
   const [searching, setSearching] = useState(false);
   const flatRef = useRef(null);
@@ -46,7 +48,7 @@ export default function Main({ navigation }) {
     });
     db.transaction((tx) => {
       tx.executeSql(
-        `select * from pokemon limit 102 offset 102;`,
+        `select * from pokemon limit 102;`,
         [],
         (_, { rows: { _array } }) => setPokeDb(_array)
       );
@@ -55,7 +57,7 @@ export default function Main({ navigation }) {
 
   useEffect(() => {
     // Scroll to top if db is changed
-    if (pokeDb.length !== 0) {
+    if (pokeDb.length !== 0 && !preventScrollToIndex) {
       flatRef.current.scrollToIndex({ index: 0 })
     }
   }, [pokeDb])
@@ -68,6 +70,7 @@ export default function Main({ navigation }) {
         "select * from pokemon where name like ?;",
         [`%${query}%`],
         (_, { rows: { _array } }) => {
+          console.log(_array)
           matches = _array
           setSearchChars(query);
           setSearching(true);
@@ -95,7 +98,24 @@ export default function Main({ navigation }) {
       );
     });
     setSearchChars("");
+    setDbOffset(102)
+    flatRef.current.scrollToIndex({ index: 0 })
   };
+
+  const loadMore = () => {
+      if(dbOffset > 750 || searching) return false;
+      db.transaction((tx) => {
+        tx.executeSql(
+          `select * from pokemon limit 54 offset ?;`,
+          [dbOffset],
+          (_, { rows: { _array } }) => {
+            setPreventScrollToIndex(true)
+            setPokeDb(old => old.concat(_array))
+            setDbOffset(old => old+54)
+          }
+        );
+      });
+  }
 
   return (
     <SafeAreaView>
@@ -106,6 +126,9 @@ export default function Main({ navigation }) {
           flatRef={flatRef}
           navigation={navigation}
           searchChars={searchChars}
+          loadMore={loadMore}
+          reset={reset}
+          dbOffset={dbOffset}
         />
       </PokemonListWrapper>
     </SafeAreaView>
