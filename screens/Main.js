@@ -111,8 +111,6 @@ export default function Main({ navigation }) {
   };
 
   const loadMore = () => {
-      console.log("more")
-      console.log(dbOffset)
       if(dbOffset > 750 || searching) return;
       db.transaction((tx) => {
         tx.executeSql(
