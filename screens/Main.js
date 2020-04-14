@@ -19,6 +19,7 @@ export default function Main({ navigation }) {
   const [pokeDb, setPokeDb] = useState([]);
   const [dbOffset, setDbOffset] = useState(102);
   const [preventScrollToIndex, setPreventScrollToIndex] = useState(false);
+  const [showBackToTop, setShowBackToTop] = useState(false);
   const [searchChars, setSearchChars] = useState("");
   const [searching, setSearching] = useState(false);
   const flatRef = useRef(null);
@@ -26,7 +27,7 @@ export default function Main({ navigation }) {
   useEffect(() => {
     db.transaction((tx) => {
       tx.executeSql(
-        "drop table pokemon;"
+        "drop table if exists pokemon;"
       );
       tx.executeSql(
         "create table if not exists pokemon (id integer not null, name text, types text, sprite text, color text, desc text, evolution_chain text, owned int);"
@@ -48,6 +49,13 @@ export default function Main({ navigation }) {
     });
     db.transaction((tx) => {
       tx.executeSql(
+        `.tables pokemon;`,
+        [],
+        (res) => console.log(res)
+      );
+    });
+    db.transaction((tx) => {
+      tx.executeSql(
         `select * from pokemon limit 102;`,
         [],
         (_, { rows: { _array } }) => setPokeDb(_array)
@@ -60,7 +68,7 @@ export default function Main({ navigation }) {
     if (pokeDb.length !== 0 && !preventScrollToIndex) {
       flatRef.current.scrollToIndex({ index: 0 })
     }
-  }, [pokeDb])
+  }, [pokeDb]) 
 
   const search = (query) => {
     if (!query) return;
@@ -70,10 +78,7 @@ export default function Main({ navigation }) {
         "select * from pokemon where name like ?;",
         [`%${query}%`],
         (_, { rows: { _array } }) => {
-          console.log(_array)
           matches = _array
-          setSearchChars(query);
-          setSearching(true);
           if (matches.length % 3 !== 0) {
             // Insert a empty item to fix last column layout if the cards number is
             // not multiple of 3
@@ -83,27 +88,32 @@ export default function Main({ navigation }) {
               color: "hidden",
             });
           }
+          setSearchChars(query);
+          setSearching(true);
           setPokeDb(matches);
         },
       );
     });
   };
   const reset = () => {
-    setSearching(false);
     db.transaction((tx) => {
       tx.executeSql(
         `select * from pokemon limit 102;`,
         [],
-        (_, { rows: { _array } }) => setPokeDb(_array)
-      );
-    });
-    setSearchChars("");
-    setDbOffset(102)
-    flatRef.current.scrollToIndex({ index: 0 })
+        (_, { rows: { _array } }) => {
+          setPokeDb(_array)
+          setSearching(false);
+          setSearchChars("");
+          setDbOffset(102)
+        }
+        );
+      });
   };
 
   const loadMore = () => {
-      if(dbOffset > 750 || searching) return false;
+      console.log("more")
+      console.log(dbOffset)
+      if(dbOffset > 750 || searching) return;
       db.transaction((tx) => {
         tx.executeSql(
           `select * from pokemon limit 54 offset ?;`,
@@ -112,10 +122,31 @@ export default function Main({ navigation }) {
             setPreventScrollToIndex(true)
             setPokeDb(old => old.concat(_array))
             setDbOffset(old => old+54)
+            if(dbOffset > 200) {
+              setShowBackToTop(true)
+            }
           }
         );
       });
   }
+
+  const backToTop = () => {
+    flatRef.current.scrollToIndex({ index: 0 });
+    setShowBackToTop(false);
+    // After 300ms reset the state for performance optimization
+    setTimeout(() => {
+      db.transaction((tx) => {
+        tx.executeSql(
+          `select * from pokemon limit 102;`,
+          [],
+          (_, { rows: { _array } }) => {
+            setPokeDb(_array);
+            setDbOffset(102);
+          }
+        );
+      });
+    }, 300);
+  };
 
   return (
     <SafeAreaView>
@@ -128,7 +159,8 @@ export default function Main({ navigation }) {
           searchChars={searchChars}
           loadMore={loadMore}
           reset={reset}
-          dbOffset={dbOffset}
+          backToTop={backToTop}
+          showBackToTop={showBackToTop}
         />
       </PokemonListWrapper>
     </SafeAreaView>

@@ -4,12 +4,12 @@ import {
   View,
   TouchableOpacity,
   StyleSheet,
+  Platform,
 } from "react-native";
-import { MaterialCommunityIcons } from "@expo/vector-icons";
+import { FontAwesome5 } from "@expo/vector-icons";
 //
 import { PokemonCard } from "./PokemonCard";
 import NoItemsOnList from "./NoItemsOnList";
-import { reset } from "expo/build/AR";
 
 export default function PokemonList({
   items,
@@ -17,8 +17,8 @@ export default function PokemonList({
   searchChars,
   flatRef,
   loadMore,
-  reset,
-  dbOffset
+  backToTop,
+  showBackToTop,
 }) {
   return (
     <View style={{ flex: 1 }}>
@@ -39,39 +39,34 @@ export default function PokemonList({
         ListEmptyComponent={NoItemsOnList}
         keyExtractor={(item) => item.id}
       />
-      {dbOffset > 300 &&
-      <TouchableOpacity onPress={() => reset()} style={styles.fab}>
-        <MaterialCommunityIcons
-          name="restart"
-          size={40}
-          color="white"
-          style={{ marginTop: 5 }}
-        />
-      </TouchableOpacity>
-      }
+      {Platform.OS === "android" && showBackToTop && (
+        <TouchableOpacity onPress={() => backToTop()} style={styles.button}>
+          <FontAwesome5 name="arrow-circle-up" size={30} color="white" />
+        </TouchableOpacity>
+      )}
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-  fab: {
+  button: {
     position: "absolute",
-    width: 60,
-    height: 60,
     alignItems: "center",
+    width: 50,
+    height: 50,
     justifyContent: "center",
     alignSelf: "center",
     backgroundColor: "lightcoral",
-    borderRadius: 35,
-    bottom: "8%",
+    borderRadius: 25,
+    bottom: "15%",
     shadowColor: "#000",
     shadowOffset: {
       width: 0,
       height: 10,
     },
-    shadowOpacity: .25,
+    shadowOpacity: 0.25,
     shadowRadius: 10,
-    
+
     elevation: 5,
   },
 });
