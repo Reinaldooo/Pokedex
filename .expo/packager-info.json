@@ -2,5 +2,8 @@
   "expoServerPort": 19000,
   "devToolsPort": 19002,
   "packagerPort": 19001,
-  "packagerPid": 5417
+  "packagerPid": 13688,
+  "expoServerNgrokUrl": "https://9t-r8g.anonymous.pokedex.exp.direct",
+  "packagerNgrokUrl": "https://packager.9t-r8g.anonymous.pokedex.exp.direct",
+  "ngrokPid": 13703
 }

@@ -127,7 +127,7 @@ export const dbSetupHelper = [
     "color": "rgb(255, 69, 58)",
     "desc": "The flame that burns at the tip of its tail is an indication of its emotions. The flame wavers when Charmander is enjoying itself. If the Pokémon becomes enraged, the flame burns fiercely.",
     "evolution_chain": "2",
-    "owned": false
+    "owned": true
   },
   {
     "id": 5,

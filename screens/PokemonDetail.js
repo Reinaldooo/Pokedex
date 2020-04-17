@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import styled from "styled-components/native";
+import { Animated } from "react-native";
 import * as SQLite from "expo-sqlite";
 //
 import { capitalize, generateEvolutionChain } from "../utils";
@@ -61,23 +62,30 @@ const Description = styled.Text`
   color: rgb(72, 72, 74);
 `;
 
-export default function PokemonDetail ({ route, navigation }) {
+export default function PokemonDetail({ route, navigation }) {
+  const [fadeAnim] = useState(new Animated.Value(0));
   const [localDetails, setLocalDetails] = useState({});
   const [apiDetails, setApiDetails] = useState({});
   const [fetchOk, setFetchOk] = useState(false);
   const [error, setError] = useState(false);
-  
-  const { id, evolution_chain } = route.params
+
+  const { id, evolution_chain } = route.params;
 
   useEffect(() => {
+    // Animation on mount
+    Animated.timing(fadeAnim, {
+      toValue: 1,
+      duration: 500,
+    }).start();
+    //---
     setFetchOk(false);
     db.transaction((tx) => {
       tx.executeSql(
         `select * from pokemon where id = ?;`,
         [id],
         (_, { rows: { _array } }) => {
-          _array[0].types = JSON.parse(_array[0].types)
-          setLocalDetails(_array[0])
+          _array[0].types = JSON.parse(_array[0].types);
+          setLocalDetails(_array[0]);
         }
       );
     });
@@ -114,37 +122,41 @@ export default function PokemonDetail ({ route, navigation }) {
             return "Error";
           });
       });
-      return () => (isMounted = false)
+    return () => (isMounted = false);
   }, [id]);
 
   const scrollRef = useRef();
 
-  const { name, types, sprite, desc, color } = localDetails && localDetails
+  const { name, types, sprite, desc, color, owned } = localDetails && localDetails;
 
   return (
-    <Container ref={scrollRef}>
-      {localDetails.name &&
-      <Card>
-        <PokemonImage size={"150px"} uri={sprite} />
-        <Name>{capitalize(name)}</Name>
-        <Types>
-          {types.map((type) => (
-            <Type key={type.slot} color="rgb(72, 72, 74)">
-              <TypeLabel color="rgb(72, 72, 74)">{type.type.name}</TypeLabel>
-            </Type>
-          ))}
-        </Types>
-        <Description>{desc}</Description>
-        <Stats apiDetails={apiDetails} color={color} fetchOk={fetchOk} />
-        <EvolutionChain
-          apiDetails={apiDetails}
-          navigation={navigation}
-          sprite={sprite}
-          color={color}
-          scrollRef={scrollRef}
-        />
-      </Card>
-      }
-    </Container>
+    <Animated.View style={{ opacity: fadeAnim }}>
+      <Container ref={scrollRef}>
+        {localDetails.name && (
+          <Card>
+            <PokemonImage size={"150px"} uri={sprite} />
+            <Name>{capitalize(name)}</Name>
+            <Types>
+              {types.map((type) => (
+                <Type key={type.slot} color="rgb(72, 72, 74)">
+                  <TypeLabel color="rgb(72, 72, 74)">
+                    {type.type.name}
+                  </TypeLabel>
+                </Type>
+              ))}
+            </Types>
+            <Description>{desc}</Description>
+            <Stats apiDetails={apiDetails} color={color} fetchOk={fetchOk} />
+            <EvolutionChain
+              apiDetails={apiDetails}
+              navigation={navigation}
+              sprite={sprite}
+              color={color}
+              scrollRef={scrollRef}
+            />
+          </Card>
+        )}
+      </Container>
+    </Animated.View>
   );
-};
+}
