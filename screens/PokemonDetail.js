@@ -7,6 +7,7 @@ import { capitalize, generateEvolutionChain } from "../utils";
 import PokemonImage from "../components/PokemonImage";
 import Stats from "../components/Stats";
 import EvolutionChain from "../components/EvolutionChain";
+import HeartButton from "../components/HeartButton";
 
 const db = SQLite.openDatabase("pokemon.db");
 
@@ -78,8 +79,8 @@ export default function PokemonDetail({ route, navigation }) {
       duration: 500,
     }).start();
     //---
-    setFetchOk(false);
     db.transaction((tx) => {
+      setFetchOk(false);
       tx.executeSql(
         `select * from pokemon where id = ?;`,
         [id],
@@ -131,9 +132,11 @@ export default function PokemonDetail({ route, navigation }) {
 
   return (
     <Animated.View style={{ opacity: fadeAnim }}>
+      {console.log(owned)}
       <Container ref={scrollRef}>
         {localDetails.name && (
           <Card>
+            <HeartButton likedd={owned}/>
             <PokemonImage size={"150px"} uri={sprite} />
             <Name>{capitalize(name)}</Name>
             <Types>
