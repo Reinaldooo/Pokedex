@@ -126,17 +126,29 @@ export default function PokemonDetail({ route, navigation }) {
     return () => (isMounted = false);
   }, [id]);
 
+  const setOwned = (data, id) => {
+    db.transaction((tx) => {
+      tx.executeSql(
+        `update pokemon set owned = ? where id = ?;`,
+        [data, id]
+      );
+    });
+  }
+
   const scrollRef = useRef();
 
   const { name, types, sprite, desc, color, owned } = localDetails && localDetails;
 
   return (
     <Animated.View style={{ opacity: fadeAnim }}>
-      {console.log(owned)}
       <Container ref={scrollRef}>
         {localDetails.name && (
           <Card>
-            <HeartButton likedd={owned}/>
+            <HeartButton
+            owned={owned}
+            id={id}
+            setOwned={setOwned}
+            />
             <PokemonImage size={"150px"} uri={sprite} />
             <Name>{capitalize(name)}</Name>
             <Types>

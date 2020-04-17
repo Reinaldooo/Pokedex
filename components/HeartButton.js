@@ -1,15 +1,20 @@
-import React, { useState } from "react";
-import { TouchableWithoutFeedback, Animated, View } from "react-native";
+import React, { useState, useEffect } from "react";
+import { TouchableWithoutFeedback, Animated } from "react-native";
 import { FontAwesome } from "@expo/vector-icons";
 
-const HeartButton = ({ owned }) => {
+const HeartButton = ({ owned, setOwned, id }) => {
   const [scaleAnim] = useState(new Animated.Value(1));
-  const [liked, setLiked] = useState(owned);
+  const [liked, setLiked] = useState(false);
+
+  useEffect(() => {
+    setLiked(owned)
+  }, [owned])
 
   function handlePressIn() {
     Animated.spring(scaleAnim, {
       toValue: 0.5,
     }).start();
+    setOwned(!liked, id)
     setLiked((old) => !old);
   }
   function handlePressOut() {
@@ -23,6 +28,7 @@ const HeartButton = ({ owned }) => {
   const animatedStyle = {
     transform: [{ scale: scaleAnim }],
   };
+  
   return (
     <TouchableWithoutFeedback
       onPressIn={handlePressIn}
