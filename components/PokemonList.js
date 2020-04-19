@@ -19,6 +19,7 @@ export default function PokemonList({
   loadMore,
   backToTop,
   showBackToTop,
+  searching
 }) {
   return (
     <View style={{ flex: 1 }}>
@@ -36,7 +37,7 @@ export default function PokemonList({
             searchChars={searchChars}
           />
         )}
-        ListEmptyComponent={NoItemsOnList}
+        ListEmptyComponent={<NoItemsOnList searching={searching}/>}
         keyExtractor={(item) => item.id}
       />
       {Platform.OS === "android" && showBackToTop && (

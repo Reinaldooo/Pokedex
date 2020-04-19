@@ -9,8 +9,8 @@ const Description = styled.Text`
   color: rgb(72, 72, 74);
 `;
 
-const NoItemsOnList = () => {
-  return ( 
+const NoItemsOnList = ({ searching }) => {
+  return searching && ( 
     <Description>
       Sorry, no Pokémon found!
     </Description>

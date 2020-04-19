@@ -12,7 +12,7 @@ const db = SQLite.openDatabase("pokemon.db");
 const PokemonListWrapper = styled.View`
   background-color: rgb(229, 229, 234);
   padding: 0 30px;
-  height: 105%;
+  height: 103%;
 `;
 
 export default function Main({ navigation }) {
@@ -150,7 +150,11 @@ export default function Main({ navigation }) {
   return (
     <SafeAreaView>
       <PokemonListWrapper>
-        <SearchBar search={search} reset={reset} searching={searching} />
+        <SearchBar
+        search={search}
+        reset={reset}
+        searching={searching}
+        />
         <PokemonList
           items={pokeDb}
           flatRef={flatRef}
@@ -160,6 +164,7 @@ export default function Main({ navigation }) {
           reset={reset}
           backToTop={backToTop}
           showBackToTop={showBackToTop}
+          searching={searching}
         />
       </PokemonListWrapper>
     </SafeAreaView>
