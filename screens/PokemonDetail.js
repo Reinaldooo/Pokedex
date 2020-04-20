@@ -1,15 +1,13 @@
 import React, { useState, useEffect, useRef } from "react";
 import styled from "styled-components/native";
 import { Animated } from "react-native";
-import * as SQLite from "expo-sqlite";
 //
-import { capitalize, generateEvolutionChain } from "../utils";
+import { capitalize, generateEvolutionChain, pokeApi } from "../utils";
+import { executeSql } from "../dbUtils";
 import PokemonImage from "../components/PokemonImage";
 import Stats from "../components/Stats";
 import EvolutionChain from "../components/EvolutionChain";
 import HeartButton from "../components/HeartButton";
-
-const db = SQLite.openDatabase("pokemon.db");
 
 const Container = styled.ScrollView`
   background-color: "rgb(229,229,234)";
@@ -79,19 +77,14 @@ export default function PokemonDetail({ route, navigation }) {
       duration: 500,
     }).start();
     //---
-    db.transaction((tx) => {
-      setFetchOk(false);
-      tx.executeSql(
-        `select * from pokemon where id = ?;`,
-        [id],
-        (_, { rows: { _array } }) => {
-          _array[0].types = JSON.parse(_array[0].types);
-          setLocalDetails(_array[0]);
-        }
-      );
+    setFetchOk(false);
+    executeSql(`select * from pokemon where id = ?;`, [id]).then(([p]) => {
+      // array destructuring is used because there only one item
+      p.types = JSON.parse(p.types);
+      setLocalDetails(p);
     });
     let isMounted = true;
-    fetch(`https://pokeapi.co/api/v2/pokemon/${id}`)
+    fetch(`${pokeApi}pokemon/${id}`)
       .then((data) => data.json())
       .then(({ stats, weight, height }) => {
         return {
@@ -101,15 +94,17 @@ export default function PokemonDetail({ route, navigation }) {
         };
       })
       .catch(() => {
+        // TODO
         return "Error";
       })
       .then((pokemon) => {
-        fetch(`https://pokeapi.co/api/v2/evolution-chain/${evolution_chain}`)
+        fetch(`${pokeApi}evolution-chain/${evolution_chain}`)
           .then((data) => data.json())
           .then((data) => {
             if (data) {
               let { chain } = data;
               chain = generateEvolutionChain(chain);
+              // Avoid state change if component is unmounted
               if (isMounted) {
                 setApiDetails({
                   ...pokemon,
@@ -120,6 +115,7 @@ export default function PokemonDetail({ route, navigation }) {
             }
           })
           .catch((e) => {
+            // TODO
             return "Error";
           });
       });
@@ -127,28 +123,20 @@ export default function PokemonDetail({ route, navigation }) {
   }, [id]);
 
   const setOwned = (data, id) => {
-    db.transaction((tx) => {
-      tx.executeSql(
-        `update pokemon set owned = ? where id = ?;`,
-        [data, id]
-      );
-    });
-  }
+    executeSql(`update pokemon set owned = ? where id = ?;`, [data, id]);
+  };
 
   const scrollRef = useRef();
 
-  const { name, types, sprite, desc, color, owned } = localDetails && localDetails;
+  const { name, types, sprite, desc, color, owned } =
+    localDetails && localDetails;
 
   return (
     <Animated.View style={{ opacity: fadeAnim }}>
       <Container ref={scrollRef}>
         {localDetails.name && (
           <Card>
-            <HeartButton
-            owned={owned}
-            id={id}
-            setOwned={setOwned}
-            />
+            <HeartButton owned={owned} id={id} setOwned={setOwned} />
             <PokemonImage size={"150px"} uri={sprite} />
             <Name>{capitalize(name)}</Name>
             <Types>

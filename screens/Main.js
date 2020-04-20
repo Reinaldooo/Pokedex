@@ -1,13 +1,11 @@
 import React, { useState, useRef, useEffect } from "react";
 import styled from "styled-components/native";
 import { SafeAreaView } from "react-native-safe-area-context";
-import * as SQLite from "expo-sqlite";
 //
 import { dbSetupHelper } from "../utils";
+import { executeSql } from "../dbUtils";
 import PokemonList from "../components/PokemonList";
 import SearchBar from "../components/SearchBar";
-
-const db = SQLite.openDatabase("pokemon.db");
 
 const PokemonListWrapper = styled.View`
   background-color: rgb(229, 229, 234);
@@ -25,42 +23,35 @@ export default function Main({ navigation }) {
   const flatRef = useRef(null);
 
   useEffect(() => {
-    db.transaction((tx) => {
-      tx.executeSql(
-        "create table if not exists pokemon (id integer not null, " +
-          "name text, types text, sprite text, color text, desc text, " +
-          "evolution_chain text, owned int);"
-      );
-    });
-    db.transaction((tx) => {
-      tx.executeSql(`select * from pokemon;`, [], (_, { rows: { _array } }) => {
-        if (_array.length === 0) {
-          dbSetupHelper.forEach((item) => {
-            tx.executeSql(
-              "insert into pokemon (id, name, types, sprite, color, desc, " +
+    executeSql(
+      "create table if not exists pokemon (id integer not null, " +
+        "name text, types text, sprite text, color text, desc text, " +
+        "evolution_chain text, owned int);"
+    );
+    executeSql(`select * from pokemon;`).then((res) => {
+      console.log(res[10])
+      if (res.length === 0) {
+        dbSetupHelper.forEach((item) => {
+          executeSql(
+            "insert into pokemon (id, name, types, sprite, color, desc, " +
               "evolution_chain, owned) values (?, ?, ?, ?, ?, ?, ?, ?)",
-              [
-                item.id,
-                item.name,
-                JSON.stringify(item.types),
-                item.sprite,
-                item.color,
-                item.desc,
-                item.evolution_chain,
-                item.owned,
-              ]
-            );
-          });
-        }
-      });
+            [
+              item.id,
+              item.name,
+              JSON.stringify(item.types),
+              item.sprite,
+              item.color,
+              item.desc,
+              item.evolution_chain,
+              item.owned,
+            ]
+          );
+        });
+      }
     });
-    db.transaction((tx) => {
-      tx.executeSql(
-        `select * from pokemon limit 102;`,
-        [],
-        (_, { rows: { _array } }) => setPokeDb(_array)
-      );
-    });
+    executeSql(`select * from pokemon limit 102;`).then((res) =>
+      setPokeDb(res)
+    );
   }, []);
 
   useEffect(() => {
@@ -72,61 +63,45 @@ export default function Main({ navigation }) {
 
   const search = (query) => {
     if (!query) return;
-    let matches;
-    db.transaction((tx) => {
-      tx.executeSql(
-        "select * from pokemon where name like ?;",
-        [`%${query}%`],
-        (_, { rows: { _array } }) => {
-          matches = _array;
-          if (matches.length % 3 !== 0) {
-            // Insert a empty item to fix last column layout if the cards number is
-            // not multiple of 3
-            matches.push({
-              name: "hidden",
-              sprite: "hidden",
-              color: "hidden",
-            });
-          }
-          setSearching(true);
-          setSearchChars(query);
-          setPokeDb(matches);
+    executeSql("select * from pokemon where name like ?;", [`%${query}%`]).then(
+      (matches) => {
+        if (matches.length % 3 !== 0) {
+          // Insert a empty item to fix last column layout if the cards number is
+          // not multiple of 3
+          matches.push({
+            name: "hidden",
+            sprite: "hidden",
+            color: "hidden",
+          });
         }
-      );
-    });
+        console.log(matches)
+        setSearching(true);
+        setSearchChars(query);
+        setPokeDb(matches);
+      }
+    );
   };
 
   const reset = () => {
-    db.transaction((tx) => {
-      tx.executeSql(
-        `select * from pokemon limit 102;`,
-        [],
-        (_, { rows: { _array } }) => {
-          setPokeDb(_array);
-          setSearching(false);
-          setSearchChars("");
-          setDbOffset(102);
-        }
-      );
+    executeSql(`select * from pokemon limit 102;`).then((res) => {
+      setPokeDb(res);
+      setSearching(false);
+      setSearchChars("");
+      setDbOffset(102);
     });
   };
 
   const loadMore = () => {
     if (dbOffset > 750 || searching) return;
-    db.transaction((tx) => {
-      tx.executeSql(
-        `select * from pokemon limit 54 offset ?;`,
-        [dbOffset],
-        (_, { rows: { _array } }) => {
-          setPreventScrollToIndex(true);
-          setPokeDb((old) => old.concat(_array));
-          setDbOffset((old) => old + 54);
-          if (dbOffset > 200) {
-            setShowBackToTop(true);
-          }
-        }
-      );
-    });
+    executeSql(`select * from pokemon limit 54 offset ?;`, [dbOffset])
+    .then((res) => {
+      setPreventScrollToIndex(true);
+      setPokeDb((old) => old.concat(res));
+      setDbOffset((old) => old + 54);
+      if (dbOffset > 200) {
+        setShowBackToTop(true);
+      }
+    })
   };
 
   const backToTop = () => {
@@ -134,27 +109,18 @@ export default function Main({ navigation }) {
     setShowBackToTop(false);
     // After 300ms reset the state for performance optimization
     setTimeout(() => {
-      db.transaction((tx) => {
-        tx.executeSql(
-          `select * from pokemon limit 102;`,
-          [],
-          (_, { rows: { _array } }) => {
-            setPokeDb(_array);
-            setDbOffset(102);
-          }
-        );
-      });
+      executeSql(`select * from pokemon limit 102;`)
+      .then((reset) => {
+        setPokeDb(res);
+        setDbOffset(102);
+      })
     }, 300);
   };
 
   return (
     <SafeAreaView>
       <PokemonListWrapper>
-        <SearchBar
-        search={search}
-        reset={reset}
-        searching={searching}
-        />
+        <SearchBar search={search} reset={reset} searching={searching} />
         <PokemonList
           items={pokeDb}
           flatRef={flatRef}
