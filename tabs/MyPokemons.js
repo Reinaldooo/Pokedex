@@ -1,38 +1,28 @@
-import React, { useEffect } from 'react';
-import { Button, View } from 'react-native';
-import { createStackNavigator } from '@react-navigation/stack';
+import React from "react";
+import { createStackNavigator } from "@react-navigation/stack";
 
-function HomeScreen({ navigation }) {
-  return (
-    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-      <Button
-        title="Go to Profile"
-        onPress={() => navigation.navigate('Profile')}
-      />
-    </View>
-  );
-}
-
-function ProfileScreen({ navigation }) {
-  return (
-    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-      <Button
-        title="Go to Notifications"
-        onPress={() => navigation.goBack()}
-      />
-      <Button title="Go back" onPress={() => navigation.goBack()} />
-    </View>
-  );
-}
+import MyPokemon from "../screens/MyPokemon";
+import PokemonDetail from "../screens/PokemonDetail";
 
 const Stack = createStackNavigator();
-
 
 export default function MyPokemons() {
   return (
     <Stack.Navigator>
-      <Stack.Screen name="Home" component={HomeScreen} />
-      <Stack.Screen name="Profile" component={ProfileScreen} />
+      <Stack.Screen
+        name="My Pokémon"
+        component={MyPokemon}
+        options={{
+          headerShown: false,
+        }}
+      />
+      <Stack.Screen
+        name="PokemonDetail"
+        component={PokemonDetail}
+        options={{
+          headerTitle: "Details",
+        }}
+      />
     </Stack.Navigator>
   );
 }

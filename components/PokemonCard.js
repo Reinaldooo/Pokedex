@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components/native";
 import { View } from "react-native";
+import { useNavigation } from '@react-navigation/native';
 //
 import PokemonName from "./PokemonName";
 import PokemonImage from "./PokemonImage";
@@ -28,8 +29,9 @@ const ImageWrapper = styled.View`
   justify-content: center;
 `;
 
-export function Pokemon({ item, searchChars, navigation }) {
+export function Pokemon({ item, searchChars }) {
   const { sprite, color, name, id, evolution_chain } = item;
+  const navigation = useNavigation();
   return (
     <TouchableWrapper
       disabled={name === "hidden"}
