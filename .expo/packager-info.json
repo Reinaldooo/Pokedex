@@ -2,9 +2,9 @@
   "expoServerPort": 19000,
   "devToolsPort": 19002,
   "packagerPort": 19001,
-  "packagerPid": 1455,
-  "expoServerNgrokUrl": "https://a6-gc3.anonymous.pokedex.exp.direct",
-  "packagerNgrokUrl": "https://packager.a6-gc3.anonymous.pokedex.exp.direct",
-  "ngrokPid": 1496,
+  "packagerPid": 5038,
+  "expoServerNgrokUrl": "https://h2-fhn.anonymous.pokedex.exp.direct",
+  "packagerNgrokUrl": "https://packager.h2-fhn.anonymous.pokedex.exp.direct",
+  "ngrokPid": 5048,
   "webpackServerPort": null
 }

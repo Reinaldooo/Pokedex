@@ -1,18 +1,14 @@
 import React from "react";
 import { createStackNavigator } from "@react-navigation/stack";
 
-import Main from "./Main";
-import PokemonDetail from "./PokemonDetail";
+import Main from "../screens/Main";
+import PokemonDetail from "../screens/PokemonDetail";
 
 const Stack = createStackNavigator();
 
-export default function Search() {
+export default function AllPokemon() {
   return (
-    <Stack.Navigator
-      // screenOptions={{
-      //   headerShown: false
-      // }}
-    >
+    <Stack.Navigator>
       <Stack.Screen
         name="Main"
         component={Main}

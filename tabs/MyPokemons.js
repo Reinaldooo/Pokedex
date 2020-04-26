@@ -28,7 +28,7 @@ function ProfileScreen({ navigation }) {
 const Stack = createStackNavigator();
 
 
-export default function MyPokemon() {
+export default function MyPokemons() {
   return (
     <Stack.Navigator>
       <Stack.Screen name="Home" component={HomeScreen} />

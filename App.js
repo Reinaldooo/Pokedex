@@ -3,8 +3,8 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { MaterialIcons } from "@expo/vector-icons";
 
-import Search from "./screens/Search";
-import MyPokemon from "./screens/MyPokemon";
+import AllPokemon from "./tabs/AllPokemon";
+import MyPokemons from "./tabs/MyPokemons";
 
 const Tab = createBottomTabNavigator();
 
@@ -13,24 +13,21 @@ export default function App() {
     <NavigationContainer>
       <Tab.Navigator
         screenOptions={({ route }) => ({
-          tabBarIcon: ({ focused, color, size }) => {
+          tabBarIcon: ({ color, size }) => {
             let iconName;
-
-            if (route.name === "Search") {
-              iconName = "search";
-            } else if (route.name === "My Pokémon") {
-              iconName = "pets";
-            }
+            route.name === "Search"
+              ? (iconName = "search")
+              : (iconName = "pets");
             return <MaterialIcons name={iconName} size={size} color={color} />;
-          }
+          },
         })}
         tabBarOptions={{
           activeTintColor: "lightcoral",
-          inactiveTintColor: "gray"
+          inactiveTintColor: "gray",
         }}
       >
-        <Tab.Screen name="Search" component={Search} />
-        <Tab.Screen name="My Pokémon" component={MyPokemon} />
+        <Tab.Screen name="Search" component={AllPokemon} />
+        <Tab.Screen name="My Pokémons" component={MyPokemons} />
       </Tab.Navigator>
     </NavigationContainer>
   );
