@@ -29,7 +29,6 @@ export default function Main({ navigation }) {
         "evolution_chain text, owned int);"
     );
     executeSql(`select * from pokemon;`).then((res) => {
-      console.log(res[10])
       if (res.length === 0) {
         dbSetupHelper.forEach((item) => {
           executeSql(
@@ -74,7 +73,6 @@ export default function Main({ navigation }) {
             color: "hidden",
           });
         }
-        console.log(matches)
         setSearching(true);
         setSearchChars(query);
         setPokeDb(matches);
