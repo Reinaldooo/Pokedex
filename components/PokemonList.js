@@ -33,7 +33,6 @@ export default function PokemonList({
         renderItem={({ item }) => (
           <PokemonCard
             item={item}
-            navigation={navigation}
             searchChars={searchChars}
           />
         )}

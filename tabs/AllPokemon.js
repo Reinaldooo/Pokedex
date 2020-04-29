@@ -6,7 +6,7 @@ import PokemonDetail from "../screens/PokemonDetail";
 
 const Stack = createStackNavigator();
 
-export default function AllPokemon() {
+export default function AllPokemon({ navigation }) {
   return (
     <Stack.Navigator>
       <Stack.Screen

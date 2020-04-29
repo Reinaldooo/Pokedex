@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import styled from "styled-components/native";
 import { Animated } from "react-native";
-import { useIsFocused } from '@react-navigation/native';
 //
 import { capitalize, generateEvolutionChain, pokeApi } from "../utils";
 import { executeSql } from "../dbUtils";
@@ -68,16 +67,8 @@ export default function PokemonDetail({ route, navigation }) {
   const [apiDetails, setApiDetails] = useState({});
   const [fetchOk, setFetchOk] = useState(false);
   const [error, setError] = useState(false);
-  const isFocused = useIsFocused();
 
   const { id, evolution_chain } = route.params;
-
-  useEffect(() => {
-    // Go back to cards view on focus lost
-    if(!isFocused) {
-      navigation.goBack()
-    }
-  }, [isFocused])
 
   useEffect(() => {
     // Animation on mount

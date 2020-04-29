@@ -9,13 +9,11 @@ import { PokemonCard } from "./PokemonCard";
 import NoItemsOnList from "./NoItemsOnList";
 
 export default function MyPokemonList({
-  items,
-  flatRef
+  items
 }) {
   return (
     <View style={{ flex: 1 }}>
       <FlatList
-        ref={flatRef}
         data={items}
         numColumns={3}
         contentContainerStyle={{ paddingBottom: 100 }}

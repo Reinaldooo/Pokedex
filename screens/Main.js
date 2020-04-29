@@ -122,7 +122,6 @@ export default function Main({ navigation }) {
         <PokemonList
           items={pokeDb}
           flatRef={flatRef}
-          navigation={navigation}
           searchChars={searchChars}
           loadMore={loadMore}
           reset={reset}

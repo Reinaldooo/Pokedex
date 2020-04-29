@@ -4,7 +4,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 import { useFocusEffect } from "@react-navigation/native";
 //
 import { executeSql } from "../dbUtils";
-import MyPokemonList from "../components/PokemonList";
+import MyPokemonList from "../components/MyPokemonList";
 
 const PokemonListWrapper = styled.View`
   background-color: rgb(229, 229, 234);
@@ -42,7 +42,7 @@ export default function Pokemon({ navigation }) {
   return (
     <SafeAreaView>
       <PokemonListWrapper>
-        <MyPokemonList items={pokeDb} flatRef={flatRef} />
+        <MyPokemonList items={pokeDb} />
       </PokemonListWrapper>
     </SafeAreaView>
   );
