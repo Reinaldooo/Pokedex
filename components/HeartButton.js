@@ -4,7 +4,7 @@ import { FontAwesome } from "@expo/vector-icons";
 
 const HeartButton = ({ owned, setOwned, id }) => {
   const [scaleAnim] = useState(new Animated.Value(1));
-  const [liked, setLiked] = useState(false);
+  const [liked, setLiked] = useState(owned);
 
   useEffect(() => {
     setLiked(owned)

@@ -17,7 +17,7 @@ export default function App() {
           screenOptions={({ route }) => ({
             tabBarIcon: ({ color, size }) => {
               let iconName;
-              route.name === "Search"
+              route.name === "Main"
                 ? (iconName = "search")
                 : (iconName = "pets");
               return (
@@ -30,8 +30,8 @@ export default function App() {
             inactiveTintColor: "gray",
           }}
         >
-          <Tab.Screen name="Search" component={AllPokemon} />
-          <Tab.Screen name="My Pokémons" component={MyPokemons} />
+          <Tab.Screen name="Main" component={AllPokemon} />
+          <Tab.Screen name="My-Pokémons" component={MyPokemons} />
         </Tab.Navigator>
       </NavigationContainer>
     </SafeAreaProvider>

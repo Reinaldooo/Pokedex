@@ -27,30 +27,32 @@ export default function Main({ navigation }) {
       "create table if not exists pokemon (id integer not null, " +
         "name text, types text, sprite text, color text, desc text, " +
         "evolution_chain text, owned int);"
-    );
-    executeSql(`select * from pokemon;`).then((res) => {
-      if (res.length === 0) {
-        dbSetupHelper.forEach((item) => {
-          executeSql(
-            "insert into pokemon (id, name, types, sprite, color, desc, " +
-              "evolution_chain, owned) values (?, ?, ?, ?, ?, ?, ?, ?)",
-            [
-              item.id,
-              item.name,
-              JSON.stringify(item.types),
-              item.sprite,
-              item.color,
-              item.desc,
-              item.evolution_chain,
-              item.owned,
-            ]
-          );
-        });
-      }
-    });
-    executeSql(`select * from pokemon limit 102;`).then((res) =>
-      setPokeDb(res)
-    );
+    ).then(() => {
+      executeSql(`select * from pokemon;`).then((res) => {
+        if (res.length === 0) {
+          dbSetupHelper.forEach((item) => {
+            executeSql(
+              "insert into pokemon (id, name, types, sprite, color, desc, " +
+                "evolution_chain, owned) values (?, ?, ?, ?, ?, ?, ?, ?)",
+              [
+                item.id,
+                item.name,
+                JSON.stringify(item.types),
+                item.sprite,
+                item.color,
+                item.desc,
+                item.evolution_chain,
+                item.owned,
+              ]
+            );
+          });
+        }
+      });
+    }).then(() => {
+      executeSql(`select * from pokemon limit 102;`).then((res) =>
+        setPokeDb(res)
+      );
+    })
   }, []);
 
   useEffect(() => {

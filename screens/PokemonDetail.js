@@ -85,7 +85,7 @@ export default function PokemonDetail({ route, navigation }) {
     });
     let isMounted = true;
     fetch(`${pokeApi}pokemon/${id}`)
-      .then((data) => data.json())
+      .then(async (data) => await data.json())
       .then(({ stats, weight, height }) => {
         return {
           stats,

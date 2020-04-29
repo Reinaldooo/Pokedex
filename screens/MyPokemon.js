@@ -14,8 +14,6 @@ const PokemonListWrapper = styled.View`
 
 export default function Pokemon({ navigation }) {
   const [pokeDb, setPokeDb] = useState([]);
-  const [showBackToTop, setShowBackToTop] = useState(false);
-  const flatRef = useRef(null);
 
   useFocusEffect(
     // Get owned pokemon on screen focus.
@@ -23,7 +21,7 @@ export default function Pokemon({ navigation }) {
     // it would not update in here. 
     React.useCallback(() => {
       executeSql(
-        `select * from pokemon where owned = true;`
+        `select * from pokemon where owned = 1;`
       ).then((res) => {
         if (res.length % 3 !== 0) {
           // Insert a empty item to fix last column layout if the cards number is
