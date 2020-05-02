@@ -13,7 +13,6 @@ import NoItemsOnList from "./NoItemsOnList";
 
 export default function PokemonList({
   items,
-  navigation,
   searchChars,
   flatRef,
   loadMore,

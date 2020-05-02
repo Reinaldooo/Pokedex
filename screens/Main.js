@@ -1,11 +1,10 @@
 import React, { useState, useRef, useEffect } from "react";
 import styled from "styled-components/native";
 import { SafeAreaView } from "react-native-safe-area-context";
-//
-import { dbSetupHelper } from "../utils";
 import { executeSql } from "../dbUtils";
 import PokemonList from "../components/PokemonList";
 import SearchBar from "../components/SearchBar";
+import { useSelector } from "react-redux";
 
 const PokemonListWrapper = styled.View`
   background-color: rgb(229, 229, 234);
@@ -14,46 +13,13 @@ const PokemonListWrapper = styled.View`
 `;
 
 export default function Main({ navigation }) {
-  const [pokeDb, setPokeDb] = useState([]);
+  const pokeDb = useSelector(state => state.pokemons.slice(0, 102))
   const [dbOffset, setDbOffset] = useState(102);
   const [preventScrollToIndex, setPreventScrollToIndex] = useState(false);
   const [showBackToTop, setShowBackToTop] = useState(false);
   const [searchChars, setSearchChars] = useState("");
   const [searching, setSearching] = useState(false);
   const flatRef = useRef(null);
-
-  useEffect(() => {
-    executeSql(
-      "create table if not exists pokemon (id integer not null, " +
-        "name text, types text, sprite text, color text, desc text, " +
-        "evolution_chain text, owned int);"
-    ).then(() => {
-      executeSql(`select * from pokemon;`).then((res) => {
-        if (res.length === 0) {
-          dbSetupHelper.forEach((item) => {
-            executeSql(
-              "insert into pokemon (id, name, types, sprite, color, desc, " +
-                "evolution_chain, owned) values (?, ?, ?, ?, ?, ?, ?, ?)",
-              [
-                item.id,
-                item.name,
-                JSON.stringify(item.types),
-                item.sprite,
-                item.color,
-                item.desc,
-                item.evolution_chain,
-                item.owned,
-              ]
-            );
-          });
-        }
-      });
-    }).then(() => {
-      executeSql(`select * from pokemon limit 102;`).then((res) =>
-        setPokeDb(res)
-      );
-    })
-  }, []);
 
   useEffect(() => {
     // Scroll to top if db is changed
@@ -92,29 +58,19 @@ export default function Main({ navigation }) {
   };
 
   const loadMore = () => {
-    if (dbOffset > 750 || searching) return;
-    executeSql(`select * from pokemon limit 54 offset ?;`, [dbOffset])
-    .then((res) => {
-      setPreventScrollToIndex(true);
-      setPokeDb((old) => old.concat(res));
-      setDbOffset((old) => old + 54);
-      if (dbOffset > 200) {
-        setShowBackToTop(true);
-      }
-    })
+    // if (dbOffset > 750 || searching) return;
+    // setPreventScrollToIndex(true);
+    // setDbOffset((old) => old + 54);
+    // if (dbOffset > 200) {
+    //   setShowBackToTop(true);
+    // }
+    // Dispatch action LOAD_MORE
+    
   };
 
   const backToTop = () => {
     flatRef.current.scrollToIndex({ index: 0 });
     setShowBackToTop(false);
-    // After 300ms reset the state for performance optimization
-    setTimeout(() => {
-      executeSql(`select * from pokemon limit 102;`)
-      .then((reset) => {
-        setPokeDb(res);
-        setDbOffset(102);
-      })
-    }, 300);
   };
 
   return (
