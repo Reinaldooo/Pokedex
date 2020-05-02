@@ -2,11 +2,8 @@ import React from "react";
 import {
   FlatList,
   View,
-  TouchableOpacity,
   StyleSheet,
-  Platform,
 } from "react-native";
-import { FontAwesome5 } from "@expo/vector-icons";
 //
 import { PokemonCard } from "./PokemonCard";
 import NoItemsOnList from "./NoItemsOnList";
@@ -16,8 +13,6 @@ export default function PokemonList({
   searchChars,
   flatRef,
   loadMore,
-  backToTop,
-  showBackToTop,
   searching
 }) {
   return (
@@ -38,11 +33,6 @@ export default function PokemonList({
         ListEmptyComponent={<NoItemsOnList searching={searching}/>}
         keyExtractor={(item) => item.id}
       />
-      {Platform.OS === "android" && showBackToTop && (
-        <TouchableOpacity onPress={() => backToTop()} style={styles.button}>
-          <FontAwesome5 name="arrow-circle-up" size={30} color="white" />
-        </TouchableOpacity>
-      )}
     </View>
   );
 }

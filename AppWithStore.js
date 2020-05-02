@@ -6,7 +6,7 @@ import { SafeAreaProvider } from "react-native-safe-area-context";
 import { useDispatch } from "react-redux";
 //
 import { showPokemons } from "./store/actions"
-import dbSetupHelper from "./utils";
+import { dbSetupHelper } from "./utils";
 import { executeSql } from "./dbUtils";
 import AllPokemon from "./tabs/AllPokemon";
 import MyPokemons from "./tabs/MyPokemons";
@@ -47,7 +47,7 @@ export default function AppWithStore() {
         }
       });
     }).then(() => {
-      executeSql(`select * from pokemon limit 102;`).then((response) =>
+      executeSql(`select * from pokemon;`).then((response) =>
         dispatch(showPokemons(response))
       );
     })

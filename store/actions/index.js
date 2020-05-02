@@ -1,5 +1,6 @@
 export const SHOW_POKEMONS = 'SHOW_POKEMONS'
 export const SET_OWNED = "SET_OWNED"
+export const SEARCH = "SEARCH"
 
 export function showPokemons(pokemons) {
   return {
@@ -12,5 +13,11 @@ export function setOwned(bool, id) {
     type: SET_OWNED,
     data: bool,
     id
+  }
+}
+export function searchStore(query) {
+  return {
+    type: SEARCH,
+    query
   }
 }
