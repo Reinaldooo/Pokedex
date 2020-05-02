@@ -1,11 +1,19 @@
-import { SHOW_POKEMONS, SET_OWNED, SEARCH, LOAD_MORE, RESET_STORE } from "../actions";
+import {
+  SHOW_POKEMONS,
+  SET_OWNED,
+  SEARCH,
+  LOAD_MORE,
+  RESET_STORE,
+} from "../actions";
 
 const initialState = {
+  // There is duplication of data here, but the data size is
+  // small, and by doing so, queries to the DB are avoided
   pokemons: [],
   searchResults: [],
   owned: [],
   slice: [],
-  dbOffset: 102
+  dbOffset: 102,
 };
 
 const pokemonsReducer = (state = initialState, action) => {
@@ -39,13 +47,13 @@ const pokemonsReducer = (state = initialState, action) => {
       });
     case RESET_STORE:
       return Object.assign({}, state, {
-        slice: state.pokemons.slice(0, state.dbOffset)
+        slice: state.pokemons.slice(0, state.dbOffset),
       });
     case LOAD_MORE:
-      const { pokemons, dbOffset, slice } = state
+      const { pokemons, dbOffset, slice } = state;
       return Object.assign({}, state, {
         slice: slice.concat(pokemons.slice(dbOffset, dbOffset + 54)),
-        dbOffset: dbOffset + 54
+        dbOffset: dbOffset + 54,
       });
     default:
       return state;

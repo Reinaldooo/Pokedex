@@ -14,13 +14,13 @@ const PokemonListWrapper = styled.View`
 `;
 
 export default function Main() {
-  const pokeDb = useSelector(state => state.slice)
-  const dbOffset = useSelector(state => state.dbOffset)
+  const pokeDb = useSelector((state) => state.slice);
+  const dbOffset = useSelector((state) => state.dbOffset);
   const [preventScrollToIndex, setPreventScrollToIndex] = useState(false);
   const [searchChars, setSearchChars] = useState("");
   const [searching, setSearching] = useState(false);
   const flatRef = useRef(null);
-  const dispatch = useDispatch()
+  const dispatch = useDispatch();
 
   useEffect(() => {
     // Scroll to top if db is changed
@@ -32,20 +32,21 @@ export default function Main() {
   const search = (query) => {
     if (!query) return;
     setSearching(true);
+    setPreventScrollToIndex(false);
     setSearchChars(query);
-    dispatch(searchStore(query))
+    dispatch(searchStore(query));
   };
 
   const reset = () => {
     setSearching(false);
     setSearchChars("");
-    dispatch(resetStore())
+    dispatch(resetStore());
   };
 
   const handleLoadMore = () => {
     if (dbOffset > 750 || searching) return;
     setPreventScrollToIndex(true);
-    dispatch(loadMore())  
+    dispatch(loadMore());
   };
 
   return (
