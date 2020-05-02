@@ -36,26 +36,3 @@ export default function PokemonList({
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  button: {
-    position: "absolute",
-    alignItems: "center",
-    width: 50,
-    height: 50,
-    justifyContent: "center",
-    alignSelf: "center",
-    backgroundColor: "lightcoral",
-    borderRadius: 25,
-    bottom: "15%",
-    shadowColor: "#000",
-    shadowOffset: {
-      width: 0,
-      height: 10,
-    },
-    shadowOpacity: 0.25,
-    shadowRadius: 10,
-
-    elevation: 5,
-  },
-});
