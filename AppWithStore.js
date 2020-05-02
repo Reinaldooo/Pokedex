@@ -5,7 +5,7 @@ import { MaterialIcons } from "@expo/vector-icons";
 import { SafeAreaProvider } from "react-native-safe-area-context";
 import { useDispatch } from "react-redux";
 //
-import { GET_POKEMONS } from "./store/actions"
+import { showPokemons } from "./store/actions"
 import dbSetupHelper from "./utils";
 import { executeSql } from "./dbUtils";
 import AllPokemon from "./tabs/AllPokemon";
@@ -47,11 +47,8 @@ export default function AppWithStore() {
         }
       });
     }).then(() => {
-      executeSql(`select * from pokemon limit 18;`).then((response) =>
-        dispatch({
-          type: GET_POKEMONS,
-          data: response
-        })
+      executeSql(`select * from pokemon limit 102;`).then((response) =>
+        dispatch(showPokemons(response))
       );
     })
   }, []);

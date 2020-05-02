@@ -6,17 +6,7 @@ import PokemonDetail from "../screens/PokemonDetail";
 
 const Stack = createStackNavigator();
 
-export default function AllPokemon({ navigation }) {
-  React.useEffect(() => {
-    // This makes sure that everytime the tab button is pressed,
-    // navigation goes to the main stack component
-    const unsubscribe = navigation.addListener("tabPress", (e) => {
-      e.preventDefault();
-      navigation.navigate("Main", { screen: "Main" });
-    });
-    return unsubscribe;
-  }, [navigation]);
-  //
+export default function AllPokemon() {
   return (
     <Stack.Navigator>
       <Stack.Screen

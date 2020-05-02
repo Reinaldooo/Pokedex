@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { TouchableWithoutFeedback, Animated } from "react-native";
 import { FontAwesome } from "@expo/vector-icons";
+import { useSelector } from "react-redux"
 
-const HeartButton = ({ owned, setOwned, id }) => {
+const HeartButton = ({ HandleOwnership, id }) => {
+  const owned = useSelector(state => state.pokemons.find((i) => i.id === id).owned)
   const [scaleAnim] = useState(new Animated.Value(1));
   const [liked, setLiked] = useState(owned);
 
@@ -14,7 +16,7 @@ const HeartButton = ({ owned, setOwned, id }) => {
     Animated.spring(scaleAnim, {
       toValue: 0.5,
     }).start();
-    setOwned(!liked, id)
+    HandleOwnership(!liked, id)
     setLiked((old) => !old);
   }
   function handlePressOut() {

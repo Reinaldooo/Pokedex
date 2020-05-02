@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import styled from "styled-components/native";
 import { Animated } from "react-native";
+import { useDispatch } from "react-redux";
 //
 import { capitalize, generateEvolutionChain, pokeApi } from "../utils";
 import { executeSql } from "../dbUtils";
@@ -8,6 +9,7 @@ import PokemonImage from "../components/PokemonImage";
 import Stats from "../components/Stats";
 import EvolutionChain from "../components/EvolutionChain";
 import HeartButton from "../components/HeartButton";
+import { setOwned } from "../store/actions";
 
 const Container = styled.ScrollView`
   background-color: "rgb(229,229,234)";
@@ -67,6 +69,7 @@ export default function PokemonDetail({ route, navigation }) {
   const [apiDetails, setApiDetails] = useState({});
   const [fetchOk, setFetchOk] = useState(false);
   const [error, setError] = useState(false);
+  const dispatch = useDispatch()
 
   const { id, evolution_chain } = route.params;
 
@@ -122,13 +125,14 @@ export default function PokemonDetail({ route, navigation }) {
     return () => (isMounted = false);
   }, [id]);
 
-  const setOwned = (data, id) => {
+  const HandleOwnership = (data, id) => {
+    dispatch(setOwned(data, id))
     executeSql(`update pokemon set owned = ? where id = ?;`, [data, id]);
   };
 
   const scrollRef = useRef();
 
-  const { name, types, sprite, desc, color, owned } =
+  const { name, types, sprite, desc, color } =
     localDetails && localDetails;
 
   return (
@@ -136,7 +140,7 @@ export default function PokemonDetail({ route, navigation }) {
       <Container ref={scrollRef}>
         {localDetails.name && (
           <Card>
-            <HeartButton owned={owned} id={id} setOwned={setOwned} />
+            <HeartButton id={id} HandleOwnership={HandleOwnership} />
             <PokemonImage size={"150px"} uri={sprite} />
             <Name>{capitalize(name)}</Name>
             <Types>
