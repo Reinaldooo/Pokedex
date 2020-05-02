@@ -47,8 +47,9 @@ export default function AppWithStore() {
         }
       });
     }).then(() => {
-      executeSql(`select * from pokemon;`).then((response) =>
+      executeSql(`select * from pokemon;`).then((response) => {
         dispatch(showPokemons(response))
+      }
       );
     })
   }, []);

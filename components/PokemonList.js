@@ -12,7 +12,7 @@ export default function PokemonList({
   items,
   searchChars,
   flatRef,
-  loadMore,
+  handleLoadMore,
   searching
 }) {
   return (
@@ -20,7 +20,7 @@ export default function PokemonList({
       <FlatList
         ref={flatRef}
         data={items}
-        onEndReached={loadMore}
+        onEndReached={handleLoadMore}
         numColumns={3}
         contentContainerStyle={{ paddingBottom: 100 }}
         columnWrapperStyle={{ justifyContent: "space-between" }}

@@ -1,16 +1,19 @@
-import { SHOW_POKEMONS, SET_OWNED, SEARCH } from "../actions"
+import { SHOW_POKEMONS, SET_OWNED, SEARCH, LOAD_MORE, RESET_STORE } from "../actions";
 
 const initialState = {
   pokemons: [],
   searchResults: [],
-  owned: []
-}
+  owned: [],
+  slice: [],
+  dbOffset: 102
+};
 
 const pokemonsReducer = (state = initialState, action) => {
   switch (action.type) {
     case SHOW_POKEMONS:
       return Object.assign({}, state, {
         pokemons: action.data,
+        slice: action.data.slice(0, 102),
       });
     case SET_OWNED:
       let index = state.pokemons.findIndex((p) => p.id === action.id);
@@ -32,7 +35,17 @@ const pokemonsReducer = (state = initialState, action) => {
         });
       }
       return Object.assign({}, state, {
-        searchResults,
+        slice: searchResults,
+      });
+    case RESET_STORE:
+      return Object.assign({}, state, {
+        slice: state.pokemons.slice(0, state.dbOffset)
+      });
+    case LOAD_MORE:
+      const { pokemons, dbOffset, slice } = state
+      return Object.assign({}, state, {
+        slice: slice.concat(pokemons.slice(dbOffset, dbOffset + 54)),
+        dbOffset: dbOffset + 54
       });
     default:
       return state;

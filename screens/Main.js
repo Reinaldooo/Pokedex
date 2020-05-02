@@ -5,7 +5,7 @@ import PokemonList from "../components/PokemonList";
 import SearchBar from "../components/SearchBar";
 import { useSelector, useDispatch } from "react-redux";
 //
-import { searchStore } from "../store/actions";
+import { searchStore, loadMore, resetStore } from "../store/actions";
 
 const PokemonListWrapper = styled.View`
   background-color: rgb(229, 229, 234);
@@ -13,10 +13,9 @@ const PokemonListWrapper = styled.View`
   height: 103%;
 `;
 
-export default function Main({ navigation }) {
-  const pokeDb = useSelector(state => state.pokemons.slice(0, 151))
-  const searchResults = useSelector(state => state.searchResults)
-  const [dbOffset, setDbOffset] = useState(102);
+export default function Main() {
+  const pokeDb = useSelector(state => state.slice)
+  const dbOffset = useSelector(state => state.dbOffset)
   const [preventScrollToIndex, setPreventScrollToIndex] = useState(false);
   const [searchChars, setSearchChars] = useState("");
   const [searching, setSearching] = useState(false);
@@ -40,18 +39,13 @@ export default function Main({ navigation }) {
   const reset = () => {
     setSearching(false);
     setSearchChars("");
-    setDbOffset(102);
+    dispatch(resetStore())
   };
 
-  const loadMore = () => {
-    // if (dbOffset > 750 || searching) return;
-    // setPreventScrollToIndex(true);
-    // setDbOffset((old) => old + 54);
-    // if (dbOffset > 200) {
-    //   setShowBackToTop(true);
-    // }
-    // pokeDb = useSelector(state => state.pokemons.slice(dbOffset, dbOffset+54))
-    
+  const handleLoadMore = () => {
+    if (dbOffset > 750 || searching) return;
+    setPreventScrollToIndex(true);
+    dispatch(loadMore())  
   };
 
   return (
@@ -59,10 +53,10 @@ export default function Main({ navigation }) {
       <PokemonListWrapper>
         <SearchBar search={search} reset={reset} searching={searching} />
         <PokemonList
-          items={searching ? searchResults : pokeDb}
+          items={pokeDb}
           flatRef={flatRef}
           searchChars={searchChars}
-          loadMore={loadMore}
+          handleLoadMore={handleLoadMore}
           reset={reset}
           searching={searching}
         />
